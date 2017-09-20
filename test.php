@@ -4,7 +4,7 @@ include('cls_mysql.php');
 $db_host='172.16.0.5:3306';
 $db_database='test';
 $db_username='root';
-$db_password='BBBBBCFHc0OW1z';
+$db_password='BBBBBCFHc0OW1zs';
 $db_charset='utf8';
 $db = new cls_mysql($db_host, $db_username, $db_password, $db_database, $db_charset);
 print_r($db);
