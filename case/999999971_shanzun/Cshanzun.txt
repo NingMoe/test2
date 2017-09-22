@@ -1,0 +1,60 @@
+E:\www\shanzun\includes\lib_payment.php
+
+0 发布，默认 1 商家支付保证金 2 选定接单人 3 商家付剩余款 4 接单人付保证金 5 接单人交付作品，等待验收 6 已验收 7 介入
+
+shanzun.wx.hostadm.net
+shanzun
+25241CAE90d0e5
+连接FTP  222.191.251.103 
+数据库密码
+shanzun
+shanzun445566
+
+原型图地址：
+http://show.hunuo.com/qing/xlygpc
+
+正式域名：www.0ego.com
+
+shanzun.wx.hostadm.net/admin
+admin
+admin123
+
+shanzun.wx.hostadm.net/supplier
+店铺后台    kk
+            123456
+店铺会员    kk2
+            kk123456
+
+
+微信服务号：账号 olindora@qq.com  密码 shanzun120726
+商户平台登录帐号：1350195501@1350195501  
+商户平台登录密码：097564
+
+
+
+
+
+http://www.0ego.com/
+FTP登陆用户名是： hunuoshopzhifu 
+FTP密码是： 90F3E2BFF14609 
+您的网址为： http://hunuoshopzhifu.wx.hostadm.net  
+用户的FTP地址是：222.191.251.103
+
+
+众包状态
+status 
+0 发布，默认
+1 商家支付保证金
+2 选定接单人
+3 商家付剩余款
+4 接单人付保证金
+5 接单人交付作品，等待验收
+6 已验收
+7 介入
+
+支付记录
+order_type
+5 //众包商家提交保证金
+6 //众包商家剩余金额
+7 //接包人支付保证金
+

@@ -1,0 +1,3002 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"content"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"is_fi",
+				"is_finish"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"de",
+				"define"
+			],
+			[
+				"no",
+				"notify_info"
+			],
+			[
+				"ne",
+				"new_status"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"_r",
+				"_REQUEST"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"sty",
+				"style	Tag"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"local",
+				"local_date"
+			],
+			[
+				"loc",
+				"local_mktime"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"cat",
+				"cat_name"
+			],
+			[
+				"fo",
+				"for	for …"
+			],
+			[
+				"mob",
+				"mobile"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"shipp",
+				"shipping_id"
+			],
+			[
+				"ad",
+				"address_id"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"tuceng_",
+				"tuceng_address"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"vi",
+				"vip_share"
+			],
+			[
+				"usre",
+				"user_rank"
+			],
+			[
+				"add",
+				"address_id"
+			],
+			[
+				"cons",
+				"consignee_list"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"addr",
+				"address_id"
+			],
+			[
+				"goods_a",
+				"goods_amount"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"order_a",
+				"order_amount"
+			],
+			[
+				"cat_",
+				"cat_name"
+			],
+			[
+				"new",
+				"new_status"
+			],
+			[
+				"b",
+				"button	Tag"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"un",
+				"unlink"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"goods",
+				"goods_count"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"ship",
+				"shipping_id"
+			],
+			[
+				"t",
+				"textarea	Tag"
+			],
+			[
+				"fi",
+				"finish"
+			],
+			[
+				"ra",
+				"range"
+			],
+			[
+				"IN",
+				"INSERT"
+			],
+			[
+				"font",
+				"font	Tag"
+			],
+			[
+				"style",
+				"list-style-type"
+			],
+			[
+				"tb",
+				"table	Tag"
+			],
+			[
+				"flo",
+				"floatval"
+			],
+			[
+				"dep",
+				"dep_name"
+			],
+			[
+				"a",
+				"addslashes"
+			],
+			[
+				"goods_",
+				"goods_price"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"M",
+				"MaterialStock"
+			],
+			[
+				"va",
+				"var_export"
+			],
+			[
+				"goods_n",
+				"goods_name"
+			],
+			[
+				"is_",
+				"is_huaxing"
+			],
+			[
+				"is_del",
+				"is_delete"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pin",
+				"pinpai_id"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"ma",
+				"message"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"erps",
+				"erp_search"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"keyw",
+				"keyword"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"get",
+				"get_erp_number"
+			],
+			[
+				"j",
+				"json"
+			],
+			[
+				"jos",
+				"json_encode"
+			],
+			[
+				"or",
+				"original_img"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"is",
+				"is_null"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"sat",
+				"status"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"In",
+				"INSERT"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"isn",
+				"is_numeric"
+			],
+			[
+				"josn",
+				"json_decode"
+			],
+			[
+				"goods_um",
+				"goods_number"
+			],
+			[
+				"ton",
+				"token"
+			],
+			[
+				"o",
+				"onclick	Attr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fro",
+				"form	Tag"
+			],
+			[
+				"order",
+				"order_id"
+			],
+			[
+				"out",
+				"output_data"
+			],
+			[
+				"up",
+				"upload"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"_se",
+				"_SESSION"
+			],
+			[
+				"没有",
+				"没有该订单"
+			],
+			[
+				"jon",
+				"json_decode"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"order_s",
+				"order_status"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"cl",
+				"colspan	Attr"
+			],
+			[
+				"pr",
+				"printf"
+			],
+			[
+				"outp",
+				"output_error"
+			],
+			[
+				"ou",
+				"output_error"
+			],
+			[
+				"ji",
+				"join"
+			],
+			[
+				"ads",
+				"ads_id"
+			],
+			[
+				"_p",
+				"_POST"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"post",
+				"_POST"
+			],
+			[
+				"liudao",
+				"liudao:box	php_5"
+			],
+			[
+				"S_",
+				"svn_blame"
+			],
+			[
+				"daos",
+				"daoshi_z"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n    admin_priv('index_tuijian');\n    check_authz_json('goods_del');\n\ninsert into hunuo_admin_action (parent_id,action_code,is_show) VALUES\n// 首页推荐\n('158','index_tuijian',1)\n//专题管理\n('136','linggan_cat_add',1),('136','linggan_cat_edit',1),('136','linggan_cat_del',1),('136','pinpai_cat_add',1),('136','pinpai_cat_edit',1),('136','pinpai_cat_del',1),('136','activity_add',1),('136','activity_edit',1),('136','activity_del',1);\n//产品管理\n('143','huaxing_add',1),('143','huaxing_edit',1),('143','huaxing_del',1)\n//订单管理\n('153','order_export',1),('153','order_pass',1),('153','order_insert',1),('153','order_feed',1),('153','order_cancel',1),('153','order_freight',1),('153','order_price',1)\n\ninsert into hunuo_admin_action (parent_id,action_code,is_show) VALUES ('5','kefu_add',1),('5','kefu_del',1)\n\n错误代码 200 跟 500\n200表示成功\n500表示失败\n	失败返回的文字说明有\n	Token Error    				 		验签错误\n	Action Error    			 		方法错误\n	erp_no is empty   			 		erp单号为空\n	erp_no is non-existent  	 		erp单号不存在\n	outgoing_no is empty  		 		出库单号为空\n	outgoing_no already exist    		出库单号已经存在\n	outgoing_no is non-existent  		出库单号不存在\n\n返回代码 200 跟 500\n200表示成功\n500表示失败\n	失败返回的文字说明有\n	Token Error    				 		验签错误\n	Action Error    			 		方法错误\n	outgoing_no is empty  		 		出库单号为空\n	outgoing_no is non-existent  		出库单号不存在",
+			"settings":
+			{
+				"buffer_size": 1253,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/case/999999970_zhida/Czhida.txt",
+			"settings":
+			{
+				"buffer_size": 39020,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/case/999999970_zhida/my_case_zhida.php",
+			"settings":
+			{
+				"buffer_size": 68377,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/zhida/admin/pageimg.php",
+			"settings":
+			{
+				"buffer_size": 8375,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/资料.txt",
+			"settings":
+			{
+				"buffer_size": 29028,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n/**\n * \n * 数据库配置文件\n *\n * @package      	YOURPHP\n * @author          yourphp.cn QQ:147613338 <web@yourphp.cn>\n * @copyright     	Copyright (c) 2008-2011  (http://www.yourphp.cn)\n * @license         http://www.yourphp.cn/license.txt\n * @version        	config.php v2.0 2011-03-01 yourphp.cn $\n */\n return array(\n	'DB_TYPE'=>'mysql',\n	'DB_HOST'=>'172.16.0.5',\n	'DB_NAME'=>'test',\n	'DB_USER'=>'root',\n	'DB_PWD'=>'BBBBBCFHc0OW1z',\n\n	'DB_PORT'=>'3306',\n	'DB_PREFIX'=>'kunteng_',\n);\n?>",
+			"file": "/C/Users/chengming/Desktop/config.php",
+			"file_size": 519,
+			"file_write_time": 131503725882767904,
+			"settings":
+			{
+				"buffer_size": 484,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/chengming/Desktop/db.php",
+			"settings":
+			{
+				"buffer_size": 1325,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/zhida/admin/templates/pageimg_list.htm",
+			"settings":
+			{
+				"buffer_size": 1870,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/chengming/Desktop/app/index.php",
+			"settings":
+			{
+				"buffer_size": 1124,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/git.txt",
+			"settings":
+			{
+				"buffer_size": 8629,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\nchmod -R 777 /data/release/php-weapp-demo/Cache\n\nls　　        显示文件或目录\n     -l           列出文件详细信息l(list)\n     -a          列出当前目录下所有文件及目录，包括隐藏的a(all)\nmkdir         创建目录\n     -p           创建目录，若无父目录，则创建p(parent)\ncd               切换目录\ntouch          创建空文件\necho            创建带有内容的文件。\ncat              查看文件内容\ncp                拷贝\nmv               移动或重命名\nrm               删除文件\n     -r            递归删除，可删除子目录及文件\n     -f            强制删除\nfind              在文件系统中搜索某文件\nwc                统计文本中行数、字数、字符数\ngrep             在文本文件中查找某个字符串\nrmdir           删除空目录\ntree             树形结构显示目录，需要安装tree包\npwd              显示当前目录\nln                  创建链接文件\nmore、less  分页显示文本文件内容\nhead、tail    显示文件头、尾内容\nctrl+alt+F1  命令行全屏模式\n系统管理命令\nstat              显示指定文件的详细信息，比ls更详细\nwho               显示在线登陆用户\nwhoami          显示当前操作用户\nhostname      显示主机名\nuname           显示系统信息\ntop                动态显示当前耗费资源最多进程信息\nps                  显示瞬间进程状态 ps -aux\ndu                  查看目录大小 du -h /home带有单位显示目录信息\ndf                  查看磁盘大小 df -h 带有单位显示磁盘信息\nifconfig          查看网络情况\nping                测试网络连通\nnetstat          显示网络状态信息\nman                命令不会用了，找男人  如：man ls\nclear              清屏\nalias               对命令重命名 如：alias showmeit=\"ps -aux\" ，另外解除使用unaliax showmeit\nkill                 杀死进程，可以先用ps 或 top命令查看进程的id，然后再用kill命令杀死进程。\n打包压缩相关命令\ngzip：\nbzip2：\ntar:                打包压缩\n     -c              归档文件\n     -x              压缩文件\n     -z              gzip压缩文件\n     -j              bzip2压缩文件\n     -v              显示压缩或解压缩过程 v(view)\n     -f              使用档名\n例：\ntar -cvf /home/abc.tar /home/abc              只打包，不压缩\ntar -zcvf /home/abc.tar.gz /home/abc        打包，并用gzip压缩\ntar -jcvf /home/abc.tar.bz2 /home/abc      打包，并用bzip2压缩\n当然，如果想解压缩，就直接替换上面的命令  tar -cvf  / tar -zcvf  / tar -jcvf 中的“c” 换成“x” 就可以了。\n关机/重启机器\nshutdown\n     -r             关机重启\n     -h             关机不重启\n     now          立刻关机\nhalt               关机\nreboot          重启\nLinux管道\n将一个命令的标准输出作为另一个命令的标准输入。也就是把几个命令组合起来使用，后一个命令除以前一个命令的结果。\n例：grep -r \"close\" /home/* | more       在home目录下所有文件中查找，包括close的文件，并分页输出。\nLinux软件包管理\ndpkg (Debian Package)管理工具，软件包名以.deb后缀。这种方法适合系统不能联网的情况下。\n比如安装tree命令的安装包，先将tree.deb传到Linux系统中。再使用如下命令安装。\nsudo dpkg -i tree_1.5.3-1_i386.deb         安装软件\nsudo dpkg -r tree                                     卸载软件\n注：将tree.deb传到Linux系统中，有多种方式。VMwareTool，使用挂载方式；使用winSCP工具等；\nAPT（Advanced Packaging Tool）高级软件工具。这种方法适合系统能够连接互联网的情况。\n依然以tree为例\nsudo apt-get install tree                         安装tree\nsudo apt-get remove tree                       卸载tree\nsudo apt-get update                                 更新软件\nsudo apt-get upgrade        \n将.rpm文件转为.deb文件\n.rpm为RedHat使用的软件格式。在Ubuntu下不能直接使用，所以需要转换一下。\nsudo alien abc.rpm\nvim使用\nvim三种模式：命令模式、插入模式、编辑模式。使用ESC或i或：来切换模式。\n命令模式下：\n:q                      退出\n:q!                     强制退出\n:wq                   保存并退出\n:set number     显示行号\n:set nonumber  隐藏行号\n/apache            在文档中查找apache 按n跳到下一个，shift+n上一个\nyyp                   复制光标所在行，并粘贴\nh(左移一个字符←)、j(下一行↓)、k(上一行↑)、l(右移一个字符→)\n用户及用户组管理\n/etc/passwd    存储用户账号\n/etc/group       存储组账号\n/etc/shadow    存储用户账号的密码\n/etc/gshadow  存储用户组账号的密码\nuseradd 用户名\nuserdel 用户名\nadduser 用户名\ngroupadd 组名\ngroupdel 组名\npasswd root     给root设置密码\nsu root\nsu - root \n/etc/profile     系统环境变量\nbash_profile     用户环境变量\n.bashrc              用户环境变量\nsu user              切换用户，加载配置文件.bashrc\nsu - user            切换用户，加载配置文件/etc/profile ，加载bash_profile\n更改文件的用户及用户组\nsudo chown [-R] owner[:group] {File|Directory}\n例如：还以jdk-7u21-linux-i586.tar.gz为例。属于用户hadoop，组hadoop\n要想切换此文件所属的用户及组。可以使用命令。\nsudo chown root:root jdk-7u21-linux-i586.tar.gz\n文件权限管理\n三种基本权限\nR           读         数值表示为4\nW          写         数值表示为2\nX           可执行  数值表示为1\n如图所示，jdk-7u21-linux-i586.tar.gz文件的权限为-rw-rw-r--\n-rw-rw-r--一共十个字符，分成四段。\n第一个字符“-”表示普通文件；这个位置还可能会出现“l”链接；“d”表示目录\n第二三四个字符“rw-”表示当前所属用户的权限。   所以用数值表示为4+2=6\n第五六七个字符“rw-”表示当前所属组的权限。      所以用数值表示为4+2=6\n第八九十个字符“r--”表示其他用户权限。              所以用数值表示为2\n所以操作此文件的权限用数值表示为662 \n更改权限\nsudo chmod [u所属用户  g所属组  o其他用户  a所有用户]  [+增加权限  -减少权限]  [r  w  x]   目录名 \n例如：有一个文件filename，权限为“-rw-r----x” ,将权限值改为\"-rwxrw-r-x\"，用数值表示为765\nsudo chmod u+x g+w o+r  filename\n上面的例子可以用数值表示\nsudo chmod 765 filename",
+			"settings":
+			{
+				"buffer_size": 4077,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/test.php",
+			"settings":
+			{
+				"buffer_size": 14761,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/aliyun-oss-php-sdk-2.2.4/samples/Config.php",
+			"settings":
+			{
+				"buffer_size": 291,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: FILES['…']"
+			],
+			[
+				"Snippet: jj",
+				"Snippet: jj"
+			],
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: php",
+				"Snippet: php_fcp"
+			],
+			[
+				"Snippet: php_r",
+				"Snippet: php_refle"
+			],
+			[
+				"Snippet:liud",
+				"Snippet: include_once …"
+			],
+			[
+				"Snippet:j",
+				"Snippet: jj"
+			],
+			[
+				"Snippet: j",
+				"Snippet: jj"
+			]
+		],
+		"width": 450.0
+	},
+	"console":
+	{
+		"height": 729.0,
+		"history":
+		[
+			"sdfsdfsd",
+			"sdfsdf",
+			"self.view.run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test' )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":''} )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":str_arr[index]} )",
+			"print(4355454)",
+			"fdsfds"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/www/zhida",
+		"/E/www/zhida/ecsapi",
+		"/E/www/zhida/ecsapi/logs",
+		"/E/www/zhida/ecsapi/logs/api"
+	],
+	"file_history":
+	[
+		"/E/www/test/case/999999971_yingfeng/Cyingfeng.txt",
+		"/E/www/test2/test.txt",
+		"/E/www/test/git.txt",
+		"/E/www/weixin/test/wafer2-startup/client/config.js",
+		"/E/www/thinkphp/think",
+		"/E/www/thinkphp/build.php",
+		"/C/Users/chengming/Desktop/phpinfo.php",
+		"/E/www/thinkphp/README.md",
+		"/E/www/thinkphp/application/config.php",
+		"/E/www/kunteng/Cache/config.php",
+		"/C/Users/chengming/Desktop/index.php",
+		"/C/Users/chengming/Desktop/布仓正式系统清除数据.txt",
+		"/E/www/git/test3/test2/test.php",
+		"/C/Users/chengming/.ssh/id_rsa.pub",
+		"/E/www/test/资料.txt",
+		"/E/www/git/zhida/zhidafangzhi/zhida/接口2",
+		"/E/www/git/zhida/zhidafangzhi/zhida/接口3",
+		"/C/Users/chengming/Desktop/app/test.php",
+		"/G/吕成铭/互诺.txt",
+		"/C/Users/chengming/Desktop/app/db.php",
+		"/C/Users/chengming/Desktop/app/.htaccess",
+		"/E/www/aliyun-oss-php-sdk-2.2.4/samples/RunAll.php",
+		"/E/www/aliyun-oss-php-sdk-master/autoload.php",
+		"/E/www/aliyun-oss-php-sdk-master/index.php",
+		"/E/www/test/js.txt",
+		"/E/www/weixin/wechat_shop-master/App/Common/Conf/db.php",
+		"/E/www/weixin/wechat_shop-master/App/Common/Conf/config.php",
+		"/E/www/weixin/前台/config.js",
+		"/E/www/weixin/test/wafer2-startup/server/config.js",
+		"/E/www/weixin/test/wafer2-startup/project.config.json",
+		"/E/www/weixin/test/wafer2-startup/server/process.prod.json",
+		"/C/Users/chengming/Desktop/index.html",
+		"/E/www/test/php.txt",
+		"/C/Users/chengming/Desktop/php-weapp-demo.conf",
+		"/E/www/weixin/前台/README.md",
+		"/E/www/weixin/前台/project.config.json",
+		"/E/www/zhida/admin/linggan_cat.php",
+		"/E/www/zhida/admin/templates/linggan_cat_list.htm",
+		"/E/www/zhida/ecsapi/huanzhuang.php",
+		"/E/www/zhida/themes/default/goods.dwt",
+		"/E/www/zhida/ecsapi/flow.php",
+		"/E/www/zhida/admin/templates/activity_info.htm",
+		"/E/www/zhida/admin/activity.php",
+		"/E/Program Files/Sublime Text 3/Data/Packages/User/snippet/php/ecshop/ecshop_sql.sublime-snippet",
+		"/E/Program Files/Sublime Text 3/Data/Packages/User/snippet/php/ecshop/ecshop_function.sublime-snippet",
+		"/E/www/zhida/themes/default/inspiration.dwt",
+		"/E/www/zhida/includes/lib_app_function.php",
+		"/E/www/zhida/nayang.php",
+		"/E/www/zhida/admin/privilege.php",
+		"/E/www/zhida/admin/templates/login.htm",
+		"/E/www/zhida/admin/goods.php",
+		"/E/www/zhida/admin/pageimg_tui.php",
+		"/E/www/zhida/admin/templates/goods_list.htm",
+		"/E/www/zhida/ecsapi/index.php",
+		"/E/www/zhida/admin/order.php",
+		"/E/www/zhida/api/update.php",
+		"/E/www/zhida/user.php",
+		"/E/www/新建文件夹/user.php",
+		"/E/www/zhida/admin/js/validator.js",
+		"/E/www/新建文件夹/user_order_detail.lbi",
+		"/E/www/zhida/flow.php",
+		"/E/www/新建文件夹/weixinpay.php",
+		"/E/www/新建文件夹/order_detail.dwt",
+		"/E/www/zhida/fabu.php",
+		"/E/www/zhida/sendsms.log",
+		"/G/新建文件夹/config.php",
+		"/E/www/zhida/admin/templates/erp_error_log_list.htm",
+		"/E/www/zhida/admin/erp_error_log.php",
+		"/G/新建文件夹/Cache/config.php",
+		"/E/www/test/工作任务.txt",
+		"/E/www/zhida/admin/includes/inc_priv.php",
+		"/E/www/zhida/admin/includes/inc_menu.php",
+		"/E/www/zhida/admin/pickup.php",
+		"/E/www/zhida/languages/zh_cn/admin/common.php",
+		"/E/www/zhida/languages/zh_cn/admin/priv_action.php",
+		"/E/www/test/test.php",
+		"/E/www/zhida/ecsapi/user.php",
+		"/E/www/zhida/api/erp_order.php",
+		"/E/www/zhida/admin/templates/order_see.htm",
+		"/E/www/zhida/includes/cls_alisms.php",
+		"/E/www/zhida/admin/sendsms.log",
+		"/E/www/zhida/api/erp_order.txt",
+		"/E/www/git/zhida/test.txt",
+		"/C/Users/chengming/.ssh/known_hosts",
+		"/E/www/copy/default.html",
+		"/E/www/zhida/admin/js/clipboard.min.js",
+		"/E/www/test/ecshop数据库结构.php",
+		"/E/www/新建文件夹/register.php",
+		"/E/www/zhida/includes/lib_main.php",
+		"/E/www/新建文件夹/lib_main.php",
+		"/E/www/zhida/goods.php",
+		"/E/www/zhida/admin/users.php",
+		"/E/www/zhida/admin/templates/user_info.htm",
+		"/E/www/新建文件夹/pay/alipay.config.php",
+		"/E/www/新建文件夹/pay/alipayapi.php",
+		"/E/www/zhida/admin/templates/order_list.htm",
+		"/E/www/新建文件夹/checkout.dwt",
+		"/E/www/新建文件夹/sms.php",
+		"/E/www/新建文件夹/alipay.config.php",
+		"/E/www/test/thinks/sms.php",
+		"/C/Users/chengming/Desktop/test.php",
+		"/C/Users/chengming/.ssh/id_rsa",
+		"/E/www/git/zhida2/test.txt",
+		"/G/吕成铭/源文件/two wa/项目资料(1)/项目资料/项目.txt",
+		"/G/吕成铭/源文件/two wa/项目资料(1)/项目资料/广州思进文化传播有限公司/微信接口-思进.txt",
+		"/G/吕成铭/源文件/two wa/项目资料(1)/项目资料/大有世纪/连接信息.txt",
+		"/G/吕成铭/源文件/two wa/大有/新建文本文档.txt",
+		"/E/www/zhida/admin/templates/activity_list.htm",
+		"/C/Users/chengming/Desktop/copy/default.html",
+		"/E/www/zhida/includes/lib_goods.php",
+		"/E/www/zhida/admin/templates/goods_info.htm",
+		"/E/www/zhida/languages/zh_cn/admin/goods.php",
+		"/E/www/zhida/languages/zh_cn/admin/goods_huaxing.php",
+		"/G/吕成铭/源文件/小京东/单店/最新/qdshop20(1)/mobile/user.php",
+		"/E/www/zhida/ecsapi/cart.php",
+		"/C/Users/chengming/Desktop/user.php",
+		"/E/www/test/thinks/weixin.php",
+		"/C/Users/chengming/Desktop/config.php",
+		"/C/Users/chengming/Desktop/init.php",
+		"/E/www/test/test_jia.php",
+		"/G/吕成铭/源文件/小京东/单店/最新/qdshop20无图版/mobile/user.php",
+		"/E/www/test/class/cls_huanxin.php",
+		"/C/Users/chengming/Desktop/cls_huanxin.php",
+		"/E/www/alipay/config.php",
+		"/E/www/test/test.js",
+		"/C/Users/chengming/Desktop/copy/js/clipboard.min.js",
+		"/E/www/alipay/log.txt",
+		"/C/Users/chengming/Desktop/php-demo.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"E:\\www\\zhida\\languages\\zh_cn",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\ecsapi",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\languages",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida\\ecsapi",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\ecsapi",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida\\admin\\templates",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida\\languages",
+			"E:\\www\\zhida",
+			"E:\\Program Files\\Sublime Text 3",
+			"E:\\www\\zhida\\admin",
+			"D:\\WWW\\lingfen\\mobile",
+			"D:\\WWW\\lingfen",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\zhida\\admin\\templates",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\kawo\\languages\\zh_cn\\admin",
+			"D:\\wamp\\www\\kawo",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\junlang\\Admin",
+			"D:\\wamp\\www\\maizi\\Chengming\\Tpl\\Home",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\xinghui",
+			"D:\\wamp\\www\\zhida",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\zhourou,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\www\\liudao\\languages,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\1_commonly_used\\我做的更改\\项_9945_禧袍\\pc\\Nhvendor",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web\\languages",
+			"E:\\www\\test2\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\ecshop",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test3\\",
+			"E:\\www\\test3\\Uploads",
+			"E:\\www\\test2\\languages",
+			"E:\\1_commonly_used\\我做的更改\\项_9946_李聪\\app接口\\hnshop(1)\\includes",
+			"D:\\Program Files\\Sublime Text 3\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test2\\includes",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test1\\mp3play",
+			"E:\\www\\new_ecshop\\languages",
+			"",
+			"E:\\www\\ecshop\\languages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"php",
+			"wget",
+			"pageimg_list",
+			"is_ajax",
+			"aiax",
+			"GetRequest",
+			"changeAction",
+			"\"gid\": \"\"",
+			"goods_list",
+			"\"goods_id\": \"",
+			"\"goods_id\": \"\"",
+			"\"goods_id\": \"",
+			"url",
+			"jpg",
+			"list",
+			"erp3",
+			"key",
+			"*3",
+			"able('good",
+			"物料大类",
+			"order_list",
+			"下单",
+			"done",
+			"下单",
+			"done",
+			"order_detail",
+			" ",
+			"erp_log",
+			"灵感分类删除",
+			"09_pickup_list",
+			"alisms->sign(",
+			"SD709070007",
+			"emote add",
+			"commit",
+			"haiyan.xu.vip@gmail.com",
+			"\n    ",
+			"2088202417537067",
+			"copy_btn",
+			"sen",
+			"1198",
+			"sendSMS",
+			"63628",
+			"SDK-GKG-010-00552",
+			"erp_no",
+			"response_back",
+			"mysubmit3",
+			" function showsmassage(",
+			"showsmassage",
+			"mysubmit3",
+			"add_cat",
+			"mysubmit7",
+			"mysubmit10",
+			"SD",
+			"erp_sn[]",
+			"add_cat",
+			"添加",
+			"batch",
+			"delivery_id2",
+			"id=\"delivery_id",
+			"mysure11",
+			"order_id",
+			"del_wuliu",
+			"erp_no",
+			"delivery_id",
+			"tuceng7",
+			"\n    ",
+			"goods_id",
+			"seif $order.new_status==3}待发货",
+			"mysure9",
+			"tuceng9",
+			"mysure9",
+			"delivery[0]['order_id']",
+			"mysure9",
+			"url",
+			"mysubmit9",
+			"tuceng9",
+			"tuceng8",
+			"erp_no",
+			"gongsi[]",
+			"erp_sn[]",
+			"erp_sn[]'",
+			"erp_sn[]",
+			"erp_sn",
+			"erp_sn[]",
+			"mysubmit3",
+			"tuceng3",
+			"mysure3",
+			"mysubmit3",
+			"img_desc",
+			"sSalesMobileNo",
+			"_yewuyuan",
+			"yewuyuan",
+			"get_yewuyuan",
+			"第三方",
+			"gongsi",
+			"add_cat",
+			"activity",
+			"show_erp",
+			"6632513320917783",
+			"mysubmit3",
+			"goods_img",
+			"img_desc",
+			"order_list",
+			"rec_id2",
+			"tuceng8",
+			"mysure8",
+			"del_goods",
+			"rec_id",
+			"5",
+			"rec_id",
+			"del_goods",
+			"mysubmit5",
+			"mysubmit6",
+			"tuceng5",
+			"mysure5",
+			"url",
+			"showurl",
+			"mysure5",
+			"oath",
+			"act_login",
+			"reg",
+			"act_r",
+			"ecs",
+			"wei_curl",
+			"'wx1f4bbdfae43944e2'",
+			"9Chengming2017",
+			"ti体育",
+			"addcart"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"uuy",
+			"D:\\www\\mall\\",
+			"",
+			",",
+			"",
+			"6q币",
+			"",
+			"applys.php",
+			"",
+			"shop_shop_config",
+			"6Q币",
+			"",
+			"课程价格",
+			"dwa",
+			"",
+			"<a href=\"category.php?act=course\">课程安排</a>",
+			"$1",
+			"",
+			"$1",
+			"http://www.99jlw.com/",
+			"forms.$1",
+			"elements.$1",
+			"",
+			"original_img",
+			",",
+			"",
+			",",
+			"",
+			",",
+			"",
+			"t",
+			"ttt",
+			"44",
+			"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/www/test/case/999999970_zhida/Czhida.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18,
+								18
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/www/test/case/999999970_zhida/my_case_zhida.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 68377,
+						"regions":
+						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+								],
+								"scope": "bookmarks"
+							}
+						},
+						"selection":
+						[
+							[
+								4326,
+								4326
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1263.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/www/zhida/admin/pageimg.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3104,
+								3104
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/www/test/资料.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24563,
+								24563
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17286.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/chengming/Desktop/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 484,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								484,
+								484
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/chengming/Desktop/db.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1325,
+								1325
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/www/zhida/admin/templates/pageimg_list.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1374,
+								1374
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/chengming/Desktop/app/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1124,
+								1124
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/E/www/test/git.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/E/www/test/test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1378,
+								1378
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/E/www/aliyun-oss-php-sdk-2.2.4/samples/Config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 436.0
+	},
+	"output.expec":
+	{
+		"height": 792.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 575.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "zhida.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"linggan_cat_list.htm",
+				"admin\\templates\\linggan_cat_list.htm"
+			],
+			[
+				"pageimg_list.htm",
+				"admin\\templates\\pageimg_list.htm"
+			],
+			[
+				"linggan_cat.php",
+				"admin\\linggan_cat.php"
+			],
+			[
+				"pageimg.php",
+				"admin\\pageimg.php"
+			],
+			[
+				"insp",
+				"themes\\default\\inspiration.dwt"
+			],
+			[
+				"activity_info.htm",
+				"admin\\templates\\activity_info.htm"
+			],
+			[
+				"activity.php",
+				"admin\\activity.php"
+			],
+			[
+				"huanzhuang.php",
+				"ecsapi\\huanzhuang.php"
+			],
+			[
+				"goods.dwt",
+				"themes\\default\\goods.dwt"
+			],
+			[
+				"flow.php",
+				"ecsapi\\flow.php"
+			],
+			[
+				"flow",
+				"ecsapi\\flow.php"
+			],
+			[
+				"goods_list",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"pageimg_tui.php",
+				"admin\\pageimg_tui.php"
+			],
+			[
+				"order.php",
+				"admin\\order.php"
+			],
+			[
+				"update.php",
+				"api\\update.php"
+			],
+			[
+				"user.php",
+				"user.php"
+			],
+			[
+				"goods",
+				"admin\\goods.php"
+			],
+			[
+				"nayang",
+				"nayang.php"
+			],
+			[
+				"fabu.php",
+				"fabu.php"
+			],
+			[
+				"sendsms.log",
+				"sendsms.log"
+			],
+			[
+				"vali",
+				"admin\\js\\validator.js"
+			],
+			[
+				"login.htm",
+				"admin\\templates\\login.htm"
+			],
+			[
+				"privilege.php",
+				"admin\\privilege.php"
+			],
+			[
+				"erp_error_log_list.htm",
+				"admin\\templates\\erp_error_log_list.htm"
+			],
+			[
+				"erp_error_log.php",
+				"admin\\erp_error_log.php"
+			],
+			[
+				"inc_priv.php",
+				"admin\\includes\\inc_priv.php"
+			],
+			[
+				"pickup.php",
+				"admin\\pickup.php"
+			],
+			[
+				"order_see.htm",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"erp_order.txt",
+				"api\\erp_order.txt"
+			],
+			[
+				"goods.d",
+				"themes\\default\\goods.dwt"
+			],
+			[
+				"clipboard.min.js",
+				"admin\\js\\clipboard.min.js"
+			],
+			[
+				"user",
+				"ecsapi\\user.php"
+			],
+			[
+				"order_see",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"erp_order",
+				"api\\erp_order.php"
+			],
+			[
+				"order_list",
+				"admin\\templates\\order_list.htm"
+			],
+			[
+				"user_inf",
+				"admin\\templates\\user_info.htm"
+			],
+			[
+				"activity_inf",
+				"admin\\templates\\activity_info.htm"
+			],
+			[
+				"activity_",
+				"admin\\templates\\activity_list.htm"
+			],
+			[
+				"goods_info.htm",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"order_list.htm",
+				"admin\\templates\\order_list.htm"
+			],
+			[
+				"order",
+				"admin\\order.php"
+			],
+			[
+				"flow.",
+				"ecsapi\\flow.php"
+			],
+			[
+				"cart",
+				"ecsapi\\cart.php"
+			],
+			[
+				"lib_app_function.php",
+				"includes\\lib_app_function.php"
+			],
+			[
+				"goods_list.htm",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"goods.php",
+				"admin\\goods.php"
+			],
+			[
+				"brand_xl.php",
+				"brand_xl.php"
+			],
+			[
+				"pinpai_c",
+				"admin\\pinpai_cat.php"
+			],
+			[
+				"pinpai_cat",
+				"admin\\templates\\pinpai_cat_list.htm"
+			],
+			[
+				"xilie_list.htm",
+				"admin\\templates\\xilie_list.htm"
+			],
+			[
+				"xilie.php",
+				"admin\\xilie.php"
+			],
+			[
+				"or",
+				"admin\\order.php"
+			],
+			[
+				"order_se",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"erp_order.php",
+				"api\\erp_order.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"goods_huxing.d",
+				"themes\\default\\goods_huaxing.dwt"
+			],
+			[
+				"log_weixin_20170821_info.log",
+				"ecsapi\\logs\\api\\log_weixin_20170821_INFO.log"
+			],
+			[
+				"callback.php",
+				"ecsapi\\callback.php"
+			],
+			[
+				"log_alipay_20170821_info.log",
+				"ecsapi\\logs\\api\\log_alipay_20170821_INFO.log"
+			],
+			[
+				"acti",
+				"ecsapi\\activity.php"
+			],
+			[
+				"activity_list.htm",
+				"admin\\templates\\activity_list.htm"
+			],
+			[
+				"pageheader.htm",
+				"admin\\templates\\pageheader.htm"
+			],
+			[
+				"goods_lis",
+				"admin\\templates\\goods_list2.htm"
+			],
+			[
+				"pinpai_cat_list.htm",
+				"admin\\templates\\pinpai_cat_list.htm"
+			],
+			[
+				"pinpai_cat.php",
+				"admin\\pinpai_cat.php"
+			],
+			[
+				"express_list.htm",
+				"admin\\templates\\express_list.htm"
+			],
+			[
+				"express.php",
+				"admin\\express.php"
+			],
+			[
+				"user_msg.php",
+				"admin\\user_msg.php"
+			],
+			[
+				"includes/jpush.php",
+				"includes\\Jpush.php"
+			],
+			[
+				"log_alipay_20170808_info.log",
+				"ecsapi\\logs\\api\\log_alipay_20170808_INFO.log"
+			],
+			[
+				"user.ph",
+				"ecsapi\\user.php"
+			],
+			[
+				"order_s",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"gongsi_list",
+				"admin\\templates\\gongsi_list.htm"
+			],
+			[
+				"gongsi_info.htm",
+				"admin\\templates\\gongsi_info.htm"
+			],
+			[
+				"gongsi.php",
+				"admin\\gongsi.php"
+			],
+			[
+				"jquery.min.js",
+				"themes\\default\\js\\jquery.min.js"
+			],
+			[
+				"themes/default/js/index.js",
+				"themes\\default\\js\\index.js"
+			],
+			[
+				"index.js",
+				"js\\index.js"
+			],
+			[
+				"fabu",
+				"themes\\default\\fabu.dwt"
+			],
+			[
+				"update.txt",
+				"api\\update.txt"
+			],
+			[
+				"cls_response.php",
+				"ecsapi\\includes\\cls_Response.php"
+			],
+			[
+				"erp",
+				"api\\erp_order.php"
+			],
+			[
+				"init",
+				"ecsapi\\includes\\init.php"
+			],
+			[
+				"users.php",
+				"admin\\users.php"
+			],
+			[
+				"goods.ph",
+				"goods.php"
+			],
+			[
+				"goods_huaxing.dwt",
+				"themes\\default\\goods_huaxing.dwt"
+			],
+			[
+				"category.php",
+				"category.php"
+			],
+			[
+				"cls_template.php",
+				"includes\\cls_template.php"
+			],
+			[
+				"menu.htm",
+				"admin\\templates\\menu.htm"
+			],
+			[
+				"inde",
+				"admin\\index.php"
+			],
+			[
+				"goods_inf",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"privilege_info.htm",
+				"admin\\templates\\privilege_info.htm"
+			],
+			[
+				"inspiration",
+				"themes\\default\\inspiration.dwt"
+			],
+			[
+				"linggan",
+				"themes\\default\\linggan.dwt"
+			],
+			[
+				"linge",
+				"C:\\Users\\chengming\\Desktop\\zhida_photo0727\\zhida_photo\\linggan_detail.html"
+			],
+			[
+				"goods_h",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"goods_hu",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"huaxing.php",
+				"ecsapi\\huaxing.php"
+			],
+			[
+				"init.php",
+				"ecsapi\\includes\\init.php"
+			],
+			[
+				"linggan.php",
+				"ecsapi\\linggan.php"
+			],
+			[
+				"inspiration.php",
+				"inspiration.php"
+			],
+			[
+				"top.htm",
+				"admin\\templates\\top.htm"
+			],
+			[
+				"linggan_info.htm",
+				"admin\\templates\\linggan_info.htm"
+			],
+			[
+				"goods_huan",
+				"themes\\default\\goods_huaxing.dwt"
+			],
+			[
+				"goods_",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"goods_detail",
+				"themes\\default\\css\\goods_detail.css"
+			],
+			[
+				"share_huan.php",
+				"share_huan.php"
+			],
+			[
+				"pr",
+				"admin\\privilege.php"
+			],
+			[
+				"share_huan.dwt",
+				"themes\\default\\share_huan.dwt"
+			],
+			[
+				"order.",
+				"admin\\order.php"
+			],
+			[
+				"huan",
+				"share_huan.php"
+			],
+			[
+				"role.php",
+				"admin\\role.php"
+			],
+			[
+				"cls_alisms",
+				"includes\\cls_alisms.php"
+			],
+			[
+				"goods2.php",
+				"admin\\goods2.php"
+			],
+			[
+				"goods_list2.htm",
+				"admin\\templates\\goods_list2.htm"
+			],
+			[
+				"chuli",
+				"admin\\templates\\fabu_chuli.htm"
+			],
+			[
+				"kefu.php",
+				"admin\\kefu.php"
+			],
+			[
+				"shuxing",
+				"admin\\shuxing.php"
+			],
+			[
+				"activity",
+				"admin\\activity.php"
+			],
+			[
+				"goods_search.htm",
+				"admin\\templates\\goods_search.htm"
+			],
+			[
+				"share_huan",
+				"themes\\default\\share_huan.dwt"
+			],
+			[
+				"inspiration.dwt",
+				"themes\\default\\inspiration.dwt"
+			],
+			[
+				"xvip.css",
+				"themes\\default\\css\\xvip.css"
+			],
+			[
+				"vip.dwt",
+				"themes\\default\\vip.dwt"
+			],
+			[
+				"goods_info",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"shop_config.php",
+				"admin\\shop_config.php"
+			],
+			[
+				"area_manage.php",
+				"admin\\area_manage.php"
+			],
+			[
+				"msg_list.htm",
+				"admin\\templates\\msg_list.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"D:\\wamp\\www\\test\\js.sublime-workspace"
+			],
+			[
+				"sub",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"mynotes",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"my",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynot",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynote",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"ecs",
+				"E:\\1_commonly_used\\sublime\\软件设置\\ecshop.sublime-project"
+			],
+			[
+				"web",
+				"E:\\1_commonly_used\\sublime\\软件设置\\web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "changeIntegral",
+		"selected_items":
+		[
+			[
+				"changeIntegral",
+				"changeIntegral"
+			],
+			[
+				"crea in",
+				"db_create_in"
+			],
+			[
+				"alert",
+				"jAlert"
+			],
+			[
+				"strtotime",
+				"local_strtotime"
+			],
+			[
+				"update_use",
+				"update_user_info"
+			],
+			[
+				"member_info",
+				"insert_member_info"
+			],
+			[
+				"updateuser_info",
+				"update_user_info"
+			],
+			[
+				"updateinf",
+				"_updateInfo"
+			],
+			[
+				"update",
+				"update_session"
+			],
+			[
+				"empty",
+				"isEmpty"
+			],
+			[
+				"creat_i",
+				"db_create_in"
+			],
+			[
+				"serialize",
+				"_unserialize"
+			],
+			[
+				"html_s",
+				"htmlspecialchars_deep"
+			],
+			[
+				"htmlspecial",
+				"htmlspecialchars_decode"
+			],
+			[
+				"htmlspecialchars",
+				"htmlspecialchars_decode"
+			],
+			[
+				"str_len",
+				"str_len"
+			],
+			[
+				"creat_in",
+				"db_create_in"
+			],
+			[
+				"strlen",
+				"str_len"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 428.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

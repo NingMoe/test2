@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>pc视频播放示例</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="...">
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="ckplayer/ckplayer.js" charset="utf-8"></script>
+</head>
+<body>
+    
+<h1><center>pc视频播放示例</center></h1>
+<div id="a1"></div>
+<script type="text/javascript">
+   var flashvars={
+      i : 'http://ddwx.7799520.com/Uploads/0604110630.jpg',
+      f :'http://ddwx.7799520.com/Uploads/0604110830.mp4',
+      c :0
+   };
+   var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always',wmode:'transparent'};
+   CKobject.embedSWF('ckplayer/ckplayer.swf','a1','ckplayer_a1','600','400',flashvars,params);
+</script>
+<style type="text/css">
+  #a1 {margin: 0 auto;width: 600px; height: 400px;margin-top: 10px;}
+  h1 {font-size: 20px;font-weight: bold;margin-bottom: 10px;text-shadow: 1px 1px 1px rgba(0,0,0,.2);color: #8c8262;}
+  body {color: #333;background-color: #e7e1d3;}
+</style>
+    <script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+VPS
+14.18.203.171
+administrator
+qiaorui888
+
+手机版
+FTP:
+14.18.203.171
+qiaoruM
+qiaorui999
+
+数据库： http://14.18.203.171:81/
+用户名： qiaoruM
+密码： Qs5GmVvG9KGRBULV
+
+
+www.dmdm-china.cn/mobile/wxpay/
+
+账号是： 15815878999@qq.com
+密码： gzs15815878999
+
+微信支付商户号：   1325212101
+商户平台登录账号： 1325212101@1325212101
+商户平台登录密码：352227
+
+appid： wxc781a32c0f99ebd0
+APPSECRET： cb5f2e9bb67c3db96c0dfb3c7e5ee028
+
+商户支付密钥Key：gzs15815878999158158789991581587
+
+http://www.dmdm-china.cn
+http://qiaoruigj.gz11.hostadm.net
+
+qiaoruigj
+292D74742Abcad
+http://qiaoruigj.gz11.hostadm.net
+183.61.109.99
+qiaoruigj
+qiaoruigjfre3
+qiaoruigj
+
+
+服务器地址:sms3.mobset.com
+企业ID:302631
+登录用户:Admin
+密码:Ry803022
+
+
+管理地址：dcp.xinnet.com
+域名：dmdm-china.cn
+密码:dmdm8866

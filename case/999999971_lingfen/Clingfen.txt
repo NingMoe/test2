@@ -1,0 +1,94 @@
+yaoyao@preziouz.com
+preziouz2012
+ftp
+http://www.preziouz.com/
+lingfen
+5D021179C4152d
+连接FTP 121.12.170.73
+
+
+
+
+
+http://lingfen3.dg2.hostadm.net
+
+wxa60e5cd8ea53dcb2
+c8faefb10186d296a497637184787fa7
+token:lingfen
+
+www.juneeleven.cn
+公众号2
+账号： ericazhang@preziouz.com
+密码 preziouz2012
+微信支付商户号
+1423447602
+商户平台登录帐号
+1423447602@1423447602
+商户平台登录密码
+542908
+申请对应的公众号
+JuneEleven（）
+公众号APPID
+wx6e8b1e9e1fbc9490
+AppSecret
+b8cc71f1beaaec39c351babd56b4b0d8
+API密钥
+b8cc71f1juneec39c351babd56b4b0d8
+
+
+公众号1
+微信支付商户号
+1361385702
+商户平台登录帐号
+1361385702@1361385702
+商户平台登录密码
+565203
+申请对应的公众号
+JuneEleven（JuneEleven611）
+公众号APPID
+wxa60e5cd8ea53dcb2
+密钥
+LingFen20160725hunuo20160725hzyk
+
+
+
+
+微信支付商户号
+商户平台登录帐号
+商户平台登录密码
+商户密钥
+公众号APPID
+公众号AppSecret
+
+
+
+61.145.119.153   root   lingfen28899    
+www.hostadm.net
+云服务器
+lingfen2
+lingfen28899
+
+juneeleven.com
+juneeleven.cn
+
+
+
+
+www.juneeleven.cn
+数据库：
+http://61.145.119.153/phpMyAdmin
+用户名： lingfen
+密码： hdxx89cqSoCQFZkb
+
+ftp：
+61.145.119.153
+用户名： lingfen2
+密码： lingfen20160926
+目录： /data/wwwroot/www.juneeleven.com
+
+
+
+http://www.preziouz.com/
+lingfen
+5D021179C4152d
+连接FTP  121.12.170.73 

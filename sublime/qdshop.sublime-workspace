@@ -1,0 +1,3229 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"s",
+				"switch	switch …"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"sty",
+				"style	Tag"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"local",
+				"local_date"
+			],
+			[
+				"loc",
+				"local_mktime"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"cat",
+				"cat_name"
+			],
+			[
+				"fo",
+				"for	for …"
+			],
+			[
+				"mob",
+				"mobile"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"shipp",
+				"shipping_id"
+			],
+			[
+				"ad",
+				"address_id"
+			],
+			[
+				"valu",
+				"value"
+			],
+			[
+				"tuceng_",
+				"tuceng_address"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"vi",
+				"vip_share"
+			],
+			[
+				"usre",
+				"user_rank"
+			],
+			[
+				"add",
+				"address_id"
+			],
+			[
+				"cons",
+				"consignee_list"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"addr",
+				"address_id"
+			],
+			[
+				"goods_a",
+				"goods_amount"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"order_a",
+				"order_amount"
+			],
+			[
+				"cat_",
+				"cat_name"
+			],
+			[
+				"new",
+				"new_status"
+			],
+			[
+				"b",
+				"button	Tag"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"un",
+				"unlink"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"goods",
+				"goods_count"
+			],
+			[
+				"ne",
+				"new"
+			],
+			[
+				"com",
+				"company"
+			],
+			[
+				"ship",
+				"shipping_id"
+			],
+			[
+				"t",
+				"textarea	Tag"
+			],
+			[
+				"fi",
+				"finish"
+			],
+			[
+				"ra",
+				"range"
+			],
+			[
+				"de",
+				"delivery"
+			],
+			[
+				"IN",
+				"INSERT"
+			],
+			[
+				"font",
+				"font	Tag"
+			],
+			[
+				"style",
+				"list-style-type"
+			],
+			[
+				"tb",
+				"table	Tag"
+			],
+			[
+				"flo",
+				"floatval"
+			],
+			[
+				"dep",
+				"dep_name"
+			],
+			[
+				"a",
+				"addslashes"
+			],
+			[
+				"goods_",
+				"goods_price"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"M",
+				"MaterialStock"
+			],
+			[
+				"va",
+				"var_export"
+			],
+			[
+				"goods_n",
+				"goods_name"
+			],
+			[
+				"is_",
+				"is_huaxing"
+			],
+			[
+				"is_del",
+				"is_delete"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"pin",
+				"pinpai_id"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"ma",
+				"message"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ke",
+				"keywords"
+			],
+			[
+				"erps",
+				"erp_search"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"keyw",
+				"keyword"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"get",
+				"get_erp_number"
+			],
+			[
+				"j",
+				"json"
+			],
+			[
+				"jos",
+				"json_encode"
+			],
+			[
+				"or",
+				"original_img"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"is",
+				"is_null"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"sat",
+				"status"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"In",
+				"INSERT"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"isn",
+				"is_numeric"
+			],
+			[
+				"josn",
+				"json_decode"
+			],
+			[
+				"goods_um",
+				"goods_number"
+			],
+			[
+				"ton",
+				"token"
+			],
+			[
+				"o",
+				"onclick	Attr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fro",
+				"form	Tag"
+			],
+			[
+				"order",
+				"order_id"
+			],
+			[
+				"out",
+				"output_data"
+			],
+			[
+				"up",
+				"upload"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"_se",
+				"_SESSION"
+			],
+			[
+				"没有",
+				"没有该订单"
+			],
+			[
+				"jon",
+				"json_decode"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"order_s",
+				"order_status"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"cl",
+				"colspan	Attr"
+			],
+			[
+				"pr",
+				"printf"
+			],
+			[
+				"outp",
+				"output_error"
+			],
+			[
+				"ou",
+				"output_error"
+			],
+			[
+				"ji",
+				"join"
+			],
+			[
+				"ads",
+				"ads_id"
+			],
+			[
+				"_p",
+				"_POST"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"post",
+				"_POST"
+			],
+			[
+				"liudao",
+				"liudao:box	php_5"
+			],
+			[
+				"S_",
+				"svn_blame"
+			],
+			[
+				"daos",
+				"daoshi_z"
+			],
+			[
+				"class_time",
+				"class_time_list"
+			],
+			[
+				"ip_m",
+				"ip_mess"
+			],
+			[
+				"use_end",
+				"use_end_date"
+			],
+			[
+				"clas",
+				"class_exists"
+			],
+			[
+				"function",
+				"function_exists"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/www/qdshop/qdapi/controllers/UserController.php",
+			"settings":
+			{
+				"buffer_size": 15131,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/mobile/user.php",
+			"settings":
+			{
+				"buffer_size": 217031,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/includes/lib_transaction.php",
+			"settings":
+			{
+				"buffer_size": 41137,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/mobile/includes/lib_transaction.php",
+			"settings":
+			{
+				"buffer_size": 54974,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/资料.txt",
+			"settings":
+			{
+				"buffer_size": 28976,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/includes/modules/payment/weixin.php",
+			"settings":
+			{
+				"buffer_size": 7800,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/test/test.php",
+			"settings":
+			{
+				"buffer_size": 14343,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/includes/modules/payment/weixin/WxPayPubHelper.php",
+			"settings":
+			{
+				"buffer_size": 19133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/mobile/includes/modules/payment/weixin/WxPayPubHelper.php",
+			"settings":
+			{
+				"buffer_size": 19073,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/respond.php",
+			"settings":
+			{
+				"buffer_size": 2661,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 6458 files for \"natpayHtml\"\n\nE:\\www\\qdshop\\includes\\modules\\payment\\weixin.php:\n   89  		$selfUrl = 'http://' . $_SERVER ['HTTP_HOST'] . $_SERVER ['PHP_SELF'] . '?' . $_SERVER ['QUERY_STRING'];\n   90  		if (! strpos ( $_SERVER ['HTTP_USER_AGENT'], 'MicroMessenger' )){\n   91: 			return $this->natpayHtml ( $order );\n   92  		}\n   93  		if (strpos ( $_SERVER ['QUERY_STRING'], 'act=order_detail' ) !== false){\n   94: 			return $this->natpayHtml ( $order );\n   95  		}\n   96  		$jsApi = new JsApi_pub ();\n   ..\n  160  	}\n  161  	// 生成原生支付二维码\n  162: 	function natpayHtml($order) {\n  163  		if (! strpos ( $_SERVER ['HTTP_USER_AGENT'], 'MicroMessenger' )){\n  164  			$unifiedOrder = new UnifiedOrder_pub ();\n\nE:\\www\\qdshop\\mobile\\includes\\modules\\payment\\weixin.php:\n  106  		$selfUrl = 'http://' . $_SERVER ['HTTP_HOST'] . $_SERVER ['PHP_SELF'] . '?' . $_SERVER ['QUERY_STRING'];\n  107  		if (! strpos ( $_SERVER ['HTTP_USER_AGENT'], 'MicroMessenger' )) {\n  108: 			return $this->natpayHtml ( $order );\n  109  		}\n  110  		if (strpos ( $_SERVER ['QUERY_STRING'], 'act=order_detail' ) !== false) {\n  111: 			return $this->natpayHtml ( $order );\n  112  		}\n  113  		$jsApi = new JsApi_pub ();\n  ...\n  181  	}\n  182  	// 生成原生支付二维码\n  183: 	function natpayHtml($order) {\n  184  		if (! strpos ( $_SERVER ['HTTP_USER_AGENT'], 'MicroMessenger' )) {\n  185  			$unifiedOrder = new UnifiedOrder_pub ();\n\n6 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 1426,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/E/www/qdshop/mobile/weixinpay.php",
+			"settings":
+			{
+				"buffer_size": 2280,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/qdshop/mobile/weixin/index.php",
+			"settings":
+			{
+				"buffer_size": 14281,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/新建文件夹/config.php",
+			"settings":
+			{
+				"buffer_size": 1713,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/新建文件夹/user_order_detail.lbi",
+			"settings":
+			{
+				"buffer_size": 11681,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: FILES['…']"
+			],
+			[
+				"Snippet: jj",
+				"Snippet: jj"
+			],
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: php",
+				"Snippet: php_fcp"
+			],
+			[
+				"Snippet: php_r",
+				"Snippet: php_refle"
+			],
+			[
+				"Snippet:liud",
+				"Snippet: include_once …"
+			],
+			[
+				"Snippet:j",
+				"Snippet: jj"
+			],
+			[
+				"Snippet: j",
+				"Snippet: jj"
+			]
+		],
+		"width": 450.0
+	},
+	"console":
+	{
+		"height": 729.0,
+		"history":
+		[
+			"sdfsdfsd",
+			"sdfsdf",
+			"self.view.run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test' )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":''} )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":str_arr[index]} )",
+			"print(4355454)",
+			"fdsfds"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/www/qdshop",
+		"/E/www/qdshop/includes",
+		"/E/www/qdshop/includes/modules",
+		"/E/www/qdshop/includes/modules/payment",
+		"/E/www/qdshop/mobile",
+		"/E/www/qdshop/mobile/weixin"
+	],
+	"file_history":
+	[
+		"/C/Users/chengming/Desktop/php-demo.php",
+		"/C/Users/chengming/Desktop/数据库.txt",
+		"/C/Users/chengming/AppData/Local/Temp/HZ$D.089.4988/HZ$D.089.4989/secret_key_tools_RSA256_win/使用说明文档(请先阅读再操作).txt",
+		"/E/www/qdshop/includes/modules/payment/weixin.php",
+		"/E/www/qdshop/mobile/includes/modules/payment/weixin.php",
+		"/E/www/新建文件夹/alipay.config.php",
+		"/E/www/qdshop/mobile/pay/alipayapi.php",
+		"/E/www/qdshop/mobile/pay/alipay.config.php",
+		"/E/www/qdshop/mobile/themesmobile/default/library/user_order_detail.lbi",
+		"/E/www/新建文件夹/user_order_detail.lbi",
+		"/E/www/qdshop/includes/modules/payment/weixin/WxPayPubHelper.php",
+		"/E/www/qdshop/includes/website/weixin.php",
+		"/E/www/test/资料.txt",
+		"/C/Users/chengming/Desktop/secret_key_tools_RSA256_win/secret_key_tools_RSA256_win/使用说明文档(请先阅读再操作).txt",
+		"/C/Users/chengming/Desktop/app/.htaccess",
+		"/C/Users/chengming/Desktop/.htaccess",
+		"/C/Users/chengming/Desktop/app/db.php",
+		"/C/Users/chengming/Desktop/config_api.php",
+		"/C/Users/chengming/Desktop/config.php",
+		"/E/www/qdshop/qdapi/controllers/ApiController.php",
+		"/E/www/test/test.php",
+		"/E/www/test/bom.php",
+		"/E/www/xiaojd/bom.php",
+		"/E/www/test/php.txt",
+		"/E/www/test/js.txt",
+		"/E/www/weixin/123%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%BA%90%E7%A0%81/123个微信小程序源码/内容说明.txt",
+		"/E/www/tp/App/Api/Controller/LoginController.class.php",
+		"/E/www/weixin/前台/pages/order/pay.wxml",
+		"/E/www/test/工作任务.txt",
+		"/G/吕成铭/项目组员/张静芬/张静芬后台.txt",
+		"/C/Users/chengming/Desktop/短信.txt",
+		"/C/Users/chengming/Desktop/磊科信息.txt",
+		"/C/Users/chengming/Desktop/ftp.txt",
+		"/C/Users/chengming/Desktop/张静芬后台(1).txt",
+		"/C/Users/chengming/Desktop/微支付.txt",
+		"/E/www/weixin/前台/pages/user/user.js",
+		"/E/www/weixin/wechat_shop-master/App/Common/Conf/db.php",
+		"/E/www/zhida/user.php",
+		"/E/www/zhida/includes/Jpush.php",
+		"/E/www/qdshop/.htaccess",
+		"/E/www/qdshop/data/config.php",
+		"/E/www/test/function.php",
+		"/E/www/zhida/admin/templates/order_see.htm",
+		"/E/www/zhida/admin/templates/order_see - 副本 (3).htm",
+		"/C/Users/chengming/Documents/My RTX Files/chengming/UDID.txt",
+		"/G/吕成铭/项目组员/易度/资料.txt",
+		"/E/www/zhida/includes/lib_base.php",
+		"/C/Users/chengming/Desktop/log_response_20170810_INFO.log",
+		"/C/Users/chengming/Desktop/log_response_20170809_INFO.log",
+		"/C/Users/chengming/Downloads/main.m3u8",
+		"/C/Users/chengming/Downloads/450.m3u8",
+		"/E/www/zhida/admin/gongsi.php",
+		"/E/www/zhida/admin/templates/gongsi_list.htm",
+		"/E/www/zhida/api/erp_order.php",
+		"/E/www/zhida/ecsapi/callback.php",
+		"/E/www/zhida/admin/privilege.php",
+		"/E/www/zhida/admin/express.php",
+		"/E/www/zhida/admin/templates/gongsi_info.htm",
+		"/E/www/zhida/ecsapi/user.php",
+		"/E/www/zhida/ecsapi/weixin.php",
+		"/E/www/zhida/ecsapi/logs/api/log_alipay_20170812_INFO.log",
+		"/E/www/zhida/ecsapi/logs/api/log_apiaccess__20170812_INFO.log",
+		"/E/www/zhida/ecsapi/logs/api/log_alipay_20170808_INFO.log",
+		"/E/www/zhida/ecsapi/logs/api/log_alipay_error_log_id_20170812_INFO.log",
+		"/E/www/zhida/ecsapi/logs/api/log_apidebug__20170812_DEBUG.log",
+		"/E/www/zhida/includes/lib_payment.php",
+		"/E/www/zhida/api/erp_order.txt",
+		"/E/www/zhida/admin/index.php",
+		"/E/www/zhida/languages/zh_cn/admin/common.php",
+		"/E/www/zhida/themes/default/fabu.dwt",
+		"/E/www/zhida/themes/default/js/index.js",
+		"/G/吕成铭/互诺.txt",
+		"/E/www/zhida/admin/order.php",
+		"/E/www/zhida/admin/templates/order_list.htm",
+		"/E/www/zhida/themes/default/js/jquery.min.js",
+		"/E/www/zhida/js/index.js",
+		"/C/Users/chengming/Desktop/GoHardDrive评估-14107/GoHardDrive评估/BatchImportFile(相应格式的导入文件)/USPS.txt",
+		"/C/Users/chengming/Desktop/erp_order.txt",
+		"/E/www/zhida/includes/lib_main.php",
+		"/E/www/zhida/ecsapi/includes/cls_Response.php",
+		"/E/www/zhida/api/update.php",
+		"/E/www/zhida/api/update.txt",
+		"/E/www/zhida/ecsapi/config/config_api.php",
+		"/E/www/zhida/ecsapi/includes/init.php",
+		"/E/www/zhida/admin/users.php",
+		"/E/www/zhida/admin/templates/user_info.htm",
+		"/E/www/test/test3 - 副本.php",
+		"/E/www/test/test3 - 副本 (2).php",
+		"/E/www/zhida/ecsapi/includes/cls_log.php",
+		"/E/www/zhida/api/Response.php",
+		"/E/www/test/test3.php",
+		"/E/www/yingfeng/data/logs/bestpay/log_bestpaypost_20170804_INFO.log",
+		"/E/www/yingfeng/data/logs/bestpay/log_bestpayxml_20170804_INFO.log",
+		"/E/Program Files/Sublime Text 3/Data/Packages/User/snippet/php/ecshop/ecshop_sql.sublime-snippet",
+		"/E/www/zhida/themes/default/goods.dwt",
+		"/E/www/zhida/goods.php",
+		"/E/www/zhida/themes/default/goods_huaxing.dwt",
+		"/E/www/zhida/includes/lib_app_function.php",
+		"/E/www/zhida/ecsapi/includes/cls_api.php",
+		"/E/www/zhida/category.php",
+		"/E/www/zhida/includes/cls_template.php",
+		"/E/www/pintuan/Core/Conf/config.php",
+		"/E/www/pintuan/config.php",
+		"/E/www/pintuan/Core/Lib/Action/Admin/IndexAction.class.php",
+		"/E/www/pintuan/Core/Lib/Action/Admin/PublicAction.class.php",
+		"/E/www/pintuan/Core/Lib/Action/Admin/LoginAction.class.php",
+		"/E/www/pintuan/admin/index.php",
+		"/E/www/pintuan/config.php.bak",
+		"/E/www/pintuan/Core/Conf/define.php",
+		"/E/www/pintuan/Core/Conf/crons.php",
+		"/E/www/pintuan/LICENSE.txt",
+		"/C/Users/chengming/Desktop/signnotify.php",
+		"/E/phpStudy/php55n/php.ini",
+		"/E/www/test/case/999999970_zhida/Czhida.txt",
+		"/C/Users/chengming/Desktop/翼支付/02450103010576873.txt",
+		"/C/Users/chengming/Desktop/test.php",
+		"/G/吕成铭/项目组员/窝家APP/小票机.txt",
+		"/E/www/zhida/admin/templates/privilege_info.htm",
+		"/E/www/zhida/admin/templates/menu.htm",
+		"/E/www/zhida/ecsapi/flow.php",
+		"/E/www/zhida/admin/templates/pagefooter.htm",
+		"/E/www/zhida/admin/includes/lib_main.php",
+		"/E/www/zhida/includes/shopex_json.php",
+		"/E/www/zhida/ecsapi/cart.php",
+		"/E/www/zhida/ecsapi/activity.php",
+		"/E/www/zhida/admin/templates/goods_info.htm",
+		"/E/www/zhida/temp/compiled/admin/privilege_info.htm.php",
+		"/E/www/zhida/inspiration.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"E:\\www\\qdshop",
+			"E:\\www\\weixin\\前台",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\ecsapi",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\languages",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida\\ecsapi",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\ecsapi",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida\\admin\\templates",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida",
+			"E:\\www\\zhida\\admin",
+			"E:\\www\\zhida\\languages",
+			"E:\\www\\zhida",
+			"E:\\Program Files\\Sublime Text 3",
+			"E:\\www\\zhida\\admin",
+			"D:\\WWW\\lingfen\\mobile",
+			"D:\\WWW\\lingfen",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\zhida\\admin\\templates",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\kawo\\languages\\zh_cn\\admin",
+			"D:\\wamp\\www\\kawo",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\junlang\\Admin",
+			"D:\\wamp\\www\\maizi\\Chengming\\Tpl\\Home",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\xinghui",
+			"D:\\wamp\\www\\zhida",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\zhourou,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\www\\liudao\\languages,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\1_commonly_used\\我做的更改\\项_9945_禧袍\\pc\\Nhvendor",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web\\languages",
+			"E:\\www\\test2\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\ecshop",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test3\\",
+			"E:\\www\\test3\\Uploads",
+			"E:\\www\\test2\\languages",
+			"E:\\1_commonly_used\\我做的更改\\项_9946_李聪\\app接口\\hnshop(1)\\includes",
+			"D:\\Program Files\\Sublime Text 3\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test2\\includes",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test1\\mp3play",
+			"E:\\www\\new_ecshop\\languages",
+			"",
+			"E:\\www\\ecshop\\languages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"order_list",
+			"scene_info",
+			"MWEB",
+			"JSAPI",
+			"UnifiedOrder_pub",
+			"https://api.mch.weixin.qq.com/pay/unifiedorder",
+			"natpayHtml",
+			"h5",
+			"trade_type",
+			"WeixinJSBridgeReady",
+			"onWeixinJSBridgeReady",
+			"1488402062",
+			"7700F7ED51D3BE91564206AE376E73FB",
+			"6779a6069ab286de5bcd413d04cf69c2",
+			"wx215b8913e8ca68a8",
+			"order_detail",
+			"pay_online",
+			"zf_button",
+			"is_pay",
+			"order_detail",
+			"act_edit_payment",
+			"http://phpmall.gz6.hostadm.net",
+			"icon_kf",
+			"operateWXData",
+			"authlogin",
+			"getUserInfo",
+			"loadProductData",
+			"bindMinus",
+			"carts",
+			"xxPay",
+			"hostVideo",
+			"projectSource",
+			"非法操作",
+			"salesman_name",
+			"outgoing_no",
+			"freight_name",
+			"invoice_no",
+			"delivery_time",
+			"erp_no",
+			"content",
+			"outgoing_no",
+			"salesman_tel",
+			"erp_sn",
+			"授权",
+			"act_login",
+			"易度",
+			"order_id",
+			"pickup_list",
+			"see",
+			"id=\"shipping_id\"",
+			"$",
+			"oGKPsjtInfRjm4Zgi3KOWXk_Yu8w",
+			"自提门店",
+			"2017080843421",
+			"DEBUG",
+			"2017080843421",
+			"status']=2",
+			"mysubmit3",
+			"gongsi",
+			"get_list",
+			"sort_order",
+			"description",
+			"STE1708100004",
+			"STE1708080004",
+			"08080004",
+			"录入ERP单号",
+			"mysure5",
+			"get_erp_number",
+			"新待审核订单",
+			"SD708110004",
+			"erp_sn",
+			"upload",
+			"img-upload",
+			"mysubmit4",
+			"还剩",
+			"运输中",
+			"send_msg",
+			"验证",
+			"短",
+			"短信",
+			"logRequest",
+			"_setToken",
+			"qer",
+			"自动确认收货",
+			"left_time",
+			"还剩29天24时自动确认收货",
+			"shipping_time",
+			"now_time",
+			"left_time",
+			"shipping_time",
+			"还剩29天24时自动确认收货",
+			"SD708080007",
+			"pay_list",
+			"param",
+			"logRequest",
+			"input",
+			"app_name",
+			"data",
+			"sSalesTel",
+			"AND o.cat_id in",
+			"COUNT",
+			"mycategory",
+			"cat_id",
+			"cat_id，cat_name",
+			"cat_id in(",
+			"order_list ",
+			"goods_info",
+			"$cat",
+			"children",
+			"文档已移动",
+			"_eval",
+			"list",
+			"openss",
+			"libeay32",
+			"dle",
+			"dl",
+			"dlenable",
+			"enable",
+			"php_infosec",
+			"mod",
+			"伟彬",
+			"start_time",
+			"new_order_2",
+			"popMsg",
+			"json_encode",
+			"cat_id",
+			"cat_id in (",
+			"o.cat_name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"uuy",
+			"D:\\www\\mall\\",
+			"",
+			",",
+			"",
+			"6q币",
+			"",
+			"applys.php",
+			"",
+			"shop_shop_config",
+			"6Q币",
+			"",
+			"课程价格",
+			"dwa",
+			"",
+			"<a href=\"category.php?act=course\">课程安排</a>",
+			"$1",
+			"",
+			"$1",
+			"http://www.99jlw.com/",
+			"forms.$1",
+			"elements.$1",
+			"",
+			"original_img",
+			",",
+			"",
+			",",
+			"",
+			",",
+			"",
+			"t",
+			"ttt",
+			"44",
+			"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/www/qdshop/qdapi/controllers/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3129,
+								3129
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1728.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/www/qdshop/mobile/user.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 217031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73371,
+								73371
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42537.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/www/qdshop/includes/lib_transaction.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29995,
+								29995
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16815.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/www/qdshop/mobile/includes/lib_transaction.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34432,
+								34449
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17265.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/www/test/资料.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28976,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24384,
+								24384
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16892.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/www/qdshop/includes/modules/payment/weixin.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4762,
+								4762
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2685.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/E/www/test/test.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								543,
+								431
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/www/qdshop/includes/modules/payment/weixin/WxPayPubHelper.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7530,
+								7530
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7347.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/E/www/qdshop/mobile/includes/modules/payment/weixin/WxPayPubHelper.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10746,
+								10746
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7563.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/E/www/qdshop/respond.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2661,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2035,
+								2042
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										303,
+										313
+									],
+									[
+										443,
+										453
+									],
+									[
+										567,
+										577
+									],
+									[
+										987,
+										997
+									],
+									[
+										1128,
+										1138
+									],
+									[
+										1252,
+										1262
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/E/www/qdshop/mobile/weixinpay.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								968,
+								968
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/E/www/qdshop/mobile/weixin/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2214.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/E/www/新建文件夹/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1713,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1595,
+								1593
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/E/www/新建文件夹/user_order_detail.lbi",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1173,
+								1173
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 436.0
+	},
+	"output.expec":
+	{
+		"height": 324.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 575.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "qdshop.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"user.php",
+				"mobile\\user.php"
+			],
+			[
+				"respond.php",
+				"respond.php"
+			],
+			[
+				"alipay.config.php",
+				"mobile\\pay\\alipay.config.php"
+			],
+			[
+				"pay/alipayapi.php",
+				"mobile\\pay\\alipayapi.php"
+			],
+			[
+				"wxpaypubhelper.php",
+				"includes\\modules\\payment\\weixin\\WxPayPubHelper.php"
+			],
+			[
+				"weixin.php",
+				"includes\\modules\\payment\\weixin.php"
+			],
+			[
+				"shoppingcontroller.class.php",
+				"tp\\App\\Api\\Controller\\ShoppingController.class.php"
+			],
+			[
+				"includes/jpush.php",
+				"includes\\Jpush.php"
+			],
+			[
+				"order_list.htm",
+				"admin\\templates\\order_list.htm"
+			],
+			[
+				"log_alipay_20170808_info.log",
+				"ecsapi\\logs\\api\\log_alipay_20170808_INFO.log"
+			],
+			[
+				"user.ph",
+				"ecsapi\\user.php"
+			],
+			[
+				"order_s",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"order",
+				"admin\\order.php"
+			],
+			[
+				"gongsi_list",
+				"admin\\templates\\gongsi_list.htm"
+			],
+			[
+				"express.php",
+				"admin\\express.php"
+			],
+			[
+				"gongsi_info.htm",
+				"admin\\templates\\gongsi_info.htm"
+			],
+			[
+				"gongsi.php",
+				"admin\\gongsi.php"
+			],
+			[
+				"order_see",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"erp_order.txt",
+				"api\\erp_order.txt"
+			],
+			[
+				"jquery.min.js",
+				"themes\\default\\js\\jquery.min.js"
+			],
+			[
+				"themes/default/js/index.js",
+				"themes\\default\\js\\index.js"
+			],
+			[
+				"index.js",
+				"js\\index.js"
+			],
+			[
+				"fabu",
+				"themes\\default\\fabu.dwt"
+			],
+			[
+				"order_list",
+				"admin\\templates\\order_list.htm"
+			],
+			[
+				"order.php",
+				"admin\\order.php"
+			],
+			[
+				"update.txt",
+				"api\\update.txt"
+			],
+			[
+				"cls_response.php",
+				"ecsapi\\includes\\cls_Response.php"
+			],
+			[
+				"or",
+				"admin\\order.php"
+			],
+			[
+				"erp",
+				"api\\erp_order.php"
+			],
+			[
+				"init",
+				"ecsapi\\includes\\init.php"
+			],
+			[
+				"users.php",
+				"admin\\users.php"
+			],
+			[
+				"user",
+				"ecsapi\\user.php"
+			],
+			[
+				"goods.ph",
+				"goods.php"
+			],
+			[
+				"goods_huaxing.dwt",
+				"themes\\default\\goods_huaxing.dwt"
+			],
+			[
+				"category.php",
+				"category.php"
+			],
+			[
+				"goods.php",
+				"goods.php"
+			],
+			[
+				"cls_template.php",
+				"includes\\cls_template.php"
+			],
+			[
+				"goods.dwt",
+				"themes\\default\\goods.dwt"
+			],
+			[
+				"menu.htm",
+				"admin\\templates\\menu.htm"
+			],
+			[
+				"inde",
+				"admin\\index.php"
+			],
+			[
+				"index.php",
+				"admin\\index.php"
+			],
+			[
+				"goods_inf",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"privilege_info.htm",
+				"admin\\templates\\privilege_info.htm"
+			],
+			[
+				"privilege.php",
+				"admin\\privilege.php"
+			],
+			[
+				"erp_order.php",
+				"api\\erp_order.php"
+			],
+			[
+				"inspiration",
+				"themes\\default\\inspiration.dwt"
+			],
+			[
+				"linggan",
+				"themes\\default\\linggan.dwt"
+			],
+			[
+				"linge",
+				"C:\\Users\\chengming\\Desktop\\zhida_photo0727\\zhida_photo\\linggan_detail.html"
+			],
+			[
+				"goods",
+				"admin\\goods.php"
+			],
+			[
+				"goods_h",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"goods_hu",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"huaxing.php",
+				"ecsapi\\huaxing.php"
+			],
+			[
+				"goods.d",
+				"themes\\default\\goods.dwt"
+			],
+			[
+				"init.php",
+				"ecsapi\\includes\\init.php"
+			],
+			[
+				"linggan.php",
+				"ecsapi\\linggan.php"
+			],
+			[
+				"inspiration.php",
+				"inspiration.php"
+			],
+			[
+				"top.htm",
+				"admin\\templates\\top.htm"
+			],
+			[
+				"fabu.php",
+				"fabu.php"
+			],
+			[
+				"linggan_info.htm",
+				"admin\\templates\\linggan_info.htm"
+			],
+			[
+				"goods_huan",
+				"themes\\default\\goods_huaxing.dwt"
+			],
+			[
+				"goods_",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"goods_detail",
+				"themes\\default\\css\\goods_detail.css"
+			],
+			[
+				"share_huan.php",
+				"share_huan.php"
+			],
+			[
+				"pr",
+				"admin\\privilege.php"
+			],
+			[
+				"share_huan.dwt",
+				"themes\\default\\share_huan.dwt"
+			],
+			[
+				"order.",
+				"admin\\order.php"
+			],
+			[
+				"activity.php",
+				"admin\\activity.php"
+			],
+			[
+				"huan",
+				"share_huan.php"
+			],
+			[
+				"role.php",
+				"admin\\role.php"
+			],
+			[
+				"cls_alisms",
+				"includes\\cls_alisms.php"
+			],
+			[
+				"goods2.php",
+				"admin\\goods2.php"
+			],
+			[
+				"goods_list2.htm",
+				"admin\\templates\\goods_list2.htm"
+			],
+			[
+				"chuli",
+				"admin\\templates\\fabu_chuli.htm"
+			],
+			[
+				"order_see.htm",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"kefu.php",
+				"admin\\kefu.php"
+			],
+			[
+				"shuxing",
+				"admin\\shuxing.php"
+			],
+			[
+				"user_msg.php",
+				"admin\\user_msg.php"
+			],
+			[
+				"activity",
+				"admin\\activity.php"
+			],
+			[
+				"goods_search.htm",
+				"admin\\templates\\goods_search.htm"
+			],
+			[
+				"goods_list",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"activity_",
+				"admin\\templates\\activity_info.htm"
+			],
+			[
+				"share_huan",
+				"themes\\default\\share_huan.dwt"
+			],
+			[
+				"inspiration.dwt",
+				"themes\\default\\inspiration.dwt"
+			],
+			[
+				"xvip.css",
+				"themes\\default\\css\\xvip.css"
+			],
+			[
+				"vip.dwt",
+				"themes\\default\\vip.dwt"
+			],
+			[
+				"goods_list.htm",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"goods_info",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"linggan_cat.php",
+				"admin\\linggan_cat.php"
+			],
+			[
+				"shop_config.php",
+				"admin\\shop_config.php"
+			],
+			[
+				"area_manage.php",
+				"admin\\area_manage.php"
+			],
+			[
+				"pickup.php",
+				"admin\\pickup.php"
+			],
+			[
+				"msg_list.htm",
+				"admin\\templates\\msg_list.htm"
+			],
+			[
+				"user_msg",
+				"admin\\user_msg.php"
+			],
+			[
+				"admin/common.php",
+				"languages\\zh_cn\\admin\\common.php"
+			],
+			[
+				"common.php",
+				"languages\\zh_cn\\common.php"
+			],
+			[
+				"inc_menu.php",
+				"admin\\includes\\inc_menu.php"
+			],
+			[
+				"inc_priv.php",
+				"admin\\includes\\inc_priv.php"
+			],
+			[
+				"priv_action.php",
+				"languages\\zh_cn\\admin\\priv_action.php"
+			],
+			[
+				"pageimg_tui",
+				"admin\\templates\\pageimg_tui.htm"
+			],
+			[
+				"pageimg_tui.php",
+				"admin\\pageimg_tui.php"
+			],
+			[
+				"vip",
+				"themes\\default\\vip.dwt"
+			],
+			[
+				"huaxing",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"goods_hua",
+				"themes\\default\\goods_huaxing.dwt"
+			],
+			[
+				"index.",
+				"ecsapi\\index.php"
+			],
+			[
+				"bonus.php",
+				"admin\\bonus.php"
+			],
+			[
+				"flow.php",
+				"ecsapi\\flow.php"
+			],
+			[
+				"cart",
+				"ecsapi\\cart.php"
+			],
+			[
+				"includes/init.ph",
+				"ecsapi\\includes\\init.php"
+			],
+			[
+				"call.",
+				"ecsapi\\callback.php"
+			],
+			[
+				"weix",
+				"ecsapi\\weixin.php"
+			],
+			[
+				"category",
+				"category.php"
+			],
+			[
+				"share_style.css",
+				"themes\\default\\css\\share_style.css"
+			],
+			[
+				"cart.php",
+				"ecsapi\\cart.php"
+			],
+			[
+				"goods_huaxing.php",
+				"admin\\goods_huaxing.php"
+			],
+			[
+				"pinpai_cat.php",
+				"admin\\pinpai_cat.php"
+			],
+			[
+				"role_info.htm",
+				"admin\\templates\\role_info.htm"
+			],
+			[
+				"goods.",
+				"admin\\goods.php"
+			],
+			[
+				"xilie.php",
+				"ecsapi\\xilie.php"
+			],
+			[
+				"pageheader.htm",
+				"admin\\templates\\pageheader.htm"
+			],
+			[
+				"pageimg_tui.htm",
+				"admin\\templates\\pageimg_tui.htm"
+			],
+			[
+				"pinpai_cat_list.htm",
+				"admin\\templates\\pinpai_cat_list.htm"
+			],
+			[
+				"order_se",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"flow",
+				"ecsapi\\flow.php"
+			],
+			[
+				"xilie",
+				"ecsapi\\xilie.php"
+			],
+			[
+				"inspiration.dw",
+				"themes\\default\\inspiration.dwt"
+			],
+			[
+				"ins",
+				"inspiration.php"
+			],
+			[
+				"ling",
+				"ecsapi\\linggan.php"
+			],
+			[
+				"cat",
+				"category.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"D:\\wamp\\www\\test\\js.sublime-workspace"
+			],
+			[
+				"sub",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"mynotes",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"my",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynot",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynote",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"ecs",
+				"E:\\1_commonly_used\\sublime\\软件设置\\ecshop.sublime-project"
+			],
+			[
+				"web",
+				"E:\\1_commonly_used\\sublime\\软件设置\\web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "changeIntegral",
+		"selected_items":
+		[
+			[
+				"changeIntegral",
+				"changeIntegral"
+			],
+			[
+				"crea in",
+				"db_create_in"
+			],
+			[
+				"alert",
+				"jAlert"
+			],
+			[
+				"strtotime",
+				"local_strtotime"
+			],
+			[
+				"update_use",
+				"update_user_info"
+			],
+			[
+				"member_info",
+				"insert_member_info"
+			],
+			[
+				"updateuser_info",
+				"update_user_info"
+			],
+			[
+				"updateinf",
+				"_updateInfo"
+			],
+			[
+				"update",
+				"update_session"
+			],
+			[
+				"empty",
+				"isEmpty"
+			],
+			[
+				"creat_i",
+				"db_create_in"
+			],
+			[
+				"serialize",
+				"_unserialize"
+			],
+			[
+				"html_s",
+				"htmlspecialchars_deep"
+			],
+			[
+				"htmlspecial",
+				"htmlspecialchars_decode"
+			],
+			[
+				"htmlspecialchars",
+				"htmlspecialchars_decode"
+			],
+			[
+				"str_len",
+				"str_len"
+			],
+			[
+				"creat_in",
+				"db_create_in"
+			],
+			[
+				"strlen",
+				"str_len"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 310.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

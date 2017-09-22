@@ -1,0 +1,131 @@
+总后台：http://www.gm5km.com/admin
+账号
+summa
+密码
+liyuming7883
+
+商家管理后台：http://www.gm5km.com/supplier/
+账号
+summa
+密码
+190713
+
+正式服务器阿里云
+账号： sanfangxinxikeji
+密码： sanfang9999
+spyllf091027@
+
+远程连接信息120.76.243.187
+root
+spyllf091027@
+
+FTP:120.76.243.187
+账号 gm5kmFTP
+sfgm5km#888
+
+正式www.gm5km.com
+数据库
+http://120.76.243.187/phpMyAdmin/
+账号 gm5km
+zRHvUbqHSsbwGkPS
+ggAdSkviavlZS3mV
+
+root
+mymy1234mymy1234
+
+
+域名账号 阿里云
+gd_sov@163.com
+spyllf091027
+
+粤ICP备16085187号
+网站URL： www.gm5km.com    网站域名： gm5km.com
+
+
+FTP登陆用户名是：  sanfang
+FTP密码是：  7DF5C52B568cdb
+您的网址为：  http://sanfang.dg2.hostadm.net
+用户的FTP地址是： 121.12.170.73
+
+数据库用户名：  sanfang
+数据库密码：  sanfangvbg5
+数据库名称：  sanfang
+数据库所在IP：  121.12.170.73
+
+
+sanfang2.dg2.hostadm.net
+sanfang2
+065C3877751425
+连接FTP 121.12.170.73
+
+数据库用户名： sanfang2
+　　　 数据库密码： 　 sanfang2vb67 
+　　　 数据库名称： 　 sanfang2 
+　　　 数据库所在IP： 　 121.12.170.73 
+
+
+
+http://sanfang.dg2.hostadm.net/admin          hunuo888           hunuo888
+http://sanfang.dg2.hostadm.net/supplier       hunuo888           hunuo888
+http://sanfang.dg2.hostadm.net/mobile         1599442057@qq.com  123456
+
+
+http://sanfang2.dg2.hostadm.net/admin          hunuo888           hunuo888
+http://sanfang2.dg2.hostadm.net/supplier       hunuo888           hunuo888
+http://sanfang2.dg2.hostadm.net/mobile         1599442057@qq.com  123456
+
+13570318404
+
+
+http://phpmall.gz6.hostadm.net/
+admin   admin123
+
+
+
+公众号
+1795423600@qq.com
+密码
+spyllf091027
+
+AppID: wx1f4bbdfae43944e2
+AppSecret: 3646b729b3690e262ce317924d639bff
+
+商户平台登录帐号
+1387583802@1387583802
+商户平台登录密码
+118316
+密钥
+a646b729bb690e262ce317924d639bff
+微信支付商户号
+1387583802
+
+
+
+// 1、我的推荐那里的比例，60%那一列是不要的
+// 2、消费奖励、推广奖励、营业奖励这三块不是要在同一页面展示出来吗？
+3、可以通过客户推广公众号的二维码直接锁定扫码的人
+// 4、商户入驻应默认企业
+// 5、关于几种奖励账户的设置
+
+62 1599442057@qq.com  顶
+76 15989094736                一
+77 17703082558                二
+78 13570318404                三
+
+线上一会员
+15123667665 ly667665
+
+
+
+
+phpmall.gz6.hostadm.net
+
+gz6 商城模板 2121
+
+phpmall.gz6.hostadm.net 
+phpmall
+3D55D02532dbd0  
+连接FTP  219.136.248.197
+
+phpmall
+phpmall778899 219.136.248.197

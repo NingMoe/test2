@@ -1,0 +1,674 @@
+base
+	广州六道教育信息咨询有限公司
+	liudao
+	http://html.hunuo.com/liudao/1.html#
+	和谐家庭促进会
+
+本地项目
+    要打开的
+        E:\www\liudao
+        E:\1_commonly_used\我做的更改\项_9943_六道
+        E:\www\mynotes\test\case\999999992_liudao\my_case_liudao.php
+
+
+育东，我以后把bug提到bug系统，你到时候去看看解决？
+    http://192.168.0.12:81/www/zentaopms/www/index.php?m=bug&f=browse
+    账号
+        chenyudong
+    密码
+        123456
+
+
+
+http://liudao.com/alugzaod/goods_batch.php?act=userrer_upload
+
+
+http://www.hxjtcjh.cn/alugzaod
+
+后台会员同步
+http://liudao.com/alugzaod/goods_batch.php?act=user_upload
+
+http://www.hxjtcjh.cn/alugzaod
+        admin
+        ad123min456
+
+
+微信加功能
+    1.生成微信公众号二维码(推荐id二维码,成员推荐二维码)
+    2.扫描家庭推荐二维码,(后台发短信给二维码里的会员手机).输入二维码.如果正确的就登陆该会员
+    3.微信登陆的会员,是否可以执行该会员的所有操作?
+    4.扫描推荐二维码后,是否也可以进行绑定会员操作
+
+
+修改完蝉道的一个更新
+
+https://192.168.0.8/svn/liudao
+
+
+
+
+
+
+
+公司服务器
+	后台
+		admin
+		ad123min456
+
+	FTP登陆
+		用户名是： 	 liudao 
+		FTP密码是： 	 75C31CB538bafd 
+		地址是：14.18.203.152:21
+	数据库
+		用户名： 　 liudao 
+		密码： 　 liudaort4 
+		名称： 　 liudao 
+		所在IP： 　 14.18.203.152
+		http://phpmyadmin.gz10.hunuo.net/index.php
+		
+客户自己的
+    ftp:
+        http://183.61.109.86
+        web001
+        Liudao888
+    数据库
+        http://183.61.109.86:81
+    	用户名： root
+    	密码： rPQ4zy23KSCDT8VT
+
+        http://www.hxjtcjh.cn
+    	用户名： liudoTesty
+    	密码： htDBaeddYZs4FXKd
+
+
+
+
+短信
+	服务器地址: http://sms3.mobset.com
+	原帐号
+		企业ID: 302142
+		登录用户: Admin
+		密码: 226932
+	网站的帐号
+		企业ID: 302142
+		登录用户: user_web_liuq
+		密码: Ie719624
+
+支付宝支付
+	类型			  支付宝的即时到帐
+	帐号    		  cwb26qu@163.com
+	合作者身份(PID)   2088121609400759
+	key 			  v7qqewz4u72ljcowvs4jxuhiuckpsdl8
+
+银联支付
+	基本信息
+		url 			  http://www.chinabank.com.cn/
+		用户名  		  cwb6qu@163.com  
+		密码   			  operation
+		商户号：	      110175179 
+	网关支付（B2C内卡）
+		账号： 		110175179001
+		MD5密钥： gqFbtwjyMp5jWB5euRcsXKucOcndtysX
+
+线下付款
+	支付宝帐号 户名 汤爱武
+	帐号:13392148218@163.COM 
+
+	工行，户名汤爱武
+	帐号6222 0836 0200 9899 599
+	      开户行 广州市麒麟岗支行  
+
+
+
+	银行名称
+		支付宝帐号 :
+			用户名: 汤爱武
+			帐号: 13392148218@163.COM 
+
+		工行银行
+			用户名: 汤爱武
+			帐号: 6222 0836 0200 9899 599
+			开户行: 广州市麒麟岗支行  
+	<div>
+		<p>支付宝帐号 :</p>
+		<p style="text-indent: 2em;">用户名: 汤爱武</p>
+		<p style="text-indent: 2em;">帐号: 13392148218@163.COM</p>
+	</div>
+	<div>
+		<p>工行银行 :</p>
+		<p style="text-indent: 2em;">用户名: 汤爱武</p>
+		<p style="text-indent: 2em;">帐号: 6222 0836 0200 9899 599</p>
+		<p style="text-indent: 2em;">开户行: 广州市麒麟岗支行</p>
+	</div>
+
+
+
+站长统计
+	网址
+		http://new.cnzz.com/v1/login.php?siteid=1257406500
+	密码
+		cnzad123min456z
+
+
+文件导入
+	E:\www\liudao\alugzaod\goods_batch.php  line->59
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+'config.php',里的调试模式
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+这个是我回复老师的
+1.被推荐人注册、购买、报读，推荐人有短信通知，这个可以做，您提供文案过来即可。
+2.被推荐人注册，推荐人本来都是有积分赠送的。但是被推荐人购买和报读，因为存在可以退款的，被推荐人也是在不能退款后才能获得积分。如果还要读取推荐人获得积分，还要这里改程序。建议手动操作。
+3.增加了明星学员这一块的程序，还在调整。
+
+
+定时
+	E:\www\liudao\includes\modules\cron\back_integral.php
+
+
+
+ECS_ID   605e817e3fde5a2a147a87404a785c1a0a439c0a
+
+要处理的
+	在冻结会员时，让正在登录的会员登出
+	合作网站账号一键登录
+	课程什么时候 算是学完 什么时候要送积分
+	加验证码，加ip限制，一天三条（可以设置）
+	活动要钱购买的,还没做6Q币的扣除
+	会员具体的自动升级程序还没做
+
+	套餐使用积分是遇到的问题
+		
+	会员成员的升级处理
+
+
+
+	在高级会员时购买了"高EQ导师",是不能升级的.那再
+	36 	高EQ智慧父母精华  ->
+	61 	高EQ导师
+
+
+
+
+
+
+快捷登陆
+	申请链接
+		http://connect.qq.com/manage/login
+		http://open.weibo.com/
+	客户帐号
+		这个是微信的
+			http://www.weimob.com/wechat/index/aid/412548
+			账号：woaiqqqqqq
+			密码：8728060088
+		这个是QQ
+			3080184632   wo123456
+
+
+
+test_id 12   $_CFG['integral_name']  $smarty->_var['integral_name']  $_CFG['affiliate_regi_sixq']  $smarty->_var['home_apply_limit']   $_CFG['max_questions_time']
+
+ 	$smarty->_var['is_tutor'] 
+
+
+要做的事情 
+	这个报名人数怎么做 ？ 0/10人    category.php?id=3
+
+额外要需清空的
+
+	TRUNCATE TABLE shop_apply_buyrecord ;
+	TRUNCATE TABLE shop_article_buy ;
+
+	TRUNCATE TABLE `shop_pay_log` ;
+	TRUNCATE TABLE `shop_order_action` ;
+	TRUNCATE TABLE `shop_delivery_goods`;
+	TRUNCATE TABLE `shop_delivery_order` ;
+	TRUNCATE TABLE `shop_order_action` ;
+
+	TRUNCATE TABLE `shop_order_goods` ;
+	TRUNCATE TABLE `shop_order_info` ;
+	TRUNCATE TABLE shop_activity_enro ;
+	TRUNCATE TABLE shop_user_message ;
+	TRUNCATE TABLE shop_auto_integ_remind ;
+
+	TRUNCATE TABLE shop_apply ;
+	TRUNCATE TABLE shop_class_time ;
+
+
+shop_activity_enro
+	$type = 1;  // 沙龙
+	$type = 2;  // 讲座
+	$type = 3;  // 研讨会
+	$type = 6;  // class
+
+
+
+
+说明
+	会员
+		系统的保留会员id是1
+
+
+评论
+	shop_comment
+		导师评论(网友)
+			在表shop_comment->comment_type 等于 6
+		课程评论
+			在表shop_comment->comment_type 等于 7
+		问答的回答
+			在表shop_comment->comment_type 等于 8
+	shop_commentar
+		普通文章
+			在表shop_comment->comment_type 等于 1
+		导师文章
+			在表shop_comment->comment_type 等于 10
+
+
+
+排序都是大的在前边
+		sort_order
+
+
+	导师文章评论
+		在表shop_commentar->comment_type 等于10
+
+
+	帐户变动记录	
+		签到
+			change_type 6
+		问答
+			change_type 9
+		注册
+			change_type 11
+		完善
+			change_type 13
+		活动报名
+			change_type 3
+		购买文章
+			change_type 15
+		推荐送6Q币
+			change_type 16
+		发表文章得到的
+			change_type 17
+		好评获得6Q币
+			change_type 18
+		课程报读获得6Q币
+			change_type 19
+		取消报读支付,取消课程
+			change_type 20
+
+	购物车类型  rec_type         					extension_code
+	    CART_GENERAL_GOODS        0 // 普通商品
+	    CART_GROUP_BUY_GOODS      1 // 团购商品  	group_buy
+	    CART_AUCTION_GOODS        2 // 拍卖商品
+	    CART_SNATCH_GOODS         3 // 夺宝奇兵
+	    CART_EXCHANGE_GOODS       4 // 积分商城	    exchange_goods
+		CART_ACTIVITY_GOODS	      6 // 活动商品	 	activity_goods
+	js异步 status 等于 6 登陆自动隐藏
+
+
+
+
+
+表
+
+	新增表
+		shop_ tutor_tag         (导师标签表)
+		shop_ tutor_use_tag     (导师标签使用表)
+		shop_ article_buy       (文章6q币购买表)
+		shop_ class_time	       (课程时间表)
+		shop_ activity_enro     (课程，活动报名记录表)
+		shop_ apply        	   (家庭成员表)
+		shop_ apply_buyrecord   (报名和购买的成员记录表)
+		shop_ apply_home   	   (家庭成员类型)
+		shop_ user_message	   (站内信)
+		shop_ artitutor		   (导师文章)
+		shop_ commentar		   (文章评论表)
+		shop_ crons			   (还没有添加)
+		shop_ retrain_time	   (复训活动时间表)
+		shop_ auto_integ_remind	
+
+
+
+
+定时
+	活动	
+		沙龙开始前一天个人中心提示准时参加--短信提示：尊敬的***，您预报名参加的**月**日的沙龙       lib_order.php  line->3067
+	课程	
+		开课前三天再发一条短信提示开课					lib_payment.php   line ->327
+		赠送6Q币日期为上完第一天课后一小时				lib_payment.php   line ->327
+
+
+更新支付
+	接口
+		order_paid() 课程   调用了  create_my_class($order_id)
+		enrolling_paid() 更新报名
+	后台
+		update_order($order_id, $order, $update=false) 修改订单状态   调用了 create_my_class($order_id)
+
+
+
+站内信
+	1、课程报读 includes\lib_payment.php  line->318  模板在 shop_goods->letter 表里
+
+	2,新注册会员站内信    user.php  line->531   template_id=37
+		（一）平台建设目的：本网站作为普及最新最落地的亲子教育平台，致力于为网站注册用户提供一个专业、多元素、实用的理念、方法。 （二）会员的权利和义务： 权利部分：作为注册会员，您将体验到真实有效的亲子理念、处理技巧、可以免费参加一部分亲子活动、并且与导师或网友在提问区互动、还能够将文章分享给您认为有需要的朋友亲人、也可以将自己的成长喜悦/精美的文章发布在平台内。最重要的，这将是您和您家人一起共同成长、学习的平台，丰富的课程信息，有效的管理自己的学习进度，以便更好的提升自己。 义务部分：同样，我们也期望您能将这个免费的平台，当做是自己的一部分，用心的维护平台安全，主动杜绝不实不当的言语，本着照顾自己、尊重他人、顾及环境的理念与平台、他人进行良好的互动。
+
+
+
+短信内容
+	1、注册验证：      user.php         template_id=29
+
+	2、密码修改：      user.php        template_id=39
+
+	1.2、活动购买后的短信提示  lib_order.php line->3079     goods.php line->213            mail_templates template_id=31
+
+		7、活动前三天短信提示  lib_order.php line->3079     goods.php line->213            mail_templates template_id=33  定时任务育]
+
+	2、课程购买：      lib_order.php   line->3133    mail_templates template_id=30
+
+	3、课程报读：   includes\lib_payment.php   line->333    mail_templates template_id=32
+
+		4、课程开课前三天提示：  includes\lib_payment.php   pmplate_id=34  定时任务
+
+	5、问与答采纳短信提示：  comment.php  line->132    mail_templates template_id=35
+
+
+	7、短信通知 给注册新会员的上级短信通知   user.php line->554    mail_templates template_id=38
+
+	8、短信通知 下级购买课程时,通知推荐会员 lib_order.php line->2902  mail_templates template_id=40
+
+	9、短信通知 下级报读课程时并支付时,通知推荐会员 lib_payment.php  template_id=41
+	    
+
+
+
+
+上完课程送6Q币的 （客户要改成手动的）
+	1、 includes\lib_payment.php  line->352 
+
+
+
+
+
+测试
+	E:\www\liudao\includes\modules\cron\2015-12-26.log
+	http://www.liudao.com/includes/modules/cron/back_integral.php
+
+
+
+
+
+表情
+	http://www.jq22.com/yanshi365
+	http://www.jq22.com/yanshi854
+	http://blog.163.com/zhi_qingfang@126/blog/static/11747756320132693434495/
+
+
+
+
+数据设置密码 cookie 
+	md5( 'klejrtewjfi3454543iufeu2121dfdf' ) = '288ea462a17dca769fd624c3a52bb836'
+	createCookie( 'admin_default','288ea462a17dca769fd624c3a52bb836',365 );
+
+家庭成员
+	爷爷  奶奶  父亲  母亲  小孩1  小孩2  小孩3
+
+文化程度
+	小学 初中 高中 大专 本科 硕士 博士 
+
+
+
+分帐号
+	liudao2@qq.com
+	  liudao_arti_2
+	  liudao45295ar
+
+	liudao3@qq.com
+	  liudao_arti_3
+	  liudao34794ar
+
+
+市级区号4位数，不足的在前面补加0，后面四位按顺序排列
+	长沙第一个：07310001
+	广州第一个：00200001
+
+
+1.	注册备注
+情况①，正常浏览网站，进行注册，客户手动输入推荐ID或者不输入
+情况②，推荐人分享带ID链接，进行注册，“推荐人ID”处锁定此ID，注册者不能修改
+情况③，使用cookies读取之前推荐ID
+
+
+优先顺序
+情况①，使用cookies读取之前推荐ID
+情况②，客户手动输入推荐ID
+情况③，没有 cookies 和 客户输入 ,用默认的id  
+
+
+2.	特殊课程，打包课程
+特定某些课程，例如购买1、2、3课程，赠送A课程。【备注，A课程有单价，可单独购买】
+购买后，在订单处，A课程是显示0元。4个课程用正常流程报读
+复训时，赠送的0元的A课程按照购买时的单价费用进行付费，比例由管理员定
+
+
+3.	特殊课程，成人+小孩的课程
+某课程，成人+小孩的费用比单成人的课程优惠，分开两个课程添加
+成人+小孩的课程购买后报读，按照正常报读流程，但是报读人员X2，资料也对应填写
+
+
+
+4.	夏令营6Q班报读流程
+①本课程含6个班，可分不同套餐购买，例如1课程/3课程/6课程，进行购买
+②购买后可由会员选择报读时间
+③选择时间后，在6个班里任意选择对应数量的课程。【例如，购买的是3课程的夏令营班，则可在夏令营6个班里面任意选择其中3个去报读。】
+④选择课程后，选择报读人员，填写此课程对应的表格，则报名成功
+⑤老师后台打印对应课程的报名人数表
+⑥会员前去上课
+⑦课程完结后，会员完成课程并评论
+
+
+5.	退款的期限
+退款截止日期为上完第一天课后一小时内，流程为书面向班主任申请；
+
+6.	会员——VIP会员——讲师——导师，之间的升级条件和限定
+有调整 
+
+
+if( $tutor_apply_list ){
+    $_SESSION['tutor_name']   = $tutor_apply_list['0']['name'];
+    $_SESSION['tutor_id']     = $tutor_apply_list['0']['a_id'];
+    $_SESSION['tutor_number'] = count($tutor_apply_list);
+}
+
+
+
+
+更新支付
+	接口
+		order_paid() 课程   调用了  create_my_class($order_id)
+		enrolling_paid() 更新报名
+	后台
+		update_order($order_id, $order, $update=false) 修改订单状态   调用了 create_my_class($order_id)
+
+
+
+会员等级 	获得条件					享受资格																			 注销途径
+会员	 	注册即可				可用积分查看文章、评论、问答、互动、推广绑定、上传文章									 主动注销、管理员注销
+高级会员 购买高EQ智慧父母精华班课程	享受每个课程单独的高级会员价格（有些课程不参与打折）、获得返点资格以及普通会员的所有资格 主动注销、退款冻结、管理员注销
+讲师	 购买高EQ导师课程			网站管理员开辟个人简介页面、享受每个课程单独的准导师价格、获得高级会员的所有资格		 主动注销、管理员注销
+导师	 网站管理员手动指定			拥有自主管理的个人栏目、享受每个课程单独的准导师价格、获得高级会员的所有资格			 主动注销、管理员注销
+	
+
+36 	高EQ智慧父母精华  ->
+61 	高EQ导师
+
+3	会员
+4	高级会员
+5	讲师
+6	导师
+
+
+
+"用户在沙龙的界面报名：点击报名--未登录--提示登录--登录后--如果需要6Q币则提示需要数量--6Q币不足跳转到如何增加6Q币的说明界面--足够支付则点击报名--提示框：恭喜您报名成功，主办方已为您预留座位，请准时参加，预祝我们满载而归！--后台记录报名信息--沙龙开始前一天个人中心提示准时参加--短信提示：尊敬的***，您预报名参加的**月**日的沙龙--流程结束--沙龙结束前10分钟自动关闭报名功能。
+ 短信提示可以在上传沙龙信息的时候决定是否要开启，如果能在此时自定义沙龙短信就最好了"		
+		
+				
+课程报名的流程：点击购买课程--支付费用--提示框：恭喜您购买成功，请点击我或课程购买界面的时间安排项内选择合适的开课时间--找到合适的课程时间后点击报读--提示框：请选择您家庭的成员--选择成员后--提示框：尊敬的学员，恭喜您报名成功！请在个人中心内查看相关讯息--一封站内信：包括欢迎词、开课时间地点、注意事项等等，每一个课程时间都要上传一次这样的内容，因为里面的内容都不一样的。--一个短信发到注册的手机号码上：尊敬的**，您于某天报读的某天某个课程已经成功，请您准时参加，相关课程信息请登录个人中心查收站内信--开课前三天再发一条短信提示开课--课程结束前1小时关闭报名功能，结束当期的课程。		
+		
+		
+		
+		
+		
+活动地图js
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=iNONPumodISGg3AzIwqi3Qe7"></script>
+    <script type="text/javascript">
+        $('input[name=apply]').val('');
+        (function(){
+            // 百度地图API功能;
+            var level,city,myGeo;
+            var map = new BMap.Map("allmap");
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+            map.enableKeyboard();//启用键盘上下左右键移动地图
+            level=15;
+            city='{$properties.8.value|truncate:5:"...":true}';
+            if(city === ''){
+                level=9;
+                city='广东';
+            }
+            myGeo = new BMap.Geocoder();// 将地址解析结果显示在地图上,并调整地图视野
+            myGeo.getPoint(city, function(point){
+                map.centerAndZoom(point,level);      // 用城市名设置地图中心点
+                // var marker = new BMap.Marker(point);// 创建标注
+                // map.addOverlay(marker);             // 将标注添加到地图中
+            }, "");
+        })();
+    </script>
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$list_arr=array(array('张永峰','13063589963','0571000001'),array('黄春岩','13307688809','0898000032'),array('梁艺娟','13326930001','0760000031'),array('邓建萍','13337525527','0898000057'),array('赵淑彦','13377799272','0769000044'),array('刘学军','13392224599','0757000073'),array('梁群','13392264819','0757000013'),array('毛晓瑜','13392296916','0757000033'),array('潘晓强','13398938631','0898000001'),array('蔡文舒','13416164847','0020000077'),array('黎润甜','13500033308','0020000005'),array('王玉芹','13535041046','0020000029'),array('李晓琴','13556690448','0769000068'),array('谢静文','13560132317','0020000099'),array('蒋春珠','13588481326','0571000077'),array('张鸿','13602605364','0755000038'),array('刘为周','13602877968','0020000002'),array('陈金凤','13631152685','0760000002'),array('朱黛','13642939888','0769000083'),array('顾汝群','13650236236','0769000009'),array('苏红玫','13652551506','0769000003'),array('吕赛凤','13660602889','0020000003'),array('邓小娟','13662838698','0769000100'),array('侯斌','13699749398','0020000023'),array('张玄','13702526578','0760000060'),array('夏碧玉','13702550096','0757000027'),array('区爱玲','13702901445','0757000028'),array('胡润琼','13702923770','0757000007'),array('李嵘','13702988505','0757000038'),array('刘杰华','13711818911','0769000007'),array('陈溢和','13790004187','0757000024'),array('刘中良','13802517276','0020000001'),array('张志嫦','13802648065','0757000065'),array('刘中阳','13802767968','0769000086'),array('韩春玉','13807577333','0898000088'),array('庞莲冰','13809228080','0757000023'),array('梁广强','13809852232','0757000020'),array('谢华','13822752526','0760000019'),array('李晓芳','13829209632','0769000088'),array('汤秋元','13873317881','0731000068'),array('罗志光','13876760268','0898000068'),array('邓小芳','13889941282','0757000009'),array('蔡开宇','13907550958','0898000069'),array('黄丽','13923136733','0757000018'),array('韦艳芬','13923151163','0757000063'),array('丘丽娟','13923239634','0757000039'),array('唐梅香','13923296315','0757000002'),array('刁晓芬','13925864585','0769000001'),array('繆燕辉','13926200787','0020000087'),array('胡季鑫','13926230519','0020000016'),array('余哲','13927734505','0757000008'),array('雷志敏','13928132978','0760000069'),array('黄小瑜','13928287610','0757000099'),array('赖尚达','13928590086','0757000022'),array('苏小毅','13928622122','0757000010'),array('黄凤娴','13928786828','0757000036'),array('李昕霏','13929716008','0668000068'),array('吴晓芬','13929901506','0757000014'),array('杜钰宁','13929953006','0757000082'),array('麦倩仪','13929996260','0757000012'),array('苏裕婷','13929997786','0757000021'),array('马鲁豫','13976089326','0898000016'),array('黎辉','13976656958','0898000007'),array('高玉洁','13976897120','0898000008'),array('孙爱军','13976898801','0898000009'),array('胡姗姗','15013058173','0020000007'),array('吕佑臣','15502119290','0898000080'),array('姜玲玲','15602256913','0020000018'),array('刘佳','15622766913','0020000088'),array('汪琴','15876502749','0755000001'),array('张延红','15889961257','0020000012'),array('郭春蓉','15918783686','0020000068'),array('何文捷','15918819208','0512000009'),array('陈国炬','15975778500','0757000016'),array('黄碧宏','18028188113','0757000026'),array('钱欣','18062576229','0027000069'),array('邓英武','18676588300','0757000003'),array('苏志连','18688803673','0757000098'),array('叶燕','18688856081','0020000021'),array('张慧娟','18825372663','0760000007'),array('罗洁','18825396836','0760000099'),array('吴淑娥','18876168063','0898000051'),array('欧阳辉秀','18902818620','0757000088'),array('梁婉欣','18924538099','0757000001'),array('匡海燕','18925421819','0769000063'),array('张永红','18929983328','0757000068'),array('安风涛','18938712101','0760000001'),array('梁宝如','18666531177','0757000011'));
+$error=array();
+foreach($list_arr as $v){
+    $data=array();
+    $sql='SELECT user_id,real_name,mobile_phone,area_code,area_co,area_id,office_phone FROM '.$ecs->table('users').' WHERE mobile_phone=\''.$v['1'].'\'';
+
+    $user_info=$db->getRow($sql);
+    if($user_info){
+        // if($user_info['office_phone'] == '9999'){
+        //     $error[]=array('error'=>'已是指定ID了!','sql'=>$sql,'content'=>$v);
+        //     continue;
+        // }
+        if($user_info['area_code'] == $v['2']){
+            // $error[]=array('error'=>'没有变化不用修改!','sql'=>$sql,'content'=>$v);
+            continue;
+        }
+             
+        $sql='SELECT count(*) FROM '.$ecs->table('users').' WHERE office_phone=9999 AND area_code=\''.$v['2'].'\' AND user_id !='.$user_info['user_id'];
+        if($db->getOne($sql)){
+            $error[]=array('error'=>'已存在推荐ID!','sql'=>$sql,'content'=>$v);
+            continue;
+        }else{
+
+                if($v['2']['5'] == 0){
+                    $area_co= '0'.(substr($v['2'],0,4)+0);
+                    $area_id= substr($v['2'],4)+0;
+                }else{
+                    $area_co= '00'.(substr($v['2'],0,5)+0);
+                    $area_id= substr($v['2'],5)+0;
+                }
+
+                $sql='UPDATE '.$ecs->table('users').' SET office_phone=\'9999\',area_code=\''.$v['2'].
+                '\',area_id=\''.$area_id.'\',area_co=\''.$area_co.'\' WHERE user_id='.$user_info['user_id'].' LIMIT 1';
+
+                var_dump( $sql );
+                // $db->query( $sql );
+                // if(!$db->affected_rows()){
+                //     $error[]=array('error'=>'修改不成功!','sql'=>$sql,'content'=>$v);
+                //     continue;
+                // }
+        }
+    }else{
+        // $error[]=array('error'=>'查无该手机!','content'=>$v);
+        continue;
+    }
+}
+
+var_dump( $error );
+die();
+
+
+
+
+
+
+
+
+$error=array();
+$sql='SELECT province,city,district,address_str,user_id FROM '.$ecs->table('users').' WHERE address_str !=\'\'';
+$res=$db->query($sql);
+while($row=$db->fetchRow($res)){
+    $address_str=get_consignee_address($row['province'],$row['city'],$row['district'],'-');
+    $sql='UPDATE '.$ecs->table('users').' SET address_str=\''.$address_str.'\' WHERE user_id='.$row['user_id'];
+    $db->query($sql);
+    if(!$db->affected_rows()){
+        $error[]=array('error'=>'修改不成功','sql'=>$sql);
+        continue;
+    };
+}
+var_dump( $error );
+die();
+     
+
+
+
+
+
+
+
+
+
+
+
+
+# select user_id,area_code,area_co,area_id from shop_users where mobile_phone='13711597056'
+# select * from shop_users where mobile_phone='13711597056'
+# select * from shop_apply where u_id=1637
+# update shop_users set user_name='蒋淑姜' where user_id=1637 limit 1
+# update shop_apply set nickname='蒋淑姜',user_name='蒋淑姜' where a_id=1636

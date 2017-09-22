@@ -1,0 +1,332 @@
+http://www.wzwmarket.com/yfsc2016
+admin
+yfsc2016
+
+新ftp
+FTP：
+wzwmarketFTP
+yingfeng#888
+14.29.113.4
+
+14.29.113.4/phpMyAdmin
+wzwmarket
+yIvKXryxUchm8kRy
+
+user_rank  9为商家会员
+
+
+
+**********************************************************************************************
+
+翼支付接口，获取订单信息跟回调地址
+
+**********************************************************************************************
+接口说明： 翼支付接口，获取订单信息跟回调地址
+接口地址： bestpay.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'order_sn'=>'',//订单号
+
+返回类型: json
+    
+返回内容: 
+{
+	"data": {
+		"body": "订单号：2017080465392", 
+		"notify_url": "http://www.wzwmarket.com/bestpay/notify.php", 
+		"out_trade_no": "2017080465392", 
+		"total_fee": 1
+	}, 
+	"message": "", 
+	"status": 200
+}
+
+**********************************************************************************************
+
+原注册/登陆接口
+多返回了 user_rank 字段， 9为商家会员
+
+**********************************************************************************************
+接口说明： 账户余额
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'account_manage',
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "amount": "980.00"
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 账户明细
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'account_detail',
+          'page'=>'1',  // 页数,默认不传
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "account_list": [
+	      {
+	        "amount": "4228.00", 
+	        "change_desc": "订单退款：2013111168153", 
+	        "change_time": "2013-11-10"
+	      }, 
+	      {
+	        "amount": "-3248.00", 
+	        "change_desc": "支付订单 2013090614262", 
+	        "change_time": "2013-09-05"
+	      }
+	    ], 
+	    "pager": {
+	      "page": 1, 
+	      "page_count": 1, 
+	      "page_first": "", 
+	      "page_kbd": false, 
+	      "page_last": "", 
+	      "page_next": "", 
+	      "page_number": {
+	        "1": "user.php?act=account_detail&page=1"
+	      }, 
+	      "page_prev": "", 
+	      "record_count": 2, 
+	      "search": {
+	        "act": "account_detail"
+	      }, 
+	      "size": 10, 
+	      "start": 0, 
+	      "styleid": 1, 
+	      "url": "user.php"
+	    }
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 我要提现
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'act_account',
+	      'amount'=>'1',// 金额
+	      'real_name'=>'aa', // 收款人姓名
+	      'card_name'=>'bb', // 收款银行名称
+	      'card_no'=>'cc', // 收款银行卡号
+	      'user_note'=>'xxx', // 备注
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {}, 
+	  "message": "您的提现申请已成功提交，请等待管理员的审核！", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 提现明细
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'account_log',
+	      'page'=>'1', // 页数,默认不传
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "account_log": [
+	      {
+	        "add_time": "2017-05-22", 
+	        "admin_note": "", 
+	        "amount": "￥1.00", 
+	        "pay_status": "未确认"
+	      }, 
+	      {
+	        "add_time": "2017-05-22", 
+	        "admin_note": "", 
+	        "amount": "￥1.00", 
+	        "pay_status": "未确认"
+	      }, 
+	      {
+	        "add_time": "2017-05-18", 
+	        "admin_note": "", 
+	        "amount": "￥1.00", 
+	        "pay_status": "未确认"
+	      }
+	    ], 
+	    "pager": {
+	      "page": 1, 
+	      "page_count": 1, 
+	      "page_first": "", 
+	      "page_kbd": false, 
+	      "page_last": "", 
+	      "page_next": "", 
+	      "page_number": {
+	        "1": "user.php?act=account_log&page=1"
+	      }, 
+	      "page_prev": "", 
+	      "record_count": 3, 
+	      "search": {
+	        "act": "account_log"
+	      }, 
+	      "size": 10, 
+	      "start": 0, 
+	      "styleid": 1, 
+	      "url": "user.php"
+	    }
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 我的二维码
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'qrcode',
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "qrcode_url": "data/images/qrcode_6741.png"
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 我的下级会员
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'level_user',
+          'page'=>'1', //页数,默认不传
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "qrcode_url": "data/images/qrcode_6741.png"
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 我的下级会员
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'level_user',
+          'page'=>'1', //页数,默认不传
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "pager": {
+	      "page": 1, 
+	      "page_count": 1, 
+	      "page_first": "", 
+	      "page_kbd": false, 
+	      "page_last": "", 
+	      "page_next": "", 
+	      "page_number": {
+	        "1": "user.php?act=level_user&page=1"
+	      }, 
+	      "page_prev": "", 
+	      "record_count": 1, 
+	      "search": {
+	        "act": "level_user"
+	      }, 
+	      "size": 10, 
+	      "start": 0, 
+	      "styleid": 1, 
+	      "url": "user.php"
+	    }, 
+	    "user_list": [
+	      {
+	        "head": "themes/default/images/member_myinfo_logo_ico.png", 
+	        "level_user_id": "6740", 
+	        "user_name": "13925515244"
+	      }
+	    ]
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 下级会员订单
+接口地址： user.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'level_order',
+    	  'level_user_id'=>'6740', //下级user_id
+          'page'=>'1', //页数,默认不传
+
+返回类型: json
+    
+返回内容: 
+	{
+	  "data": {
+	    "order_list": [
+	      {
+	        "add_time": "2017-05-16", 
+	        "brokerage": "20.90", 
+	        "order_sn": "2017051666116"
+	      }
+	    ], 
+	    "pager": {
+	      "page": 1, 
+	      "page_count": 1, 
+	      "page_first": "", 
+	      "page_kbd": false, 
+	      "page_last": "", 
+	      "page_next": "", 
+	      "page_number": {
+	        "1": "user.php?act=level_order&page=1"
+	      }, 
+	      "page_prev": "", 
+	      "record_count": 1, 
+	      "search": {
+	        "act": "level_order"
+	      }, 
+	      "size": 10, 
+	      "start": 0, 
+	      "styleid": 1, 
+	      "url": "user.php"
+	    }
+	  }, 
+	  "message": "", 
+	  "status": 200
+	}
+
+**********************************************************************************************
+接口说明： 站内信全部删除
+接口地址： msg.php?user_id=$user_id&token=$token
+请求方式： post
+请求参数：
+          'act'=>'delall',
+
+返回类型: json
+    

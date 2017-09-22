@@ -1,0 +1,1043 @@
+月报表，\\192.168.11.113\工作月报表\2017-07
+陈芳芳,冯璋裕,吴雁龙,张志永,岑志洪,周文军,何伟钊
+http://192.168.0.53/dashboard/activity
+\\192.168.0.8\Share\技术部\任务分配\PHP技术任务分配表.xlsx
+\\192.168.0.8\Share\技术部\任务分配
+http://192.168.0.51:8090/pages/viewpage.action?pageId=9994289
+http://192.168.0.51:8090/pages/viewpage.action?pageId=8749076
+
+最新B2C商城演示网址:http://b2c.qdshop.com/   测试帐号：hunuo    123456
+
+hunuokeji
+hunuo.com
+
+Hunuo99
+
+入职
+http://192.168.0.51:8090/pages/viewpage.action?pageId=622979
+shixi
+123456
+
+百煜新
+http://baiyuxin.gz7.hostadm.net/admin
+admin
+hunuo888
+
+
+刘云
+后台参考：（账号：sa   密码：sa）http://webapps3.getharddrive.com/Modules/GoHardDriveMenu/Apply/Login.aspx
+http://liuyun.hk2.hostadm.net/system.php
+FTP地址：202.58.104.92
+FTP用户名：liuyun
+FTP密码：1C01719C07ee88
+
+
+
+深圳市磊科实业有限公司--加功能
+http://www.netis-systems.com
+http://www.netis-systems.com/system.php/
+用户名： hunuo
+密码： hunuo.com
+用户名： netis2016
+密码： Netcoreabc123
+
+ftp:
+103.206.22.133
+LeikeItalian
+Leike888Italian
+
+数据库名
+http://103.206.22.133:81
+103.206.22.133:3306
+italian
+用户italian
+密码waqfsUEJKfBpzr9r
+
+
+张静芬
+原型图：
+雇主端原型图：http://show.hunuo.com/jiahui/yyjzapp
+佣工端原型图：http://show.hunuo.com/jiahui/yyjzygdapp
+设计图：
+http://design.hunuo.com/Iatest/zhangjingfen_a9940.html
+
+
+广州市伟彬纸业有限公司
+FTP登陆用户名是： weibin 
+FTP密码是： C6FC48BD95299d 
+您的网址为： http://weibin.gz12.hostadm.net  
+用户的FTP地址是：183.60.177.113
+
+
+more
+show.hunuo.com/edon/more2
+门店员工 ，办公室员工（总部、分公司） 
+通过接口导出包含的字段信息如下：
+工号、姓名、部门（关联门店）、职位、在职状态、密码（身份证后6位）
+接口通过Json方 式
+http://erp3.moco-paris.com:8181/erp/app/odJson/proc.action?do=getStoreInfo&procOutCursorCount=1
+
+http://show.hunuo.com/edon/more2/setting/
+今天整了一下后台添加角色时，需要设置的内容
+http://show.hunuo.com/edon/more2/setting/
+昨天的后台新用户建立有小小调整
+
+
+http://more.mo-co.com/admin/login.html
+后台管理者帐号： edonedon    密码： edonedon
+管理端账号： edon    密码：edonedon
+
+后台管理者帐号
+edonedon
+dacheng97
+管理端  edon 密码:edonedon   门店端 r000m000 密码:123456
+　　　 FTP登陆用户名是： moco 
+　　　 FTP密码是： A82EEEDFBD4384 
+　　　 您的网址为： http://moco.sz2.hostadm.net  
+　　　 用户的FTP地址是：114.119.5.227 
+
+
+
+
+
+
+
+
+广西南宁市深思文化传播有限公司 汽车
+http://www.gx-car.com/
+http://www.gx-car.com/admina.php
+admin
+hunuo888
+FTP地址：
+139.224.32.162
+FTP名：
+gxcar
+FTP密码：
+e6e6K2E3
+
+$dbuser = 'root';
+$dbpw = 'm5Q4c4c7';
+
+
+
+
+易度
+show.hunuo.com/zhiyong/ydscapp/
+原型图http://show.hunuo.com/zhiyong/ydscwap/
+商城模板http://phpmall.gz6.hostadm.net/mobile/
+
+
+深圳市九游网络科技有限公司
+jiuyou.gz12.hostadm.net
+www.jiuyou99.com
+jiuyou
+17314742DFa8f2
+连接FTP 183.60.177.113
+
+
+窝家APP
+http://show.hunuo.com/jiahui/wjapp/
+http://show.hunuo.com/jiahui/wjpsgdapp/
+原型图
+http://show.hunuo.com/qing/wj/wjpsgappdemo/
+http://show.hunuo.com/qing/wj/wjappdemo/
+配图
+AppSecret:28634251d8a2e86c051e5e73519a9b5d微博
+窝家分身术
+info@wogar.cn
+18122902172
+aB123456.
+
+http://wojia2.gz11.hostadm.net/admin
+hunuokeji
+hunuo.com
+
+微信开放平台
+win@wogar.cn
+aA123456.
+
+QQ：
+1229822232
+aA123456.
+
+苹果开发者
+info@wogar.cn
+Gd07XkeG
+
+短信平台：
+聚合数据
+wogar_cn
+aB123456.
+
+
+逸之璟 珠宝
+七牛云 yzjfeicui@163.com  ceshimima
+文档地址: https://developer.qiniu.com/kodo/manual/1208/upload-token
+二期
+show.hunuo.com/zhiyong/yzjapp
+
+创绿时空
+http://show.hunuo.com/zhiyong/clskwap/#g=1&p=修订记录
+原型图
+http://html.hunuo.com/2017/06/h/cl/test.html
+拆版
+
+广州华诺威生物科技有限公司--手机版
+http://show.hunuo.com/qing/yfwap/#g=1&p=1%E9%A6%96%E9%A1%B5
+
+聚融
+http://jurongkeji.gz7.hostadm.net/mobile
+123.57.251.187
+主机用户名： administrator
+主机密码： szgrADMIN33358720
+
+https://www.geron-e.com/admin
+admin
+jr123456
+101.200.230.238
+账号root 密码新：2017@szgr
+
+御玖轩APP
+http://show.hunuo.com/qing/yjxapp/#g=1&p=%E4%BF%AE%E8%AE%A2%E8%AE%B0%E5%BD%95
+
+
+
+\\192.168.0.8\Share\技术部\任务分配
+
+
+测试账号
+支付宝帐号： pay@hunuo.com
+合作者身份（PID）： 2088801568582573
+安全校验码（Key）：(仅需选择一种与PID匹配使用)
+默认加密方式： mhzi9syehiei20evjum1nbshsbr2qdbg
+
+微信：公众号Appid、公众号Appsecret、商户号、API密钥、API证书
+微信支付商户号:10057690
+商户平台登录帐号:10057690@10057690
+申请微信支付公众号:互诺科技（hunuokeji）
+APPID:wx209a81d435e8c121
+key:wx209a81d435e8c1wx209a81d435e8c1
+
+
+
+
+
+单店shop1
+FTP登陆用户名是： shop1 
+    FTP密码是： 5A1216D8C4c82d 
+    您的网址为： http://shop1.gz11.hostadm.net  
+    用户的FTP地址是：183.61.109.99 
+
+数据库用户名： 　shop1 
+    数据库地址：http://phpmyadmin.gz11.hostadm.net/
+    数据库密码： 　shop15566 
+    数据库名称： 　shop1 
+    数据库所在IP： 　183.61.109.99 
+    所用的连接端口： 　3306
+
+谁有rtx的服务器账号密码去重启下http://183.233.81.90:7880
+ftp://183.233.81.90 端口 21 用户 u90874 密码 ： yoohaPh4
+ssh u90874@183.233.81.90 端口 7822  密码： yoohaPh4
+root 密码 ： yoohaPh4
+数据库密码 root ，11
+
+
+
+天机web端账号是您手机号（ 13432051972 ），若是密码丢失了，请使用忘记密码功能。
+
+可以登录http://tianji.rong360.com/login  使用web端产品。
+
+ 【融360】您好，融360风控系统密码已设置为:48c408@Rong360，请您及时登录修改密码
+
+
+又康
+http://www.sxdo2o.com/admin
+admin
+admin123
+youkang.gz7.hostadm.net 
+youkang2
+546556328Fc924
+连接FTP 219.136.248.79
+
+数据库:    youkang2_db
+主机名:    localhost
+数据库帐户:youkang2_db
+密码:kOV61@w2
+
+
+考试系统前台怎么登录不了？
+学生用户名：student    
+学生密码：xuesheng
+http://kaohe.gz12.hostadm.net/
+http://kaohe.gz12.hostadm.net/index.php?core-master  后台
+学生用户名： student    
+学生密码： xuesheng
+教师用户名： teacher    
+教师密码： laoshi
+后台默认管理员用户名： admin
+后台默认管理员密码： 111111
+把相关的标准出些题目，给新入职同事做一些考核，试题要求部门规章制度+岗位相关的。
+
+
+
+
+
+演示网址（保密-内部文件）
+产品名 开发语言    版本号 前台网址    后台网址    后台演示账号、密码   前台演示账号密码    商家登录后台网址    商家账号密码
+企业站展示站  PHP 3.1 http://qiyeadmin.gz10.hunuo.net/    http://qiyeadmin.gz10.hunuo.net/system.php  hunuokeji   hunuo.com            
+微商城展示站  PHP 2.0 http://h5.hostadm.net/wxshop    http://h5.hostadm.net/wxshop/admin  hunuokeji   hunuo.com            
+互诺科技企业网站后台  .NET    4.0 http://web40.dg2.hostadm.net/   http://web40.dg2.hostadm.net/ad8888/login.aspx  hunuokeji hunuo.com 　   　   　
+B2C
+小京东单店（模版一）  PHP 3.0 http://shop1.gz11.hostadm.net/  http://shop1.gz11.hostadm.net/admin admin hunuo888  hunuo2
+123456       
+小京东单店（模版二）  PHP 3.0 http://hunuoshop.dg2.hostadm.net    http://hunuoshop.dg2.hostadm.net/admin  admin hunuo888  hunuo3
+123456       
+ 小京东单店（模板三）  PHP     3.0     http://shop2.dg2.hostadm.net    http://shop2.dg2.hostadm.net/admin  admin  hunuo888             
+小京东单店（模版四）  PHP 3.0 http://hunuoshop2.dg2.hostadm.net   http://hunuoshop2.dg2.hostadm.net/admin admin hunuo888  
+
+hunuo   123456
+         
+ 小京东单店（模版五）  PHP     3.0     http://shop3.dg2.hostadm.net/   http://shop3.dg2.hostadm.net/admin  admin hunuo888 hunuo 123456         
+小京东单店分销（模版六）    php 3.0 http://shopfx.gz7.hostadm.net/  http://shopfx.gz7.hostadm.net/admin admin hunuo888  hunuo2 123456        
+一元云购    PHP 3.0 
+
+pc：http://1yuangou.gz11.hostadm.net
+wap：ttp://1yuangou.gz11.hostadm.net
+
+/?/mobile/mobile
+    http://1yuangou.gz11.hostadm.net/?/admin    admin admin999  　        
+外贸商城
+waimao  PHP 3.0 http://waimao.gz7.hostadm.net/  http://waimao.gz7.hostadm.net/admin admin hunuo888  hunuo 123456         
+B2B2C
+小京东多店   PHP 3.0 http://phpmall.gz6.hostadm.net  http://phpmall.gz6.hostadm.net/admin/   admin admin123  hunuo2 123456   http://phpmall.gz6.hostadm.net/supplier hunuo 123456
+            手机版后台   http://phpmall.gz6.hostadm.net/mobile/admin/    admin admin123           
+德富（塑料网） .NET    2.0 http://defu.gz5.hostadm.net http://defu.gz5.hostadm.net/admin_min/login.aspx    hunuokeji hunuo.com test02 123456   http://defu.gz5.hostadm.net/login.aspx  test 123456
+其他
+OA系统演示  .NET    2.0 http://oa.sz.hostadm.net    http://oa.sz.hostadm.net    admin admin1    　   　   　
+团购网 .NET    2.0 http://yfshenghuo.ah.hostadm.net    
+
+http://yfshenghuo.ah.hostadm.net/
+
+WebPage/index_index.aspx
+    hunuo@hunuo.com 123456  hunuo@hunuo.com 123456  
+
+http://yfshenghuo.ah.hostadm.net/
+
+WebPage/index_index.aspx
+    hunuo@hunuo.com
+123456
+人才网（弃用） PHP 2.0 http://rencai.gz5.hostadm.net/  http://rencai.gz5.hostadm.net/admin/    hunuokeji   hunuo.com   　   　   　
+人才网 PHP 4.1.15  http://zhaopin.gz7.hostadm.net/ http://zhaopin.gz7.hostadm.net/admin    admin     admin test123   123456         
+B2B PHP 6.0 http://b2b.gz5.hostadm.net/ http://b2b.gz5.hostadm.net/admin    
+
+admin       123456
+             
+考试系统    PHP 3.1 
+
+http://kaoshi.gz7.hostadm.net/
+    
+
+http://kaoshi.gz7.hostadm.net/index.php?core-master-login
+
+ 注意，验证码区分大小写
+    
+
+admin  hunuo123456
+    
+
+学生用户名：student    
+
+学生密码：hunuo123
+    
+
+教师用户名：teacher    
+
+教师密码：hunuo123
+     
+考试系统    PHP 4.0 http://kaoshi2.gz7.hostadm.net/ 
+
+后台都是前端登录
+    
+
+admin  hunuo123456
+
+ 
+学生:ceshi      hunuo123456
+
+ 
+    教师用户：teacher  密码：hunuo123456     
+分销平台    PHP 2.0 http://fenxiao.gz12.hostadm.net http://fenxiao.gz12.hostadm.net/web/index.php?c=user&a=login    
+
+admin admin123
+
+
+
+http://www.mpetmall.com/
+FTP用户名： mengpai2
+FTP密码：  hxwsejh2   
+上传地址：   mengpai2.dot.vip
+
+
+
+
+
+
+
+
+
+首页
+语音下单
+代排
+代办
+帮送
+帮买
+订单
+排行榜
+活动专区
+短信服务
+商品分类
+文章资讯
+食品中心
+个人中心
+配送工中心
+积分兑换
+买菜结算
+
+首页     
+配送工端
+
+活动专区
+短信服务
+商品分类
+文章资讯
+食品中心
+个人中心
+配送工中心
+积分兑换
+买菜结算
+
+
+短信申请地址https://luosimao.com/
+
+
+
+Apache 2.2及以上、php 5.2及以上、MySQL 5.5及以上
+linux+nginx+mysql+php
+分辨率一般都是1024*768,1280*1024,1366*1024,1920*1280几种
+
+
+1 E_ERROR 致命的运行错误。错误无法恢复，暂停执行脚本。
+2 E_WARNING 运行时警告(非致命性错误)。非致命的运行错误，脚本执行不会停止。
+4 E_PARSE 编译时解析错误。解析错误只由分析器产生。
+8 E_NOTICE 运行时提醒(这些经常是你代码中的bug引起的，也可能是有意的行为造成的。)
+16 E_CORE_ERROR PHP启动时初始化过程中的致命错误。
+32 E_CORE_WARNING PHP启动时初始化过程中的警告(非致命性错)。
+64 E_COMPILE_ERROR 编译时致命性错。这就像由Zend脚本引擎生成了一个E_ERROR。
+128 E_COMPILE_WARNING 编译时警告(非致命性错)。这就像由Zend脚本引擎生成了一个E_WARNING警告。
+256 E_USER_ERROR 用户自定义的错误消息。这就像由使用PHP函数trigger_error（程序员设置E_ERROR）
+512 E_USER_WARNING 用户自定义的警告消息。这就像由使用PHP函数trigger_error（程序员设定的一个E_WARNING警告）
+1024 E_USER_NOTICE 用户自定义的提醒消息。这就像一个由使用PHP函数trigger_error（程序员一个E_NOTICE集）
+2048 E_STRICT 编码标准化警告。允许PHP建议如何修改代码以确保最佳的互操作性向前兼容性。
+4096 E_RECOVERABLE_ERROR 开捕致命错误。这就像一个E_ERROR，但可以通过用户定义的处理捕获（又见set_error_handler（））
+8191 E_ALL 所有的错误和警告(不包括 E_STRICT) (E_STRICT will be part of E_ALL as of PHP 6.0)
+
+验收标准
+http://192.168.0.51:8090/pages/viewpage.action?pageId=622979
+
+微信开放者平台账号
+第三方
+xijiawxdl@163.com
+xijia888
+
+
+提供资料
+支付宝帐户
+交易安全校验码
+合作者身份ID
+接口类型 
+
+微信支付商户号
+商户密钥
+公众号APPID
+公众号AppSecret
+
+
+二维码
+http://qr.liantu.com/api.php?text=http://www.baidu.com&w=150
+
+股票行情插件 http://summary.jrj.com.cn/co/
+在线制作ICO文件 http://ico.55.la
+网站图片在线压缩，缩小容量 https://tinypng.com/
+
+
+
+ecshop
+define('DEBUG_MODE', 3);
+
+添加基本配置信息
+INSERT hunuo_shop_config (parent_id,`code`,type,`value`) VALUES (2,'fuwubili','text','0.1')
+\languages\zh_cn\admin\shop_config.php
+$_LANG['cfg_name']['fuwubili'] = '接包者保证金，赏金的百分比';
+$GLOBALS['_CFG']['fuwubili']
+
+transport解决效果冲突
+<script type="text/javascript">
+$(function() {
+window.__Object_toJSONString = Object.prototype.toJSONString;
+delete Object.prototype.toJSONString;
+});
+</script>
+
+
+ecshop
+订单状态    未确认         取消   确认         已付款     配货中     已发货    已收货      退货
+order_status    0           2       1           1           1         5           5          4
+shipping_status 0           0       0           0           3         1           2          0
+pay_status      0           0       0           2           2         2           2          0
+
+
+
+
+生成支付单，一键支付
+1,\includes\inc_constant.php define('PAY_SUPPLIER',               3); // 商家升级
+2,\includes\lib_payment.php  order_paid()函数中
+            elseif ($pay_log['order_type'] == PAY_SUPPLIER) //商家升级
+            {
+                $sql = 'SELECT `id`,`user_id`,`is_paid` FROM ' . $GLOBALS['ecs']->table('user_account') .  " WHERE `id` = '$pay_log[order_id]'  LIMIT 1";
+                $res_info=$GLOBALS['db']->getRow($sql);
+                if($res_info&&($res_info['is_paid']==0))
+                {
+                    /* 更新会员付款状态 */
+                    $sql = 'UPDATE ' . $GLOBALS['ecs']->table('user_account') .
+                           " SET paid_time = '" .gmtime(). "', is_paid = 1" .
+                           " WHERE id = '$pay_log[order_id]' LIMIT 1";
+                    $GLOBALS['db']->query($sql);
+                    
+                    // 是否有上级
+                    $sql = 'SELECT `parent_id` FROM ' . $GLOBALS['ecs']->table('users') .  " WHERE `user_id` = '$res_info[user_id]' LIMIT 1";
+                    $parent_id=$GLOBALS['db']->getOne($sql);
+                    if($parent_id>0)
+                    {
+                        $sql = "SELECT user_rank FROM " . $GLOBALS['ecs']->table('users') . " WHERE user_id = '".$parent_id."'";
+                        $p_rank = $GLOBALS['db']->getOne($sql);
+                        // 若大于1 是推广商以上，则可以获得现金88
+                        if ($p_rank > 1){
+                            log_account_change($parent_id, 88, '', '', '', '推荐推广商奖励');
+                        }else{
+                            //上级是普通消费者，获得优惠券
+                            $sql = "INSERT INTO " . $GLOBALS['ecs']->table('user_bonus') . "(bonus_type_id, bonus_sn, user_id, used_time, order_id, emailed)" . " VALUES('39', 0, '" . $parent_id . "', 0, 0, 0)";
+                            $GLOBALS['db']->query($sql);
+                            // 取消与他的关系
+                            $GLOBALS['db']->autoExecute($GLOBALS['ecs']->table('users'), array('parent_id'=>0), 'UPDATE', "user_id = '" . $res_info['user_id'] . "'");
+                        }
+                    }
+                    // 更新会员等级为推广商
+                    $GLOBALS['db']->autoExecute($GLOBALS['ecs']->table('users'), array('user_rank'=>5), 'UPDATE', "user_id = '" . $res_info['user_id'] . "'");
+                }
+            }
+
+
+$userid = $_SESSION['user_id'];
+if($_SESSION['user_rank']==5) //推广商成为商家只需588-288=300
+    $amount=300;
+else
+    $amount=588;
+$surplus=array(
+    'user_id' => $userid,
+    'process_type' => 3, // 商家升级
+    'user_note' => '商家升级',
+    'amount' => $amount,
+    'payment_id' => 7//微信
+);
+$account_info=$db->getRow('select id,is_paid from '.$ecs->table('user_account')." where user_id='".$userid."' and process_type='".$surplus['process_type']."'");
+if($account_info){
+    if($account_info['is_paid'])
+        show_message('您已支付过，无需再申请', '返回', 'user.php', 'wrong');
+    $surplus['rec_id'] = $account_info['id'];
+}else{
+    // 插入会员账目明细
+    $surplus['rec_id'] = insert_user_account($surplus, $amount);
+}
+// 获取支付方式名称
+$payment_info = array();
+$payment_info = payment_info($surplus['payment_id']);
+$surplus['payment'] = $payment_info['pay_name'];
+
+// 取得支付信息，生成支付代码
+$payment = unserialize_config($payment_info['pay_config']);
+
+// 生成伪订单号, 不足的时候补0
+$order = array();
+$order['order_sn'] = $surplus['rec_id'];
+$order['user_name'] = $_SESSION['user_name'];
+$order['surplus_amount'] = $amount;
+$order['order_id']  = $surplus['rec_id'].'-'.$amount;
+// 计算支付手续费用
+$payment_info['pay_fee'] = pay_fee($surplus['payment_id'], $order['surplus_amount'], 0);
+
+// 计算此次预付款需要支付的总金额
+$order['order_amount'] = $amount + $payment_info['pay_fee'];
+// 记录支付log
+if($account_info){
+    $order['log_id'] =$db->getOne('select log_id from '.$ecs->table('pay_log')." where order_id='".$surplus['rec_id']."' and order_amount='$amount' and order_type='".PAY_SUPPLIER."'");                 
+    if(!$order['log_id']){
+        show_message('没有记录支付log', '返回', 'user.php', 'wrong');
+    }
+}
+else{
+    $order['log_id'] = insert_pay_log($surplus['rec_id'], $amount, $type = PAY_SUPPLIER, 0);
+}
+
+
+
+图层
+.contain-mark{background:#000;opacity:0.3;display:none;position:fixed;width:100%;height:100%;z-index:9; }
+<div class="contain-mark"></div>
+$('.contain-mark').show();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALTER TABLE `chuanghao_access` RENAME `shangsheng_access`;
+ALTER TABLE `chuanghao_area` RENAME `shangsheng_area`;
+ALTER TABLE `chuanghao_article` RENAME `shangsheng_article`;
+ALTER TABLE `chuanghao_attachment` RENAME `shangsheng_attachment`;
+ALTER TABLE `chuanghao_block` RENAME `shangsheng_block`;
+ALTER TABLE `chuanghao_cart` RENAME `shangsheng_cart`;
+ALTER TABLE `chuanghao_category` RENAME `shangsheng_category`;
+ALTER TABLE `chuanghao_config` RENAME `shangsheng_config`;
+ALTER TABLE `chuanghao_dbsource` RENAME `shangsheng_dbsource`;
+ALTER TABLE `chuanghao_download` RENAME `shangsheng_download`;
+ALTER TABLE `chuanghao_feedback` RENAME `shangsheng_feedback`;
+ALTER TABLE `chuanghao_field` RENAME `shangsheng_field`;
+ALTER TABLE `chuanghao_guestbook` RENAME `shangsheng_guestbook`;
+ALTER TABLE `chuanghao_kefu` RENAME `shangsheng_kefu`;
+ALTER TABLE `chuanghao_lang` RENAME `shangsheng_lang`;
+ALTER TABLE `chuanghao_link` RENAME `shangsheng_link`;
+ALTER TABLE `chuanghao_log` RENAME `shangsheng_log`;
+ALTER TABLE `chuanghao_menu` RENAME `shangsheng_menu`;
+ALTER TABLE `chuanghao_module` RENAME `shangsheng_module`;
+ALTER TABLE `chuanghao_node` RENAME `shangsheng_node`;
+ALTER TABLE `chuanghao_online` RENAME `shangsheng_online`;
+ALTER TABLE `chuanghao_order` RENAME `shangsheng_order`;
+ALTER TABLE `chuanghao_order_data` RENAME `shangsheng_order_data`;
+ALTER TABLE `chuanghao_page` RENAME `shangsheng_page`;
+ALTER TABLE `chuanghao_payment` RENAME `shangsheng_payment`;
+ALTER TABLE `chuanghao_picture` RENAME `shangsheng_picture`;
+ALTER TABLE `chuanghao_posid` RENAME `shangsheng_posid`;
+ALTER TABLE `chuanghao_product` RENAME `shangsheng_product`;
+ALTER TABLE `chuanghao_role` RENAME `shangsheng_role`;
+ALTER TABLE `chuanghao_role_user` RENAME `shangsheng_role_user`;
+ALTER TABLE `chuanghao_shipping` RENAME `shangsheng_shipping`;
+ALTER TABLE `chuanghao_slide` RENAME `shangsheng_slide`;
+ALTER TABLE `chuanghao_slide_data` RENAME `shangsheng_slide_data`;
+ALTER TABLE `chuanghao_tags` RENAME `shangsheng_tags`;
+ALTER TABLE `chuanghao_tags_data` RENAME `shangsheng_tags_data`;
+ALTER TABLE `chuanghao_type` RENAME `shangsheng_type`;
+ALTER TABLE `chuanghao_urlrule` RENAME `shangsheng_urlrule`;
+ALTER TABLE `chuanghao_user` RENAME `shangsheng_user`;
+ALTER TABLE `chuanghao_user_address` RENAME `shangsheng_user_address`;
+ALTER TABLE `chuanghao_anli` RENAME `shangsheng_anli`;
+ALTER TABLE `chuanghao_pro` RENAME `shangsheng_pro`;
+
+
+
+
+
+update shangsheng_category set url=replace(url,'/chuanghao','/shangsheng');
+update shangsheng_category set image=replace(image,'/chuanghao','/shangsheng') ;
+
+update shangsheng_attachment set filepath=replace(filepath,'/chuanghao','/shangsheng') ;
+update shangsheng_slide_data set pic=replace(pic,'/chuanghao','/shangsheng') ;
+
+update shangsheng_link set logo=replace(logo,'/chuanghao','/shangsheng') ;
+update shangsheng_block set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_article set url=replace(url,'/chuanghao','/shangsheng') ;
+update shangsheng_article set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_article set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_product set url=replace(url,'/chuanghao','/shangsheng') ;
+update shangsheng_product set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_product set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_picture set url=replace(url,'/chuanghao','/shangsheng') ;
+update shangsheng_picture set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_picture set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_download set url=replace(url,'/chuanghao','/shangsheng') ;
+update shangsheng_download set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_download set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_page set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_page set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_anli set url=replace(url,'/chuanghao','/shangsheng') ;
+update shangsheng_anli set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_anli set content=replace(content,'/chuanghao','/shangsheng') ;
+
+update shangsheng_pro set url=replace(url,'/chuanghao','/shangsheng') ;
+update shangsheng_pro set thumb=replace(thumb,'/chuanghao','/shangsheng');
+update shangsheng_pro set content=replace(content,'/chuanghao','/shangsheng') ;
+
+
+
+
+
+
+
+
+
+
+
+
+星辉
+112.74.23.184
+rastar
+qwer1234
+
+主机控制面板信息]
+========================================================================
+网     址: http://www.ns365.net/?navname=webmaster
+用 户 名 ： H10056335
+密    码 ： r5mmg463
+
+唐汉
+www.yingnet.cn
+[网站基本信息]
+========================================================================
+网     址：http://2.yingnet.cn/
+绑定 别名：a627399.sn16417.gzonet.net；www.yingnet.cn；yingnet.cn；
+网站web ip地址：124.173.110.7   *******请将域名解析这里的ip地址 124.173.110.7 **********
+ftp 地 址：124.173.110.
+ftp用户名： webmaster@H10056335
+ftp密  码： 1234567890
+
+[MYSQL控制面板信息]
+========================================================================
+网    址: http://www.ns365.net/?navname=mysqldbmaster
+124.173.110.9
+
+'DB_NAME'=>'thie',
+'DB_USER'=>'thie_f',
+'DB_PWD'=>'limin_f',
+
+用 户 名 ： DB10056665
+密    码 ： Uo3np377
+[MySQL数据库信息]
+========================================================================
+MySQL数据库详情：
+线路：香港优质；
+MySQL空间限制：100MB；
+
+
+ftp 地 址：124.172.140.10
+ftp用户名：webmaster@H10029118
+ftp密  码：SF4Z45d3
+
+
+裕杰
+ftp 地 址：192.69.199.122
+ftp用户名：webmaster@H10063360
+ftp密  码：Y32h1U4k
+数据库
+screen_f
+screen
+@                     MX                   mail.view-screen.com
+mail                 A                         203.88.192.175
+
+
+喜客来http://xikely.cn/
+ftp 地 址：124.172.156.224
+ftp用户名：webmaster@H10037368
+ftp密  码：a3T55KX6
+
+
+
+1.新浪微博: http://open.weibo.com 帐号：18902255161 1234qw 
+2.addthis分享：https://www.addthis.com 2355277379@qq.com Hnkj888 
+3.优酷开发平台: http://open.youku.com 帐号：2355277379@qq.com Hnkj888 
+4.邮箱发送测试： smtp.163.com hunuosend@163.com testsend ||smtp.live.com hunuosend@hotmail.com Hunuoautomail88 
+5.高德地图开放平台： q2355277360 Hunuo88 
+6.百度开放平台：http://lbsyun.baidu.com/ (huanxin@hunuo.com hunuo888 -此账号应用已满），请用新号  账号:15360095788 密码:hunuo888
+7.360网站安全检测平台 techHN hunuo888 
+8.站长统计 http://cnzz.com/ tongji@hunuo.com(账点已满) 123456 tongji2@hunuo.com hn123456 
+9.百度统计 http://tongji.baidu.com/ hunuogz 123456  此账号应用已满），请用新号  账号:15360095788 密码:Hunuo888
+10.融云 https://developer.rongcloud.cn/signup 账号：13533030110 密码：hunuo2016 
+12.极光推送 https://www.jpush.cn/ hunuo hunuo888 
+13.安全联盟 http://www.anquan.org/ techHN hunuo888 
+14.禅道项目管理(bug系统) http://192.168.0.12:81/www/zentaopms/www/index.php 账号:RTX账号，默认密码123456,登录后修改密码(建议改工作系统密码统一好管理)
+15.百度电子地图APIKEY 38z4vZlVWK6oAdbrNuXnq1mB http://lbsyun.baidu.com/
+16.微信开放平台: https://open.weixin.qq.com/ service@hunuo.com hunuo888
+17.腾讯开放平台: http://open.qq.com/ 2355277379 Hnkj888
+18.腾讯地图开放平台：http://lbs.qq.com/ 2355277379 Hnkj888
+9.百度统计 http://tongji.baidu.com/ hunuogz 123456 新账号20170719- hnTech Hunuo888
+
+
+定时任务
+http://timer.teshu.hostadm.net/ad8888/main.aspx
+hunuokeji  hunuo.com
+
+360抢票王
+账号：13450797001
+密码：chaoyueziwo131
+
+公众号
+jingshunshiye@163.com
+jssy888888
+
+微信支付商户号
+1380599202
+商户平台登录帐号
+1380599202@1380599202
+商户平台登录密码
+665055
+申请对应的公众号
+悦橄榄公寓（yueganlan）
+公众号APPID
+wxe76d5988ee9d51e8
+
+微信密钥
+jingshunshiyeyueganlangongyu8888
+应用密钥
+de4e932a0b24aeb85aa7e8b5965db6ba
+
+
+
+
+
+
+
+第三方
+总后台：http://www.gm5km.com/admin
+summa
+liyuming7883
+
+领纷
+http://www.juneeleven.cn/admin/
+admin
+123456
+
+闪尊
+shanzun.wx.hostadm.net/admin
+admin
+admin123
+
+店铺后台    kk
+            123456
+店铺会员    kk2
+            kk123456
+
+合和
+www.shophehe.com/admin
+admin
+hunuo888
+
+侨睿
+qiaoruigj.gz11.hostadm.net/admin/
+admin
+admin123456
+
+
+
+小京东
+http://xiaojd.com
+admin admin123
+hunuo 123456
+123  123456
+
+
+
+
+
+
+
+newshop.gz7.hostadm.net 
+newshop
+DFB1B776634121
+连接FTP 219.136.248.77
+
+
+数据库:    newshop_db
+主机名:    localhost
+数据库帐户:  newshop_root
+密码: cBH30!m6
+
+
+
+http://www.juneeleven.cn
+http://www.gm5km.com
+qiaoruigj.gz11.hostadm.net
+
+未知笔记
+http://www.wiz.cn/create-pay-subscribe.html
+
+
+麦子
+阿里云
+fansyangyang
+密码  196372345yu
+链接终端密码  sureso
+云主机密码  Suresong2015
+172.18.0.1
+
+
+
+[主机控制面板信息]
+========================================================================
+网     址: http://www.ns365.net/?navname=webmaster
+用 户 名 ：H10066927
+密    码 ：oan3597Z
+
+[网站基本信息]
+========================================================================
+网     址：http://fenicepower.com/
+绑定 别名：fenicepower.com；www.fenicepower.com；
+网站web ip地址：192.69.202.26   *******请将域名解析这里的ip地址 192.69.202.26 **********
+ftp 地 址：192.69.202.26
+ftp用户名：webmaster@H10066927
+ftp密  码：j1Nh69G1
+
+
+http://dnsmsn.com/
+9chengming.com
+s9#*3N7E
+网    址 : http://www.ns365.net/?navname=domainmaster
+用户名： 9chengming.com
+密  码： c1D4q6M2
+
+
+http://www.gsxt.gov.cn/
+软件服务;信息技术咨询服务;软件批发;软件测试服务;软件技术推广服务;互联网商品销售（许可审批类商品除外）;互联网商品零售（许可审批类商品除外）;信息电子技术服务;网络信息技术推广服务;科技信息咨询服务;烟草种植;仁果类和核果类水果种植;坚果种植;茶及其他饮料作物种植;其他经济作物种植;农业项目开发;其他农业服务;鱼种培育、养殖;百货零售（食品零售除外）;日用杂品综合零售;水果零售;鲜肉、冷却肉配送;零售鲜肉（仅限猪、牛、羊肉）;冷冻肉零售;海味干货零售;纺织品及针织品零售;服装零售;鞋零售;帽零售;化妆品及卫生用品零售;文具用品零售;体育用品及器材零售;钻石首饰零售;工艺美术品零售(象牙及其制品除外);收藏品零售（国家专营专控的除外）;玩具零售;游艺娱乐用品零售;望远镜零售;汽车零配件零售;摩托车零售;销售助动自行车;二手车销售;家用视听设备零售;日用家电设备零售;计算机零售;计算机零配件零售;软件零售;办公设备耗材零售;装饰用塑料、化纤、石膏、布料零售;电工器材零售;开关、插座、接线板、电线电缆、绝缘材料零售;装修用玻璃零售;黄金制品零售;白银制品零售;铂金制品零售;钟表批发;箱、包批发;家具批发;婴儿用品批发;家居饰品批发;计算机批发;计算机零配件批发;办公设备耗材批发;自动售货机、售票机、柜员机及零配件的批发;银行POS机销售;网络技术的研究、开发;计算机技术开发、技术服务;印刷技术开发;
+
+注册号
+440106002070357
+社会信用代码
+91440101MA59PTH083
+广州金誉信息技术有限公司
+天河区翰景路1号金星大厦5楼F08-F52
+17076751864
+1228192021@qq.com
+
+Guangzhou JYfame Information Technology Co., Ltd.
+Lv Cheng Ming 
+Guang Dong 
+Guang Zhou Shi 
+5 floor, Golden Star Building, No. 1 King Road, Tianhe District, F08-F52
+
+http://www.cndw.com/contact/
+020-38732327
+
+
+驾校
+FTP
+ftp101402.gzonet.net
+webmaster@H10017933
+jyfame2017
+
+
+124.173.127.243
+jyfame
+jyfame2017
+
+https://exmail.qq.com/login
+jyfame
+9Chengming2017
+邮箱
+service/admin/public/club/share/liteapp
+9Chengming2017
+环信
+9chengming.com
+移动客服
+admin
+a123456
+github
+service/public
+a123456
+公众号
+service@jyfame.com
+9chengming2017
+wx215b8913e8ca68a8
+6779a6069ab286de5bcd413d04cf69c2
+小程序
+liteapp@jyfame.com
+wx1f880bec3537c73e
+e413ed4ac41aa972780ad6f2e93a43c6
+BBBBBCFHc0OW1z
+request合法域名
+20817198.qcloud.la
+socket合法域名
+20817198.ws.qcloud.la
+uploadFile合法域名
+20817198.qcloud.la
+downloadFile合法域名
+20817198.qcloud.la
+数据库
+gz-cdb-d1gscpbw.sql.tencentcdb.com:63968
+
+微信支付商户号
+1488402062
+商户平台登录帐号
+1488402062@1488402062
+商户平台登录密码
+106716
+申请对应的公众号
+金誉互动（jyfame）
+公众号APPID
+wx215b8913e8ca68a8
+7700F7ED51D3BE91564206AE376E73FB
+6632513320917783 卡
+44050138220300000802
+
+
+59clhjatoujle7g4vnxhv73a8h1nhi1q  //交易安全校验码
+2088202417537067 //合作者身份ID
+
+
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxm3Gpwlci/Tjlvko4oz+jUJuf0XqsmixoCQjOlOi4x+JvieGxyy4tSKcLvuAco6pp9RvC7bdQDxl7LBtL5hPtKqjzgFspxl088nqDF01kHDHzVrifSw7VoO/zvKVxK5qWyP0Ep2t5Orz1Ykw1wehem7vwM4WyAHblcxTHHJIkqUrMrbg4uu6ToCHPNvuVIagEzrfFapcA2p4sbVdcDsRpMe9I8pmxCrbgxoJABap2zfgz7GI4wl+UJs3CK3QaU5CnYkn4zT6kyD+nGDJZjuSZ6xCkBHBoZzaxwnq416lI+TjAQ0p+ozwwmb92Xym5zFMZ0V/i5TwWfUTmpirXv8KKQIDAQAB
+
+
+沙箱
+2016081600259722
+买家账号 eelddj0026@sandbox.com
+登录密码 111111
+商家账号 ytqlaf2879@sandbox.com
+商户UID 2088102171455626
+登录密码 111111
+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
+
+
+
+
+
+广州绿芝源后勤管理有限公司
+91440101MA59TDKL79
+陈剑虹
+43062319650224051X
+广州市越秀区水荫路119号星光映景16层1021号
+
+汽车清洗服务;预包装食品零售;复印服务;单位后勤管理服务（涉及许可经营的项目除外）;物业管理;酒店管理;停车场经营;电梯维修;安全技术防范系统设计、施工、维修;工程勘察设计;工程项目管理服务;向游客提供旅游、交通、住宿、餐饮等代理服务（不涉及旅行社业务）;投资咨询服务;贸易咨询服务;企业管理服务（涉及许可经营项目的除外）;企业形象策划服务;公共关系服务;会议及展览服务;包装服务;翻译服务;其他办公设备维修;仪器仪表批发;计算机网络系统工程服务;计算机零配件批发;计算机零配件零售;计算机房维护服务;计算机技术开发、技术服务;建筑物空调设备、通风设备系统安装服务;摄影服务;摄影艺术辅导服务;房地产咨询服务;婚姻服务;电子产品设计服务;水果批发;水果零售;干果、坚果批发;干果、坚果零售;蔬菜批发;蔬菜零售;蛋类批发;蛋类零售;花卉种植;花卉作物批发;花卉出租服务;纺织品、针织品及原料批发;纺织品及针织品零售;厨房设备及厨房用品批发;厨房用具及日用杂品零售;服装批发;服装零售;鞋批发;鞋零售;帽批发;帽零售;百货零售（食品零售除外）;文具用品批发;文具用品零售;体育用品及器材批发;体育用品及器材零售;钟表批发;钟表零售;眼镜批发;眼镜零售;箱、包批发;箱、包零售;灯具、装饰物品批发;日用灯具零售;灯具零售;其他人造首饰、饰品零售;珠宝首饰设计服务;工艺品批发(象牙及其制品除外);非许可类医疗器械经营;电子产品批发;电子产品零售;五金产品批发;五金零售;金属及金属矿批发（国家专营专控类除外）;金属制品批发;建材、装饰材料批发;通讯设备及配套设备批发;软件批发;软件零售;软件开发;软件服务;软件测试服务;票务服务;旅客票务代理;仓储代理服务;体育项目投资与管理;房屋租赁;商品批发贸易（许可审批类商品除外）;商品零售贸易（许可审批类商品除外）;互联网商品零售（许可审批类商品除外）;货物进出口（专营专控商品除外）;技术进出口;
+
+姓名:丁旭涛
+手机:18520106036
+手机:17665133862

@@ -1,0 +1,2774 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"center"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"v",
+				"var_export"
+			],
+			[
+				"s",
+				"switch	switch …"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"sat",
+				"status"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"In",
+				"INSERT"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"ke",
+				"keyword"
+			],
+			[
+				"goods",
+				"goods_id"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"isn",
+				"is_numeric"
+			],
+			[
+				"mob",
+				"mobile_phone"
+			],
+			[
+				"josn",
+				"json_decode"
+			],
+			[
+				"goods_um",
+				"goods_number"
+			],
+			[
+				"ton",
+				"token"
+			],
+			[
+				"o",
+				"onclick	Attr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fro",
+				"form	Tag"
+			],
+			[
+				"order",
+				"order_id"
+			],
+			[
+				"is",
+				"is_ajax"
+			],
+			[
+				"out",
+				"output_data"
+			],
+			[
+				"up",
+				"upload"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"_se",
+				"_SESSION"
+			],
+			[
+				"goods_n",
+				"goods_number"
+			],
+			[
+				"没有",
+				"没有该订单"
+			],
+			[
+				"jon",
+				"json_decode"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"or",
+				"order_id"
+			],
+			[
+				"order_s",
+				"order_status"
+			],
+			[
+				"jos",
+				"json_encode"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"cl",
+				"colspan	Attr"
+			],
+			[
+				"pr",
+				"printf"
+			],
+			[
+				"outp",
+				"output_error"
+			],
+			[
+				"ou",
+				"output_error"
+			],
+			[
+				"ji",
+				"join"
+			],
+			[
+				"ads",
+				"ads_id"
+			],
+			[
+				"_p",
+				"_POST"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"post",
+				"_POST"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"liudao",
+				"liudao:box	php_5"
+			],
+			[
+				"S_",
+				"svn_blame"
+			],
+			[
+				"daos",
+				"daoshi_z"
+			],
+			[
+				"class_time",
+				"class_time_list"
+			],
+			[
+				"ip_m",
+				"ip_mess"
+			],
+			[
+				"use_end",
+				"use_end_date"
+			],
+			[
+				"clas",
+				"class_exists"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"vote_list",
+				"vote_list_str"
+			],
+			[
+				"date_m",
+				"date_m_start"
+			],
+			[
+				"par",
+				"parent_name"
+			],
+			[
+				"tutor",
+				"tutor_info"
+			],
+			[
+				"keyw",
+				"keywords"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"del_",
+				"del_old_file"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"free",
+				"free_type"
+			],
+			[
+				"area_code",
+				"area_code_list"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"hear",
+				"ecs_header"
+			],
+			[
+				"apply",
+				"applyinfo"
+			],
+			[
+				"user",
+				"user_relation"
+			],
+			[
+				"account",
+				"account_log"
+			],
+			[
+				"fetch",
+				"fetchRow"
+			],
+			[
+				"field",
+				"field_list"
+			],
+			[
+				"请先",
+				"请先登陆！"
+			],
+			[
+				"artic",
+				"article1"
+			],
+			[
+				"qu",
+				"questions"
+			],
+			[
+				"ftrow",
+				"fbsql_fetch_row"
+			],
+			[
+				"type",
+				"comment_type"
+			],
+			[
+				"article",
+				"article_list"
+			],
+			[
+				"local",
+				"local_date"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"car",
+				"cart_goods"
+			],
+			[
+				"comment",
+				"comment_size"
+			],
+			[
+				"check",
+				"check_apple"
+			],
+			[
+				"title",
+				"title_leng"
+			],
+			[
+				"searc",
+				"seach_user_id"
+			],
+			[
+				"varp",
+				"var_export"
+			],
+			[
+				"class",
+				"class_time_list"
+			],
+			[
+				"loca",
+				"localtime"
+			],
+			[
+				"fetc",
+				"fetchRow"
+			],
+			[
+				"new",
+				"newname"
+			],
+			[
+				"fec",
+				"fetchRow"
+			],
+			[
+				"confi",
+				"confirm_type"
+			],
+			[
+				"pra",
+				"private_key_path"
+			],
+			[
+				"sign",
+				"sign_old"
+			],
+			[
+				"fe",
+				"fetchRow"
+			],
+			[
+				"time_ar",
+				"time_arr_h"
+			],
+			[
+				"price",
+				"price_max"
+			],
+			[
+				"submit",
+				"submit_price"
+			],
+			[
+				"categ",
+				"category_list"
+			],
+			[
+				"show",
+				"show_message"
+			],
+			[
+				"url_ma",
+				"url_map_html"
+			],
+			[
+				"tmp_",
+				"tmp_dir_list"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"user_rank",
+				"user_rank_all"
+			],
+			[
+				"user_r",
+				"user_rank_all"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"order_goo",
+				"order_goods_list"
+			],
+			[
+				"order_user",
+				"order_user_id"
+			],
+			[
+				"bai_ke",
+				"bai_ke_list"
+			],
+			[
+				"son_cat",
+				"son_cat_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/www/yitaixiang/ecsapi/category.php",
+			"settings":
+			{
+				"buffer_size": 19998,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/user.php",
+			"settings":
+			{
+				"buffer_size": 150257,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/themes/default/user_transaction.dwt",
+			"settings":
+			{
+				"buffer_size": 94500,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/barcode/get.php",
+			"settings":
+			{
+				"buffer_size": 828,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/flow.php",
+			"settings":
+			{
+				"buffer_size": 108044,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/mobile/themes/default/library/page_header.lbi",
+			"settings":
+			{
+				"buffer_size": 2312,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/mobile/themes/default/user_passport.dwt",
+			"settings":
+			{
+				"buffer_size": 10162,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/mobile/themes/default/user_clips.dwt",
+			"settings":
+			{
+				"buffer_size": 6694,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/xipao/mobile/themes/default/css/style.css",
+			"settings":
+			{
+				"buffer_size": 45969,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 5374 files for \"ttp://api.kuaidi100.com/api\"\n\nE:\\www\\xipao\\barcode\\get.php:\n    7  \n    8  $AppKey='008409cd482efb04';//请将XXXXXX替换成您在http://kuaidi100.com/app/reg.html申请到的KEY\n    9: $url ='http://api.kuaidi100.com/api?id='.$AppKey.'&com='.$typeCom.'&nu='.$typeNu.'&show=2&muti=1&order=asc';\n   10  \n   11  //请勿删除变量$powered 的信息，否者本站将不再为你提供快递接口服务。\n\n1 match in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 374,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/E/www/xipao/mobile/themes/default/user_transaction.dwt",
+			"settings":
+			{
+				"buffer_size": 75237,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: php_5"
+			],
+			[
+				"Snippet: jj",
+				"Snippet: jj"
+			],
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: php",
+				"Snippet: php_fcp"
+			],
+			[
+				"Snippet: php_r",
+				"Snippet: php_refle"
+			],
+			[
+				"Snippet:liud",
+				"Snippet: include_once …"
+			],
+			[
+				"Snippet:j",
+				"Snippet: jj"
+			],
+			[
+				"Snippet: j",
+				"Snippet: jj"
+			]
+		],
+		"width": 498.0
+	},
+	"console":
+	{
+		"height": 317.0,
+		"history":
+		[
+			"self.view.run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test' )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":''} )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":str_arr[index]} )",
+			"print(4355454)",
+			"fdsfds"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/www/xipao"
+	],
+	"file_history":
+	[
+		"/C/Users/chengming/Desktop/index.php",
+		"/G/吕成铭/资料/ecshop/ecshop微信支付/ecshop微信支付/includes/modules/payment/autpaym/data.xml",
+		"/G/吕成铭/资料/ecshop/ecshop微信支付/ecshop微信支付/includes/modules/payment/autpaym/respond_a.php",
+		"/G/吕成铭/资料/ecshop/ecshop微信支付/ecshop微信支付/includes/modules/payment/autpaym/respond.php",
+		"/G/吕成铭/资料/ecshop/ecshop微信支付/ecshop微信支付/includes/modules/Vendor/lib/WxPay.Config.php",
+		"/G/吕成铭/资料/ecshop/ecshop微信支付/ecshop微信支付/includes/modules/payment/wxpay.php",
+		"/G/吕成铭/资料/微信/Weixinpay/WxPayPubHelper.php",
+		"/E/www/xipao/mobile/themes/default/js/jquery.alerts.js",
+		"/E/www/xipao/mobile/themes/default/js/TouchSlide.1.1.js",
+		"/E/www/test/case/999999971_shanzun/Cshanzun.txt",
+		"/E/www/test/case/999999972_luna/Cluna.txt",
+		"/E/www/xipao/data/config.php",
+		"/G/吕成铭/互诺.txt",
+		"/G/吕成铭/东方喜炮/东方喜炮.txt",
+		"/G/吕成铭/项目/羊城/羊晚网站资料.txt",
+		"/E/www/test/case/999999996_xipao/Cxipao.txt",
+		"/E/www/xipao/barcode/get.php",
+		"/E/www/xipao/themes/default/user_transaction.dwt",
+		"/E/www/yitaixiang/activity.php",
+		"/E/www/yitaixiang/ecsapi/includes/cls_ActivityException.php",
+		"/E/www/yitaixiang/筋斗云接口文档.txt",
+		"/E/www/yitaixiang/怡泰祥珠宝接口.txt",
+		"/E/www/yitaixiang/ecsapi/user.php",
+		"/E/www/test/test.php",
+		"/E/www/yitaixiang/怡泰祥珠宝信息.txt",
+		"/E/www/yitaixiang/includes/modules/integrates/ecshop.php",
+		"/E/www/yitaixiang/includes/lib_transaction.php",
+		"/E/www/yitaixiang/includes/lib_main.php",
+		"/E/www/yitaixiang/includes/modules/integrates/integrate.php",
+		"/E/www/yitaixiang/index.php",
+		"/E/www/yitaixiang/ecsapi/includes/init.php",
+		"/E/www/yitaixiang/ecsapi/includes/cls_api.php",
+		"/C/Users/chengming/Desktop/hosts",
+		"/E/www/test/test_zhida.php",
+		"/E/www/yitaixiang/data/config.php",
+		"/G/吕成铭/项目/怡泰祥珠宝/新建 文本文档.txt",
+		"/E/www/yitaixiang/怡泰祥珠宝.txt",
+		"/G/吕成铭/公司/后台帐号密码.txt",
+		"/E/Program Files/Sublime Text 3/Data/Packages/User/testone.py",
+		"/F/吕成铭/项目/领纷/公众号.txt",
+		"/F/吕成铭/互诺.txt",
+		"/D/WWW/lingfen/mobile/v_user_tixian.php",
+		"/D/WWW/lingfen/mobile/user.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/v_user_tixian.dwt",
+		"/D/WWW/lingfen/mobile/includes/lib_v_user.php",
+		"/D/WWW/lingfen/mobile/index.php",
+		"/D/WWW/lingfen/mobile/admin/index.php",
+		"/C/Documents and Settings/Administrator/桌面/logs.log",
+		"/D/WWW/test/test.php",
+		"/D/WWW/lingfen/mobile/weixin/auto_do.php",
+		"/D/WWW/lingfen/mobile/includes/lib_transaction.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/respond.dwt",
+		"/D/WWW/lingfen/includes/init.php",
+		"/D/WWW/lingfen/admin/third_customer.php",
+		"/D/WWW/lingfen/admin/templates/third_customer_info.htm",
+		"/D/WWW/lingfen/admin/deposit.php",
+		"/D/WWW/lingfen/admin/templates/deposit_list.htm",
+		"/D/WWW/lingfen/admin/includes/inc_menu.php",
+		"/D/WWW/lingfen/languages/zh_cn/admin/common.php",
+		"/D/WWW/lingfen/admin/templates/deposit_info.htm",
+		"/D/WWW/lingfen/admin/templates/goods_list.htm",
+		"/D/WWW/lingfen/admin/templates/goods_search.htm",
+		"/D/WWW/lingfen/mobile/themesmobile/default/library/comm_head.lbi",
+		"/D/WWW/lingfen/mobile/themesmobile/default/index.dwt",
+		"/D/WWW/lingfen/mobile/includes/lib_common.php",
+		"/D/WWW/lingfen/admin/includes/cls_exchange.php",
+		"/D/WWW/lingfen/admin/templates/third_customer_list.htm",
+		"/D/WWW/lingfen/mobile/weixinpay.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/library/up_menu.lbi",
+		"/D/WWW/lingfen/mobile/themesmobile/default/flow.dwt",
+		"/D/WWW/lingfen/admin/templates/top.htm",
+		"/D/WWW/lingfen/admin/index.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/library/user_affiliate.lbi",
+		"/D/WWW/lingfen/mobile/themesmobile/default/user_bang.dwt",
+		"/D/WWW/lingfen/mobile/v_user_shouyi.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/library/user_nav.lbi",
+		"/D/WWW/lingfen/admin/templates/users_list.htm",
+		"/D/WWW/lingfen/admin/users.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/v_user_shouyi.dwt",
+		"/D/WWW/index.dwt",
+		"/D/WWW/lingfen/mobile/themesmobile/default/message.dwt",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/respond.dwt",
+		"/D/WWW/lingfen/mobile/666.txt",
+		"/D/WWW/lingfen/mobile/themesmobile/default/user_clips.dwt",
+		"/D/WWW/lingfen/mobile/v_user_erweima.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/library/user_affiliate.lbi",
+		"/D/WWW/lingfen/mobile/user2.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/goods.dwt",
+		"/D/WWW/lingfen/mobile/weixin/wx_sample2.php",
+		"/D/WWW/lingfen/flow.php",
+		"/D/WWW/lingfen/includes/lib_passport.php",
+		"/D/WWW/lingfen/includes/modules/integrates/integrate.php",
+		"/D/WWW/lingfen/mobile/register.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/user_register.dwt",
+		"/D/WWW/test/case/999999989_jindouyun/Cjindou.txt",
+		"/D/WWW/lingfen/admin/templates/goods_info.htm",
+		"/D/WWW/lingfen/data/config.php",
+		"/D/WWW/lingfen/mobile/admin/distributor.php",
+		"/D/WWW/lingfen/includes/modules/payment/weixin/WxPayPubHelper.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/user_transaction.dwt",
+		"/D/WWW/lingfen/mobile/themesmobile/default/library/user_order_detail.lbi",
+		"/D/WWW/lingfen/mobile/includes/modules/payment/weixin/WxPayPubHelper.php",
+		"/D/WWW/lingfen/mobile/includes/modules/payment/weixin.php",
+		"/C/Documents and Settings/Administrator/桌面/test.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/library/user_order_detail.lbi",
+		"/D/WWW/lingfen/mobile/themesmobile/default/library/user_address_list.lbi",
+		"/D/WWW/lingfen/includes/modules/payment/weixin/WxPayHelper.php",
+		"/D/WWW/lingfen/includes/cls_template.php",
+		"/D/WWW/lingfen/mobile/admin/shop_config.php",
+		"/D/WWW/lingfen/mobile/admin/sms_url.php",
+		"/D/WWW/lingfen/mobile/includes/cls_image.php",
+		"/C/Documents and Settings/Administrator/桌面/config.php",
+		"/D/WWW/lingfen/mobile/goods.php",
+		"/D/WWW/lingfen/mobile/includes/lib_comment.php",
+		"/D/WWW/lingfen/mobile/affiliate.php",
+		"/D/WWW/lingfen/index.php",
+		"/D/WWW/lingfen/mobile/v_user_huiyuan.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default/v_user_huiyuan.dwt",
+		"/D/WWW/lingfen/mobile/v_user_tixianmore.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/v_user_tixianmore.dwt",
+		"/D/WWW/lingfen/admin/goods.php",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/v_user_shouyi.dwt",
+		"/D/WWW/lingfen/admin/affiliate_ck.php",
+		"/D/WWW/lingfen/themes/default/library/page_footer.lbi",
+		"/C/Documents and Settings/Administrator/桌面/index.php",
+		"/C/Documents and Settings/Administrator/桌面/广州领纷服装有限公司-HTML(手机版)/LFFZ/commissions3.html",
+		"/D/WWW/lingfen/mobile/themesmobile/default_hx/v_user_tixian.dwt",
+		"/C/Documents and Settings/Administrator/桌面/广州领纷服装有限公司-HTML(手机版)/LFFZ/commissions2.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"E:\\www\\xipao",
+			"D:\\WWW\\lingfen\\mobile",
+			"D:\\WWW\\lingfen",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\zhida\\admin\\templates",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\kawo\\languages\\zh_cn\\admin",
+			"D:\\wamp\\www\\kawo",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\junlang\\Admin",
+			"D:\\wamp\\www\\maizi\\Chengming\\Tpl\\Home",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\xinghui",
+			"D:\\wamp\\www\\zhida",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\zhourou,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\www\\liudao\\languages,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\1_commonly_used\\我做的更改\\项_9945_禧袍\\pc\\Nhvendor",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web\\languages",
+			"E:\\www\\test2\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\ecshop",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test3\\",
+			"E:\\www\\test3\\Uploads",
+			"E:\\www\\test2\\languages",
+			"E:\\1_commonly_used\\我做的更改\\项_9946_李聪\\app接口\\hnshop(1)\\includes",
+			"D:\\Program Files\\Sublime Text 3\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test2\\includes",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test1\\mp3play",
+			"E:\\www\\new_ecshop\\languages",
+			"",
+			"E:\\www\\ecshop\\languages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ttp://api.kuaidi100.com/api",
+			".footer .con li:nth-child(1) input",
+			".sc_dl_ft",
+			".shopping_cart",
+			"edit_address",
+			"agreement",
+			"agreement ",
+			"captcha",
+			"$_REQUEST['step']",
+			"order_detail",
+			"get_goods",
+			"文章",
+			"新闻",
+			"信息",
+			"个人资料",
+			"_profile",
+			"profile",
+			"field_gender",
+			"field_real_name",
+			"real_name",
+			"资料",
+			"会员中心",
+			"会员信",
+			"会员",
+			"会员信息",
+			"修改会员",
+			"修改信息",
+			"退出",
+			"登录",
+			"退出",
+			"reset_passwd",
+			"：reset_passwd",
+			"confirm_password",
+			"new_password",
+			"mobile_code",
+			"mobile_phone",
+			"reset_passwd",
+			"重置密码",
+			"忘记密码",
+			"筋斗云",
+			"send_message",
+			"忘记",
+			"username",
+			"register",
+			"recommend_on",
+			"https_request",
+			">query(",
+			"affiliate",
+			"oGKPsjrKuWrZvxI27mk5h_wGE3Zo",
+			"affiliate.php?act=list",
+			"third_customer_info",
+			"get_third_customer_list",
+			"cus_id",
+			"get_third_customer_list",
+			"write_affiliate_log",
+			"'UPDATE'",
+			"'update'",
+			"third_customer_info",
+			"third_customer",
+			".cus_id",
+			"E cus_id =",
+			"cus_id =",
+			"third_customer",
+			"third_customer.php",
+			"third_customer.",
+			"sort_cus_id",
+			"third_customer.",
+			"third_customer",
+			".cus_id",
+			"'cus_id'",
+			"cus_id",
+			"'chat_third_customer'",
+			"table('chat_third_customer')",
+			"get_third_customer_list",
+			"exc",
+			"get_third_customer_list",
+			"write_affiliate_log",
+			"up_menu.lbi",
+			"main_frame",
+			"affiliate",
+			"user.php",
+			"user_money",
+			"default",
+			"$",
+			"affiliate",
+			"bang",
+			"checkout",
+			"default",
+			"order_detail",
+			"SDKRuntimeException",
+			"SDKRuntimeException.php",
+			"商品",
+			"详情",
+			"headimgurl",
+			"wx_user",
+			"output",
+			"wei_curl",
+			"lingfen",
+			"affiliate",
+			"offset",
+			"$tags",
+			"c_tag",
+			"back_act",
+			"gd_version",
+			"sms_url",
+			"sms_url.php",
+			"spt",
+			"url",
+			"split_money",
+			"separate",
+			"user_rebate_price",
+			"default",
+			"images",
+			"\"images",
+			"get_val",
+			"images",
+			"default",
+			"script",
+			"?u",
+			"order_list",
+			"_affiliate",
+			"affiliate",
+			"lib_setarea",
+			"ADMIN_PATH_M",
+			"Call-time",
+			"valid",
+			"checkSignature",
+			"valid"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"uuy",
+			"D:\\www\\mall\\",
+			"",
+			",",
+			"",
+			"6q币",
+			"",
+			"applys.php",
+			"",
+			"shop_shop_config",
+			"6Q币",
+			"",
+			"课程价格",
+			"dwa",
+			"",
+			"<a href=\"category.php?act=course\">课程安排</a>",
+			"$1",
+			"",
+			"$1",
+			"http://www.99jlw.com/",
+			"forms.$1",
+			"elements.$1",
+			"",
+			"original_img",
+			",",
+			"",
+			",",
+			"",
+			",",
+			"",
+			"t",
+			"ttt",
+			"44",
+			"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/www/yitaixiang/ecsapi/category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/www/xipao/user.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 150257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53034,
+								53054
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 24559.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/www/xipao/themes/default/user_transaction.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43274,
+								43289
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 834.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/www/xipao/barcode/get.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/www/xipao/flow.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75326,
+								75326
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 41419.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/www/xipao/mobile/themes/default/library/page_header.lbi",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								857,
+								857
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/E/www/xipao/mobile/themes/default/user_passport.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5022,
+								5022
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 297.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/www/xipao/mobile/themes/default/user_clips.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2519,
+								2519
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 702.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/E/www/xipao/mobile/themes/default/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44403,
+								44403
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 38595.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 374,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										199,
+										226
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/E/www/xipao/mobile/themes/default/user_transaction.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								646,
+								646
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.expec":
+	{
+		"height": 343.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 575.0
+	},
+	"pinned_build_system": "",
+	"project": "xipao.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"touchslide.1.1",
+				"mobile\\themes\\default\\js\\TouchSlide.1.1.js"
+			],
+			[
+				"efault/css/style.css",
+				"mobile\\themes\\default\\css\\style.css"
+			],
+			[
+				"default/user_transaction.dwt",
+				"mobile\\themes\\default\\user_transaction.dwt"
+			],
+			[
+				"mes/default/user_clips.dwt",
+				"mobile\\themes\\default\\user_clips.dwt"
+			],
+			[
+				"obile/themes/default/user_passport.dwt",
+				"mobile\\themes\\default\\user_passport.dwt"
+			],
+			[
+				"library/page_header.lbi",
+				"mobile\\themes\\default\\library\\page_header.lbi"
+			],
+			[
+				"flow.ph",
+				"flow.php"
+			],
+			[
+				"barcode/get.php",
+				"barcode\\get.php"
+			],
+			[
+				"user_transaction.dwt",
+				"themes\\default\\user_transaction.dwt"
+			],
+			[
+				"user.php",
+				"user.php"
+			],
+			[
+				"category.php",
+				"ecsapi\\category.php"
+			],
+			[
+				"ecsapi/user.php",
+				"ecsapi\\user.php"
+			],
+			[
+				"mobile/admin/index.php",
+				"mobile\\admin\\index.php"
+			],
+			[
+				"mobile/index.php",
+				"mobile\\index.php"
+			],
+			[
+				"auto_do.php",
+				"mobile\\weixin\\auto_do.php"
+			],
+			[
+				"v_user_tixian.dwt",
+				"mobile\\themesmobile\\default\\v_user_tixian.dwt"
+			],
+			[
+				"goods_search.htm",
+				"admin\\templates\\goods_search.htm"
+			],
+			[
+				"goods_list.htm",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"third_customer_info.htm",
+				"admin\\templates\\third_customer_info.htm"
+			],
+			[
+				"third_customer_list.htm",
+				"admin\\templates\\third_customer_list.htm"
+			],
+			[
+				"third_customer.php",
+				"admin\\third_customer.php"
+			],
+			[
+				"v_user_tixian.php",
+				"mobile\\v_user_tixian.php"
+			],
+			[
+				"respond.dwt",
+				"mobile\\themesmobile\\default\\respond.dwt"
+			],
+			[
+				"weixinpay.php",
+				"mobile\\weixinpay.php"
+			],
+			[
+				"index.php",
+				"mobile\\index.php"
+			],
+			[
+				"up_m",
+				"mobile\\themesmobile\\default_hx\\library\\up_menu.lbi"
+			],
+			[
+				"top",
+				"admin\\templates\\top.htm"
+			],
+			[
+				"mobile/user.php",
+				"mobile\\user.php"
+			],
+			[
+				"user_list",
+				"admin\\templates\\users_list.htm"
+			],
+			[
+				"message.d",
+				"mobile\\themesmobile\\default\\message.dwt"
+			],
+			[
+				"user_nav",
+				"mobile\\themesmobile\\default\\library\\user_nav.lbi"
+			],
+			[
+				"library/user_affiliate.lbi",
+				"mobile\\themesmobile\\default_hx\\library\\user_affiliate.lbi"
+			],
+			[
+				"v_user_shouyi.dwt",
+				"mobile\\themesmobile\\default\\v_user_shouyi.dwt"
+			],
+			[
+				"v_user_shouyi.php",
+				"mobile\\v_user_shouyi.php"
+			],
+			[
+				"v_user_erweima.php",
+				"mobile\\v_user_erweima.php"
+			],
+			[
+				"user_clips.dwt",
+				"mobile\\themesmobile\\default\\user_clips.dwt"
+			],
+			[
+				"user_bang.dwt",
+				"mobile\\themesmobile\\default\\user_bang.dwt"
+			],
+			[
+				"shouyi",
+				"mobile\\v_user_shouyi.php"
+			],
+			[
+				"goods.d",
+				"mobile\\themesmobile\\default\\goods.dwt"
+			],
+			[
+				"goods_info.htm",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"flow.php",
+				"flow.php"
+			],
+			[
+				"user_register.dwt",
+				"mobile\\themesmobile\\default\\user_register.dwt"
+			],
+			[
+				"register.php",
+				"mobile\\register.php"
+			],
+			[
+				"user_order_de",
+				"mobile\\themesmobile\\default\\library\\user_order_detail.lbi"
+			],
+			[
+				"user_address_list.lbi",
+				"mobile\\themesmobile\\default\\library\\user_address_list.lbi"
+			],
+			[
+				"weixin.php",
+				"mobile\\includes\\modules\\payment\\weixin.php"
+			],
+			[
+				"library/user_order_detail.lbi",
+				"mobile\\themesmobile\\default_hx\\library\\user_order_detail.lbi"
+			],
+			[
+				"mobileuser.php",
+				"mobile\\user.php"
+			],
+			[
+				"cls_template.php",
+				"includes\\cls_template.php"
+			],
+			[
+				"user_c",
+				"mobile\\themesmobile\\default\\user_clips.dwt"
+			],
+			[
+				"affiliate",
+				"mobile\\affiliate.php"
+			],
+			[
+				"lib_comment.php",
+				"mobile\\includes\\lib_comment.php"
+			],
+			[
+				"goods.php",
+				"mobile\\goods.php"
+			],
+			[
+				"cls_image",
+				"mobile\\includes\\cls_image.php"
+			],
+			[
+				"sms_url.php",
+				"mobile\\admin\\sms_url.php"
+			],
+			[
+				"shop_config.php",
+				"mobile\\admin\\shop_config.php"
+			],
+			[
+				"goods_in",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"goods.",
+				"admin\\goods.php"
+			],
+			[
+				"affiliate_ck.php",
+				"admin\\affiliate_ck.php"
+			],
+			[
+				"page_footer.lbi",
+				"themes\\default\\library\\page_footer.lbi"
+			],
+			[
+				"v_user_tixianmore.dwt",
+				"mobile\\themesmobile\\default_hx\\v_user_tixianmore.dwt"
+			],
+			[
+				"v_user_tixianmore.php",
+				"mobile\\v_user_tixian_more.php"
+			],
+			[
+				"cls_t",
+				"mobile\\includes\\cls_template.php"
+			],
+			[
+				"v_user_huiyuan.dwt",
+				"mobile\\themesmobile\\default_hx\\v_user_huiyuan.dwt"
+			],
+			[
+				"v_user_huiyuan.php",
+				"mobile\\v_user_huiyuan_list.php"
+			],
+			[
+				"library/user_nav.lbi",
+				"mobile\\themesmobile\\default\\library\\user_nav.lbi"
+			],
+			[
+				"user_aff",
+				"mobile\\themesmobile\\default\\library\\user_affiliate.lbi"
+			],
+			[
+				"library/user_order.lbi",
+				"mobile\\themesmobile\\default\\library\\user_order.lbi"
+			],
+			[
+				"init.php",
+				"mobile\\includes\\init.php"
+			],
+			[
+				"/includes/init.php",
+				"mobile\\includes\\init.php"
+			],
+			[
+				"api.class.php",
+				"mobile\\weixin\\api.class.php"
+			],
+			[
+				"includes/init.php",
+				"mobile\\includes\\init.php"
+			],
+			[
+				"lib_main.php",
+				"admin\\includes\\lib_main.php"
+			],
+			[
+				"linggan.dwt",
+				"themes\\default\\linggan.dwt"
+			],
+			[
+				"linggan.php",
+				"linggan.php"
+			],
+			[
+				"fabu.php",
+				"admin\\fabu.php"
+			],
+			[
+				"goods_inf",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"xilie_info",
+				"admin\\templates\\xilie_info.htm"
+			],
+			[
+				"faub_chuli.h",
+				"admin\\templates\\fabu_chuli.htm"
+			],
+			[
+				"ling",
+				"linggan.php"
+			],
+			[
+				"shuxing_list",
+				"admin\\templates\\shuxing_list.htm"
+			],
+			[
+				"goods_list",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"update.php",
+				"api\\update.php"
+			],
+			[
+				"xilie.php",
+				"admin\\xilie.php"
+			],
+			[
+				"linggan_f",
+				"admin\\templates\\linggan_info.htm"
+			],
+			[
+				"linggan_c",
+				"themes\\default\\linggan_c.dwt"
+			],
+			[
+				"user.ph",
+				"user.php"
+			],
+			[
+				"nayang.php",
+				"nayang.php"
+			],
+			[
+				"inc_m",
+				"admin\\includes\\inc_menu.php"
+			],
+			[
+				"nayang",
+				"admin\\nayang.php"
+			],
+			[
+				"users.php",
+				"admin\\users.php"
+			],
+			[
+				"pageimg.php",
+				"admin\\pageimg.php"
+			],
+			[
+				"privilege_info.htm",
+				"admin\\templates\\privilege_info.htm"
+			],
+			[
+				"privilege.php",
+				"admin\\privilege.php"
+			],
+			[
+				"order.php",
+				"admin\\order.php"
+			],
+			[
+				"shuxing.php",
+				"admin\\shuxing.php"
+			],
+			[
+				"goods.pp",
+				"admin\\goods.php"
+			],
+			[
+				"linggan.ph",
+				"admin\\linggan.php"
+			],
+			[
+				"xilie",
+				"admin\\xilie.php"
+			],
+			[
+				"priv_action.php",
+				"languages\\zh_cn\\admin\\priv_action.php"
+			],
+			[
+				"admin/common.php",
+				"languages\\zh_cn\\admin\\common.php"
+			],
+			[
+				"inc_menu.php",
+				"admin\\includes\\inc_menu.php"
+			],
+			[
+				"role_info.htm",
+				"admin\\templates\\role_info.htm"
+			],
+			[
+				"role.php",
+				"admin\\role.php"
+			],
+			[
+				"linggan_fi",
+				"admin\\templates\\linggan_info.htm"
+			],
+			[
+				"users",
+				"admin\\users.php"
+			],
+			[
+				"region.php",
+				"admin\\region.php"
+			],
+			[
+				"region.js",
+				"js\\region.js"
+			],
+			[
+				"shop_config_form.htm",
+				"admin\\templates\\shop_config_form.htm"
+			],
+			[
+				"shop_config",
+				"admin\\templates\\shop_config.htm"
+			],
+			[
+				"index.hp",
+				"index.php"
+			],
+			[
+				"order_see",
+				"admin\\templates\\order_see.htm"
+			],
+			[
+				"order_inf",
+				"admin\\templates\\order_info.htm"
+			],
+			[
+				"order_list",
+				"admin\\templates\\order_list.htm"
+			],
+			[
+				"nayang_list",
+				"admin\\templates\\nayang_list.htm"
+			],
+			[
+				"fabu_list",
+				"admin\\templates\\fabu_list.htm"
+			],
+			[
+				"fabu.ph",
+				"admin\\fabu.php"
+			],
+			[
+				"nayang_ls",
+				"admin\\templates\\nayang_list.htm"
+			],
+			[
+				"user_info.htm",
+				"admin\\templates\\user_info.htm"
+			],
+			[
+				"xilie_info.",
+				"admin\\templates\\复件 xilie_info.htm"
+			],
+			[
+				"fabu_chu",
+				"admin\\templates\\fabu_chuli.htm"
+			],
+			[
+				"fabu_info.",
+				"admin\\templates\\fabu_info.htm"
+			],
+			[
+				"faub.ph",
+				"admin\\fabu.php"
+			],
+			[
+				"xilie_list",
+				"admin\\templates\\xilie_list.htm"
+			],
+			[
+				"nayang_info.htm",
+				"admin\\templates\\nayang_info.htm"
+			],
+			[
+				"xilie_info.htm",
+				"admin\\templates\\xilie_info.htm"
+			],
+			[
+				"xilei.php",
+				"admin\\xilie.php"
+			],
+			[
+				"order_see.htm",
+				"admin\\templates\\order_see.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"D:\\wamp\\www\\test\\js.sublime-workspace"
+			],
+			[
+				"sub",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"mynotes",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"my",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynot",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynote",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"ecs",
+				"E:\\1_commonly_used\\sublime\\软件设置\\ecshop.sublime-project"
+			],
+			[
+				"web",
+				"E:\\1_commonly_used\\sublime\\软件设置\\web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "changeIntegral",
+		"selected_items":
+		[
+			[
+				"changeIntegral",
+				"changeIntegral"
+			],
+			[
+				"crea in",
+				"db_create_in"
+			],
+			[
+				"alert",
+				"jAlert"
+			],
+			[
+				"strtotime",
+				"local_strtotime"
+			],
+			[
+				"update_use",
+				"update_user_info"
+			],
+			[
+				"member_info",
+				"insert_member_info"
+			],
+			[
+				"updateuser_info",
+				"update_user_info"
+			],
+			[
+				"updateinf",
+				"_updateInfo"
+			],
+			[
+				"update",
+				"update_session"
+			],
+			[
+				"empty",
+				"isEmpty"
+			],
+			[
+				"creat_i",
+				"db_create_in"
+			],
+			[
+				"serialize",
+				"_unserialize"
+			],
+			[
+				"html_s",
+				"htmlspecialchars_deep"
+			],
+			[
+				"htmlspecial",
+				"htmlspecialchars_decode"
+			],
+			[
+				"htmlspecialchars",
+				"htmlspecialchars_decode"
+			],
+			[
+				"str_len",
+				"str_len"
+			],
+			[
+				"creat_in",
+				"db_create_in"
+			],
+			[
+				"strlen",
+				"str_len"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

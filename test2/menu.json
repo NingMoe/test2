@@ -1,0 +1,93 @@
+{
+  "menu": {
+    "button": [
+      {
+        "name": "生活查询", 
+        "sub_button": [
+          {
+            "key": "VCX_WEATHER", 
+            "name": "天气查询", 
+            "sub_button": [], 
+            "type": "click"
+          }, 
+          {
+            "key": "VCX_FANYI", 
+            "name": "中英文互译", 
+            "sub_button": [], 
+            "type": "click"
+          }, 
+          {
+            "key": "VCX_GECI", 
+            "name": "歌词查询", 
+            "sub_button": [], 
+            "type": "click"
+          }, 
+          {
+            "key": "VCX_GUISHU", 
+            "name": "号码归属地", 
+            "sub_button": [], 
+            "type": "click"
+          }, 
+          {
+            "key": "VCX_CHENGYU", 
+            "name": "成语查询", 
+            "sub_button": [], 
+            "type": "click"
+          }
+        ]
+      }, 
+      {
+        "name": "轻松娱乐", 
+        "sub_button": [
+          {
+            "name": "玩一玩", 
+            "sub_button": [], 
+            "type": "view", 
+            "url": "http://game.lchengming.cn"
+          }, 
+          {
+            "key": "VCX_XIAOHUI", 
+            "name": "笑话", 
+            "sub_button": [], 
+            "type": "click"
+          }, 
+          {
+            "key": "VCX_CYC", 
+            "name": "猜一猜", 
+            "sub_button": [], 
+            "type": "click"
+          }
+        ]
+      }, 
+      {
+        "name": "联系我们", 
+        "sub_button": [
+          {
+            "name": "微官网", 
+            "sub_button": [], 
+            "type": "view", 
+            "url": "http://www.9chengming.com"
+          }, 
+          {
+            "name": "微商城", 
+            "sub_button": [], 
+            "type": "view", 
+            "url": "http://shop.9chengming.com"
+          }, 
+          {
+            "name": "地图", 
+            "sub_button": [], 
+            "type": "view", 
+            "url": "http://wei.lchengming.cn/map.html"
+          }, 
+          {
+            "key": "VCX_BANGZHU", 
+            "name": "帮助", 
+            "sub_button": [], 
+            "type": "click"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+base
+    筋斗云
+        
+本地项目
+    要打开的
+        http://jindou.com/Ajdinoum/index.php
+        http://jindou.com/ecsapi/index.php
+        http://jindouold.com/
+
+        E:\www\jindou\
+        E:\1_commonly_used\我做的更改\项_9940_筋斗云
+
+
+公司的服务器
+
+　　FTP
+        FTP登陆用户名是：  jindouyun
+　　　  FTP密码是： AF028AAD5912a5
+　　　  您的网址为：   http://jindouyun.gz11.hostadm.net
+　　　  您的后台网址为：   http://jindouyun.gz11.hostadm.net/Ajdinoum/index.php
+　　　  用户的FTP地址是： 183.61.109.99
+    数据
+        数据库用户名： 　 jindouyun
+　　　  数据库密码： 　 jindouyunvbg
+　　　  数据库名称： 　 jindouyun 
+　　　  数据库所在IP： 　 183.61.109.99
+
+
+        svn
+               
+    后台帐号
+        账号： hunuokeji 
+        密码： hunuo.com
+
+
+
+d744f22d60b5c67b6eeb99dc24d18897
+
+e10adc3949ba59abbe56e057f20f883e
+

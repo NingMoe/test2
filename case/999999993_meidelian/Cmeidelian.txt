@@ -1,0 +1,346 @@
+深圳市美的连电子科技有限公司-中文
+
+　 FTP登陆用户名是： meidilian 
+　　　 FTP密码是： DA2CD02E88e29f 
+　　　 您的网址为： http://meidilian.gz9.hostadm.net  
+　　　 用户的FTP地址是：183.57.77.201  14.18.203.172
+
+　 数据库用户名： 　	meidilian 
+　　　 数据库密码： 　	meidilian45r 
+　　　 数据库名称： 　	meidilian 
+　　　 数据库所在IP： 　	183.57.77.201
+			http://phpmyadmin.gz9.hostadm.net 
+
+
+
+
+
+
+
+
+
+
+
+marketing@med-linket.com
+
+linkemedT12
+
+
+
+
+
+
+http://mail.med-linket.com
+
+nslookup -qt=mx marketing@med-linket.com
+
+nslookup -qt=mx med-linket.com
+
+
+在命令查询面板中输入：nslookup按回车键
+
+set q=mx按回车键
+
+输入要查询的域名 按回车键
+
+
+
+
+
+
+
+
+月销量增量： salesnum
+	唯一有效的会员ID是
+	收获地址
+	三证图片
+	猜你喜欢
+	是否要限制注册界面ajax的获取次数
+	登陆图
+	月销量
+
+195/288*140
+);
+288px × 195px
+140px × 120px
+70px × 70px
+100px × 76px
+158px × 137px
+297px × 174px
+121px × 121px
+180px × 180px
+
+
+
+
+
+68px × 68px
+400px × 400px
+
+
+
+
+
+144*97
+
+会员分级里： 会员类型： specialuser 0 医院 ;1 经销商
+
+会员类型： type 1 医院 ;2 经销商
+
+user pointApply(申请的积分)     pointState(申请积分状态) 0无 1会员提交 2后台确认   
+
+医院注册：
+	type==1
+	会员登入名* 	user_name
+	您的姓名*		name
+	手机号码*		mobile_phone
+	
+	
+	
+	医院名称* 		company
+	任职职位		place 
+	上传三证		papers
+	
+	收货地址		addressName
+	确认密码*		password
+
+	
+经销商：
+	type==2
+	会员登入名* 	user_name
+	您的姓名*		name
+	手机号码*		mobile_phone
+	
+	公司名称* 		company
+	任职职位* 		place 
+	上传三证		papers
+	
+	公司性质		nature	
+	主营产品		products
+	
+	收货地址	addressName
+	确认密码*	password
+	
+	
+	
+var process_request = "正在处理您的请求...";
+var username_empty = " 用户名不能为空";
+var username_shorter = " 用户名长度不能少于 3 个字符";
+var username_invalid = " 用户名只能是由字母数字以及下划线组成";
+var password_empty = " 密码不正确";
+var password_shorter = " 6-20位字母、数字或符号的组合";
+var confirm_password_invalid = " 两次输入密码不一致";
+var email_empty = " Email 为空";
+var email_invalid = " Email 不是合法的地址";
+var agreement = " 您没有接受协议";
+var msn_invalid = " msn地址不是一个有效的邮件地址";
+var qq_invalid = "QQ号码不是一个有效的号码";
+var home_phone_invalid = "家庭电话不是一个有效号码";
+var office_phone_invalid = "办公电话不是一个有效号码";
+var mobile_phone_invalid = "手机号码不是一个有效号码";
+var msg_un_blank = " 用户名不能为空";
+var msg_un_length = " 用户名最长不得超过7个汉字";
+var msg_un_format = " 用户名只能由“中文 英文 数字 _ ”组成";
+var msg_un_registered = " 用户名已经存在";
+var msg_can_rg = " 可以注册";
+var msg_email_blank = " 邮件地址不能为空";
+var msg_email_registered = " 邮箱已存在";
+var msg_email_format = " 邮件格式有误";
+var msg_blank = " 不能为空";
+var no_select_question = " 您没有完成密码提示问题的操作";
+var passwd_balnk = " 密码中不能包含空格";
+var username_exist = "用户名 %s 已经存在";
+	
+	
+	
+	
+一级目录
+
+精选产品
+	一次性医疗耗材
+	重复性医疗耗材
+	家庭健康管理产品
+	
+	
+1血氧探头
+	直插式长线脉搏血氧饱和探头
+	可重复使用血氧饱和度探头
+	一次性脉搏血氧饱和度探头
+	血氧转接线
+	多功能Y式血血氧探头
+	多功能Y式血氧转接线
+	
+	
+2监护心电电缆和导联线
+	一体式监护心电电缆和导联线
+	单线式监护心电导联线
+	监护仪心电电缆和导联线
+	一次性心电导联线
+	动态心电电缆和导联线
+	
+	
+3心电图仪电缆和导联线
+	一体式心电图仪心电电缆和导联线
+	分体式EKG电缆和导联线
+	心电电极
+	在X光照射中不显影的导联线
+	
+	
+	
+4动态心电电缆和导联线
+	主电缆
+	一体式动态心电电缆和导联线
+	病人导联线
+	
+	
+5无创血压袖带与连接管
+	可重复用舒适型血压袖带
+	可重复用无囊血压袖带
+	一次性无创血压袖带
+	袖带连接管（气管）
+	气管接头（袖带端）
+	气管接头（仪器端）
+	
+	
+6压力传感器电缆
+	压力传感器电缆
+	压力传感器适配器（转换压力传感器类型）
+	IBP适配器
+	
+	
+7医用温度探头
+
+	
+8装配式连接器和插座
+	心电图仪连接器
+	监护仪ECG连接器
+	监护仪IBP连接器
+	监护仪Sp02和Holter连接器
+	监护仪插座
+	可拆卸式接线盒
+	
+	
+	
+9脑电电极与连接线
+	插座
+	EKG Lead wires with Electrodes
+	EMC（肌电）电极线
+	珠型导联线 色码管
+	
+	
+10高频手术设备电刀笔与连接线
+	病人回路电极电缆
+	一次性高频电刀操控笔
+	高频手术链接线
+	
+
+11负极板	
+
+12输液加压袋	
+
+13家庭健康管理产品	
+
+	
+	
+2015040785968
+
+商户名称：广州市铄金礼品广告有限公司
+系统流水号：277A95CC-EF4E-4B3F-B89A-4577CFDD97B3
+点击复制此号以便查询
+订单类型：B2C支付交易
+商户订单号：2015040709000937
+订单总额：158.65元
+交易币种：人民币
+
+
+<option value="0">待确认
+<option value="100">待付款
+<option value="101">待发货
+<option value="102">已完成
+<option value="1">付款中
+<option value="2">取消
+<option value="3">无效
+<option value="4">退货
+
+xiangbo_order_info:
+	order_status 	订单状态 0未确认 1已确认 2已取消 3无效   4退货    5已分单
+	shipping_status	发货状态 0未发货 1已发货 2已收货 3配货中 5发货中
+	pay_status 	 	支付状态 0未付款 1付款中 2已付款
+	
+	
+	
+/* 订单状态 */
+define('OS_UNCONFIRMED',            0); // 未确认
+define('OS_CONFIRMED',              1); // 已确认
+define('OS_CANCELED',               2); // 已取消
+define('OS_INVALID',                3); // 无效
+define('OS_RETURNED',               4); // 退货
+define('OS_SPLITED',                5); // 已分单
+define('OS_SPLITING_PART',          6); // 部分分单	
+	
+/* 配送状态 */
+define('SS_UNSHIPPED',              0); // 未发货
+define('SS_SHIPPED',                1); // 已发货
+define('SS_RECEIVED',               2); // 已收货
+define('SS_PREPARING',              3); // 备货中
+define('SS_SHIPPED_PART',           4); // 已发货(部分商品)
+define('SS_SHIPPED_ING',            5); // 发货中(处理分单)
+
+/* 支付状态 */
+define('PS_UNPAYED',                0); // 未付款
+define('PS_PAYING',                 1); // 付款中
+define('PS_PAYED',                  2); // 已付款
+
+/* 综合状态 */
+define('CS_AWAIT_PAY',              100); // 待付款：货到付款且已发货且未付款，非货到付款且未付款
+define('CS_AWAIT_SHIP',             101); // 待发货：货到付款且未发货，非货到付款且已付款且未发货
+define('CS_FINISHED',               102); // 已完成：已确认、已付款、已发货	
+	
+	
+	
+	//待付款数，待确认收货数
+	$noPaymentCount = $db->getOne("SELECT COUNT(*) FROM " .$ecs->table('order_info'). " WHERE user_id = '$user_id'".' AND order_status '.db_create_in(array(OS_CONFIRMED,OS_SPLITED，OS_SPLITING_PART)).' AND pay_status='.db_create_in(array(PS_PAYING,PS_PAYED)).' AND shipping_status = '.SS_RECEIVED.' )');
+	
+
+	$noReceiptCount = $db->getOne("SELECT COUNT(*) FROM " .$ecs->table('order_info'). " WHERE user_id = '$user_id'".' AND order_status '.db_create_in(array(OS_CONFIRMED,OS_SPLITED)).' AND shipping_status='.SS_SHIPPED.' AND pay_status ' . db_create_in(array(PS_PAYED, PS_PAYING)));
+	
+	
+	
+	$smarty->assign('noPaymentCount', $noPaymentCount);
+    $smarty->assign('noReceiptCount', $noReceiptCount);	
+	
+	
+	
+	
+	
+	
+	
+/* 待确认收货 */
+if ($type == 'finished')
+{
+    return " AND {$alias}order_status " . db_create_in(array(OS_CONFIRMED, OS_SPLITED)) .
+           " AND {$alias}shipping_status " . db_create_in(array(SS_SHIPPED, SS_RECEIVED)) .
+           " AND {$alias}pay_status " . db_create_in(array(PS_PAYED, PS_PAYING)) . " ";
+}
+'order_status '.db_create_in(array(OS_CONFIRMED,OS_SPLITED)).' AND shipping_status='.SS_SHIPPED.' AND pay_status ' . db_create_in(array(PS_PAYED, PS_PAYING))
+	
+	
+	
+	
+/* 待付款订单 */
+elseif ($type == 'await_pay')
+{
+    return " AND   {$alias}order_status " . db_create_in(array(OS_CONFIRMED, OS_SPLITED)) .
+           " AND   {$alias}pay_status = '" . PS_UNPAYED . "'" .
+           " AND ( {$alias}shipping_status " . db_create_in(array(SS_SHIPPED, SS_RECEIVED)) . " OR {$alias}pay_id " . db_create_in(payment_id_list(false)) . ") ";
+}	
+'order_status '.db_create_in(array(OS_CONFIRMED,OS_SPLITED)).' AND pay_status='.PS_UNPAYED.' AND ( shipping_status '.db_create_in(array(SS_SHIPPED,SS_RECEIVED))." OR pay_id " . db_create_in(payment_id_list(false)).")"
+	
+	
+	
+	
+	
+	
+	
+	
+	

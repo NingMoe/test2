@@ -1,0 +1,14 @@
+<script src="js/clipboard.min.js"></script>
+<div id="copy_text">1234567890</div>
+<button class="copy_btn" data-clipboard-action="copy" data-clipboard-target="#copy_text">复制单号</button>
+<style>
+.copy_btn{ background: none; color: red; border: none; display: inline-block; vertical-align: middle; outline: none; }
+#copy_text{ display: inline-block; vertical-align: middle; }
+</style>
+<script>
+var clipboard = new Clipboard('.copy_btn');
+clipboard.on('success', function(e) {
+    alert("复制成功");
+    e.clearSelection();
+});
+</script>

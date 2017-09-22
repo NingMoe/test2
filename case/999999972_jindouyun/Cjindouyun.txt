@@ -1,0 +1,1801 @@
+筋斗云
+        
+公司的服务器
+
+　　FTP
+        FTP登陆用户名是：  jindouyun
+　　　  FTP密码是： AF028AAD5912a5
+　　　  您的网址为：   http://jindouyun.gz11.hostadm.net
+　　　  用户的FTP地址是： 183.61.109.99
+　　　  您的后台网址为： http://jindouyun.gz11.hostadm.net/Ajdinoum/index.php
+    数据
+        数据库用户名： 　 jindouyun
+　　　  数据库密码： 　 jindouyunvbg
+　　　  数据库名称： 　 jindouyun 
+　　　  数据库所在IP： 　 183.61.109.99
+设计稿 http://design.hunuo.com/Iatest/jindouyun_cb370.html
+
+信息
+    接口参数
+        $secret='db4e2e01549ebef835a9f1b89b5b11cf';
+        $api_key='600300253268ea8b8d687fe1a79a2603';
+    后台帐号
+        url: http://jindouyun.gz11.hostadm.net/Ajdinoum/index.php
+        账号： hunuokeji 
+        密码： hunuo.com
+
+       
+
+接口测试地址 http://jindouyun.gz11.hostadm.net/
+
+信息
+接口参数
+$secret='db4e2e01549ebef835a9f1b89b5b11cf';
+$api_key='600300253268ea8b8d687fe1a79a2603';
+后台帐号
+url: http://jindouyun.gz11.hostadm.net/Ajdinoum/index.php
+账号： hunuokeji
+密码： hunuo.com
+
+ 
+
+接口测试地址 http://jindouyun.gz11.hostadm.net/
+
+接口说明：获取商品分类
+接口地址：ecsapi/category.php?act=getcat
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+
+返回类型: json
+
+返回内容:
+
+多维数组
+
+********************************************************************************************
+
+接口说明：获取商品列表
+接口地址：ecsapi/category.php?act=get_goods
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+lon ：经度
+lat ：纬度
+user_id ：会员id（有就传）
+cat_id ：商品分类
+sort ：shop_price（价格），click_count（人气），last_update（更新）
+order ：ACS（顺序排列），DESC（倒叙排列）
+keywords ：搜索是传的值
+返回类型: json
+
+返回内容:
+
+{
+{
+"goods_id": "1", //商品id
+"goods_name": "藿香正气水", //商品名称
+"goods_number": "100", //商品库存
+"market_price": "¥24.00", //市场价
+"shop_price": "¥20.00", //本店售价
+"promote_price": "", //促销价
+"goods_thumb": "images/201606/thumb_img/1_thumb_G_1465212771676.jpg", //产品缩略图
+"goods_img": "images/201606/goods_img/1_G_1465212771441.jpg", //产品原图
+"url": "http://jindouyun.gz11.hostadm.net/ecsapi/goods.php?id=1", //商品链接
+"is_collet": 0 //当前会员是否已关注 1：关注 0：未关注
+}
+}
+
+********************************************************************************************
+
+接口说明：获取商品详情
+接口地址：ecsapi/goods.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：goodsedit
+goods_id ：商品id
+
+返回类型: json
+
+返回内容:
+
+{
+
+"goods_id": "371", //商品id
+"cat_id": "424", //分类id
+"goods_sn": "HUNUO000371", //商品货号
+"goods_name": "倩碧水磁场深层水嫩保湿润肤霜", //商品名称
+"click_count": "3", //查看次数
+"brand_id": "108", //品牌id
+"goods_brand": "倩碧", //品牌名称
+"goods_number": "100", //商品库存（做加减的时候要根据库存来）
+"goods_weight": "15克", //商品重量
+"market_price": "¥154.7", //市场价
+"shop_price": "¥129.0", //本店售价
+"promote_price": "¥0.0", //优惠价格
+"promote_start_date": "0", //优惠开始时间
+"promote_end_date": "0", //优惠结束时间
+"give_integral": 129, //购买商品所赠送的积分
+"count": 0 //商品销量数量
+
+title_info 商品详情
+changjia 厂家
+gongxiao 功效
+def_address 用户的默认配送地址
+supp_address 店家的地址
+supplier_name 店家的用户名
+supp_tel 店家的电话
+distance 距离店家多远
+tuijian_goods_list 推荐商品
+
+
+"specification":[
+
+{
+"attr_id":"43",
+"attr_type":"1",
+"name":"测试",
+"values":[
+{
+"label":"呵呵",
+"price":"",
+"goods_attr_thumb":"",
+"format_price":"¥0.00", //此价格需加上商品价格才是该属性商品的价格
+"product_number":"100", //库存
+"id":"922"
+},
+]
+}
+]
+}
+
+ 
+
+********************************************************************************************
+
+接口说明：获取商品相册
+接口地址：ecsapi/goods.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：goods_img
+goods_id ：商品id
+
+返回类型: json
+
+返回内容:
+
+{
+{
+"img_id": "1", //图片id
+"img_original": "XXXXXXXXX", //商品相册原图
+"img_url": "XXXXXXXXX", //商品相册大图
+"thumb_url": "XXXXXXXXX", //商品相册缩略图
+"img_desc": "XXXXXXX", //图片描述
+}
+}
+********************************************************************************************
+
+接口说明：获取商品参数详情
+接口地址：ecsapi/goods.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：goods_properties
+goods_id ：商品id
+
+返回类型: html
+
+返回内容:
+
+********************************************************************************************
+
+接口说明：获取商品详细介绍
+接口地址：ecsapi/goods.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：goods_desc
+goods_id ：商品id
+
+返回类型: html
+
+返回内容:
+
+web
+
+ 
+
+********************************************************************************************
+
+接口说明：添加购物车
+接口地址：ecsapi/cart.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ： addcart
+goods_id ：商品id
+number ：购买数量
+parent ：点击立即购买的时候传 固定值 0 ；
+one_step_buy ：点击立即购买的时候传 固定值 1 ；
+user_id ：会员id
+spec ：商品属性(按黄星那种拼)
+quick ：有属性传1，没有属性传0
+返回类型: json
+
+返回内容:
+
+{
+"code": //200,状态
+"msg": "已添加到购物车", //提示消息
+"data": {
+"one_step_buy": "1",
+"shop_price": "¥129.0",
+"goods_name": "倩碧水磁场深层水嫩保湿润肤霜",
+"goods_thumb": "images/201605/thumb_img/371_thumb_G_1464425998827.jpg",
+"goods_brief": "水感科技，持久绽放水润光彩！倩碧(Clinique)水磁场深层水嫩保湿润肤霜15ml，新升级，持久保湿，肌肤时刻被水润磁场紧紧环绕，瞬间补充流失水分，并牢牢锁住水分子，让肌肤持久散发润泽光华！肌肤从此拥有水感智慧，从容应对外来侵袭。 ",
+"goods_id": "371",
+"goods_price": "¥129.0",
+"goods_number": "1",
+"confirm_type": 2
+}
+}
+
+ 
+
+
+********************************************************************************************
+
+接口说明：会员登录
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：act_login
+user_name ：用户名（用户名/手机/邮箱）
+password ：密码
+
+返回类型: html
+
+返回内容:
+{
+"code": 200,
+"msg": "登录成功",
+"data": {
+"user_id":'1';（保存起来）
+}
+}
+
+********************************************************************************************
+
+接口说明：会员注册
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：register
+user_name ：手机号码
+mobile_code ：验证码（暂时可不填）
+password ：密码
+confirm_password：确认密码
+recommend_on ：推荐码（前期不填）
+agreement ：服务协议（1）
+返回类型: html
+
+返回内容:
+{
+"code": 200,
+"msg": "注册成功！",
+"data": {
+"user_id":'1'; （保存起来）
+}
+}
+
+ 
+
+
+********************************************************************************************
+
+接口说明：服务协议地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_xieyi
+article_id ：6
+
+返回类型: html
+
+返回内容:
+
+web
+
+
+********************************************************************************************
+
+接口说明：获取购物车信息
+接口地址：ecsapi/cart.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_cart
+user_id ：会员id
+
+返回类型: json
+
+返回内容:
+
+太多，难得写 ，不明白问我
+
+********************************************************************************************
+
+接口说明：删除购物车指定信息
+接口地址：ecsapi/cart.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：delete_cart
+id ：购物车记录id
+
+返回类型: json
+
+返回内容:
+成功
+{
+"code": 200,
+"msg": "",
+"data": {
+
+}
+}
+
+********************************************************************************************
+
+接口说明：清空购物车
+接口地址：ecsapi/cart.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：clear
+user_id ：会员id
+
+返回类型: json
+
+返回内容:
+成功
+{
+"code": 200,
+"msg": "",
+"data": {
+
+}
+}
+********************************************************************************************
+
+接口说明：修改购物车数量
+接口地址：ecsapi/cart.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：update_group_cart
+user_id ：会员id
+rec_id ：所修改记录的id
+number ：数量
+goods_id ：商品id
+is_package ：0；
+suppid ：0
+返回类型: json
+
+返回内容:
+
+很多 但是没什么用 ，只要有返回值就刷新一下就行
+
+
+********************************************************************************************
+
+接口说明：购物车结算页面
+接口地址：ecsapi/flow.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+step ：checkout
+user_id ：会员id
+sel_cartgoods ：选择需要结算的rec_id（，号隔开）
+积分兑换的时候需要加上返回的四个值，有一个值和sel_cartgoods一样的
+返回类型: json
+
+返回内容:
+
+多到爆，不明白什么意思再问
+
+
+********************************************************************************************
+
+接口说明：我的订单
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：order_list
+user_id ：会员id
+composite_status ：订单状态 100：待付款；101：待收货；103：待评论；104：已完成
+返回类型: json
+
+返回内容:
+
+订单列表
+
+order_status==0 (取消订单)
+order_status==5 && shipping_status==1（确认收货）
+order_status==5 && shipping_status==2（已完成）
+order_status==5 && pay_status==0（付款）
+order_status==5 && (pay_status!=0 || shipping_status!=1 || shipping_status!=2)（查看订单）
+其他的是什么就是什么
+
+ 
+
+
+********************************************************************************************
+
+接口说明：订单详情
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：order_detail
+user_id ：会员id
+order_id ：订单id
+返回类型: json
+
+返回内容:
+
+订单详情
+
+********************************************************************************************
+
+接口说明：取消订单
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：cancel_order
+user_id ：会员id
+order_id ：订单id
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "取消成功",
+"data": {
+
+}
+}
+失败
+{
+"code": 500,
+"msg": "取消失败",
+"data": {
+
+}
+}
+********************************************************************************************
+
+接口说明：确认收货
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：affirm_received
+user_id ：会员id
+order_id ：订单id
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "已确认收货",
+"data": {
+
+}
+}
+失败
+{
+"code": 500,
+"msg": "失败",
+"data": {
+
+}
+}
+********************************************************************************************
+
+接口说明：申请退款
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：back_order
+user_id ：会员id
+order_id ：订单id
+order_all ：固定（1）
+x ：固定（1）
+返回类型: json
+
+返回内容:
+
+order_info：商品信息
+specification：商品属性
+order ：订单信息
+********************************************************************************************
+
+接口说明：申请退货
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：back_order
+user_id ：会员id
+order_id ：订单id
+x ：固定（2）
+goods_id ：商品id
+product_id ：产品id
+返回类型: json
+
+返回内容:
+
+order_info：商品信息
+specification：商品属性
+order ：订单信息
+********************************************************************************************
+
+接口说明：获取用户信息
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_user_info
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+{
+"code": "200",
+"msg": "",
+"data": {
+"user_id": "5",
+"email": "2691111111@qq.com",
+"user_rank": "非会员",
+"user_name": "hunuo2",
+"user_money": "¥0.00",
+"pay_points": "2524",
+"headimg": "",
+"mobile_phone": "15018412943",
+"sex": "保密",
+"username": "hunuo2",
+"user_points": "2524积分",
+"user_bonus": "¥14.00"
+}
+}
+
+********************************************************************************************
+
+接口说明：地区列表
+接口地址：ecsapi/region.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+type ：类型 1：国家（查省）2：省（查市）3市（查区）
+parent ：地区id 国家只要中国，id为1，获取省就用type=2&parent=1
+返回类型: json
+
+返回内容:
+
+地区信息
+
+********************************************************************************************
+
+接口说明：我的收货地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：address_list
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+收货地址列表，默认收货地址的id；
+
+********************************************************************************************
+
+接口说明：添加或编辑收货地址
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：act_edit_address
+user_id ：会员id
+address_id ：收货地址id（修改的时候传）
+country ：国家id
+province ：省id
+city ：市id
+district ：区id
+address ：详细地址
+consignee ：收货人
+mobile ：手机号码
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "",
+"data": {
+
+}
+}
+
+********************************************************************************************
+
+接口说明：删除收货地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：drop_consignee
+user_id ：会员id
+id ：收货地址id（修改的时候传）
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "",
+"data": {
+
+}
+}
+
+
+********************************************************************************************
+
+接口说明：设置默认收货地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：act_address_default
+user_id ：会员id
+id ：收货地址id（修改的时候传）
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "",
+"data": {
+
+}
+}
+
+********************************************************************************************
+
+接口说明：收藏商品列表
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：collection_list
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+goods_list：商品列表
+pager：分页
+
+********************************************************************************************
+
+接口说明：收藏店铺列表
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：follow_shop
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+shop_list：店铺列表
+pager：分页
+
+********************************************************************************************
+
+接口说明：我的优惠劵
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：bonus
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+bonus：优惠劵列表
+pager：分页
+
+
+********************************************************************************************
+
+接口说明：我的评论
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：my_comment
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+item_list：商品列表
+pager：分页
+********************************************************************************************
+
+接口说明：填写订单页，选择优惠劵接口
+接口地址：ecsapi/flow.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+step ：change_bonus
+bonus ：优惠劵id
+suppid ：店铺id
+user_id ：会员id
+返回类型: json
+
+返回内容:
+
+total：订单结算价格
+is_group_buy：是否为团购（1为团购）
+
+********************************************************************************************
+
+接口说明：订单结算页面，改变支付方式
+接口地址：ecsapi/flow.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+step ：select_payment
+user_id ：会员id
+payment ：付款方式列表里的payment
+返回类型: json
+
+返回内容:
+
+total：订单结算价格
+total_integral：可以获得到的积分
+total_bonus：可以或得到的优惠劵
+
+********************************************************************************************
+
+接口说明：订单结算页面，改变收货方式
+接口地址：ecsapi/flow.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+step ：select_shipping
+user_id ：会员id
+recid ：配送方式id
+suppid ：店铺id
+返回类型: json
+
+返回内容:
+
+total：订单结算价格
+total_integral：可以获得到的积分
+total_bonus：可以或得到的优惠劵
+suppid ：店铺id
+
+********************************************************************************************
+
+接口说明：订单结算页面，提交订单
+接口地址：ecsapi/flow.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+step ：done
+user_id ：会员id
+best_time ：固定值（工作日/周末/假日均可）
+integral ：每个店铺商品使用的积分（用,隔开）
+bonus ：每个店铺商品使用的优惠劵（用,隔开）
+how_oos ：固定0
+postscript ：订单留言
+payment ：payment（支付方式id）
+pay_ship ：各店铺选择的配送方式("1:2,3:4")
+have_consignee:1
+
+返回类型: json
+
+返回内容:
+
+order：订单详情
+goods_list：订单商品列表
+********************************************************************************************
+
+接口说明：会员中心 我的积分
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：my_integral
+user_id ：会员id
+
+返回类型: json
+
+返回内容:
+
+{
+"code": 200,
+"msg": "",
+"pay_points_count": "2524",
+"data": [
+{
+"log_id": "186",
+"change_time": "2016-06-16 16:20:24",
+"pay_points": "207",
+"change_desc": "订单 2016061329576 赠送的积分"
+},
+{
+"log_id": "93",
+"change_time": "2015-12-04 01:07:58",
+"pay_points": "18",
+"change_desc": "订单 2015120141721 赠送的积分"
+}
+]
+}
+
+ 
+
+********************************************************************************************
+
+接口说明：订单评论
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：my_comment_send
+user_id ：会员id
+goods_id ：商品id
+content ：评论内容
+comment_rank ：总评分
+server ：服务态度分数
+send ：发货评分
+o_id ：订单id
+rec_id ：订单商品编号
+hide_username ：是否匿名（1：是，0：不是）
+tags_zi ：自定义标签（可以不传）
+upload_file ：评论图片（和外展一样的格式）
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "XXXXX",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "XXXXXX",
+"data": {
+
+}
+
+
+********************************************************************************************
+
+接口说明：退款/退货接口
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：back_order_act
+user_id ：会员id
+back_type ：类型（1：退货，4：退款）
+/***退款接口参数***/
+back_reason ：退款原因
+back_pay ：退款方式（固定为1）
+back_postscript ：留言内容
+order_all ：固定为1
+order_id ：订单id
+/***退货接口参数***/
+tui_goods_price：商品金额
+product_id_tui：product_id
+goods_attr_tui：商品属性
+order_sn ：订单号
+goods_id ：商品id
+goods_name ：商品名称
+goods_sn ：商品货号
+tui_goods_number：退货商品数量
+
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "XXXXX",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "XXXXXX",
+"data": {
+
+}
+
+
+********************************************************************************************
+
+接口说明：获取验证码
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：send_message
+phone ：手机号码
+send_type ：发送类型（1：注册验证码，2忘记密码验证码）
+
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "XXXXX",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "XXXXXX",
+"data": {
+
+}
+********************************************************************************************
+
+
+接口说明：修改会员头像
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：act_edit_img
+user_id ：会员id
+headimg ：会员头像图片
+
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "XXXXX",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "XXXXXX",
+"data": {
+
+}
+
+********************************************************************************************
+
+
+接口说明：修改会员信息
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：act_edit_profile
+user_id ：会员id
+username ：用户名
+sex ：性别
+real_name ：真实姓名
+
+返回类型: json
+
+返回内容:
+
+成功
+{
+"code": 200,
+"msg": "XXXXX",
+"data": {
+
+}
+}
+失败
+成功
+{
+"code": 500,
+"msg": "XXXXXX",
+"data": {
+
+}
+
+********************************************************************************************
+
+
+接口说明：退款列表
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：back_list
+user_id ：会员id
+
+返回类型: json
+
+返回内容:
+退款列表
+{
+"code": 200,
+"msg": "",
+"data": {
+"orders": [
+{
+"back_id": "5",
+"delivery_sn": "",
+"order_sn": "2015092481561",
+"order_id": "113",
+"invoice_no": "",
+"add_time": "1443029893",
+"shipping_id": "0",
+"shipping_name": "",
+"user_id": "5",
+"action_user": "",
+"consignee": "111",
+"address": "111",
+"country": "1",
+"province": "2",
+"city": "52",
+"district": "500",
+"sign_building": "",
+"email": "",
+"zipcode": "11111",
+"tel": "",
+"mobile": "15032361111",
+"best_time": "",
+"postscript": "",
+"how_oos": "",
+"insure_fee": "0.00",
+"shipping_fee": "15.00",
+"update_time": "0",
+"suppliers_id": "0",
+"status": "0",
+"return_time": "0",
+"agency_id": "0",
+"refund_type": "0",
+"refund_desc": "",
+"refund_money_1": "¥121.60",
+"refund_money_2": "0.00",
+"back_reason": "ytrds",
+"goods_id": "49",
+"goods_name": "",
+"status_back": "未退款",
+"status_refund": "0",
+"imgs": "",
+"back_pay": "2",
+"back_type": "4",
+"supplier_id": "2",
+"order_time": "2015-09-24 01:38:13",
+"goods_url": "goods.php?id=49",
+"status_back_1": "7",
+"goods_list": [
+{
+"rec_id": "5",
+"back_id": "5",
+"goods_id": "49",
+"product_id": "19",
+"product_sn": "",
+"goods_name": "安琦诺 夏装新品孕妇装 韩版休闲外出服喂奶衣套装",
+"brand_name": "",
+"goods_sn": "ECS000049",
+"is_real": "0",
+"send_number": "0",
+"goods_attr": "颜色:白色 \r\n尺码:M \r\n",
+"back_type": "4",
+"parent_id": "0",
+"back_goods_price": "121.60",
+"back_goods_number": "1",
+"status_back": "7",
+"status_refund": "0"
+}
+]
+}
+],
+"pager": {
+"styleid": 1,
+"url": "user.php",
+"start": 0,
+"page": 1,
+"size": 10,
+"record_count": 3,
+"page_count": 1,
+"page_first": "",
+"page_prev": "",
+"page_next": "",
+"page_last": "",
+"page_kbd": false,
+"page_number": {
+"1": "user.php?act=back_list&page=1"
+},
+"search": {
+"act": "back_list"
+}
+}
+}
+}
+
+ 
+
+********************************************************************************************
+
+
+接口说明：获取购物车数量
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_cart_count
+user_id ：会员id
+
+返回类型: json
+
+返回内容:
+
+{
+"code": "200",
+"msg": "success",
+"data": {
+"cart_count": "0"
+}
+}
+
+********************************************************************************************
+
+
+接口说明：商品详情评论列表
+接口地址：ecsapi/goods.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：goods_comments
+goods_id ：商品id
+type ：评论类型（0：全部评论，1：好评，2：中评，3：差评）
+page ：分页页码
+
+返回类型: json
+
+返回内容:
+
+{
+"code": "",
+"msg": "",
+"data": {
+"comments": {
+"item_list": [
+{
+"comment_id": "143",
+"comment_type": "0",
+"title": "",
+"id_value": "100",
+"email": "cuibo@68ecshop.com",
+"user_name": "cbtest", //评论的会员
+"content": " 1111", //评论的内容
+"comment_rank": "5",
+"add_time": "1439503361",
+"ip_address": "127.0.0.1",
+"status": "1",
+"parent_id": "0",
+"user_id": "10",
+"rec_id": "33",
+"comment_tag": "5",
+"buy_time": "1439502871",
+"good_num": "0",
+"hide_username": "0",
+"order_id": "33",
+"headimg": "",
+"shaidan_id": "",
+"shaidan_status": "",
+"add_time_str": "2015-08-14", //评论时间
+"buy_time_str": "2015-08-14",
+"comment_imgs": [], //评论上传的图片
+"comment_imgs_num": 0,
+"goods_attr": "颜色:白色 \n", //规格
+"comment_reps": []
+},
+
+],
+"page": 1,
+"count": "2",
+"size": 2,
+"page_count": 1,
+"page_number": {
+"1": "ShowMyComments(100,0,1)"
+}
+}
+}
+}
+
+ 
+
+
+********************************************************************************************
+
+
+接口说明：我的消息
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：my_message
+user_id ：会员id
+page ：分页页码
+
+返回类型: json
+
+返回内容:
+
+{
+"code": 200,
+"msg": "",
+"data": {
+"msg_list": [
+{
+"msg_id": "2",
+"add_time": "2016-07-15 09:41:03",
+"title": "范德萨发斯蒂芬",
+"short": "规范化就很干净或空间和空间和"
+},
+{
+"msg_id": "1",
+"add_time": "2016-07-15 09:18:55",
+"title": "312312",
+"short": "打算打算范德萨发的所发生的范德萨范德萨"
+}
+],
+"pager": {
+"styleid": 1,
+"url": "user.php",
+"start": 0,
+"page": 1,
+"size": 20,
+"record_count": 2,
+"page_count": 1,
+"page_first": "",
+"page_prev": "",
+"page_next": "",
+"page_last": "",
+"page_kbd": false,
+"page_number": {
+"1": "user.php?act=my_message&page=1"
+},
+"search": {
+"act": "my_message"
+}
+}
+}
+}
+
+************************************************************************************************
+
+接口说明：我的消息详情
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：my_message_details
+msg_id ：消息id
+
+返回类型: json
+
+返回内容:
+消息详情
+
+************************************************************************************************
+
+接口说明：获取首页广告图
+接口地址：ecsapi/index.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_index_img
+
+返回类型: json
+
+说明：banner_img（banner图）
+img_1_left（首页中部广告-第一屏-左边两张）
+img_1_right（首页中部广告-第一屏-右边两张）
+img_2_left（首页中部广告-第二屏-左边两张）
+img_2_right（首页中部广告-第二屏-右边1张）
+img_tuijian（首页推荐产品顶部广告-长条）
+img_goods（首页产品中心顶部广告-长条）
+img_1_tui（首页推荐商品广告左1）
+img_goods（首页推荐商品广告右2）
+
+返回内容:
+{
+"code": 200,
+"msg": "",
+"data": {
+"banner_img": [
+{
+"name": "bann图1",
+"url": "affiche.php?ad_id=1&uri=",
+"image": "data/afficheimg/1468555265377112488.jpg",
+"ad_code": "1468555265377112488.jpg"
+},
+{
+"name": "bann图2",
+"url": "affiche.php?ad_id=2&uri=",
+"image": "data/afficheimg/1468561450514715934.jpg",
+"ad_code": "1468561450514715934.jpg"
+},
+{
+"name": "bann图3",
+"url": "affiche.php?ad_id=3&uri=",
+"image": "data/afficheimg/1468561467484625443.jpg",
+"ad_code": "1468561467484625443.jpg"
+}
+],
+"img_1_left": [
+{
+"name": "最新推荐",
+"url": "affiche.php?ad_id=4&uri=",
+"image": "data/afficheimg/1468565202619689670.png",
+"ad_code": "1468565202619689670.png"
+},
+{
+"name": "产品中心",
+"url": "affiche.php?ad_id=5&uri=",
+"image": "data/afficheimg/1468565246425595704.png",
+"ad_code": "1468565246425595704.png"
+}
+],
+"img_1_right": [
+{
+"name": "积分兑换",
+"url": "affiche.php?ad_id=6&uri=",
+"image": "data/afficheimg/1468565268518040702.png",
+"ad_code": "1468565268518040702.png"
+},
+{
+"name": "健康咨询",
+"url": "affiche.php?ad_id=7&uri=",
+"image": "data/afficheimg/1468565294135549154.png",
+"ad_code": "1468565294135549154.png"
+}
+],
+"img_2_left": [
+{
+"name": "中部广告左上",
+"url": "affiche.php?ad_id=8&uri=",
+"image": "data/afficheimg/1468565433726903058.png",
+"ad_code": "1468565433726903058.png"
+},
+{
+"name": "中部广告左下",
+"url": "affiche.php?ad_id=9&uri=",
+"image": "data/afficheimg/1468565453591612930.png",
+"ad_code": "1468565453591612930.png"
+}
+],
+"img_2_right": [
+{
+"name": "中部广告右1",
+"url": "affiche.php?ad_id=10&uri=",
+"image": "data/afficheimg/1468565474031401318.png",
+"ad_code": "1468565474031401318.png"
+}
+],
+"img_tuijian": [
+{
+"name": "首页推荐产品顶部广告1",
+"url": "affiche.php?ad_id=11&uri=",
+"image": "data/afficheimg/1468565610082935979.png",
+"ad_code": "1468565610082935979.png"
+}
+],
+"img_goods": [
+{
+"name": "首页产品中心顶部广告1",
+"url": "affiche.php?ad_id=12&uri=",
+"image": "data/afficheimg/1468565643292753146.png",
+"ad_code": "1468565643292753146.png"
+}
+],
+"img_1_tui": {},
+"img_2_tui": {}
+}
+}
+
+
+************************************************************************************************
+
+接口说明：首页产品中心，产品中心更多，推荐商品更多（都是同一个接口）
+接口地址：ecsapi/index.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_best_new_goods
+lon ：经度
+lat ：纬度
+user_id ：会员id（有就传）
+type ：推荐商品：best；产品中心：new
+page ：分页码
+
+返回类型: json
+
+返回内容:
+商品列表
+
+************************************************************************************************
+
+接口说明：健康咨询分类
+接口地址：ecsapi/index.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_new_article_cat
+
+返回类型: json
+
+返回内容:
+分类列表
+
+************************************************************************************************
+
+接口说明：健康咨询
+接口地址：ecsapi/index.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_new_article
+cat_id : 分类id 点击分类的时候传
+page ：分页码
+
+返回类型: json
+
+返回内容:
+咨询列表
+
+************************************************************************************************
+
+接口说明：健康咨询
+接口地址：ecsapi/index.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_art_details
+article_id ：咨询id
+
+返回类型: json
+
+返回内容:
+html
+
+ 
+
+
+********************************************************************************************
+
+接口说明：获取积分兑换商品列表
+接口地址：ecsapi/exchange.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_exchange_list
+
+返回类型: json
+
+返回内容:
+
+{
+"code": 200,
+"msg": "",
+"data": {
+"goods_list": [
+{
+"goods_id": "352",
+"goods_name": "雅漾清爽控油洁面乳",
+"name": "雅漾清爽控油洁面乳",
+"goods_brief": "全面作战敏感大油皮！雅漾（Avene）清爽控油洁面乳 125ml，雅漾活泉水加入其中。清洁控油+舒缓镇定，双管齐下，不再为过敏烦恼！无油配方，细小泡沫。温和清洁，告别黏腻腻的大油田！",
+"goods_style_name": "雅漾清爽控油洁面乳",
+"exchange_integral": "500",//兑换所需积分
+"type": "3",
+"goods_thumb": "images/201605/thumb_img/352_thumb_G_1464422287948.jpg",
+"goods_img": "images/201605/goods_img/352_G_1464422287097.jpg",
+"url": "exchange.php?id=352&act=view"
+},
+],
+"pager": {
+"styleid": 1,
+"url": "exchange.php",
+"start": 0,
+"page": 1,
+"size": 10,
+"record_count": 4,
+"page_count": 1,
+"page_first": "",
+"page_prev": "",
+"page_next": "",
+"page_last": "",
+"page_kbd": false,
+"page_number": {
+"1": "exchange.php?act=get_exchange_list&page=1"
+},
+"search": {
+"act": "get_exchange_list"
+}
+}
+}
+}
+
+********************************************************************************************
+
+接口说明：获取商品详情
+接口地址：ecsapi/exchange.php?
+请求方式：get
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_exchange_goods_view
+id ：商品id
+
+返回类型: json
+
+返回内容:
+
+{
+"code": 200,
+"msg": "",
+"data": {
+"goods_id": "369",
+"cat_id": "424",
+"goods_sn": "HUNUO000369",
+"goods_name": "倩碧（Clinique）敏感肌化妆水",
+"click_count": "1",
+"brand_id": "108",
+"goods_brand": "倩碧",
+"goods_number": "100",
+"goods_weight": "150.000千克",
+"exchange_integral": "200",
+"count": null,
+"specification": [
+{
+"attr_id": "39",
+"attr_type": "2",
+"name": "产地",
+"values": [
+{
+"label": "美国",
+"price": "",
+"goods_attr_thumb": "",
+"format_price": "¥0.00",
+"product_number": "",
+"id": "544"
+}
+]
+}
+],
+"img_list": [
+{
+"img_id": "679",
+"img_original": "images/201605/source_img/369_P_1464425539545.jpg",
+"img_url": "images/201605/goods_img/369_P_1464425539201.jpg",
+"thumb_url": "images/201605/thumb_img/369_thumb_P_1464425539130.jpg",
+"img_desc": ""
+}
+]
+}
+}
+
+ 
+
+********************************************************************************************
+
+接口说明：立即兑换
+接口地址：ecsapi/exchange.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：add_exchange_cart
+goods_id ：商品id
+user_id ：会员id
+spec ：商品属性(按黄星那种拼)
+返回类型: json
+
+返回内容:
+
+{
+"code": //200,状态
+"msg": "已添加到购物车", //提示消息
+"data": {
+"sel_cartgoods": 购物车id,
+"flow_type": 购物类型,
+"extension_code": "exchange_goods",
+"extension_id": "兑换的商品id",
+}
+}
+
+说明 跳转到填写订单页面的时候需要传上面返回的四个参数
+
+ 
+
+
+********************************************************************************************
+
+接口说明：修改密码
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：act_edit_password
+old_password ：原密码
+new_password ：新密码
+confirm_password ：确认密码
+user_id ：会员id
+返回类型: json
+
+返回内容:
+成功
+{
+"code": '200' //200,状态
+"msg": "XXXXXXXX", //提示消息
+"data": {}
+}
+
+失败
+{
+"code": '500' //200,状态
+"msg": "XXXXXXXX", //提示消息
+"data": {}
+}
+
+
+********************************************************************************************
+
+接口说明：首页分类图标
+接口地址：ecsapi/index.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_index_goods_cat
+返回类型: json
+
+返回内容:
+{
+"code": "200",
+"msg": "ok",
+"data": [
+{
+"cat_id": "370",
+"cat_name": "家庭常备",
+"cat_nameimg": "data/category_img/1469084652630723082.png"
+}
+]
+}
+
+********************************************************************************************
+
+接口说明：首页分类图标
+接口地址：ecsapi/index.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：get_new_msg_count
+user_id ：会员id
+返回类型: json
+
+返回内容:
+{
+"code": "200",
+"msg": "ok",
+"data": {
+"is_look": 2
+}
+}
+
+ 
+
+
+********************************************************************************************
+
+接口说明：忘记
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key ：秘钥
+api_sign ：验签
+act ：reset_passwd
+mobile_phone ：手机号码
+mobile_code ：验证码
+new_password ：新密码
+confirm_password ：确认密码
+返回类型: json
+
+返回内容:
+成功
+{
+"code": '200' //200,状态
+"msg": "XXXXXXXX", //提示消息
+"data": {}
+}
+
+失败
+{
+"code": '500' //200,状态
+"msg": "XXXXXXXX", //提示消息
+"data": {}
+}

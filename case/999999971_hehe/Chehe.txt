@@ -1,0 +1,55 @@
+http://hehe.gz7.hostadm.net/admin/privilege.php?act=login  商城管理后台 添加商品 
+admin hunuo888  (后台管理员用户名及密码)
+
+http://hehe.gz7.hostadm.net/mobile  微信及分销管理
+17703082558
+123456
+
+分销商测试账号
+http://hehe.gz7.hostadm.net/mobile/admin
+admin hunuo888  (后台管理员用户名及密码)
+
+http://hehe.gz7.hostadm.net/supplier
+
+
+hehe.gz7.hostadm.net
+hehe
+F7B7634E3C4ef1
+连接FTP 219.136.248.77
+
+http://219.136.248.77/phpMyAdmin/
+hehe_sanfang
+sanfangvbg5
+
+
+
+服务号
+hehegroup06@163.com
+Hhgroup2006
+
+
+wxef29f1f2466dec21
+2bd0602e3c7d118e090aac5f31a05a8e
+
+
+
+
+http://sanfang.dg2.hostadm.net/admin          hunuo888           hunuo888
+http://sanfang.dg2.hostadm.net/supplier       hunuo888           hunuo888
+http://sanfang.dg2.hostadm.net/mobile         1599442057@qq.com  123456
+
+http://phpmall.gz6.hostadm.net/
+admin   admin123
+
+
+
+正式和合
+商城www.shophehe.com
+
+数据库http://14.29.113.2:81/
+账号 shophehe
+5TW5r7QQFtRBquDx
+到这个目录shophehe.com原来的网页文件放在web文件夹了
+FTP:14.29.113.2
+账号 shopheheFTP
+shophehe@888

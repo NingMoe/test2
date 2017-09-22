@@ -1,0 +1,614 @@
+上海禾泊秀化妆品有限公司－中文
+http://design.hunuo.com/Design/hepoxiu_5afd1.html
+hepoxiu
+参考站：http://www.innisfree.cn/
+	   http://www.imoda.com/sitemap.php
+
+您的网址为： http://heboxiu.dg.hostadm.net 
+			 http://heboxiu.dg.hostadm.net/system.php
+	 
+我们公司			 
+	FTP登陆用户名是： heboxiu
+		FTP密码是： 198F576A3E4193 
+		用户的FTP地址是：121.12.170.169
+	数据库用户名： 　	heboxiu 
+		数据库密码： 　	heboxiurt4
+		数据库名称： 　	heboxiu 
+		数据库所在IP：  121.12.170.169
+		http://phpmyadmin.dg.hostadm.net/index.php
+		
+		
+	http://heboxiu.dg.hostadm.net
+	http://heboxiu.dg.hostadm.net/system.php
+
+	admin
+	123456
+
+
+
+客户的
+	IP:120.26.106.20
+	远程登录：
+	账号： herb
+	密码： herb@888
+
+	FTP:
+	账号：pwftp
+	密码：m7vokna0
+	
+	远程连接
+		mstsc /v: 120.26.106.20 /console
+
+
+		herbhill_club@126.com
+		密码： 2015herbhill
+
+
+		服务器远程桌面账号：herb
+		密码： herb@888
+
+
+客户的
+	zhangjie(张婕) 15:57:23
+		禾泊秀：IP:	120.26.106.20
+		账号：		herb
+		密码：		herb@888
+
+		数据库： root 
+		密码：  a0b80baebf
+	上线的网址：
+			http://www.herbhill.cn/
+			http://www.herbhill.com.cn/
+			http://www.herbhill.cn/system.php
+ 		后台
+ 			账号： admin
+			密码： herb@it
+
+http://www.herbhill.cn
+
+
+
+
+SELECT * FROM `hebo_ads` WHERE link like '%w%'
+
+
+select * from shop_users  where user_name like "%189245380%"
+
+微信
+	公众号账号密码：
+	herbhill_club@126.com
+	2015herbhill
+	
+
+
+
+新加两个字段
+	birth
+	sex 
+ 
+ 
+
+
+
+
+
+ 
+分享次数 share_count
+浏览次数 click_count
+
+导航：
+首页
+品牌介绍 	1	/Brand/index
+原料故事	2	/Story/index
+产品中心		/Goods/index		/Goods/detail
+活动		3	/Activity/index
+社区		4	/Community/index
+会员中心        /Member/index
+
+
+sort_by
+is_new		<li class="first <if condition="$sort_by eq 'is_new'">hover</if>"><a href="javascript:js_aup('sort_by','is_new','/');">按最新顺序排列</a></li>
+is_hot		<li <if condition="$sort_by eq 'is_hot'">class="hover"</if>><a href="javascript:js_aup('sort_by','is_hot','/');">按人气排列</a></li>
+is_sha		<li <if condition="$sort_by eq 'is_sha'">class="hover"</if>>><a href="javascript:js_aup('sort_by','is_sha','/');">按用户评价次数排列</a></li>
+is_prd		<li <if condition="$sort_by eq 'is_prd'">class="hover"</if>>><a href="javascript:js_aup('sort_by','is_prd','/');">价格从高到低</a></li>
+is_pra		<li <if condition="$sort_by eq 'is_pra'">class="hover"</if>>><a href="javascript:js_aup('sort_by','is_pra','/');">价格从低到高</a></li>
+is_dis		<!-- <li class="last <if condition="$sort_by eq 'is_dis'">hover</if>"><a href="javascript:js_aup('sort_by','is_dis','/');">按优惠排列</a></li> -->
+
+文章：
+	首页视频显示 vi_tui
+	开始时间 	 start_time
+	结束时间 	 end_time
+
+产品：
+	皮肤类型	skintype
+	功效		effect
+	原料		materials  		varchar(255)
+	
+	类型		stortype	    varchar(255)
+	产地		place		    varchar(255)
+	容量		volume		    varchar(255)
+	适用部位	parts		    	varchar(255)
+	价格		price	
+	
+	畅销_周		selling_w		
+	畅销_类		selling_k
+	畅销_全		selling_a
+	
+	
+ （加回复表）  hebo_greply
+<content> greply
+	greply_id		greply_id      int(11) 
+	goods_id      	goods_id	   mediumint(8) 
+	
+	content       	content		   varchar(255)
+	sort_order	  	sort_order	   int(8)
+	产品名称		title          varchar(40)
+	add_time       	add_time	   int(11)
+	
+	user_name	  	user_name	   varchar(60) 
+	user_id		  	user_id		   int(11)
+	ip					ip 		   varchar(60) 
+</content>
+ 
+ 
+
+小标题 s_title
+
+组合 ombin
+
+分享：（Share）
+	标题					  title
+	地区				   *  address
+	职业				   *  occup
+	皮肤问题			   *  question
+	主题				   *  theme
+	商品				      goods_id
+	图片				      original_img
+	内容				      content
+	功效				   *  sc_eff 
+	使用感				   *  sc_use
+	肌肤适用度			   *  sc_app
+	满意度				   *  sc_sat
+	综合				   *  sc_all
+	
+	cat_id(产品分类ID)	      cat_id
+	皮肤类型			      skintype
+	功效				      effect
+	原料				      materials  		varchar(255)
+	添加时间   			      add_time
+	是否显示   			      is_open
+		                     
+	产品名                   title2      
+	产品分类名               cat_name 
+	浏览次数			   *  click_count
+	推荐				   *  is_rec
+	会员id					user_id
+	会员名称				user_name
+（加回复表）  hebo_reply
+<content>
+reply_id		reply_id    int(11) 
+
+	share_id      	share_id		mediumint(8) 
+	user_name	  	user_name		
+	user_id		  	user_id		int(11)
+	content       	content
+	add_time       	add_time
+	sort_order	  	sort_order	 int(8)
+	评论的分享标题		title
+</content>
+
+会员：（hunuo_user）
+	邮箱	email
+	手机	phone
+	ip		ip
+	姓名	user_name
+	密码 	password
+		
+	
+视频：
+	673px × 366px
+		
+	
+留言：( hebo_ask)
+	id			ask_id				mediumint(8)
+	类型		type				tinyint(4)	
+	题目		title				varchar(150)	
+	内容(问)	ask_content			text	utf8_general_ci	
+	回复状态	state				tinyint(1)			
+	是否显示	is_open				tinyint(1)
+	发表日期	add_time			int(11)	
+	用户id		user_id				int(10)	
+	用户名		user_name			varchar(50)	
+	内容(答)	ans_content			text	utf8_general_ci	
+		
+	
+试用中心：(  )
+
+one: （ hebo_tryoutone ）
+   *one_id					id
+	姓名				name		varchar(255)
+	姓别				sex			tinyint(1) 
+	*电话				tel			varchar(15)
+	邮箱				email		varchar(30)
+	肤质				skin		varchar(255)
+   *地址				已有		address
+	皮肤问题			已有		question
+	申请内容			已有		content
+	文章id				article_id 	mediumint(8)
+	商品				已有	    goods_id
+   *会员id				已有		user_id
+   *会员名称			已有		user_name
+	添加时间   			已有	    add_time
+   *活动名称			title		varchar(40)
+   *确认通过			confirm		tinyint(1) 
+two:（ hebo_tryouttwo ）
+   *two_id 					two_id
+	one_id					one_id
+	标题名					title
+	试用内容				content
+	图片				    original_img
+	
+	功效				   *  sc_eff 
+	使用感				   *  sc_use
+	肌肤适用度			   *  sc_app
+	满意度				   *  sc_sat
+   *综合评分			   *  sc_all
+	
+	浏览次数			   *  click_count
+	推荐				   *  is_rec
+   *添加时间   			      add_time
+	是否显示   			      is_open
+	
+	功效				      effect
+	产品名                    title2 
+	cat_id(产品分类ID)	      cat_id    
+	产品分类名                cat_name
+   *活动名称				  title3
+(
+   *会员id				已有		user_id
+   *会员名称			已有		user_name
+)
+	
+	
+（
+试用文章要加的字段：
+	商品id     	goods_id			mediumint(8)
+	第一轮开	one_start_time
+	第一轮结	one_end_time
+	第二轮开	two_start_time
+	第二轮结	two_end_time
+	申请人数	apply 				mediumint(8)
+
+）	
+	
+加盟 （ hebo_guestbook ）
+
+	姓名		name		
+	性别		sex		
+	手机 		phone
+	邮箱		email		
+	开店城市 	city
+	资金预算	capital	
+	添加时间	add_time
+
+
+	
+	
+禾泊秀微博：http://weibo.com/5517316109/profile
+账号： herbhillofficial@sina.com
+密码： herbhill
+
+郑理事微博：http://weibo.com/u/5517316335/home#!/5517316335/profile
+账号：zhenglishikorea@sina.com
+密码：zhenglishi
+
+禾泊秀人人网：
+账号： herbhill_club@126.com
+密码： 2015herbhill
+这个是你们要的账号密码
+
+
+禾泊秀人人网：
+账号：hbx38361863@126.com
+密码：2015herbhill
+
+herbhillofficial@sina.com
+herbhill
+人人网账号
+
+
+
+herbhill~禾泊秀
+247px*495px	
+	
+
+value="1">品牌介绍</option>
+value="5">&nbsp;&nbsp;&nbsp;&nbsp;品牌介绍</option>
+value="17">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌故事</option>
+value="18">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌理念</option>
+value="19">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的承诺</option>
+value="6">&nbsp;&nbsp;&nbsp;&nbsp;社会贡献</option>
+value="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环保理念</option>
+value="21">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环保活动</option>
+value="7">&nbsp;&nbsp;&nbsp;&nbsp;广告视频</option>
+value="22">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;视频广告</option>
+value="23">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其它视频</option>
+value="2">原料故事</option>
+value="15">&nbsp;&nbsp;&nbsp;&nbsp;济州岛故事</option>
+value="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;济州岛之家</option>
+value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;和济州岛的缘分</option>
+value="27">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;带你去看原料</option>
+value="3">活动</option>
+value="8">&nbsp;&nbsp;&nbsp;&nbsp;正在进行的活动</option>
+value="9">&nbsp;&nbsp;&nbsp;&nbsp;已经结束的活动</option>
+value="10">&nbsp;&nbsp;&nbsp;&nbsp;试用中心</option>
+value="11">&nbsp;&nbsp;&nbsp;&nbsp;使用后记</option>
+value="28">&nbsp;&nbsp;&nbsp;&nbsp;获奖公布</option>
+value="4">社区</option>
+value="12">&nbsp;&nbsp;&nbsp;&nbsp;万人分享团</option>
+value="13">&nbsp;&nbsp;&nbsp;&nbsp;护肤小tips</option>
+value="14">&nbsp;&nbsp;&nbsp;&nbsp;SNS社区</option>
+value="29">客服中心</option>
+value="30">&nbsp;&nbsp;&nbsp;&nbsp;公告板</option>
+value="31">&nbsp;&nbsp;&nbsp;&nbsp;会员服务</option>
+value="32">&nbsp;&nbsp;&nbsp;&nbsp;在线咨询</option>
+value="33">&nbsp;&nbsp;&nbsp;&nbsp;Q&amp;A留言板</option>				
+	
+	
+	
+value="1">基础护理</option>
+value="7">&nbsp;&nbsp;&nbsp;&nbsp;洁面</option>
+value="8">&nbsp;&nbsp;&nbsp;&nbsp;清爽</option>
+value="9">&nbsp;&nbsp;&nbsp;&nbsp;眼酸</option>
+value="10">&nbsp;&nbsp;&nbsp;&nbsp;精华</option>
+value="11">&nbsp;&nbsp;&nbsp;&nbsp;面霜</option>
+value="12">&nbsp;&nbsp;&nbsp;&nbsp;面膜</option>
+value="2">特殊护理</option>
+value="3">面膜</option>
+value="4">洁面|卸妆</option>
+value="5">身体护理</option>
+value="6">礼盒</option>								
+
+
+一级：品牌介绍
+二级：品牌介绍
+	三级：品牌介绍、品牌故事、品牌理念、我们的承诺
+二级：社会贡献
+	三级：环保理念、环保活动
+二级：herbhill广告
+	三级：视频广告、其他视频、壁纸下载
+
+一级：原料故事
+二级：济州岛故事
+	三级：济州岛之家、和济州岛的缘分、带你去看原料
+ 
+一级：产品中心
+二级：基础护理、特殊护理、面膜、洁面|卸妆、身体护理、礼盒
+
+一级：活动
+二级：正在进行的活动
+二级：已经结束的活动
+二级：试用中心
+	三级：申请试用、试后评价
+二级：愿望清单
+二级：中奖公告
+
+一级：社区
+二级：万人分享团
+二级：护肤小tips
+二级：SNS社区
+二级：积分榜
+二级：会员中心
+
+一级： 会员中心
+二级： 个人资料
+二级： 个人设置
+二级： 绿色积分
+二级： 美丽日志
+
+一级：客服中心
+二级：公告板
+二级：会员服务
+二级：在线咨询
+二级：Q&A留言板
+
+
+删除：
+	删除分享->删除评论
+	
+
+
+alter table hebo_tryoutone 
+add article_id 	mediumint(8)	unsigned NOT NULL,	
+add name		varchar(255)	NOT NULL default '',
+add sex			tinyint(1) 		unsigned NOT NULL default '0',
+add tel			varchar(15)		NOT NULL default '0',
+add email		varchar(30)		NOT NULL default '',
+add skin		varchar(255)	NOT NULL default '',	
+add address		varchar(255)	NOT NULL default '',	
+add question	varchar(255)	NOT NULL default '',		
+add content		text NOT NULL,
+add goods_id	int(11) unsigned NOT NULL,	
+add user_id		int(11) unsigned NOT NULL,
+add user_name	varchar(255)	NOT NULL,	
+add add_time	int(11)	unsigned NOT NULL;
+
+新增表：
+CREATE TABLE IF NOT EXISTS `hebo_tryouttwo` (
+`two_id` mediumint(8) unsigned NOT NULL auto_increment,
+`one_id` mediumint(8) unsigned NOT NULL,
+`title` varchar(40)	NOT NULL default '',
+`content` text NOT NULL,
+`original_img` varchar(50) default NULL,
+`sc_eff` tinyint(1) NOT NULL,
+`sc_use` tinyint(1) NOT NULL,
+`sc_app` tinyint(1) NOT NULL,
+`sc_sat` tinyint(1) NOT NULL,
+`sc_all` tinyint(3) NOT NULL,
+`click_count` int(11) unsigned NOT NULL,
+`is_rec` int(11) unsigned NOT NULL,
+`add_time` int(10) unsigned NOT NULL,
+`is_open` tinyint(1) unsigned NOT NULL default '0',
+`effect` varchar(255) NOT NULL,
+`title2` varchar(80) NOT NULL,
+`cat_name` varchar(40) NOT NULL,
+`cat_id` varchar(255) NOT NULL default '0',
+PRIMARY KEY  (`two_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
+
+
+alter table hebo_tryouttwo
+add user_name  varchar(40) NOT NULL;
+
+alter table hebo_tryouttwo
+add title3	varchar(40) NOT NULL;
+
+
+
+   <div class="tu"><img src="__PUBLIC__/Img/pic26.png" /></div>
+        
+		<div class="plate3">
+		<volist name="seeDetails" id="vo" offset="0" length="4">
+        	<div class="<if condition="$i%2 eq 0">r<else/>l</if> pic"><a href="{$vo.link}"><img alt="{$vo.title}" src="__ROOT__/{$vo.original_img}" /></a></div>
+		<if condition="$i eq 2">
+            <div class="clear"></div>
+        </div>
+			<div class="xian"><img src="__PUBLIC__/Img/pic30.jpg" /></div>
+        <div class="plate3">
+		</if>
+		</volist>
+           <div class="clear"></div>
+        </div>
+		
+		
+        <div class="xian"><img src="__PUBLIC__/Img/pic30.jpg" /></div>
+		
+        <div class="plate4">
+			<volist name="seeDetails" id="vo" offset="4" length="3">
+        	<div class="l box <if condition="$i eq 3">last</if>">
+            	<p><img src="__PUBLIC__/Img/pic35.png"> {$vo.title}</p>
+            	<div class="pic"><a href="{$vo.link}"><img alt="{$vo.title}" src="__ROOT__/{$vo.original_img}" /></a></div>
+            </div>
+			</volist>
+            <div class="clear"></div>
+        </div>
+		
+		
+http://service.weibo.com/share/share.php?title=%E7%A6%BE%E6%B3%8A%E7%A7%80%E2%80%A2%E7%BB%BF%E8%8C%B6%E6%B0%B4%E5%87%9D%E6%9F%94%E8%82%A4%E6%B0%B4+150ml-%E4%B8%8A%E6%B5%B7%E7%A6%BE%E6%B3%8A%E7%A7%80%E5%8C%96%E5%A6%86%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20&url=http%3A%2F%2Ft.jiathis.com%2F7ePCd&source=bookmark&appkey=2992571369&pic=http%3A%2F%2Fheboxiu.dg.hostadm.net%2FUploads%2Fgoods%2Foriginal_img%2F556bc78c1cf36.jpg&ralateUid=		
+	
+		
+		
+
+http://service.weibo.com/share/share.php?title=%E7%A6%BE%E6%B3%8A%E7%A7%80%E2%80%A2%E7%BB%BF%E8%8C%B6%E6%B0%B4%E5%87%9D%E6%9F%94%E8%82%A4%E6%B0%B4+150ml-%E4%B8%8A%E6%B5%B7%E7%A6%BE%E6%B3%8A%E7%A7%80%E5%8C%96%E5%A6%86%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20&url=http%3A%2F%2Ft.jiathis.com%2F7ePCd&source=bookmark&appkey=2992571369&pic=http%3A%2F%2Fheboxiu.dg.hostadm.net%2FUploads%2Fgoods%2Foriginal_img%2F556bc78c1cf36.jpg&ralateUid=		
+		
+		
+		
+
+		
+		
+http://service.weibo.com/share/share.php?url=http%3A%2F%2Fopen.weibo.com%2Fsharebutton&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic=http%3A%2F%2F43543||http%3A%2F%2F5454||http%3A%2F%2F45454&searchPic=true&style=simple		
+				
+http://service.weibo.com/share/share.php?url=http%3A%2F%2Fopen.weibo.com%2Fsharebutton&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic=http%3A%2F%2F43543||http%3A%2F%2F5454||http%3A%2F%2F45454&searchPic=true&style=simple		
+		
+		
+		
+		
+http://service.weibo.com/share/share.php?title=%E7%A6%BE%E6%B3%8A%E7%A7%80%E2%80%A2%E7%BB%BF%E8%8C%B6%E6%B0%B4%E5%87%9D%E6%9F%94%E8%82%A4%E6%B0%B4+150ml-%E4%B8%8A%E6%B5%B7%E7%A6%BE%E6%B3%8A%E7%A7%80%E5%8C%96%E5%A6%86%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20&url=http%3A%2F%2Fwww.test1.com%2Ftest.php&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic=http%3A%2F%2F43543||http%3A%2F%2F5454||http%3A%2F%2F45454&searchPic=true&style=simple	http://service.weibo.com/share/share.php?title=%E7%A6%BE%E6%B3%8A%E7%A7%80%E2%80%A2%E7%BB%BF%E8%8C%B6%E6%B0%B4%E5%87%9D%E6%9F%94%E8%82%A4%E6%B0%B4+150ml-%E4%B8%8A%E6%B5%B7%E7%A6%BE%E6%B3%8A%E7%A7%80%E5%8C%96%E5%A6%86%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20&url=http%3A%2F%2Fwww.test1.com%2Ftest.php&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic=http%3A%2F%2F43543||http%3A%2F%2F5454||http%3A%2F%2F45454&searchPic=true&style=simple	
+
+
+
+http://service.weibo.com/share/share.php?title=%E7%A6%BE%E6%B3%8A%E7%A7%80%E2%80%A2%E7%BB%BF%E8%8C%B6%E6%B0%B4%E5%87%9D%E6%9F%94%E8%82%A4%E6%B0%B4+150ml-%E4%B8%8A%E6%B5%B7%E7%A6%BE%E6%B3%8A%E7%A7%80%E5%8C%96%E5%A6%86%E5%93%81%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%20&url=http%3A%2F%2Fwww.test1.com%2Ftest.php&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic=http%3A%2F%2F43543||http%3A%2F%2F5454||http%3A%2F%2F45454&style=simple	
+
+var to_url='http://service.weibo.com/share/share.php?title='+title+'&url='+url+'&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic='+pic+'&style=simple';	
+
+
+12 推荐有礼     polite
+
+
+
+
+http://service.weibo.com/share/share.php?title=&url=http://heboxiu.dg.hostadm.net/index.php/Goods/detail/id/55&type=button&ralateUid=5521601764&language=zh_cn&appkey=3903711866&pic=http://heboxiu.dg.hostadm.net/Uploads/ads/original_img/1433146584.jpg||http://heboxiu.dg.hostadm.net/Uploads/ads/original_img/1433146693.jpg&searchPic=false&style=simple
+
+
+
+http://service.weibo.com/share/share.php?url=http%3A%2F%2Fopen.weibo.com%2Fsharebutton&type=button&language=zh_cn&appkey=3903711866&searchPic=true&style=simple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Web:
+
+数据接口补充信息，接口Key：
+CUSTKEY  EF380BFA-97A9-4750-BC85-9E8CA89A5BB1
+CUSTNAME  禾泊秀 
+
+
+
+
+shaer thumb_img
+
+
+
+<script src="__PUBLIC__/Web/Js/JQ_common.js"></script>
+
+
+    <div class="hdxq ty">
+    	<div class="title_all">
+        	<div  class="back"><a id="page_back" href="javascript:void(0)"><img alt="page_history" src="__PUBLIC__/Web/Img/pic34.png" /></a></div>
+            <p>品牌介绍</p>
+        </div>
+        <div class="con">
+			<div class="picc">
+        	{$content.content}
+			</div>
+        </div>
+	</div>
+
+
+		
+<div id="message_cont" class="sideMenu" style="margin:0 auto">
+	<volist name="list" id="vo">
+    <h3><em></em>{$vo['ask_content']}</h3>
+    <div class="xialai">
+	{$vo['ans_content']}
+    </div>
+	</volist>
+	<if condition="$count gt 9">
+		<div class="more"><a onclick="insert_info_list('as',1,9,2,'','as','message_cont','');" href="#">显示更多 ( 9/{$count} )</a></div>
+	</if>
+</div>		
+		
+
+
+<volist name="list" id="vo">
+	<h3><em></em>{$vo['ask_content']}</h3>
+	<div class="xialai">
+	{$vo['ans_content']}
+	</div>
+</volist>
+<if condition="$filter['more_show']">
+ <div class="more"><a onclick="insert_info_list('{$filter['table']}','{$filter['cat_id']}','{$filter['page_size']}','{$filter['page']}','','{$filter['tpl']}','{$filter['cont_js_id']}','');" href="javascript:void(0);">显示更多 ( {$filter['page_number']}/{$filter['count']} )</a></div>
+</if>
+<script type="text/javascript">
+sidemenu();
+</script>
+
+<style type="text/css">
+
+
+</style>
+

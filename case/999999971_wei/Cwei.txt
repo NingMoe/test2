@@ -1,0 +1,157 @@
+微信公众平台测试号
+    本地同步文件
+        E:\www\myWeiXin\
+    访问地址
+        http://120.27.28.7/api/wei/wx_sample_t.php
+
+    阿里云远程
+        id: 120.27.28.7
+        用户: Administrator
+        密码: *********
+
+    新浪sae
+        网站:  http://sae.sina.com.cn/
+        用户:  17092081531
+        密码:  ***********
+        fly_sky_yd
+
+
+    微信在用的开发网址
+        网站: http://weiphpdiy.applinzi.com/
+        名称: weiphp
+        帐号: cyijefaee   
+        密码: 1c99f7ef695d58d85b57a47430077957
+        密码重置方法
+            var_dump( md5 ( sha1 ( 'cyd784154653' ) . 'oN0|{K?`)2mOFBZrQYTz=PCh/!Re,9;%j4*k[gEL' ) );
+            die();
+
+
+
+测试微信号
+    appID
+        wxc87f294e08796db0
+    appsecret
+        5b0d6af4d1cba2b016bb5146675b976c
+    URL
+        http://weiphpdiy.applinzi.com/index.php?s=/home/weixin/index/id/1.html
+    Token
+        weiphp
+
+
+access_token
+    A_vFeFQwVxiFXwEF7DQUb-NNmKxM9sq5OfOxuk45FqzOrofSzmO-V1fNTpc1bLGPWRYhegyOZfeBxXojkZcBgH-Bp0aXhkzSShhKKHDwSGMBPCdAGAHVI
+
+
+方倍工作室
+    http://www.cnblogs.com/txw1958/
+微信web开发者工具_返回码
+    http://mp.weixin.qq.com/wiki/17/fa4e1434e57290788bde25603fa2fcbd.html
+微信web开发者工具
+    http://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html
+公众号测试
+    http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+
+
+wx.nowvision.cn
+
+admin 123456
+
+linhaiqing520@hotmail.com
+662086
+
+
+
+
+
+
+
+http://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+
+
+接口配置
+    自己写的类
+        URL
+            http://120.27.28.7/api/wei/wx_sample_t.php
+        Token
+            visfpfdsfdsmingfdfds
+        http://120.27.28.7:85/index.php?s=/home/weixin/index/id/1.html
+    用weiphp框架
+        URL
+            http://120.27.28.7/index.php?s=/home/weixin/index/id/1.html
+        Token
+            weiphp
+        http://weiphpdiy.applinzi.com/index.php?s=/home/weixin/index/id/1.html
+
+
+
+
+    // 设置所属行业 
+    $url='https://api.weixin.qq.com/cgi-bin/template/api_set_industry?access_token='.ACCESS_TOKEN;
+    $data=array(  
+          "industry_id1"=>"1",
+          "industry_id2"=>"4"
+       );
+
+
+    // 获得模板ID 
+    $url='https://api.weixin.qq.com/cgi-bin/template/api_add_template?access_token='.ACCESS_TOKEN;
+    $data=array( "template_id_short"=>"TM00015");
+
+
+    // 获取用户基本信息(UnionID机制)
+    define('OPENID','oTNuQuJI0Y_826iqmHy-ELLuCYZU');
+    // define('OPENID','oTNuQuH9gt5KwwVolsHkdUE6yvzI');
+    $url='https://api.weixin.qq.com/cgi-bin/user/info?access_token='.ACCESS_TOKEN.'&openid='.OPENID.'&lang=zh_CN';
+    $data='';
+
+    // 获取用户列表 "openid":["oTNuQuH9gt5KwwVolsHkdUE6yvzI","oTNuQuJI0Y_826iqmHy-ELLuCYZU","oTNuQuGIt7QrGA3veP-1jiSgRA8o","oTNuQuBvFEvR7tq3kQWPkPc6H8gE","oTNuQuANgiNUjyO3iMH-ZWxBpV80"]
+    $url='https://api.weixin.qq.com/cgi-bin/user/get?access_token='.ACCESS_TOKEN;//'&next_openid=NEXT_OPENID';
+    $data='';
+
+
+    // 发送模板消息
+    $url='https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='.ACCESS_TOKEN;
+    // $url='http://mynotes.com/test/test.php';
+    $data=array (
+        'touser' => OPENID,
+        'template_id' => '0Xk_EXy80Ieh6w4aQzdIw7G_pEOeTXkQldjtQInAcP8',
+        'url' => 'http://www.baidu.com',
+        'data' =>
+            array (
+                'first' => 
+                array (
+                  'value' => '恭喜你购买成功！',
+                  'color' => '#173177',
+                ),
+                'keynote1' => 
+                array (
+                  'value' => '巧克力',
+                  'color' => '#173177',
+                ),
+                'keynote2' => 
+                array (
+                  'value' => '39.8元',
+                  'color' => '#173177',
+                ),
+                'keynote3' => 
+                array (
+                  'value' => '2014年9月22日',
+                  'color' => '#173177',
+                ),
+                'remark' => 
+                array (
+                  'value' => '欢迎再次购买！',
+                  'color' => '#173177',
+                ),
+            )
+    );
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+洲游
+本地项目
+    要打开的
+        E:\www\zhourou
+        E:\1_commonly_used\我做的更改\项_9942_洲柔
+        E:\1_commonly_used\我做的更改\项_9942_洲柔\洲游接口20160331.txt
+    wap
+        http://zhourou.com/wap/
+        http://zhourou.com/shop/index.php?act=seller_center
+
+    app
+        E:\1_commonly_used\我做的更改\项_9942_洲柔\app\imgage\
+
+    原shopnc
+        http://hunuomall.com/wap/
+        
+
+http://zhourou.gz10.hunuo.net 
+
+
+要加的接口
+    交易评价
+        http://zhourou.com/mobile/index.php?act=member_evaluate&op=list&page=10&curpage=1
+    实名认证
+        http://zhourou.com/mobile/index.php?act=member_security&op=auth_ch
+
+js异步加载
+    E:\www\zhourou\wap\js\tmpl\voucher_list.js
+
+
+
+加了发送记录
+    E:\www\zhourou\core\framework\libraries\email.php
+    E:\www\zhourou\core\framework\libraries\sms.php
+
+
+http://zhourou.com/shop/index.php?act=member_security&op=auth
+
+
+
+陈育东
+445281198810082418
+
+
+
+
+
+
+http://zhourou.com/wap/tmpl/product_list.html?keyword=
+http://zhourou.com/wap/tmpl/product_detail.html?goods_id=84
+http://zhourou.com/wap/tmpl/product_detail.html?goods_id=68
+http://zhourou.com/wap/tmpl/product_detail.html?goods_id=70
+
+测试空间
+    
+
+安全问题
+    退出登陆后,把退出前的cookie中的key,新加上后又是登陆状态了
+
+
+
+极限中国
+    数据库用户名：  jxzg
+    数据库密码：    gewe5432
+    数据库名称：    jxzg
+    数据库所在IP：  183.61.109.99
+    所用的连接端口：3306
+
+    jxzg.gz11.hostadm.net
+    jxzg
+    8092129F9D1e7b
+    连接FTP 183.61.109.99
+    chenyudong(陈育东) 09:56:23
+
+
+
+
+
+
+
+//join实例
+public function getpresellList($condition,$page=''){
+    $param['table'] = 'goods,goods_common';
+    $param['join_type'] = 'inner join';
+    $param['field'] = 'goods.goods_id,goods.store_id,goods.goods_name,goods.goods_price,goods.goods_marketprice,goods.goods_image,goods_common.presell_deliverdate';
+    $param['join_on']   = array('goods.goods_commonid=goods_common.goods_commonid');
+    $param['where'] = $this->getCondition($condition);
+    $param['order'] = $condition['order'];
+    return Db::select($param,$page);
+}
+
+
+ public function getOrderAndOrderGoodsList($condition, $field = '*', $page = 0, $order = 'rec_id desc') {
+        return $this->table('order_goods,order')->join('inner')->on('order_goods.order_id=order.order_id')->where($condition)->field($field)->page($page)->order($order)->select();
+    }
+
+
+
+
+
+
+共享必须打开以下服务：
+     dnscache（简写）、
+     fdrespub（简写）、
+     SSDP Discovery、
+     UPnP Device Host、
+     Computer Browser、
+     Server、
+     DNS Client、
+     TCP/IP NetBIOS Helper。
+
+ftp
+    http://zhourou.gz10.hunuo.net   
+    14.18.203.172
+    zhourou 
+    5528722AF1ad21  
+数据库
+    http://phpmyadmin.gz10.hunuo.net    
+    zhourou 
+    zhouroufg43 
+svn:
+    https://webserver/svn/zhouroudianzi
+
+
+

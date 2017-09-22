@@ -1,0 +1,2080 @@
+Apache 2.2及以上、php 5.2及以上、MySQL 5.5及以上
+linux+nginx+mysql+php
+
+yum install nginx
+yum install httpd
+yum install php5.*(版本号)
+yum install vsftpd
+yum install mysql-server
+yum install mysql-devel
+
+
+https://yq.aliyun.com/users/1220185998720195/own?spm=5176.100239.blogrightarea66127.4.c17QZR
+https://yq.aliyun.com/search?q=php
+https://yq.aliyun.com/articles/60787?spm=5176.100240.searchblog.31.wmUhhp
+
+
+http://efe.baidu.com/blog/mobile-fixed-layout/?utm_source=tuicool&utm_medium=referral
+http://www.alloyteam.com/
+https://isux.tencent.com/
+http://ued.ctrip.com/blog/
+
+
+1 E_ERROR 致命的运行错误。错误无法恢复，暂停执行脚本。
+2 E_WARNING 运行时警告(非致命性错误)。非致命的运行错误，脚本执行不会停止。
+4 E_PARSE 编译时解析错误。解析错误只由分析器产生。
+8 E_NOTICE 运行时提醒(这些经常是你代码中的bug引起的，也可能是有意的行为造成的。)
+16 E_CORE_ERROR PHP启动时初始化过程中的致命错误。
+32 E_CORE_WARNING PHP启动时初始化过程中的警告(非致命性错)。
+64 E_COMPILE_ERROR 编译时致命性错。这就像由Zend脚本引擎生成了一个E_ERROR。
+128 E_COMPILE_WARNING 编译时警告(非致命性错)。这就像由Zend脚本引擎生成了一个E_WARNING警告。
+256 E_USER_ERROR 用户自定义的错误消息。这就像由使用PHP函数trigger_error（程序员设置E_ERROR）
+512 E_USER_WARNING 用户自定义的警告消息。这就像由使用PHP函数trigger_error（程序员设定的一个E_WARNING警告）
+1024 E_USER_NOTICE 用户自定义的提醒消息。这就像一个由使用PHP函数trigger_error（程序员一个E_NOTICE集）
+2048 E_STRICT 编码标准化警告。允许PHP建议如何修改代码以确保最佳的互操作性向前兼容性。
+4096 E_RECOVERABLE_ERROR 开捕致命错误。这就像一个E_ERROR，但可以通过用户定义的处理捕获（又见set_error_handler（））
+8191 E_ALL 所有的错误和警告(不包括 E_STRICT) (E_STRICT will be part of E_ALL as of PHP 6.0)
+
+二维码
+http://qr.liantu.com/api.php?text=http://www.baidu.com&w=150
+
+股票行情插件 http://summary.jrj.com.cn/co/
+在线制作ICO文件 http://ico.55.la
+网站图片在线压缩，缩小容量 https://tinypng.com/
+
+
+图层
+.contain-mark{background:#000;opacity:0.3;display:none;position:fixed;width:100%;height:100%;z-index:9; }
+<div class="contain-mark"></div>
+$('.contain-mark').show();
+
+
+//json 出错
+var_dump(json_last_error());
+//错误码对照
+0 JSON_ERROR_NONE
+1 JSON_ERROR_DEPTH
+2 JSON_ERROR_STATE_MISMATCH
+3 JSON_ERROR_CTRL_CHAR
+4 JSON_ERROR_SYNTAX
+5 JSON_ERROR_UTF8
+6 JSON_ERROR_RECURSION
+7 JSON_ERROR_INF_OR_NAN
+8 JSON_ERROR_UNSUPPORTED_TYPE
+
+
+ecshop 权限控制流程
+添加权限码语言包信息  
+如中文语言包文件languages/zh_cn/admin/priv_action.php 添加如下代码：
+$_LANG['shipment_view'] = '提货单管理';
+
+把权限代码写入权限代码表admin_action：
+INSERT INTO `tjautoland_com`.`admin_action` (  `action_id` ,  `parent_id` ,  `action_code` ,  `relevance`  )  VALUES (  NULL , '6', 'shipment_view', ''  );   
+
+添加菜单代码对应的语言项  
+如在languages/zh_cn/admin/common.php添加中文语言项：  
+$_LANG['09_delivery_order'] = '提车单列表';
+
+添加菜单代码相应的菜单链接URL  
+在admin/includes/inc_menu.php添加如下代码： 
+$modules['04_order']['09_delivery_order']           = 'order.php?act=shipment_list';   
+
+在admin/includes/inc_priv.php添加菜单代码和权限代码绑定的代码。  
+$purview['09_delivery_order']    = 'shipment_view';   
+
+调用admin_priv函数，判断管理员对某一个操作是否有权限。 
+admin_priv('shipment_view');
+
+
+
+
+大家应该都知道php文件最终在浏览器上显示，走过3个缓冲阶段：
+php buffer=》web server buffer=》浏览器buffer。
+
+先从php buffer开始讲起。
+php buffer
+php运行的结果先放入缓冲区（buffer），只有当缓冲区满了或者php运行完毕，才将数据输出去。
+
+缓冲区是通过php.ini中的output_buffering变量控制。output_buffering的默认值是off，可以设置大于0的数值来打开buffer。
+但是这里需要注意的是：
+1）使用ini_set是无法修改buffer的设置。
+2）不管php.ini中output_buffering设置，cli模式下的php始终默认是output buffering为关闭的。但是你可以通过ob_start()将buffer打开。
+
+大家都说：ob_start()是将php buffer打开，ob_end_flush()是将php buffer关闭。但是php.ini中php buffer是关闭的，再次调用ob_end_flush()会报warning。
+
+另外，ob_*系列的函数是操作php本身的输出缓冲区。可以使用ob_flush()将php 缓冲区的内容强制输出。
+
+web server buffer
+这里主要将apache和nginx的缓冲区。
+1、apache buffer
+当php的输出数据给apache服务器时，它也会做一层buffer（也将数据放入它的缓冲区，当缓冲区数据满或执行完毕时，才输出数据）。
+
+若想关闭缓冲区，可以在php层使用flush()来强制将缓冲区数据输出。
+fulsh() 的工作原理：在apache module的sapi下, flush会通过调用sapi_module的flush成员函数指针, 间接的调用apache的api: ap_rflush刷新apache的输出缓冲区, 当然手册中也说了, 有一些apache的其他模块, 可能会改变这个动作的结果.例如mod_gzip，可能自己进行输出缓冲区，这将导致flush()函数产生的结果不会立即被发送到客户端浏览器。
+
+2、nginx buffer
+nginx使用fastcgi缓冲区来缓冲数据。很遗憾的是，fastcgi是强制将buffer打开的，无法关闭缓冲区。
+
+有人有可能会想，无法关闭可以将buffer设置的足够小，来使缓冲数据输出，达到无缓冲的效果。但是这个想法无法实现。
+原因一：fastcgi buffer无法识别小于1k的数值。
+原因二：受参数之间大小关系的影响。
+
+具体可以看看fastcgi的一些buffer设置。
+fastcgi_buffer_size是用来存储response的header数据。
+fastcgi_buffers是用来存储response的内容数据.
+fastcgi_busy_buffers_size是用来控制同时传输到客户端的buffer数量。一旦fastcgi_buffers设置的 buffer被写入，直到buffer里面的数据被完整的传输完（传输到客户端），这些buffer将会一直处在busy状态，我们不能对这些 buffer进行任何别的操作。所有处在busy状态的buffer size加起来不能超过fastcgi_busy_buffers_size。
+
+参数之间大小关系：
+fastcgi_busy_buffers_size<(all fastcgi_buffers - one buffer) 并且fastcgi_busy_buffers_size>=max (fastcgi_buffer_size, one fastcgi _buffers)。
+例如,在nginx.conf配置中有:
+fastcgi_buffers 4 128k
+fastcgi_buffer_size 256k
+那么fastcgi_busy_buffers_size<(4*128k - 4k) 并且fastcgi_busy_buffers_size>=max(256k, 128k)
+其中，4k（one buffer的大小）是linux系统默认的缓存大小，即一个内存页。
+
+若fastcgi_buffer_size设置的很小，会导致header过小的错误。你也同样无法保证设置的值会满足所有的情况。
+
+要注意的是：
+1）flush, 严格来讲, 这个只有在PHP做为apache的Module(handler或者filter)安装的时候, 才有实际作用. 它是刷新WebServer(可以认为特指apache)的缓冲区.所以在nginx下，flush()函数是无法起作用的。
+
+browser buffer
+在 php端无法关闭浏览器buffer(至少目前我没有研究出来，若有哪位高人研究出来了，请一定要记得分享)。为了使得数据及时输出，可以在发送真正内容 数据前，发送一些空格来填满浏览器的buffer。浏览器的buffer一满，就会将其他新输出的数据输出。但是不同的浏览器会设置不同的buffer大 小。为了保险期间，可以发送4096个空格，因为目前比较流行的浏览器的buffer还没有超过4k(一个内页大小)。
+
+
+
+
+function curl($urls = array(), $callback = '')
+{
+    $response = array();
+    if (empty($urls)) {
+        return $response;
+    }
+    $chs = curl_multi_init();
+    $map = array();
+    foreach($urls as $url){
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 1);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_NOSIGNAL, true);
+        curl_multi_add_handle($chs, $ch);
+        $map[strval($ch)] = $url;
+    }
+    do{
+        if (($status = curl_multi_exec($chs, $active)) != CURLM_CALL_MULTI_PERFORM) {
+            if ($status != CURLM_OK) { break; } //如果没有准备就绪，就再次调用curl_multi_exec
+            while ($done = curl_multi_info_read($chs)) {
+                $info = curl_getinfo($done["handle"]);
+                $error = curl_error($done["handle"]);
+                $result = curl_multi_getcontent($done["handle"]);
+                $url = $map[strval($done["handle"])];
+                $rtn = compact('info', 'error', 'result', 'url');
+                if (trim($callback)) {
+                    $callback($rtn);
+                }
+                $response[$url] = $rtn;
+                curl_multi_remove_handle($chs, $done['handle']);
+                curl_close($done['handle']);
+                //如果仍然有未处理完毕的句柄，那么就select
+                if ($active > 0) {
+                    curl_multi_select($chs, 0.5); //此处会导致阻塞大概0.5秒。
+                }
+            }
+        }
+    }
+    while($active > 0); //还有句柄处理还在进行中
+    curl_multi_close($chs);
+    return $response;
+}
+ 
+//使用方法
+function deal($data){
+    if ($data["error"] == '') {
+        echo $data["url"]." -- ".$data["info"]["http_code"]."\n";
+    } else {
+        echo $data["url"]." -- ".$data["error"]."\n";
+    }
+}
+$urls = array();
+for ($i = 0; $i < 10; $i++) {
+    $urls[] = 'http://www.baidu.com/s?wd=etao_'.$i;
+    $urls[] = 'http://www.so.com/s?q=etao_'.$i;
+    $urls[] = 'http://www.soso.com/q?w=etao_'.$i;
+}
+curl($urls, "deal"); 
+1.关于curl_multi_exec函数的返回值：
+返回CURLM_CALL_MULTI_PERFORM 说明curl_multi_exec需要马上被再调用一次。
+返回CURLM_OK 说明已经有需要处理的数据。这时你需要进行相关处理，处理完后再次调用curl_multi_exec。
+php中的curl_multi_exec是调用的curl库中的curl_multi_perform方法。代码在multi.c的230行左右。
+
+2.此方式，虽然在获取数据和数据处理上是并行的，但是在数据处理时依然是串行的。即数据是一条条依次处理的。如果deal方法比较耗时的话，那整体会非常耗时。
+
+
+
+
+nginx的ngx_http_limit_req_module模块限制了百度蜘蛛的抓取频率。每分钟允许百度蜘蛛抓取200次，多余的抓取请求返回503。
+nginx的配置：
+全局配置
+
+limit_req_zone $anti_spider zone=anti_spider:60m rate=200r/m;
+某个server中
+
+limit_req zone=anti_spider burst=5 nodelay;
+if ($http_user_agent ~* "baiduspider") {
+set $anti_spider $http_user_agent;
+}
+
+参数说明：
+指令limit_req_zone 中的rate=200r/m 表示每分钟只能处理200个请求。
+指令limit_req 中的burst=5 表示最大并发为5。即同一时间只能同时处理5个请求。
+指令limit_req 中的 nodelay 表示当已经达到burst值时，再来新请求时，直接返回503
+IF部分用于判断是否是百度蜘蛛的user agent。如果是，就对变量$anti_spider赋值。这样就做到了只对百度蜘蛛进行限制了。
+
+
+
+php中如何设置mysql查询的超时时间?
+第一种设置mysql查询超时时间的方法是使用mysqlnd。
+php启用mysqlnd扩展后，只要在php.ini文件中设置 mysqlnd.net_read_timeout 即可。
+参数值的单位为秒。如：
+mysqlnd.net_read_timeout = 3 表示每次mysql查询超时时间为3秒。如果超时，则会报错。
+
+另一种方式是使用mysqli。
+
+＃参考资料
+php中如何设置mysql查询读取数据的超时时间
+
+
+
+
+
+
+
+
+
+PHP的错误机制总结
+
+PHP的错误机制也是非常复杂的，做了几年php，也没有仔细总结过，现在就补上这一课。
+
+特别说明：文章的PHP版本使用5.5.32
+PHP的错误级别
+
+首先需要了解php有哪些错误。截至到php5.5，一共有16个错误级别
+
+注意：尝试下面的代码的时候请确保打开error_log:
+
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
+
+E_ERROR
+
+这种错误是致命错误，会在页面显示Fatal Error， 当出现这种错误的时候，程序就无法继续执行下去了
+
+错误示例：
+
+// Fatal error: Call to undefined function hpinfo() in /tmp/php/index.php on line 5
+hpinfo();  //E_ERROR
+
+注意，如果有未被捕获的异常，也是会触发这个级别的。
+
+// Fatal error: Uncaught exception 'Exception' with message 'test exception' in /tmp/php/index.php:5 Stack trace: #0 {main} thrown in /tmp/php/index.php on line 5
+throw new \Exception("test exception");
+
+E_WARNING
+
+这种错误只是警告，不会终止脚本，程序还会继续进行，显示的错误信息是Warning。比如include一个不存在的文件。
+
+//Warning: include(a.php): failed to open stream: No such file or directory in /tmp/php/index.php on line 7
+//Warning: include(): Failed opening 'a.php' for inclusion (include_path='.:/usr/share/pear:/usr/share/php') in /tmp/php/index.php on line 7
+include("a.php"); //E_WARNING
+
+E_NOTICE
+
+这种错误程度更为轻微一些，提示你这个地方不应该这么写。这个也是运行时错误，这个错误的代码可能在其他地方没有问题，只是在当前上下文情况下出现了问题。
+
+比如$b变量不存在，我们把它赋值给另外一个变量
+
+//Notice: Undefined variable: b in /tmp/php/index.php on line 9
+$a = $b; //E_NOTICE
+
+E_PARSE
+
+这个错误是编译时候发生的，在编译期发现语法错误，不能进行语法分析。
+
+比如下面的z没有设置为变量。
+
+// Parse error: syntax error, unexpected '=' in /tmp/php/index.php on line 20
+z=1; // E_PARSE
+
+E_STRICT
+
+这个错误是PHP5之后引入的，你的代码可以运行，但是不是PHP建议的写法。
+
+比如在函数形参传递++符号
+
+// Strict Standards: Only variables should be passed by reference in /tmp/php/index.php on line 17
+function change (&$var) {
+  $var += 10;
+}
+
+$var = 1;
+change(++$var);
+// E_STRICT
+
+E_RECOVERABLE_ERROR
+
+这个级别其实是ERROR级别的，但是它是期望被捕获的，如果没有被错误处理捕获，表现和E_ERROR是一样的。
+
+经常出现在形参定义了类型，但调用的时候传入了错误类型。它的错误提醒也比E_ERROR的fatal error前面多了一个Catachable的字样。
+
+//Catchable fatal error: Argument 1 passed to testCall() must be an instance of A, instance of B given, called in /tmp/php/index.php on line 37 and defined in /tmp/php/index.php on line 33
+class A {
+}
+
+class B {
+}
+
+function testCall(A $a) {
+}
+
+$b = new B();
+testCall($b);
+
+E_DEPRECATED
+
+这个错误表示你用了一个旧版本的函数，而这个函数后期版本可能被禁用或者不维护了。
+
+比如curl的CURLOPT_POSTFIELDS使用\@FILENAME来上传文件的方法
+
+// Deprecated: curl_setopt(): The usage of the @filename API for file uploading is deprecated. Please use the CURLFile class instead in /tmp/php/index.php on line 42
+$ch = curl_init("http://www.remotesite.com/upload.php");
+curl_setopt($ch, CURLOPT_POSTFIELDS, array('fileupload' => '@'. "test"));
+
+E_CORE_ERROR, E_CORE_WARNING
+
+这两个错误是由PHP的引擎产生的，在PHP初始化过程中发生。
+E_COMPILE_ERROR, E_COMPILE_WARNING
+
+这两个错误是由PHP引擎产生的，在编译过程中发生。
+E_USER_ERROR, E_USER_WARNING, E_USER_NOTICE, E_USER_DEPRECATED,
+
+这些错误都是用户制造的，使用trigger_error，这里就相当于一个口子给用户触发出各种错误类型。这个是一个很好逃避try catch异常的方式。
+
+trigger_error("Cannot divide by zero", E_USER_ERROR);
+// E_USER_ERROR
+// E_USER_WARING
+// E_USER_NOTICE
+// E_USER_DEPRECATED
+
+E_ALL
+
+E_STRICT出外的所有错误和警告信息。
+错误控制
+
+php中有很多配置和参数是可以控制错误，以及错误的日志显示的。第一步，我们需要了解的是php中的有关错误的配置有哪些？
+
+我们按照php+php-fpm的模型来说，会影响php错误显示的其实是有两个配置文件，一个是php本身的配置文件php.ini，另外一个是php-fpm的配置文件，php-fpm.conf。
+php.ini中的配置
+
+error_reporting = E_ALL  // 报告错误级别，什么级别的
+error_log = /tmp/php_errors.log // php中的错误显示的日志位置
+display_errors = On // 是否把错误展示在输出上，这个输出可能是页面，也可能是stdout
+display_startup_errors = On // 是否把启动过程的错误信息显示在页面上，记得上面说的有几个Core类型的错误是启动时候发生的，这个就是控制这些错误是否显示页面的。
+log_errors = On // 是否要记录错误日志
+log_errors_max_len = 1024 // 错误日志的最大长度
+ignore_repeated_errors = Off // 是否忽略重复的错误
+track_errors = Off // 是否使用全局变量$php_errormsg来记录最后一个错误
+xmlrpc_errors = 0 //是否使用XML-RPC的错误信息格式记录错误
+xmlrpc_error_number = 0 // 用作 XML-RPC faultCode 元素的值。
+html_errors = On  // 是否把输出中的函数等信息变为HTML链接
+docref_root = http://manual/en/ // 如果html_errors开启了，这个链接的根路径是什么
+fastcgi.logging = 0 // 是否把php错误抛出到fastcgi中
+
+我们经常会被问到，error_reporting和display_errors有什么区别呢？这两个函数是完全不一样的。
+PHP默认是会在日志和标准输出（如果是fpm模式标准输出就是页面）
+error_reporting的参数是错误级别。表示什么样子的级别才应该触发错误。如果我们告诉PHP，所有错误级别都不需要触发错误，那么，不管是日志，还是页面，都不会显示这个错误，就相当于什么都没有发生。
+display_errors是控制是否要在标准输出展示错误信息
+log_errors则是控制是否要在日志中记录错误信息。
+
+error_log是显示错误日志的位置，这个在php-fpm中往往会被重写，于是往往会发现的是cli和fpm的错误日志竟然不是在同一个文件中。
+
+ignore_repeated_errors这个标记控制的是如果有重复的日志，那么就只会记录一条，比如下面的程序：
+
+error_reporting(E_ALL);
+ini_set('ignore_repeated_errors', 1);
+ini_set('ignore_repeated_source', 1);
+
+$a = $c; $a = $c; //E_NOTICE
+//Notice: Undefined variable: c in /tmp/php/index.php on line 20
+
+本来会出现两次NOTICE的，但是现在，只会出现一次了...
+
+track_errors开启会把最后一个错误信息存储到变量里面去，这个可能在对记日志的时候会有一些用处吧。不过我觉得真是没啥用...
+
+html_errors 和 docref_root 两个是个挺有人性化的配置，配置了这两个参数以后，我们返回的错误信息中如果有一些在文档中有的信息，就会变成链接形式。
+
+error_reporting(E_ALL);
+ini_set('html_errors', 1);
+ini_set('docref_root', "https://secure.php.net/manual/zh/");
+
+include("a2.php"); //E_WARNING
+
+页面显示：WARNING页面
+
+能让你快速定位到我们出现错误的地方。是不是很人性～
+php-fpm中的配置
+
+error_log = /var/log/php-fpm/error.log // php-fpm自身的日志
+log_level = notice // php-fpm自身的日志记录级别
+php_flag[display_errors] = off // 覆盖php.ini中的某个配置变量，可被程序中的ini_set覆盖
+php_value[display_errors] = off // 同php_flag
+php_admin_value[error_log] = /tmp/www-error.log // 覆盖php.ini中的某个配置变量，不可被程序中的ini_set覆盖
+php_admin_flag[log_errors] = on // 同php_admin_value
+catch_workers_output = yes // 是否抓取fpmworker的输出
+request_slowlog_timeout = 0 // 慢日志时长
+slowlog = /var/log/php-fpm/www-slow.log // 慢日志记录
+
+php-fpm的配置中也有一个error_log配置，这个很经常会和php.ini中的error_log配置弄混。但他们记录的东西是不一样的，php-fpm的error_log只记录php-fpm本身的日志，比如fpm启动，关闭。
+而php.ini中的error_log是记录php程序本身的错误日志。
+
+那么在php-fpm中要覆盖php.ini中的error_log配置，就需要使用到下面几个函数：
+
+    php_flag
+    php_value
+    php_admin_flag
+    php_admin_value
+
+这四个函数admin的两个函数说明这个变量设置完之后，不能在代码中使用ini_set把这个变量重新赋值了。而php_flag/value就仍然以php代码中的ini_set为准。
+
+slowlog是fpm记录的，可以使用request_slowlog_timeout设置判断慢日志的时长。
+总结
+
+我们经常弄混的就是日志问题，以及某些级别的日志为何没有记录到日志中。最主要的是要看error_log，display_errors, log_errors这三个配置，只是在看配置的时候，我们还要注意区分php.ini里面的配置是什么，php-fpm.ini里面的配置是什么。
+
+好吧，我觉得弄懂这些配置，基本就没有php日志记录不了的WTF的问题了。
+
+
+
+
+
+
+也说说TIME_WAIT状态
+
+一个朋友问到，自己用go写了一个简单的HTTP服务端程序，为什么压测的时候服务端会出现一段时间的TIME_WAIT超高的情况，导致压测的效果不好呢？
+记得老王有两篇文章专门说这个，当时粗粗看了一遍，正好碰上这个问题，又翻出来细细搂了。
+
+第一个要弄懂的，是TIME_WAIT是怎么产生的。
+TIME_WAIT状态是怎么产生的
+
+要弄懂TIME_WAIT要从TCP的四次握手的分手协议说起。
+
+图库
+
+上面这个图片展示了TCP从连接建立到连接释放的过程中，客户端和服务端的状态变化图。如果只看连接释放阶段，四次握手
+
+    客户端先发送FIN，进入FIN_WAIT1状态
+    服务端收到FIN，发送ACK，进入CLOSE_WAIT状态，客户端收到这个ACK，进入FIN_WAIT2状态
+    服务端发送FIN，进入LAST_ACK状态
+    客户端收到FIN，发送ACK，进入TIME_WAIT状态，服务端收到ACK，进入CLOSE状态
+    客户端TIME_WAIT持续2倍MSL时长，在linux体系中大概是60s，转换成CLOSE状态
+
+当然在这个例子和上面的图片中，使用客户端和服务端来描述是不准确的，TCP主动断开连接的一方可能是客户端，也可能是服务端。所以使用主动断开的一方，和被动断开的一方替换上面的图可能更为贴切。
+
+不管怎么说，TIME_WAIT的状态就是主动断开的一方，发送完最后一次ACK之后进入的状态。并且持续时间还挺长的。
+
+能不能发送完ACK之后不进入TIME_WAIT就直接进入CLOSE状态呢？不行的，这个是为了TCP协议的可靠性，由于网络原因，ACK可能会发送失败，那么这个时候，被动一方会主动重新发送一次FIN，这个时候如果主动方在TIME_WAIT状态，则还会再发送一次ACK，从而保证可靠性。那么从这个解释来说，2MSL的时长设定是可以理解的，MSL是报文最大生存时间，如果重新发送，一个FIN＋一个ACK，再加上不定期的延迟时间，大致是在2MSL的范围。
+
+所以从理论上说，网上调试参数降低TIME_WAIT的持续时间的方法是一种以可靠性换取性能的一种方式。嗯，质量守恒定理还是铁律。
+服务端TIME_WAIT过多
+
+回到上面的问题，go写了一个HTTP服务，压测发现TIME_WAIT过多。
+
+首先判断是不是压测程序放在服务的同一台机器...当然不会犯这么低级的错误...
+
+那么这个感觉就有点奇怪了，HTTP服务并没有依赖外部mysql或者redis等服务，就是一个简单的Hello world，而TIME_WAIT的是主动断开方才会出现的，所以主动断开方是服务端？
+
+答案是是的。在HTTP1.1协议中，有个 Connection 头，Connection有两个值，close和keep-alive，这个头就相当于客户端告诉服务端，服务端你执行完成请求之后，是关闭连接还是保持连接，保持连接就意味着在保持连接期间，只能由客户端主动断开连接。还有一个keep-alive的头，设置的值就代表了服务端保持连接保持多久。
+
+HTTP默认的Connection值为close，那么就意味着关闭请求的一方几乎都会是由服务端这边发起的。那么这个服务端产生TIME_WAIT过多的情况就很正常了。
+
+虽然HTTP默认Connection值为close，但是现在的浏览器发送请求的时候一般都会设置Connection为keep-alive了。所以，也有人说，现在没有必要通过调整参数来使TIME_WAIT降低了。
+解决方法
+
+按照HTTP协议的头，我们在压测程序发出的HTTP协议头里面加上connection:keep-alive当然能解决这个问题。
+
+还有的方法就是系统参数调优:
+
+sysctl net.ipv4.tcp_tw_reuse=1
+
+sysctl net.ipv4.tcp_tw_recycle=1
+sysctl net.ipv4.tcp_timestamps=1
+
+tcp_tw_reuse
+
+这个参数作用是当新的连接进来的时候，可以复用处于TIME_WAIT的socket。默认值是0。
+tcp_tw_recycle和tcp_timestamps
+
+默认TIME_WAIT的超时时间是2倍的MSL，但是MSL一般会设置的非常长。如果tcp_timestamps是关闭的，开启tcp_tw_recycle是没用的。但是一般情况下tcp_timestamps是默认开启的，所以直接开启就有用了。
+
+
+
+
+
+
+
+
+
+
+正常情况下，如果客户端client异常推出了，服务端的程序还是会继续执行，直到与IO进行了两次交互操作。服务端发现客户端已经断开连接，这个时候会触发一个user_abort，如果这个没有设置ignore_user_abort，那么这个php-fpm的程序才会被中断。
+
+
+
+
+
+内存那些事
+
+linux中的free -m可以查看当前的内存使用情况
+
+[yejianfeng@iZ23fsd ~]$ free -m
+             total       used       free     shared    buffers     cached
+Mem:          7869       7737        132          0        489       4419
+-/+ buffers/cache:       2828       5040
+Swap:            0          0          0
+
+这里会让人奇怪的就是为什么除了used和free，还有个buffers，cached的使用。
+
+buffer是系统把将要写入磁盘的数据先存放起来，然后一次性写入磁盘。cache则是将要从磁盘读取的数据先缓存起来，等待下次读取或者一次性读取。对于人来说，我们认为这一部分的缓存是已经使用了的，但是对于操作系统来说，这一部分的内存是“没有使用”的。因为这部分的内存随时可以释放。所以这部分意思是：
+
+total: 总共有的内存
+used: 已经使用的内存数（人的角度看的，既: 进程实际使用的内存＋buffers+cached）
+free: 空闲内存（人的角度看的）
+shared: 进程共享内存
+buffers: 操作系统预留的为进程IO读取使用的缓冲区
+cached: 操作系统为最近打开的文件进行的缓存
+-/+ buffer: 操作系统角度看的实际使用的内存数
+虚拟内存和物理内存
+
+我们在使用top命令看进程的时候，会看到下面的几个东西：
+PID USER PR NI VIRT RES SHR S %CPU %MEM TIME+ COMMAND
+2344 vagrant 20 0 98276 2020 1052 S 0.0 0.4 0:00.49 sshd
+2345 vagrant 20 0 105m 1868 1488 S 0.0 0.4 0:00.08 bash
+1136 nginx 20 0 45676 1740 440 S 0.0 0.4 0:00.00 nginx
+1022 root 20 0 308m 1604 820 S 0.0 0.3 0:05.10 VBoxService
+
+这里会看到几个属性：
+
+VIRT RES SHR
+
+这三个值都是表示这个进程的内存使用状况，其中的VIRT指的是进程使用的虚拟内存，RES指的是进程使用的物理内存，SHR指的是进程使用的共享内存。
+关于虚拟内存和物理内存
+
+打一个形象的比喻，一列车从北京到上海，有1500公里，我们应该要铺设1500公里的铁轨。但是，我们想了个取巧的办法，我们实际只需要三公里的铁轨，当列车快行驶完成铁轨的时候，我们把已经走过的铁轨铺设到列车前方，这样，列车就可以使用3公里的铁轨就进行行驶了。在这个例子中，虚拟内存就是代表1500公里，而物理内存就是代表3公里。我们一个进程在操作系统中实际使用的物理内存会远远小于分配的虚拟内存。比如一个php-fpm进程实际使用大概20-30M的物理内存，而你看他的虚拟内存，大概会有150M左右。
+
+我们机器的内存是恒定的，那么这些大出来的虚拟内存是存放在哪里的呢？当然是硬盘。对于计算机来说，处理信息查找会先在L1缓存中找需要的数据，如果没有，在L2缓存中查找，如果还没有，在内存中查找，如果还没有，先去硬盘中的虚拟内存区域找，如果还没有，再去硬盘中找，如果都没有，就跳过这次处理（可能程序崩溃或者蓝屏）。
+
+引入虚拟内存技术的好处是程序不需要再管物理内存中哪块空闲，哪块有用了。这些全部交给操作系统来管理，再程序面前，就像是有一块连续的，未使用的内存空间一样。当程序启动的时候，系统会为每个程序分配一定的内存空间。在32bit的机器上，这个内存空间的上限是4G（0x00000000 - 0xffffffff），而其中分为两个部分，用户态使用的内存，内核态使用的内存。其中3G（0x00000000 - 0xbfffffff）是用户态可以使用的内存，而1G（0xc0000000 - 0xffffffff）是内核态使用的内存。所以在许多windows的x86机器上，安装的内存条大小最多是4G的，因为安装再大的内存，可以使用的内存大小也是有限制的。
+
+而对于64bit的机器，这个内存是没有4G的上限的，理论上可以支持2^64的大小的内存地址的。所以一般服务器上对内存的最大上限都不做限制，这点可以使用ulimit -a 得到验证：
+
+[vagrant@localhost /]$ ulimit -a
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 3528
+max locked memory       (kbytes, -l) 64
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 10240
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 1024
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+
+对于虚拟内存和物理内存，这里其实最复杂的是他们的映射机制。这个机制是操作系统内核要实现的东东，这里就不继续看下去了。
+共享内存
+
+很多进程可能需要加载动态库，比如libc，而这些动态库就可以默认存放到共享内存中，而不用每个进程都进行加载了。还有进程也可以存放数据到共享内存中，这样他们的子进程就可以到共享内存中进行操作，比如php的shmop系列的命令就是操作共享内存的。
+
+好了，这里有个奇怪的现象，明明top中在SHR中看到很多共享内存，为什么free -m中的shared为0呢？--实际上free命令中的shared已经被废弃了，没有进行计算了。具体参考man
+
+
+
+
+
+php多进程处理
+
+往往我们会碰到一个情况，需要写一个脚本，这个脚本要处理的数据量极大，单进程处理脚本非常慢，那么这个时候就会想到使用多进程或者多线程的方式了。
+
+我习惯使用多进程的方式，php中使用多进程的时候需要使用pcntl，pcntl的使用可以看这个PHP的pcntl多进程
+
+但是这里有一个问题，一个主进程把任务分成n个部分，然后把任务分配给多个子进程，但是任务可能是有返回值的，所有的子进程处理完返回值以后需要把返回值返回给主进程。
+
+这个就涉及到了进程间通信了。进程间通信可以使用的方法当然很多了，比如用redis，用数据库，用文件等。
+
+php中最简单的要算shmop相关函数了。
+
+    shmop_open
+    shmop_read
+    shmop_write
+    shmop_size
+    shmop_delete
+
+那怎么让一个类很容易有多进程处理的能力呢？可以使用php的trait，创建一个PcntlTrait，所有需要有多进程处理功能的类就use 这个trait就行。
+
+PcntlTrait代码如下：
+
+<?php namespace App\Console\Commands;
+
+trait PcntlTrait
+{
+    private $workers = 1;
+
+    public function worker($count)
+    {
+        $this->workers = $count;
+    }
+
+    public function pcntl_call($all, \Closure $callback)
+    {
+        $perNum = ceil(count($all) / $this->workers);
+
+        $pids = [];
+        for($i = 0; $i < $this->workers; $i++){
+            $pids[$i] = pcntl_fork();
+            switch ($pids[$i]) {
+                case -1:
+                    echo "fork error : {$i} \r\n";
+                    exit;
+                case 0:
+                    $data = [];
+                    try {
+                        $data = $callback(array_slice($all, $i * $perNum, $perNum));
+                    } catch(\Exception $e) {
+                        echo ($e->getMessage());
+                    }
+
+                    $shm_key = ftok(__FILE__, 't') . getmypid();
+                    $data = json_encode($data);
+                    $shm_id = shmop_open($shm_key, "c", 0777, strlen($data) + 10);
+                    shmop_write($shm_id, $data, 0);
+                    shmop_close($shm_id);
+                    exit;
+                default:
+                    break;
+            }
+        }
+
+        // only master process will go into here
+        $ret = [];
+        foreach ($pids as $i => $pid) {
+            if($pid) {
+                pcntl_waitpid($pid, $status);
+
+                $shm_key = ftok(__FILE__, 't') . $pid;
+                $shm_id = shmop_open($shm_key, "w", 0, 0);
+
+                $data = trim(shmop_read($shm_id, 0, shmop_size($shm_id)));
+                $data = json_decode($data, true);
+                $ret = array_merge($ret, $data);
+                @shmop_close($shm_id);
+                @shmop_delete($shm_id);
+            }
+        }
+
+        return $ret;
+    }
+}
+
+它有两个参数，第一个参数为传入数组，第二个参数为数组处理函数。
+
+它的具体使用通过下面这个测试用例可以看出：
+
+<?php
+
+use App\Console\Commands\PcntlTrait;
+
+class PcntlImp
+{
+        use PcntlTrait;
+}
+
+class TestPcntlTrait extends \TestCase
+{
+    public function setup()
+    {
+        $this->createApplication();
+    }
+
+    public function testPcntlCall()
+    {
+        $arr = [1,2,3,4,5,6,7,8,9,10];
+
+        $imp = new \PcntlImp();
+        $imp->worker(2);
+
+        $data = $imp->pcntl_call($arr, function($info){
+            if (empty($info)){
+                return [];
+            }
+
+            $ret = [];
+            foreach ($info as $item) {
+                $ret[] = $item * $item;
+            }
+            return $ret;
+        });
+
+        $this->assertEquals(10, count($data));
+        $this->assertEquals(25, $data[4]);
+    }
+}
+
+非常方便～～
+
+
+
+
+
+
+
+分布式事务
+
+分布式事务说的就是一个事务的两个或者多个操作不是在一个数据库中进行的，而是在多个数据库中执行。
+这个时候，如何保证事务操作的原子性和一致性？
+
+举个支付的例子，支付进行买东西。事务由两个行为组成，我的购买商品数据表数据＋1，支付金额表数据－1。
+如果这两个都是在同一库中，没啥问题。
+
+try {
+    事务开始
+    购买商品数据表数据＋1
+    支付金额表数据－1
+    事务结束
+} catch 事务失败 {
+    事务回滚
+}
+
+但是这两个表是在两个库中，那么就用到二阶段提交了
+二阶段提交
+
+二阶段提交（2PC）增加了事务处理器和事务执行者的角色。由事务处理器来进行整个事务的处理。主要流程如下面的图
+
+两阶段提交协议
+prepare
+
+当开始事务调用的时候，事务处理器向事务执行者（有可能是数据库本身支持）发出命令，事务执行者进行prepare操作。
+
+当所有事务执行者都完成了prepare操作，就进行下一步行为。
+
+如果有一个事务执行者在执行prepare的时候失败了，那么通知事务处理器，事务处理器再通知所有的事务执行者执行回滚操作。
+commit
+
+当所有事务执行者都prepare成功以后，事务处理器会再次发送commit请求给事务执行者，所有事务执行者进行commit处理。
+
+当所有commit处理都成功了，那么事务执行结束。
+
+如果有一个事务执行者的commit处理不成功，这个时候就要通知事务处理器，事务处理器通知所有的事务执行者执行回滚(abort)操作。
+
+但是两阶段提交的诟病就是在于性能问题。比如由于执行链比较长，锁定资源的时间也变长了。所以在高性能的系统中都会避免使用二阶段提交。
+使用消息系统避免分布式事务
+
+这种方法是文章如何用消息系统避免分布式事务？中提到的方法。
+
+首先这种方法必须在产品上有所妥协。比如支付过程，在支付操作之后，并不是立即返回告知用户你是否成功，并且扣除金额（当然如果消息队列通畅的情况下看起来是立即返回的）。
+
+而是在支付的过程中，先恭喜你获取物品成功，然后获取物品成功后通知消息队列，由消息队列再进行扣除金额的操作。
+
+当然消息队列有可能操作失败，操作失败以后由于有凭证，可以进行重试操作。
+
+最终支付成功后，再进行消息确认，从而保证消息一致性。
+
+
+
+
+
+
+缓存一致性协议
+
+操作系统的CPU和内存并不是直接交互操作的。我们的CPU有一级缓存，CPU直接操作一级缓存，由一级缓存和内存进行交互。
+当然，有的CPU有二级缓存，甚至三级缓存等。实际上，大概二十年前，一级缓存是直接和内存交互的，现在，一般是二级缓存和内存直接通讯。
+
+每个CPU都有一级缓存，但是，我们却无法保证每个CPU的一级缓存数据都是一样的。
+所以同一个程序，CPU进行切换的时候，切换前和切换后的数据可能会有不一致的情况。那么这个就是一个很大的问题了。
+如何保证各个CPU缓存中的数据是一致的。就是CPU的缓存一致性问题。
+
+一种处理一致性问题的办法是使用Bus Locking（总线锁）。当一个CPU对其缓存中的数据进行操作的时候，往总线中发送一个Lock信号。
+这个时候，所有CPU收到这个信号之后就不操作自己缓存中的对应数据了，当操作结束，释放锁以后，所有的CPU就去内存中获取最新数据更新。
+
+但是用锁的方式总是避不开性能问题。总线锁总是会导致CPU的性能下降。所以出现另外一种维护CPU缓存一致性的方式，MESI。
+
+MESI是保持一致性的协议。它的方法是在CPU缓存中保存一个标记位，这个标记位有四种状态:
+
+    M: Modify，修改缓存，当前CPU的缓存已经被修改了，即与内存中数据已经不一致了
+    E: Exclusive，独占缓存，当前CPU的缓存和内存中数据保持一致，而且其他处理器并没有可使用的缓存数据
+    S: Share，共享缓存，和内存保持一致的一份拷贝，多组缓存可以同时拥有针对同一内存地址的共享缓存段
+    I: Invalid，实效缓存，这个说明CPU中的缓存已经不能使用了
+
+CPU的读取遵循下面几点：
+
+    如果缓存状态是I，那么就从内存中读取，否则就从缓存中直接读取。
+    如果缓存处于M或E的CPU读取到其他CPU有读操作，就把自己的缓存写入到内存中，并将自己的状态设置为S。
+    只有缓存状态是M或E的时候，CPU才可以修改缓存中的数据，修改后，缓存状态变为M。
+
+这样，每个CPU都遵循上面的方式则CPU的效率就提高上来了。
+
+
+
+
+
+
+PHP 中的Closure
+
+Closure，匿名函数，又称为Anonymous functions，是php5.3的时候引入的。匿名函数就是没有定义名字的函数。这点牢牢记住就能理解匿名函数的定义了。
+
+比如下面的代码
+
+function test() {
+    return 100;
+};
+
+function testClosure(Closure $callback)
+{
+    return $callback();
+}
+
+$a = testClosure(test());
+print_r($a);exit;
+
+这里的test()永远没有办法用来作为testClosure的参数，因为它并不是“匿名”函数。
+
+所以应该改成这样：
+
+$f = function () {
+    return 100;
+};
+
+function testClosure(Closure $callback)
+{
+    return $callback();
+}
+
+$a = testClosure($f);
+print_r($a);exit;
+
+好，如果要调用一个类里面的匿名函数呢？
+
+class C {
+    public static function testC() {
+        return function($i) {
+            return $i+100;
+        };
+    }
+}
+
+$f = function ($i) {
+    return $i + 100;
+};
+
+function testClosure(Closure $callback)
+{
+    return $callback(13);
+}
+
+$a = testClosure(C::testC());
+print_r($a);exit;
+
+应该这么写，其中的C::testC()返回的是一个funciton。
+绑定的概念
+
+上面的例子的Closure只是全局的的匿名函数，好了，我现在想指定一个类有一个匿名函数。也可以理解说，这个匿名函数的访问范围不再是全局的了，是一个类的访问范围。
+
+那么我们就需要将“一个匿名函数绑定到一个类中”。
+
+<?php
+
+class A {
+
+    public $base = 100;
+
+}
+
+class B {
+
+    private $base = 1000;
+}
+
+$f = function () {
+    return $this->base + 3;
+};
+
+
+$a = Closure::bind($f, new A);
+print_r($a());
+
+echo PHP_EOL;
+
+$b = Closure::bind($f, new B , 'B');
+print_r($b());
+
+echo PHP_EOL;
+
+上面的例子中，f这个匿名函数中莫名奇妙的有个f这个匿名函数中莫名奇妙的有个this,这个this关键词就是说明这个匿名函数是需要绑定在类中的。
+
+绑定之后，就好像A中有这么个函数一样，但是这个函数是public还是private，bind的最后一个参数就说明了这个函数的可调用范围。
+
+对于bindTo，看例子：
+
+<?php
+
+class A {
+
+    public $base = 100;
+
+}
+
+class B {
+
+    private $base = 1000;
+}
+
+class C {
+
+    private static $base = 10000;
+}
+
+$f = function () {
+    return $this->base + 3;
+};
+
+$sf = static function() {
+    return self::$base + 3;
+};
+
+
+$a = Closure::bind($f, new A);
+print_r($a());
+
+echo PHP_EOL;
+
+$b = Closure::bind($f, new B , 'B');
+print_r($b());
+
+echo PHP_EOL;
+
+$c = $sf->bindTo(null, 'C');
+print_r($c());
+
+echo PHP_EOL;
+
+
+
+
+
+我写了一个cron脚本，但是隔一天发现，这个昨天的cron脚本还一直在跑着，没有停下来，一定是里面有个程序堵住了。
+
+但是如果我重新跑又需要很多时间。这个怎么办？
+
+现在最需要就是要知道程序停在了那行代码上了。使用gdb：
+$sudo gdb -p 14973 
+(gdb) print (char *)executor_globals.active_op_array->filename 
+$1 = 0x9853a34 "/home/xinhailong/test/php/test.php" 
+(gdb) print (char *)executor_globals.active_op_array->function_name 
+$2 = 0x9854db8 "test1" 
+(gdb) print executor_globals->current_execute_data->opline->lineno 
+$3 = 4
+
+
+
+
+
+
+说说常用的服务器操作 
+
+想写写自己日常常用的服务器操作，但是想到这个题目还是有点大的。鸟哥两本linux私房菜的书才说完了所有的服务器操作命令，这里一次性列出来也不现实。差不多这里就写写一些比较常用的命令吧。
+
+ 
+ps aux|grep XXX
+
+这个是最常用的命令了，查看一个进程的状态啥的。还能看到端口号，运行时间等。如果需要批量关掉这些进程，也可以延生使用管道：
+
+ps aux|grep XXX|awk '{print $2}'|xargs kill
+
+ 
+netstat -anp|grep XXX
+
+记得老王微博上有问过一个问题，说如何查看一个进程开启哪个端口和一个端口被哪个进程占用。我的回答就是，这个命令就全部搞定了。这里的XXX可以是端口，也可以是进程名称
+
+ 
+telnet [IP] [Port]
+
+查看某台机器上端口是不是开启，用这个命令一下就能看出来。记得昨天有人问过，我怎么确定一台机器上的ftp已经开启了，telnet一下21端口，ftp的协议会把ftp信息先返回到你的终端上。
+
+ 
+du -sh *
+
+有时候硬盘可能满了，怎么判断哪个文件夹占用多大空间呢？使用这个命令就能确定到底是哪个文件夹占空间了，然后删除它就可以了。
+
+ 
+关于查看服务器性能的命令
+
+有free，iostat，sar，netstat等等。记得以前写的这篇文章说的很清楚了：
+
+http://www.cnblogs.com/yjf512/archive/2012/06/01/2529433.html
+
+ 
+查看cpu信息，内存信息
+
+最简单就是使用top能实时观察
+
+如果需要看具体的可以使用cat /proc/cpuinfo或者 cat /proc/meminfo
+
+ 
+grep test *.conf
+
+这个命令就常用于我接收一个新机器的时候，nginx中配置很乱，我需要一个个理清楚的话就需要知道哪些配置文件中有我需要的域名。
+
+ 
+chmod -R 777 [folder]
+
+服务器上很多问题是权限导致的，所以这个命令大家一定不会少敲，给一个目录足够的权限。
+
+ 
+tail -f XXX
+
+要查看一个文件的最后写入的数据，这个命令也是很有用。有时候写脚本会把输出指定到一个文件，然后就不断监控这个输出文件。
+
+ 
+tar -cf a.tar.gz [folder]
+
+压缩文件夹到压缩文件
+
+ 
+tar -xf a.tar.gz
+
+解压压缩文件
+
+ 
+还有一些是常用的短命令：
+
+cat：查看
+
+grep：搜索
+
+awk：字词切割
+
+ifconfig：网卡信息
+
+date：日期
+
+chmod：权限
+
+chown：属主
+
+find：查找
+
+netstat：网络信息
+
+wc：统计，比如有多少行
+
+tail：尾查看
+
+more：分屏查看
+
+unzip：解压zip文件
+
+useradd：增加用户
+
+passwd：修改用户密码
+
+top：查看机器状况
+
+pstree：树形查看进程状况
+
+ 
+
+当然我不是运维出身，这些只是我平时常用到的，作为系统运维一定不够，但是至少作为php开发人员来说掌握这些还是有必要的吧。
+
+
+
+
+
+
+
+
+04的请求机制和200有什么不一样呢？在fiddler中查看304请求的时候突然想到这个问题，就想到研究下这个304请求机制了。
+
+我们自己在nginx上放一个文件，test.png。可以使用下面的地址进行访问：
+
+http://test.yejianfeng.com/test.png
+
+ 
+
+nginx配置文件如下：
+
+Image
+
+这个的etag关闭是由于nginx默认是开启etag的，说明见ngx_http_core_module（http://nginx.org/en/docs/http/ngx_http_core_module.html）。
+
+现在我把etag关闭了，这个test.png的HTTP请求如下：
+
+Image(1)
+
+可以看到这里的Response Header 中Last-Modified并没有设置过期，所以Last-Modified是不生效的。加上没有其他的相关缓存头，这个时候，浏览器就没有缓存这个页面了。所以呢，不管你黏贴URL，F5 还是Ctrl F5，页面进行的请求Cache-Control都是设置no-cache，所以服务端响应都是200。
+
+下面，修改nginx配置，增加一个expires 1d：
+
+Image(2)
+
+重启nginx，HTTP请求如下：
+
+Image(3)
+
+可以看出这里的Expires比Date多一天，所以就是服务端告诉客户端，你给我在本地缓存一天吧。
+
+那么这个时候使用F5：
+
+Image(4)
+
+返回的就是304了，这个时候，就是本地浏览器缓存了这个页面，发送条件请求给服务端，条件请求里面带一个If-Modified-Since，客户端询问服务端，这个文件浏览器这边有缓存，如果你服务端的文件在这个时间点有更改，就发送一个更改后的文件给我，没有的话就发送一个304就好。
+
+这里还有个问题，这个Last-Modified是怎么定的呢？它就是这个文件在服务器上的最后修改时间。
+
+Image(5)
+
+图中的15:31和last-Modified的07:31中间的8个小时是时区导致的。
+
+我们touch来修改这个文件的最后修改时间：
+
+Image(6)
+
+然后再F5下这个URL：
+
+Image(7)
+
+服务端返回200了，而且Last-Modified也修改了。这个就很好理解了。
+
+ 
+
+如果我不是使用F5，而是将url直接贴到浏览器呢？这个时候，浏览器的行为就是如果本地有缓存，就使用本地的缓存，如果本地没有缓存，就请求服务端。
+
+我们可以做的实验是这样：
+
+1 开启fiddler
+
+2 ctrl + F5，这个时候fiddler中多了一个200响应
+
+3 F5，这个时候fiddler中多了一个304响应
+
+4 打开一个新标签，在地址栏输入url：http://test.yejianfeng.com/test.png  这个时候会发现fiddler并没有任何请求
+
+5 ctrl + F5，这个时候fiddler多一个200响应
+
+Image(8)
+
+所以这里可以验证之前的文章：HTTP缓存相关头（http://www.cnblogs.com/yjf512/p/3244882.html）里面说的三种刷新的行为。
+
+ 
+
+回到缓存头，清空浏览器的缓存，把expire的设置去掉，把etag打开
+
+Image(9)
+
+第一次访问：
+
+Image(10)
+
+看到这里使用ETag了，ETag就相当于一个版本号，HTTP协议中并没有规定etag的算法，它的具体计算就依靠web服务器自身了。ETag还有普通和弱ETag的区分（http://en.wikipedia.org/wiki/HTTP_ETag）。
+
+第二次访问的时候：
+
+Image(11)
+
+客户端发送请求中有个If-None-Match，表示客户端询问服务端，如果你这边的这个文件的tag还是XXXXX，就返回304吧，不是的话就返回200。
+
+所以If-None-Match + ETag是可以控制文件在浏览器中的缓存的。
+
+ 
+
+关于缓存的头，有些是客户端的：
+
+Cache-Control
+
+If-Modified-Since
+
+If-None-Match
+
+有些是服务端的：
+
+Expire
+
+Last-Modified
+
+ETag
+
+ 
+
+相关这些头的说明可以看这篇：HTTP缓存相关头（http://www.cnblogs.com/yjf512/p/3244882.html）
+
+ 
+好了，下面说一种情景：
+
+我们再nginx中做了一个rewrite，所有的js都重写到myjs.php这个脚本，那么问个问题，js在F5的时候会发送条件请求，这个条件请求是不是会触发php呢？
+
+ 
+
+答案是会的。条件请求也是一个普通的php请求，它会在触发php的。这个时候如果你需要返回304的话，就需要你在php程序中对If-modified或者If-None-Match进行判断了。
+
+
+
+
+
+
+
+
+
+
+Awesome PHP
+依赖管理 Dependency Management
+其他的依赖管理 Dependency Management Extras
+框架 Frameworks
+其他框架 Framework Extras
+框架组件 Components
+微型框架 Micro Frameworks
+其他微型框架 Micro Framework Extras
+路由 Routers
+模板 Templating
+静态站点生成器 Static Site Generators
+HTTP
+中间件 Middlewares
+URL
+Email
+文件 Files
+流 Streams
+依赖注入 Dependency Injection
+图像 Imagery
+测试 Testing
+持续集成 Continuous Integration
+文档 Documentation
+安全 Security
+密码 Passwords
+代码分析 Code Analysis
+Architectural
+调试和分析 Debugging and Profiling
+构建工具 Build Tools
+任务运行器 Task Runners
+导航 Navigation
+资源管理 Asset Management
+地理位置 Geolocation
+日期和时间 Date and Time
+事件 Event
+日志 Logging
+电子商务 E-commerce
+PDF
+Office
+数据库 Database
+迁移 Migrations
+NoSQL
+队列 Queue
+搜索 Search
+命令行 Command Line
+身份验证和授权 Authentication and Authorization
+标记 Markup
+字符串 Strings
+数字 Numbers
+过滤和验证 Filtering and Validation
+API
+缓存 Caching
+数据结构和存储 Data Structure and Storage
+通知 Notifications
+部署 Deployment
+国际化和本地化 Internationalisation and Localisation
+第三方API Third Party APIs
+扩展 Extensions
+杂项 Miscellaneous
+软件 Software
+PHP安装 PHP Installation
+开发环境 Development Environment
+虚拟机 Virtual Machines
+集成开发环境(IDE) Integrated Development Environment
+Web应用 Web Applications
+基础架构 Infrastructure
+资源 Resources
+PHP网站 PHP Websites
+其他网站 Other Websites
+PHP书籍 PHP Books
+其他书籍 Other Books
+PHP视频 PHP Videos
+PHP阅读 PHP Reading
+PHP内核阅读 PHP Internals Reading
+PHP杂志 PHP Magazines
+贡献
+依赖管理 Dependency Management
+依赖和包管理库
+
+Climb - 一个Composer版本管理工具
+Composer Installers - 一个多框架Composer库安装器
+Composer/Packagist - 一个包和依赖管理器
+Melody - 一个用于构建Composer脚本文件的工具
+Pickle - 一个PHP扩展安装器
+其他的依赖管理 Dependency Management Extras
+其他的相关依赖管理
+
+Composer Checker - 一个校验Composer配置的工具
+Composer Merge Plugin - 一个用于合并多个composer.json文件的Composer插件
+Composition - 一个在运行时检查Composer环境的库
+NameSpacer - 一个转化下划线到命名空间的库
+Patch Installer - 一个使用Composer安装补丁的库
+Prestissimo - 一个开启并行安装进程的Composer插件
+Satis - 一个静态Composer存储库的生成器
+Toran Proxy - 一个静态Composer存储库和代理
+框架 Frameworks
+Web开发框架
+
+Aura PHP - 一个独立的组件框架
+CakePHP - 一个快速应用程序开发框架 (CP)
+Laravel 5 - 另一个PHP框架 (L5)
+Nette - 另一个由个体组件组成的框架
+Phalcon - 通过C扩展实现的框架
+PPI Framework 2 - 一个互操作性框架
+Symfony 2 - 一个独立组件组成的框架 (SF2)
+Yii2 - 另一个PHP框架
+Zend Framework 2 - 另一个由独立组件组成的框架 (ZF2)
+其他框架 Framework Extras
+其他Web开发框架
+
+CakePHP CRUD - CakePHP的快速应用程序（RAD）插件
+Knp RAD Bundle - Symfony 2的快速应用程序（RAD）包
+Symfony CMF - 一个创建自定义CMS的内容管理框架
+框架组件 Components
+来自web开发框架的独立组件
+
+CakePHP Plugins - CakePHP插件的目录
+Hoa Project - 另一个PHP组件包
+League of Extraordinary Packages - 一个PHP软件开发组
+Symfony2 Components - Symfony 2组件
+Zend Framework 2 Components - Zend Framework 2组件
+微型框架 Micro Frameworks
+微型框架和路由
+
+Bullet PHP - 用于构建REST APIs的微型框架
+Lumen - 一个Laravel的微型框架
+Proton - 一个StackPHP兼容的微型框架
+Silex - 基于Symfony2组件的微型框架
+Slim - 另一个简单的微型框架
+其他微型框架 Micro Framework Extras
+其他相关的微型框架和路由
+
+Silex Skeleton - Silex的项目架构
+Silex Web Profiler - 一个Silex web的调试工具
+Slim Skeleton - Slim架构
+Slim View - Slim自定义视图的集合
+路由 Routers
+处理应用路由的库
+
+Fast Route - 一个快速路由的库
+Klein - 一个灵活的路由的库
+Pux - 另一个快速路由的库
+Route - 一个基于Fast Route的路由的库
+模板 Templating
+模板化和词法分析的库和工具
+
+Foil - 另一个原生PHP模板库
+Lex - 一个轻量级模板解析器
+MtHaml - 一个HAML模板语言的PHP实现
+Mustache - 一个Mustache模板语言的PHP实现
+Phly Mustache - 另一个Mustache模板语言的PHP实现
+PHPTAL - 一个TAL模板语言的PHP实现
+Plates - 一个原生PHP模板库
+Smarty - 一个模板引擎
+Twig - 一个全面的模板语言
+静态站点生成器 Static Site Generators
+用来生成web页面的预处理内容的工具
+
+Couscous - 一个将Markdown转化为漂亮的网站的工具
+Phrozn - 另一个转换Textile，Markdown和Twig为HTML的工具
+Sculpin - 转换Markdown和Twig为静态HTML的工具
+Spress - 一个能够将Markdown和Twig转化为HTML的可扩展工具
+HTTP
+用于HTTP的库
+
+Buzz - 另一个HTTP客户端
+Guzzle - 一个全面的HTTP客户端
+HTTPFul - 一个链式HTTP库
+PHP VCR - 一个录制和重放HTTP请求的库
+Requests - 一个简单的HTTP库
+Retrofit - 一个能轻松创建REST API客户端的库
+Scraping
+用于网站爬取的库
+
+Embed - 一个从web服务或网页中提取的信息的工具
+Goutte - 一个简单的web爬取器
+PHP Spider - 一个可配置和可扩展的PHP web爬虫
+中间件 Middlewares
+使用中间件构建应用程序的库
+
+PSR7-Middlewares - 灵感来源于方便的中间件
+Relay - 一个PHP 5.5 PSR-7的中间件调度器
+Slim Middleware - 一个用于Slim的自定义的中间件的集合
+Stack - 一个用于Silex/Symfony的可堆叠的中间件的库
+zend-stratigility - 基于PHP PSR-7之上的中间件之上
+URL
+解析URL的库
+
+Purl - 一个URL处理库
+Uri - 另一个URL处理库
+PHP Domain Parser - 一个本地前缀解析库
+sabre/uri - 一个URI操作库
+Email
+发送和解析邮件的库
+
+SwiftMailer - 一个邮件解决方案
+PHPMailer - 另一个邮件解决方案
+Fetch - 一个IMAP库
+Email Reply Parser - 一个邮件回复解析的库
+Stampie - 一个邮件服务库，类似于SendGrid,PostMark,MailGun和Mandrill.
+CssToInlineStyles - 一个在邮件模板中的内联CSS库
+Email Validator - 一个较小的电子邮件验证库
+Mautic - 邮件营销自动化
+文件 Files
+文件处理和MIME类型检测的库
+
+Apache MIME Types - 一个解析Apache MIME类型的库
+Canal - 一个检测互联网媒体类型的库
+CSV - 一个CSV数据处理库
+Ferret - 一个MIME检测库
+Flysystem - 另一个文件系统抽象层
+Gaufrette - 一个文件系统抽象层
+Hoa Mime - 另一个MIME检测库
+Lurker - 一个资源跟踪库
+PHP FFmpeg - 一个用于FFmpeg视频包装的库
+流 Streams
+处理流的库
+
+Streamer - 一个简单的面向对象的流包装库
+依赖注入 Dependency Injection
+实现依赖注入设计模式的库
+
+Pimple - 一个小的依赖注入容器
+Auryn - 一个递归的依赖注入容器
+Container - 另一个可伸缩的依赖注入容器
+PHP-DI - 一个支持自动装配和PHP配置的依赖注入容器
+Acclimate - 一个依赖注入容器和服务定位的通用接口
+Symfony DI - 一个依赖注入容器组件 (SF2)
+图像 Imagery
+处理图像的库
+
+Imagine - 一个图像处理库
+PHP Image Workshop - 另一个图像处理库
+Intervention Image - 另一个图像处理库
+GIF Frame Extractor - 一个提取GIF动画帧信息的库
+GIF Creator - 一个通过多张图片创建GIF动画的库
+Image With Text - 一个在图像中嵌入文本的库
+Color Extractor - 一个从图像中提取颜色的库
+Glide - 一个按需处理图像的库
+Image Optimizer - 一个优化图像的库
+Image Hash - 一个用于生成图像哈希感知的库
+测试 Testing
+测试代码和生成测试数据的库
+
+PHPUnit - 一个单元测试框架
+DBUnit - 一个PHPUnit的数据库测试库
+ParaTest - 一个PHPUnit的并行测试库
+PHPSpec - 一个基于功能点设计的单元测试库
+Codeception - 一个全栈测试框架
+AspectMock - 一个PHPUnit/Codeception的模拟框架。
+Atoum - 一个简单的测试库
+Mockery - 一个用于测试的模拟对象的库
+Phake - 另一个用于测试的模拟对象的库
+Prophecy - 一个可选度很高的模拟框架
+Faker - 一个伪数据生成库
+Samsui - 另一个伪数据生成库
+Alice - 富有表现力的一代库
+Behat - 一个行为驱动开发（BDD）测试框架
+Pho - 另一个行为驱动开发测试框架
+Mink - Web验收测试
+HTTP Mock - 一个在单元测试模拟HTTP请求的库
+VFS Stream - 一个用于测试的虚拟文件系统流的包装器
+VFS - 另一个用于测试虚拟的文件系统
+Locust - 一个用Python编写的现代加载测试库
+Peridot - 一个事件驱动开发的测试框架
+Kahlan - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
+持续集成 Continuous Integration
+持续集成的库和应用
+
+Travis CI - 一个持续集成平台
+SemaphoreCI - 一个开放源码和私人项目的持续集成平台
+PHPCI - 一个PHP的开源的持续集成平台
+Sismo - 一个持续测试的服务库
+Jenkins - 一个PHP支持的持续集成平台
+JoliCi - 一个用PHP编写的由Docker支持的持续集成的客户端
+GitlabCi - 使用GitLab CI测试、构建、部署你的代码，像TravisCI
+文档 Documentation
+生成项目文档的库
+
+Sami - 一个API文档生成器
+APIGen - 另一个API文档生成器
+PHP Documentor 2 - 一个API文档生成器
+phpDox - 一个PHP项目的文档生成器（不限于API文档）
+daux.io - 一个使用Markdown文件的文档生成器
+安全 Security
+生成安全的随机数，加密数据，扫描漏洞的库
+
+Halite - 一个简单的使用libsodium的加密库
+HTML Purifier - 一个兼容标准的HTML过滤器
+IniScan - 一个扫描PHP INI文件安全的库
+Optimus - 基于Knuth乘法散列方法的身份混淆工具
+PHP Encryption - 一个安全的PHP加密库
+PHP IDS - 一个结构化的PHP安全层
+PHP SSH - 一个试验的面向对象的SSH包装库
+PHPSecLib - 一个纯PHP安全通信库
+RandomLib - 一个生成随机数和字符串的库
+SecurityMultiTool - 一个PHP安全库
+SensioLabs Security Check - 一个为检查Composer依赖提供安全建议的web工具
+TCrypto - 一个简单的键值加密存储库
+True Random - 使用www.random.org生成随机数的库
+VAddy - 一个持续安全的web应用测试平台
+Zed - 一个集成的web应用渗透测试工具
+密码 Passwords
+处理和存储密码的库和工具
+
+GenPhrase - 一个随机生成安全密码哈希的库
+Password Compat - 一个新的PHP5.5密码函数的兼容库
+Password Policy - 一个PHP和JavaScript的密码策略库
+Password Validator - 一个校验和升级密码哈希的库
+Password-Generator - 一个生成随机密码的PHP库
+PHP Password Lib - 一个生成和校验密码的库
+phpass - 一个便携式的密码哈希框架
+Zxcvbn PHP - 一个基于Zxcvbn JS的现实的PHP密码强度估计库
+代码分析 Code Analysis
+分析，解析和处理代码库的库和工具
+
+PHP Parser - 一个PHP编写的PHP解析器
+PHPPHP - 一个PHP实现的PHP虚拟机
+PHPSandbox - 一个PHP沙盒环境
+Dissect - 一个词法和语法分析的工具集合
+PHP Mess Detector - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
+PHP Code Sniffer - 一个检测PHP、CSS和JS代码标准冲突的库
+PHPCPD - 一个检测复制和粘贴代码的库
+PHP Analyser - 一个分析PHP代码查找缺陷和错误的库
+PHP CS Fixer - 一个编码标准库
+PHP Manipulator - 一个分析和修改PHP源代码的库
+PHP Metrics - 一个静态测量库
+PHP Refactoring Browser - 一个重构PHP代码的命令行工具集
+PHP Semantic Versioning Checker - 一个比较两个源集和确定适当的应用语义版本的命令行实用程序
+UBench - 一个简单的微型基准检测库
+Athletic - 一个基于注释的基准检测库
+Mondrian - 使用图论的代码分析工具
+Scrutinizer - 一个审查PHP代码的web工具
+PHPLOC - 一个快速测量PHP项目大小的工具
+PHPCheckstyle - 一个帮助遵守特定的编码惯例的工具
+PhpDependencyAnalysis - 一个创建可定制依赖图的工具
+Code Climate - 一个自动代码审查工具
+Architectural
+相关的设计模式库，组织代码编程的方法和途径
+
+PHP Option - 一个可选的类型库
+Ruler - 一个简单的无状态的生产环境规则引擎
+Finite - 一个简单的PHP有限状态机
+Compose - 一个功能组合库
+Monad PHP - 一个简单Monad库
+Patchwork - 一个重新定义用户的函数库
+Galapagos - 语言转换进化
+Design Patterns PHP - 一个使用PHP实现的设计模式存储库
+Functional PHP - 一个函数式编程库
+Iter - 一个使用生成器提供迭代原语的库
+Pipeline - 一个管道模式的实现
+调试和分析 Debugging and Profiling
+调试和分析代码的库和工具
+
+APM - 一个收集SQLite/MySQL/StatsD错误信息和统计信息的监控扩展
+Barbushin PHP Console - 另一个使用Google Chrome的web调试控制台
+Blackfire.io - 一个低开销的代码分析器
+Kint - 一个调试和分析工具
+PHP Console - 一个web调试控制台
+PHP Debug Bar - 一个调试工具栏
+PHPBench - 一个基准测试框架
+PHPDBG - 一个交互的PHP调试器
+Tracy - A一个简单的错误检测，写日志和时间测量库
+xDebug - 一个调试和分析PHP的工具
+xHprof - 另一个PHP分析工具
+Z-Ray - 一个调试和配置Zend服务器的工具
+构建工具 Build Tools
+项目构建和自动化工具
+
+Bob - 一个简单的项目自动化工具
+Phake - 一个PHP克隆库
+Box - 一个构建PHAR文件的工具
+Phing - 一个灵感来自于Apache Ant的PHP项目构建系统
+任务运行器 Task Runners
+自动运行任务的库
+
+Task - 一个灵感来源于Grunt和Gulp的纯PHP任务运行器
+Robo - 一个面向对象配置的PHP任务运行器
+Bldr - 一个构建在Symfony组件上的PHP任务运行器
+Jobby - 一个没有修改crontab的PHP定时任务管理器
+导航 Navigation
+构建导航结构的工具
+
+KnpMenu - 一个菜单库
+Cartographer - 一个站点地图生成库
+资源管理 Asset Management
+管理，压缩和最小化web站点资源的工具
+
+Assetic - 一个资源管理的管道库
+Pipe - 另一个资源管理的管道库
+Munee - 一个资源优化库
+JShrink - 一个JavaScript的最小化库
+Puli - 一个检测资源绝对路径的库
+地理位置 Geolocation
+地理编码地址和使用纬度经度的库
+
+GeoCoder - 一个地理编码库
+GeoTools - 一个地理工具相关的库
+PHPGeo - 一个简单的地理库
+GeoJSON - 一个GeoJSON的实现
+日期和时间 Date and Time
+处理日期和时间的库
+
+Carbon - 一个简单的日期时间API扩展
+ExpressiveDate - 另一个日期时间API扩展
+CalendR - 一个日历管理库
+事件 Event
+时间驱动或实现非阻塞事件循环的库
+
+React - 一个事件驱动的非阻塞I/O库.
+Rx.PHP - 一个reactive扩展库
+Ratchet - 一个web socket库
+Hoa WebSocket - 另一个web socket库
+Hoa EventSource - 一个事件源库
+Evenement - 一个事件调度的库
+Event - 一个专注于域名事件的库
+Cake Event - 一个事件调度的库 (CP)
+Broadway - 一个事件源和CQRS(命令查询责任分离)库
+Prooph Event Store - 一个持久化事件消息的事件源组件
+Hprose-PHP - 一个很牛的RPC库，现在支持25+种语言
+日志 Logging
+生成和处理日志文件的库
+
+Monolog - 一个全面的日志工具
+KLogger - 一个易用的兼容PSR-3的日志类
+Analog - 一个基于闭包的微型日志包
+电子商务 E-commerce
+处理支付和构建在线电子商务商店的库和应用
+
+Money - 一个Fowler金钱模式的PHP实现
+OmniPay - 一个框架混合了多网关支付处理的库
+Payum - 一个支付抽象库
+Sebastian Money - 另一个处理货币值的库
+Shopware - 一个可高度定制的电子商务软件
+Swap - 一个汇率库
+Sylius - 一个开源的电子商务解决方案
+Thelia - 另一个开源的电子商务解决方案
+PDF
+处理PDF文件的库和软件
+
+Dompdf - 一个将HTML转换为PDF的工具
+PHPPdf - 一个将XML文件转换为PDF和图片的库
+Snappy - 一个PDF和图像生成器库
+WKHTMLToPDF - 一个将HTML转换为PDF的工具
+Office
+Libraries for working with office suite documents.
+
+ExcelAnt - 一个操作Excel文档的库
+PHPExcel - 一个处理Excel文档的库
+PHPPowerPoint - 一个处理PPT文档的库
+PHPWord - 一个处理Word文档的库
+数据库 Database
+使用对象关系映射（ORM）或数据映射技术的数据库交互的库
+
+Baum - 一个Eloquent的嵌套集实现
+Cake ORM - 对象关系映射工具，利用DataMapper模式实现 (CP)
+Doctrine Extensions - 一个Doctrine行为扩展的集合
+Doctrine - 一个全面的DBAL和ORM
+Eloquent - 一个简单的ORM(L5)
+LazyRecord - 一个简单、可扩展、高性能的ORM
+Pomm - 一个PostgreSQL对象模型管理器
+Propel - 一个快速的ORM，迁移库和查询构架器
+ProxyManager - 一个为数据映射生成代理对象的工具集
+RedBean - 一个轻量级，低配置的ORM
+Spot2 - 一个MySQL的ORM映射器
+迁移 Migrations
+帮助管理数据库模式和迁移的库
+
+PHPMig - 另一个迁移管理库
+Phinx - 另一个数据库迁移的管理库
+Migrations - 一个迁移管理库
+Doctrine Migrations - 一个Doctrine的迁移库
+Ruckusing - 基于PHP下ActiveRecord的数据库迁移，支持MySQL, Postgres, SQLite
+NoSQL
+处理NoSQL后端的库
+
+Monga - 一个MongoDB抽象库
+MongoQB - 一个MongoDB查询构建库
+PHPMongo - 一个MongoDB ORM.
+Predis - 一个功能完整的Redis库
+队列 Queue
+处理事件和任务队列的库
+
+Bernard - 一个多后端抽象库
+Pheanstalk - 一个Beanstalkd客户端库
+PHP AMQP - 一个纯PHP AMQP库
+Thumper - 一个RabbitMQ模式库
+搜索 Search
+在数据上索引和执行查询的库和软件
+
+Elastica - ElasticSearch的客户端库
+ElasticSearch PHP - ElasticSearch的官方客户端库
+Solarium - Solr的客户端库
+Sphinx Search - Sphinx搜索库，提供SphinxQL索引和搜索的功能
+SphinxQL query builder - Sphinx搜索引擎的的查询库
+命令行 Command Line
+关于命令行工具的库
+
+Boris - 一个微型PHP REPL
+PsySH - 另一个PHP REPL
+Pecan - 一个事件驱动和非阻塞的shell
+GetOpt - 一个命令行选择解析器
+OptParse - 另一个命令行选择解析器
+Commando - 另一个简单的命令行选择解析器
+GetOptionKit - 另一个命令行选择解析器
+Cron Expression - 一个计算cron运行日期的库
+ShellWrap - -一个简单的命令行包装库
+Hoa Console - 另一个命令行库
+Shunt - 一个在多台远程机器上并行运行命令行的库
+Cilex - 一个构建命令行工具的微型框架
+CLImate - 一个输出带颜色的和特殊格式的命令行库
+CLI Menu - 一个构建CLI菜单的库
+CLIFramework - 一个支持完全zsh／bash、子命令和选项约束的命令行框架，这也归功于phpbrew
+身份验证和授权 Authentication and Authorization
+实现身份验证和授权的库
+
+Sentinel - 一个混合的身份验证和授权的框架库
+Sentinel Social - 一个社交网络身份验证库
+Opauth - 一个多渠道的身份验证框架
+OAuth2 Server - 一个OAuth2身份验证服务，资源服务器和客户端库
+OAuth2 Server - 另一个OAuth2服务器实现
+PHP oAuthLib - 另一个OAuth库
+TwitterOAuth - 一个Twitter OAuth库
+TwitterSDK - 一个完全测试的Twitter SDK
+Hawk - 一个Hawk HTTP身份认证库
+HybridAuth - 一个开源的社交登陆库
+Lock - 一种实现访问控制列表（ACL）系统的库
+OAuth 1.0 Client - 一个OAuth 1.0客户端的库
+OAuth 2.0 Client - 一个OAuth 2.0客户端的库
+标记 Markup
+处理标记的库
+
+Decoda - 一个轻量级标记解析库
+PHP Markdown - 一个Markdown解析器
+CommonMark PHP - 一个对CommonMark spec全支持的Markdown解析器
+Parsedown - 另一个Markdown解析器
+Ciconia - 另一个支持Github Markdown风格的Markdown解析器
+Cebe Markdown - 一个快速的可扩展的Markdown解析器
+HTML to Markdown - 将HTML转化为Markdown
+HTML5 PHP - 一个HTML5解析和序列化库
+Emoji - 一个把Unicode字符和名称转换为表情符号图片的库
+字符串 Strings
+解析和处理字符串的库
+
+Agent - 一个基于Mobiledetect的桌面／手机端user agent解析库
+ANSI to HTML5 - 一个将ANSI转化为HTML5的库
+Color Jizz - 处理和转换颜色的库
+Device Detector - 另一个解析user agent字符串的库
+Hoa String - 另一个UTF-8字符串库
+Mobile-Detect - 一个用于检测移动设备的轻量级PHP类(包括平板电脑)
+Patchwork UTF-8 - 一个处理UTF-8字符串的便携库
+Slugify - 转换字符串到slug的库
+SQL Formatter - 一个格式化SQL语句的库
+Stringy - 一个多字节支持的字符串处理库
+Text - 一个文本处理库
+UA Parser - 一个解析user agent字符串的库
+URLify - 一个Django中URLify.js的PHP版本
+UUID - 生成UUIDs的库
+数字 Numbers
+处理数字的库
+
+Numbers PHP - 一个处理数字的库
+Math - 一个处理巨大数字的库
+ByteUnits - 一个在二进制和度量系统中解析,格式化和转换字节单元的库
+PHP Units of Measure - 一个计量单位转换的库
+PHP Conversion -另一个计量单位转换的库
+LibPhoneNumber for PHP - 一个Google电话号码处理的PHP实现库
+过滤和验证 Filtering and Validation
+过滤和验证数据的库
+
+Cake Validation - 另一个验证库 (CP)
+DMS Filter - 一个注释过滤库
+Filterus - 一个简单的PHP过滤库
+ISO-codes - 一个验证各种ISO和ZIP编码的库(IBAN, SWIFT/BIC, BBAN, VAT, SSN, UKNIN)
+MetaYaml - 一个支持YAML,JSON和XML的模式验证库
+Respect Validation - 一个简单的验证库
+Upload - 一个处理文件上传和验证的库
+Valitron - 另一个验证库
+Volan - 另一个简单的验证库
+API
+开发REST-ful API的库和web工具
+
+API Platform - 暴露出REST API的项目，包含JSON-LD, Hydra格式
+Apigility - 一个使用Zend Framework 2构建的API构建器
+Drest - 一个将Doctrine实体暴露为REST资源节点的库
+HAL - 一个超文本应用语言(HAL)构建库
+Hateoas - 一个HOATEOAS REST web服务库
+Negotiation - 一个内容协商库
+Restler - 一个将PHP方法暴露为RESTful web API的轻量级框架
+wsdl2phpgenerator - 一个从SOAP WSDL文件生成PHP类的工具
+缓存 Caching
+缓存数据的库
+
+Alternative PHP Cache (APC) - 打开PHP操作码缓存
+APIx Cache - 一个轻量级的PSR-6缓存
+CacheTool - 一个使用命令行清除apc/opcode缓存的工具
+Cake Cache - 一个缓存库 (CP)
+Doctrine Cache - 一个缓存库
+Stash - 另一个缓存库
+Zend Cache - 另一个缓存库 (ZF2)
+数据结构和存储 Data Structure and Storage
+实现数据结构和存储技术的库
+
+Ardent - 一个数据结构库
+Cake Collection - 一个简单的集合库 (CP)
+Collections - 一个PHP的集合抽象库
+Fractal - 一个转换复杂数据结构到JSON输出的库
+Ginq - 另一个基于.NET实现的PHP的LINQ库
+JsonMapper - 一个将内嵌JSON结构映射为PHP类的库
+PHP Collections - 一个简单的集合库
+PINQ - 一个基于.NET实现的PHP的LINQ(Language Integrated Query)库
+Serializer - 一个序列化和反序列化数据的库
+Totem - -一个管理和创建数据交换集的库
+YaLinqo - 另一个PHP的LINQ库
+Zend Serializer - 另一个序列化和反序列化数据的库 (ZF2)
+通知 Notifications
+处理通知软件的库
+
+JoliNotif - 一个跨平台的桌面通知库(支持Growl, notify-send, toaster等)
+Nod - 一个通知库(Growl等)
+Notification Pusher - 一个设备推送通知的独立库
+Notificato - 一个处理推送通知的库
+Notificator - 一个轻量级的通知库
+部署 Deployment
+项目部署库
+
+Pomander - 一个PHP应用部署工具
+Rocketeer - PHP世界里的一个快速简单的部署器
+Envoy - 一个用PHP运行SSH任务的工具
+Plum - 一个部署库
+Deployer - 一个部署工具
+国际化和本地化 Internationalisation and Localisation
+国际化(I18n)和本地化(L10n)的库
+
+Aura Intl
+Cake I18n - 消息国际化和日期和数字的本地化 (CP)
+第三方API Third Party APIs
+访问第三方API的库
+
+Amazon Web Service SDK - PHP AWS SDK官方库
+S3 Stream Wrapper - Amazon S3流包装库
+Stripe - Stripe官方PHP库
+Campaign Monitor - Campaign Monitor官方PHP库
+Digital Ocean - Digital Ocean API接口库
+Github - 一个Github API交互库
+PHP Github API - 另一个Github API交互库
+Twitter OAuth - 一个Twitter OAuth工作流交互库
+Twitter REST - 一个Twitter REST API交互库
+Dropbox SDK - Dropbox SDK官方PHP库
+Twilio - Twilio官方PHP REST API
+Mailgun - Mailgun官方PHP REST API
+扩展 Extensions
+帮助构建PHP扩展的库
+
+Zephir - 用于开发PHP扩展，且介于PHP和C++之间的编译语言
+PHP CPP - 一个开发PHP扩展的C++库
+杂项 Miscellaneous
+不在上面分类中的有用库和工具
+
+Spork - 一个处理forking的库
+JSON Lint - 一个JSON lint工具
+JSONPCallbackValidator - 验证JSONP回调的库
+Pagerfanta - 一个分页库
+LiteCQRS - 一个CQRS(命令查询责任分离)库
+Chief - 一个命令总线库
+Sslurp - 一个使得SSL处理减少的库
+Metrics - 一个简单的度量API库
+sabre/vobject - 一个解析VCard和iCalendar对象的库
+Annotations - 一个注释库(Doctrine的一部分)
+Whoops - 一个不错的错误处理库
+LadyBug - 一个dumper库
+Symfony VarDumper - 一个dumper库(SF2)
+Procrastinator - 一个运行耗时任务的库
+SuperClosure - 一个允许闭包序列化的库
+Jumper - 一个远程服务执行库
+Underscore - 一个Undersccore JS库的PHP实现
+PHP PassBook - 一个iOS PassBook PHP库
+PHP Expression - 一个PHP表达式语言
+RMT - 一个编写版本和发布软件的库
+Opengraph - 一个开放图库
+Essence -一个提取web媒体的库
+Embera - 一个Oembed消费库
+Graphviz - 一个图形库
+Flux - 一个正则表达式构建库
+PHPCR - 一个Java内容存储库(JCR)的PHP实现
+ClassPreloader - 一个优化自动加载的库
+PHPStack - 一个PHP编写的TCP/IP栈概念
+Nmap - 一个Nmap PHP包装器
+Lambda PHP - 一个PHP中的Lambda计算解析器
+Country List - 所有带有名称和ISO 3166-1编码的国家列表
+PHP-GPIO - 一个用于Raspberry PI的GPIO pin的库
+print_o - 一个对象图的可视化器
+Alias - 一个类别名库
+Cake Utility - 工具类如Inflector，字符串，哈希，安全和XML (CP)
+Slimdump - 一个简单的MySQL dumper工具
+Prooph Service Bus - 轻量级的消息总线，支持CQRS和微服务
+软件 Software
+创建一个开发环境的软件
+
+PHP安装 PHP Installation
+在你的电脑上帮助安装和管理PHP的工具
+
+HomeBrew - 一个OSX包管理器
+HomeBrew PHP - 一个HomeBrew的PHP通道
+PHP OSX - 一个OSX下的PHP安装器
+PHP Brew - 一个PHP版本管理和安装器
+PHP Env - 另一个PHP版本管理器
+PHP Switch - 另一个PHP版本管理器
+PHP Build - 另一个PHP版本安装器
+VirtPHP - 一个创建和管理独立PHP环境的工具
+开发环境 Development Environment
+创建沙盒开发环境的软件和工具
+
+Vagrant - 一个便携的开发环境工具
+Ansible - 一个非常简单的编制框架
+Puppet - 一个服务器自动化框架和应用
+PuPHPet - 一个构建PHP开发虚拟机的web工具
+Protobox - 另一个构建PHP开发虚拟机的web工具
+Phansible - 一个用Ansible构建PHP开发虚拟机的web工具
+虚拟机 Virtual Machines
+相关的PHP虚拟机
+
+HHVM - Facebook出品的PHP虚拟机，Runtime和JIT
+HippyVM - 另一个PHP虚拟机
+Hack - 一个PHP进行无缝操作的HHVM编程语言
+集成开发环境(IDE) Integrated Development Environment
+支持PHP的集成开发环境
+
+Netbeans - 一个支持PHP和HTML5的IDE
+Eclipse for PHP Developers - 一个基于Eclipse平台的PHP IDE
+PhpStorm - 一个商业PHP IDE
+Web应用 Web Applications
+基于Web的应用和工具
+
+3V4L - 一个在线的PHP和HHVM shell
+DBV - 一个数据库版本控制应用
+PHP Queue - A一个管理后端队列的应用
+MailCatcher - 一个抓取和查看邮件的web工具
+Cachet - 开源状态页面系统
+phpRedisAdmin - 一个用于管理Redis数据库的简单web界面
+phpPgAdmin - 一个PostgreSQL的web管理工具
+phpMyAdmin - 一个MySQL/MariaDB的web界面
+Adminer - 一个数据库管理工具
+Grav - 一个现代的flat－file的CMS
+基础架构 Infrastructure
+提供PHP应用和服务的基础架构
+
+appserver.io - 一个用PHP写的多线程的PHP应用服务器
+php-pm - 一个PHP应用的进程管理器、修改器和负载平衡器
+资源 Resources
+各种提高你的PHP开发技能和知识的资源，比如书籍，网站，文章
+
+PHP网站 PHP Websites
+PHP相关的有用的网站
+
+PHP The Right Way - 一个PHP最佳实践的快速指引手册
+PHP Best Practices - 一个PHP最佳实践指南
+PHP Weekly - 一个PHP新闻周刊
+Securing PHP - 一个关于PHP安全和库的建议的简报
+PHP Security - 一个PHP安全指南
+PHP FIG - PHP框架交互组
+PHP UG - 一个帮助用户定位最近的PHP用户组(UG)的网站
+Seven PHP - 一个PHP社区成员采访的网站
+Nomad PHP - 一个在线PHP学习资源
+PHP School - 学习PHP的开源资源
+PHP Mentoring - 点对点PHP导师组织
+PHPTrends - 一个快速增长的PHP类库的概述
+PHP Versions - 哪些版本的PHP可以用在哪几种流行的Web主机上的列表
+其他网站 Other Websites
+web开发相关的有用网站
+
+The Open Web Application Security Project (OWASP) - 一个开放软件安全社区
+WebSec IO - 一个web安全社区资源
+Semantic Versioning - 一个解析语义版本的网站
+Atlassian Git Tutorials - 一个Git教程系列
+Hg Init - 一个Mercurial教程系列
+Servers for Hackers - 一个关于服务器管理的新闻通讯
+PHP书籍 PHP Books
+PHP相关的非常好的书籍
+
+PHP 7 Upgrade Guide - 一本Colin O'Dell的包含所有PHP 7功能和改变的书
+PHP Pandas - 一本Dayle Rees关于如何学习写PHP的书
+Scaling PHP Applications - 一本Steve Corona关于扩展PHP应用程序的电子书
+The Grumpy Programmer's Guide to Building Testable PHP Applications - 一本Chris Hartjes关于构建PHP应用程序测试的书
+Grumpy PHPUnit - 一本Chris Hartjes关于使用PHPUnit进行单元测试的书
+Mastering Object-Orientated PHP - 一本Brandon Savage关于PHP面向对象的书
+Signaling PHP - 一本Cal Evans关于在CLI脚本捕获PCNTL信号的书
+Securing PHP: Core Concepts - 一本Chris Cornutt关于PHP常见安全条款和实践的书
+Modernising Legacy Applications in PHP - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
+Modern PHP New Features and Good Practices - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
+Functional Programming in PHP - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
+其他书籍 Other Books
+与一般计算和web开发相关的书
+
+The Linux Command Line - William Shotts关于Linux命令行的一本书
+Understanding Computation - Tom Stuart关于计算理论的一本书
+The Tangled Web — Securing Web Applications - Michal Zalewski关于web应用安全的一本书
+Elasticsearch: The Definitive Guide - Clinton Cormley和Zachary Tong编写的与Elasticsearch工作的一本指南
+Eloquent JavaScript - Marijin Haverbeke关于JavaScript编程的一本书
+Vagrant Cookbook - Erika Heidi关于创建 Vagrant环境的一本书
+Pro Git - Scott Chacon和Ben Straub关于Git的一本书
+Head First Design Patterns - 解说软件设计模式的一本书
+PHP视频 PHP Videos
+PHP相关的非常不错的视频
+
+Taking PHP Seriously - 来自Facebook Keith Adams 讲述PHP优势
+PHP Town Hall - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
+Programming with Anthony - Anthony Ferrara的视频系列
+PHP UK Conference - 一个PHP英国会议的视频集合
+PHP阅读 PHP Reading
+PHP相关的阅读资料
+
+Create Your Own PHP Framework - 一部Fabien Potencier的关于如何创建你自己的PHP框架的系列文章
+Seven Ways to Screw Up BCrypt - 一篇关于纠正BCrypt实现的文章
+Preventing CSRF Attacks - 一篇阻止CSRF攻击的文章
+Don't Worry About BREACH - 一篇关于BREACH攻击和CSRF令牌的文章
+On PHP 5.3, Lambda Functions and Closures - 一篇关于lambda函数和闭包的文章
+Use Env - 一篇关于使用unix环境帮助的文章
+Composer Primer - Composer初级使用
+Composer Versioning - 一篇关于Composer版本的文章
+Composer Stability Flags - 一篇关于Composer稳定性标志的文章
+PHP Sucks! But I Like It! - 一篇关于PHP利弊的文章
+PHP Is Much Better Than You Think - 一篇关于PHP语言和生态圈的文章
+PHP内核阅读 PHP Internals Reading
+阅读PHP内核或性能相关的资料
+
+PHP RFCs - PHP RFCs主页(请求注解)
+PHP Internals Book - 一本由三名核心开发编写的关于PHP内核的在线书
+Print vs Echo, Which One is Faster? - 一篇关于打印和echo性能的文章
+The PHP Ternary Operator. Fast or Not? - 一篇关于三元操作性能的文章
+Disproving the Single Quotes Myth - 一篇关于单，双引号字符串性能的文章
+You're Being Lied To - 一篇关于内核ZVALs的文章
+How Long is a Piece of String - 一篇关于字符串原理的文章
+Understanding OpCodes - 一篇关于opcodes的文章
+How Foreach Works - StackOverflow关于foreach回答的详情
+When Does Foreach Copy? - 一篇关于foreach原理的文章
+How Big Are PHP Arrays (And Values) Really? - 一篇关于数组原理的文章
+Why Objects (Usually) Use Less Memory Than Arrays - 一篇关于对象和数组原理的文章
+PHP Evaluation Order - 一篇关于PHP评估顺序的文章
+开发人员的PHP源代码: 1 2 3 4 - 关于PHP源代码的系列
+垃圾收集: 1 2 3 - 关于PHP垃圾收集原理的系列
+PHP杂志 PHP Magazines

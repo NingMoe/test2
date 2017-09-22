@@ -1,0 +1,208 @@
+李聪－中文
+licong
+
+http://licong.gz1.hostadm.net  
+http://www.99jlw.com/
+
+http://phpmyadmin.gz1.hostadm.net 
+
+
+http://www.99jlw.com/lisysaz/
+	admin
+	li5529sys89_iq
+
+FTP登陆
+	用户名是： 	 licong 
+	FTP密码是：  2311696db431cc 
+	用户的FTP地址是：ftp.gz1.hostadm.net 61.145.119.68
+数据库
+	用户名： 　	   	licong 
+	数据库密码： 　 licongrt4
+	数据库名称： 　 licong 
+	数据库所在IP：  61.145.119.68 
+	http://phpmyadmin.gz1.hostadm.net/index.php
+
+
+
+我方公司(因木马,不稳定,换成gz11)
+		http://www.99jlw.com 
+		http://www.99jlw.com/lisysaz/
+		http://99jlw.gz11.hostadm.net 
+		http://99jlw.gz11.hostadm.net/lisysaz/
+		http://99jlw.com 
+	ftp
+		用户名是： 	 99jlw 
+		FTP密码是：  F8AC79B610abe3 
+		用户的FTP地址是：ftp.gz11.hostadm.net 183.61.109.99
+	数据库
+		用户名： 　jlw 
+		数据库密码： 　 jlw6677 
+		数据库名称： 　 jlw 
+		数据库所在IP： 　183.61.109.99 
+		所用的连接端口： 　3306 
+
+
+
+
+2016-04-21 11:12:43
+
+2016-04-21 11:22:43
+
+
+
+
+
+不能支付的订单号
+	2016020436217
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+支付宝：
+
+	合作者身份(PID)
+	 		2088021722181709
+
+	安全校验码(Key)
+	默认加密：  oxsfh4c41msvbydg2jwwbiguu60fkcl2
+
+	帐号： 2781679220@qq.com
+
+
+
+待付款	1=>' AND ori.pay_status='.PS_UNPAYED.' AND ori.order_status NOT '.
+	        db_create_in(array(OS_CANCELED,OS_INVALID,OS_RETURNED)),
+已付款	2=>' AND ori.pay_status ='.PS_PAYED.' AND ori.order_status NOT '.db_create_in(array(OS_CANCELED,OS_INVALID,OS_RETURNED)).
+	        ' AND ori.shipping_status NOT '.db_create_in(array(SS_RECEIVED)),
+已完成	3=>' AND ori.pay_status ='.PS_PAYED.' AND ori.order_status NOT '. db_create_in(array(OS_CANCELED,OS_INVALID,OS_RETURNED)).
+	        ' AND ori.shipping_status = '.SS_RECEIVED,
+待评价	4=>' AND ori.is_comment=0 AND ori.order_status '.db_create_in(array(OS_SPLITED,OS_SPLITING_PART)).
+	        ' AND ori.pay_status '.db_create_in(array(PS_PAYING,PS_PAYED)).' AND ori.shipping_status = '.SS_RECEIVED,
+其它	5=>' AND ori.order_status '.db_create_in(array(OS_CANCELED,OS_INVALID,OS_RETURNED))
+
+
+
+
+表 
+	shop_goods
+		增加字段 qrcode_number (二维码数量)
+		增加字段 qrcode (生成的二维码)
+
+	shop_shop_config
+		增加字段 app_edition (app最新版本) id=907
+
+	shop_qrcode  (新增表)
+		CREATE TABLE `licong`.`shop_qrcode` (
+			`qrcode` varchar(25) NOT NULL ,
+			`goods_id` MEDIUMINT( 8 ) unsigned NOT NULL ,
+			`is_check` TINYINT( 1 ) unsigned DEFAULT '0' NOT NULL ,
+
+			PRIMARY KEY ( `qrcode` ) ,
+			INDEX ( `goods_id` )
+		)ENGINE=MyISAM DEFAULT CHARSET=utf8 
+
+
+
+
+
+
+洒类文化 spri_culture
+教你选洒 teach_spri
+
+
+
+is_best			特价
+is_new			新品
+is_hot			热销
+is_promote		精品
+
+
+免邮费 is_shipping
+962055287@QQ.COM
+
+
+
+
+分成：
+	表  user distr 1    经销商  0 不是经销商	
+		user join_id   加盟表id(join)   		mediumint(8)
+		user affiliate_money  分成的金额	decimal(10,2) 			否 	0.00 	
+	设置
+		level_money_all 占百分比 0.1%
+	
+
+分成：
+	用户登陆时返回的信息里有  distr     1 经销商  0 不是经销商			
+	经销商分享时在链接后边加一个  u=会员id 的参数就行了 如：http://licong.gz1.hostadm.net/goods.php?id=2&u=153		
+		
+
+
+
+join
+					id
+					user_id
+					add_time
+					ip
+	公司名称 		com_name		
+	营业执照		img_lice		
+	税务登记证		img_tax		
+	银行开户许可证	img_bank			
+	申请级别 		level					
+	公司地址 		address		
+	联 系 人		contact		
+	联系电话 		tel		
+	邮 箱 			mail	
+
+新增表：
+	CREATE TABLE IF NOT EXISTS `shop_join` (
+	id 			mediumint(8) unsigned NOT NULL auto_increment,
+	user_id 	int(11) 	unsigned 	NOT NULL,
+	add_time	int(11)		unsigned 	NOT NULL,
+	ip			varchar(50)         	NOT NULL,
+	com_name	varchar(30)         	NOT NULL,
+	img_lice	varchar(80)         	NOT NULL,
+	img_tax		varchar(80)         	NOT NULL,
+	img_bank	varchar(80)         	NOT NULL,
+	level		varchar(20)         	NOT NULL,
+	address		varchar(50)         	NOT NULL,
+	contact		varchar(20)         	NOT NULL,
+	tel			varchar(20)         	NOT NULL,
+	mail		varchar(20)         	NOT NULL,
+	PRIMARY KEY  (`id`)
+	) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
+
+
+
+
+<!-- <span class="tab-front" id="goodsdetail-tab">{$lang.tab_goods_details}</span> -->
+
+  <table width="100%" id="goodsdetail-table" style="display:block">
+          <tr>
+            <td>
+              <textarea class='content333' name="content" style="width:1165px;height:400px;"><!--{if $goods.content}-->{$goods.content}<!--{else}--><table class="ke-zeroborder" style="width:100%;" border="0" bordercolor="#000000" cellpadding="2" cellspacing="22">	<tbody>		<tr>			<td width="32%">				<span>产品参数：</span><br /><span></span><br />			</td>			<td width="33%">				<br />			</td>			<td width="30%">				<br />			</td>		</tr>		<tr>			<td>				<span>生产许可证编号：</span><br />			</td>			<td>				<span></span><span>产品名称：</span><br />			</td>			<td>				<span>香型: </span><br />			</td>		</tr>		<tr>			<td>				<span>厂名: </span><br />			</td>			<td>				<span>品牌: </span><br />			</td>			<td>				<span>酒精纯度: </span><br />			</td>		</tr>		<tr>			<td>				<span>厂址: </span><br />			</td>			<td>				<span>品名: </span><br />			</td>			<td>				<span>包装方式: </span><br />			</td>		</tr>		<tr>			<td>				<span>联系方式: </span><br />			</td>			<td>				<span>产地: </span><br />			</td>			<td>				<span>包装种类: </span><br />			</td>		</tr>		<tr>			<td>				<span>保质期: </span><br />			</td>			<td>				<span>省份: </span><br />			</td>			<td>				<span>含量: </span><br />			</td>		</tr>	</tbody></table><!--{/if}--></textarea>
+              <script type="text/javascript">add_kindeditor(".content333");</script>
+            </td>
+          </tr>
+        </table>
+
+
+
+
+
+
+
+

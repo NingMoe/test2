@@ -1,0 +1,600 @@
+<?php
+header('Content-Type:text/html;charset=utf-8');
+ini_set("max_execution_time", "18000");
+ini_set("memory_limit", "2048M");
+error_reporting(E_ALL);
+ini_set( 'display_errors', 'Off' ); // Off
+date_default_timezone_set('PRC'); // PRC
+// echo date('Y-m-d H:i:s')."\n\n";
+// sleep(2); 秒
+// usleep(1666666) — 以指定的微秒数延迟执行 百万分之一秒
+
+/*
+
+http://www.hxjtcjh.cn/alugzaod/enroll_manage.php?act=class_time_download&time_id=5
+
+
+gf
+
+详细错误信息:
+
+
+
+模块
+   IsapiModule 
+
+通知
+   ExecuteRequestHandler 
+
+处理程序
+   php 
+
+错误代码
+   0x00000000 
+
+
+
+请求的 URL
+   http://youngvlife.com:80/index.php 
+
+物理路径
+   D:\freehost\web\index.php 
+
+登录方法
+   匿名 
+
+登录用户
+   匿名 
+
+
+
+
+
+
+
+
+./ext\php_imagick.dll' - 找不到指定的程序
+
+
+extension=php_imagick.dll
+core_rl_wand_.dll
+php startup: unable to load dynamic library 
+
+
+http://www.cnblogs.com/xiangxiaodong/archive/2013/12/23/3487008.html
+http://www.imagemagick.org/download/
+http://cn.php.net/imagick
+http://www.jb51.net/article/51844.htm
+http://www.cnblogs.com/fengliang/p/3471795.html
+
+*/
+// phpinfo();
+
+
+extension_loaded('imagick') or die('imagick not loaded');
+header('Content-type: image/jpeg');
+$image = new Imagick('old_s.jpg');
+// If 0 is provided as a width or height parameter,
+// aspect ratio is maintained
+$image->thumbnailImage(100, 0);
+echo $image;
+die();
+class uu{};
+/* Create Imagick object */
+// $Imagick = new Imagick();
+var_dump( class_exists(Imagick));
+var_dump( class_exists(uu));
+// var_dump( $Imagick );
+die();
+     
+
+
+
+
+
+
+/* Create a drawing object and set the font size */
+$ImagickDraw = new ImagickDraw();
+$ImagickDraw->setFontSize( 50 );
+
+/* Read image into object*/
+$Imagick->readImage( '/tmp/test.jpg' );
+
+/* Seek the place for the text */
+$ImagickDraw->setGravity( Imagick::GRAVITY_CENTER );
+
+/* Write the text on the image */
+$Imagick->annotateImage( $ImagickDraw, 4, 20, 0, "Test Watermark" );
+
+/* Set format to png */
+$Imagick->setImageFormat( 'png' );
+
+/* Output */
+header( "Content-Type: image/{$Imagick->getImageFormat()}" );
+echo $Imagick->getImageBlob();
+
+
+
+setcookie('uu','uu',time()+4333);
+setcookie('yyy','yyy');
+
+// var_dump( $_REQUEST );
+var_dump( $_COOKIE );
+die();
+     
+
+/*
+php_imagick.dll
+
+
+我们公司php环境
+
+
+
+
+1、数据库搭建规范。
+2、php环境搭建
+
+
+1.培训服务器的搭建：win2003+iis+mysql+php
+2.svn环境的搭建还有使用方法
+
+
+
+
+ecshopnc
+    查询数据库查询记录
+        var_dump(  LOG::read() );
+    错误代码
+        E:\www\zhourou\api\library\ActivityException.php
+
+支付宝（即时到账）PC https://b.alipay.com/order/productDetail.htm?productId=2015110218012942 
+支付宝（手机支付）WAP https://b.alipay.com/order/productDetail.htm?productId=2015110218008816 
+微信支付 http://kf.qq.com/faq/120911VrYVrA150905zeYjMZ.html 
+网银在线（网关支付） http://www.chinabank.com.cn/product/payment_gateway.jsp
+
+共享必须打开以下服务：
+     dnscache（简写）、
+     fdrespub（简写）、
+     SSDP Discovery、
+     UPnP Device Host、
+     Computer Browser、
+     Server、
+     DNS Client、
+     TCP/IP NetBIOS Helper。
+
+
+
+
+sublime
+ctrl+p 增加剪贴的的读取功能
+
+ 
+210.21.4.130
+221.5.88.88
+GZFTTH1230008428@16900.gd
+241446
+123456
+cd115766431fgacKJ
+
+
+220.198.208.147
+
+IP地址：10.94.229.43
+子网掩码：255.255.255.255
+默认网关：10.94.192.1
+DNS： 210.21.4.130 221.5.88.88  
+外网状态：拨号成功 断开
+
+
+http://192.168.1.1/reg.cgi
+http://192.168.1.1/cu.html
+http://58.248.23.61:8080/unicom/gdcs/index.shtml
+
+
+更换手机号码
+
+
+
+
+    E:\www\mynotes\test\testLogin.html
+    E:\www\mynotes\test\testReg.html
+
+    http://mynotes.com/test/testLogin.html
+    http://mynotes.com/test/testReg.html
+
+
+
+    时间轴：
+        http://jixianzg.com/shop/index.php?act=member_order&op=timeline
+    提现：
+        http://jixianzg.com/shop/index.php?act=member_security&op=auth&type=pd_cash
+    我的订单：
+        http://jixianzg.com/shop/index.php?act=member_order&op=category
+    俱乐部：
+        http://jixianzg.com/shop/index.php?act=store_list
+
+
+
+
+修改pc,7个工作日
+加功能的
+
+
+黑洞
+旋转
+反转
+抖动
+跳跃
+打雷
+布谷鸟
+海边
+大风。
+
+
+
+
+
+
+
+
+2014/12/27/3_04730111903599596.jpg
+http://zhourou.com/data/upload/shop/store/goods/3/2014/12/27/3_04730111903599596_60.jpg
+
+
+
+
+
+
+
+
+/*
+
+我的svn
+    chenyudong2
+    chenyudong299
+
+
+
+
+JPG,GIF,PNG,BMP,PSD,ICO,RAR,ZIP,7Z,TXT,DOC,XLS,PPT,PDF,
+
+.css;.dwt;.htm;.js;.php;.lbi;
+
+,-*.jpg,-*.png,-*.gif
+
+
+http://120.27.28.7/
+
+http://120.27.28.7/api/modules/payment/openUnionpay.php
+http://120.27.28.7/api/modules/inde.php
+
+http://www.mynotes.com/api/modules/payment/openUnionpay.php
+http://www.mynotes.com/api/modules/inde.php
+
+http://www.swoole.com/
+https://github.com/matyhtf/php-webim
+
+http://mywebb.applinzi.com/
+http://myflysky.applinzi.com/
+http://webbui.applinzi.com/
+http://sae.sina.com.cn/?m=vermng&app_id=webbui&ver=1
+
+
+用户名：SAE_MYSQL_USER ， 密码：SAE_MYSQL_PASS
+主库域名：SAE_MYSQL_HOST_M ，端口：SAE_MYSQL_PORT 其他帐号说明
+
+
+
+
+05E12DB1E3obj 9966_禧炮 - 客户-/widget/blog_sohu.phpE:\test\blog_sohu.php149200
+
+
+05E12DB1E3obj 9966_禧炮 - 客户-
+
+
+
+000
+
+
+
+
+额外要需清空的
+
+
+    TRUNCATE TABLE `shop_order_goods` ;
+    TRUNCATE TABLE `shop_order_info` ;
+    TRUNCATE TABLE `shop_pay_log` ;
+    TRUNCATE TABLE `shop_order_action` ;
+    TRUNCATE TABLE `shop_delivery_goods`;
+    TRUNCATE TABLE `shop_delivery_order` ;
+    TRUNCATE TABLE `shop_order_action` ;
+
+
+    order_amount = order_amount + ('$order[bonus]') 
+
+netstat -aon,.findstr "5037"
+
+    1、Windows平台
+        在windows命令行窗口下执行：
+        1.查看所有的端口占用情况
+            netstat -ano
+
+        2.查看指定端口的占用情况
+            netstat -aon,.findstr "80"
+        协议 本地地址 外部地址 状态 PID
+
+
+
+    1：扫描一个网段指定端口
+        for /l %a in (1,1,254) do start /low /min telnet 192.168.1.%a 3389
+        这样就扫描了192.168.1.1到192.18.1.254的所有的主机的3389端口了。
+        扫描开始后会在任务栏开254个dos窗口，在大约5秒钟后没有开启3389端口的主机会在任务栏消失，剩下的就是
+        开着3389端口的主机了，通过任务栏内的dos窗口即可看到ip地址。
+    2：扫描一个主机多个端口
+        for /l %a in (1,1,65535) do start /min /low telnet 192.168.1.1 %a
+        扫描了192.18.1.1的1到65535的全部端口。
+    3：扫描一个网段多个端口
+        for /l %a in (1,1,254) do for /l %b in (1,1,65535) do start /min /low telnet 192.168.1.%a %b
+        扫描了192.168.1.1到192.168.1.254的主机的1到65535的全部端口。
+        命令解释：
+        for：循环命令。
+        /l：累加参数。(注：相当于累加器的作用。)
+        %a：变量。(注：是一个不定的量。它的值，取决于累加数值内的数，它是一个可变化的量。)
+        (1,1,254)：累加数值。第一位的1是起始数值(从1开始)，第二个1是累加数值(注：如果是2，就是每次都要+2)，254是
+        结束数值(注：循环数值到254后停止循环)。
+        累加参数举例：(1,1,254)从1开始循环，每次要加1，也就是第一次为1+1第二次为1+1+1，以此类推，当他们的和加到254
+        后，停止累加，循环结束。
+        /min和/low：你认为你机器性能很好的话，可以去掉这两当中的一个参数。除非机器性能非常好，要么别把两个参数都去掉
+
+
+
+
+    %AppData\Roaming\Mozilla\Firefox\Profiles%
+
+
+    $_COOKIE['PHPSESSID']==='34349u4fjgrfg4j9jg48g4v948bn98b'  mynotes
+
+         workplace 
+         
+ecshop 常用的后台页面
+    http://www.ecshop.com/admin/database.php?act=backup - 数据备份
+    http://www.liudao.com/alugzaod/account_log.php?act=list&user_id=55
+    admin/goods.php?act=trash  商品回收站   
+    admin/user_msg.php?act=list_all  会员留言
+    admin/privilege.php?act=modif   导航
+    admin/sql.php    数据库 
+        ecshop 帐户调节
+            'account_log.php'
+            
+        表修改，删除，新增，是否成功
+            update
+                mysql_affected_rows()   $db->affected_rows();
+            insert
+                mysql_insert_id()       $db->insert_id();
+            delete
+            mysql_affected_rows()   $db->affected_rows();
+         
+        json 格式
+            失败               
+                {"error":"\u6ca1\u6709\u6570\u636e\u5931\u8d25","status":0}
+            成功
+                {"error":"\u83b7\u53d6\u6210\u529f","status":1,"content":["33","343"]}"
+            
+         
+        g.is_on_sale = 1 AND g.is_alone_sale = 1 AND g.is_delete = 0 
+         
+         ecshop 购物车修改
+            rec_type = 16
+                结算时要计算购买物品的重量 (造成重量，数量的统一出错)
+                在添加购物车时 （造成无法识别相同的产品，购物车产品重复）
+         
+         
+         
+         大家后台的编辑器的配置 urlType 记得改 (absolute为绝对路径) (relative为相对路径)
+         
+        sql函数
+            返回当前date的UNIX时间戳 UNIX_TIMESTAMP()
+            把时间截转成时间 FROM_UNIXTIME(add_time)
+             
+         
+         ALTER TABLE shop_article ADD  sixq  int(11) unsigned NOT NULL  DEFAULT '0'
+         ALTER TABLE shop_activity_enro ADD INDEX apply_id(apply_id)
+         ALTER TABLE shop_article MODIFY questions_6q TINYINT NOT NULL
+         
+         ALTER TABLE shop_goods DROP INDEX pay_status
+         ALTER TABLE shop_article DROP COLUMN 6q
+         
+        
+         # SHOW TABLE STATUS 所有表的大小
+         # show tables
+         # show create table shop_order_goods
+         # show index from shop_
+         # describe shop_order_goods
+         ### delete from shop_activity_enro where 1
+         # select * from shop_activity_enro where 1
+         # select * from shop_apply where 1
+         # select * from shop_order_goods where 1
+         # UPDATE shop_order_info SET del_status=1 WHERE 1
+         # UPDATE shop_order_info SET order_status=0 WHERE 1
+         
+         
+         #show tables
+         
+
+ 
+
+
+         INSERT INTO shop_apply (a_id,name,u_id,age,relation,grounds,status,sex,id_card,Education,Contact,Occupation,Address,Unit,status2,province,city,area)
+            
+            SELECT null,name,12,age,relation,grounds,status,sex,id_card,Education,Contact,Occupation,Address,Unit,status2,province,city,area
+         
+            FROM shop_apply WHERE a_id = 1;
+         
+         
+         
+         mlsq
+        插入数据  
+            1 INSERT INTO tbl_temp2 (fld_id)
+                SELECT tbl_temp1.fld_order_id
+                FROM tbl_temp1 WHERE tbl_temp1.fld_order_id > 100;
+         
+            2 insert into id_name values(2,'qust',14,'山东');    
+         
+            删除
+            delete from 表名 where 条件
+         
+         
+         数据库的设置            show status
+         创建表的语句            show create table 表名
+         创建数据库的语句        show create database 库名
+         更改表类型              alter table 表名 engine=类型(innodb,myisam);
+         查看所有表属性： SHOW TABLE STATUS;
+         显示表结构：describe 表名;
+         查看索引: show index from 表名
+         
+         重排auto_increment
+             清空表(auto_increment 恢复成1)
+                 TRUNCATE table 表名; 
+             设置auto_increment
+                 alter table 表名 auto_increment=1;
+         添加索引：ALTER TABLE shop_activity_enro ADD INDEX pay_status(pay_status)
+         删除索引：ALTER TABLE shop_activity_enro DROP INDEX pay_status
+         删除表：drop table 表名;
+         增加列：ALTER TABLE t2 ADD id INT UNSIGNED NOT NULL AUTO_INCREMENT,ADD INDEX (c);
+         修改列：ALTER TABLE t2 MODIFY a TINYINT NOT NULL, CHANGE b cCHAR(20);
+         删除列：ALTER TABLE t2 DROP COLUMN c;(若不能查询 reorg table table_name;)
+         字段添加默认值: alter table table_name alter column column_test set default  'value'; 
+         
+         改变表字符集   alter table 表名 convert to character set utf8;
+         
+         直接更改存储引擎   alter table 表名 engine=myisam;
+                  
+         {$articleTitle,.truncate:30:"...":true}
+         
+         http://weixin.hunuo.com
+         hunuo
+         123456
+         
+         filemtime($newspath.$filename);
+         得到的文件最后修改时间是我当前时间减去8个小时的值，有没有人知道什么原因？
+         这样处理，修改PHP.INI，查找timezone，修改为如下内容：
+         [Date]
+         ; Defines the default timezone used by the date functions
+         date.timezone = Asia/Chongqing
+         
+         修改之前的这一行内容是注释掉的：
+         ;date.timezone =
+         
+         BootStrap响应式模板+手机站模板
+         http://bingnian:867/
+         
+         最佳答案: date_default_timezone_get() 获取默认时区 对应的date_default_timezone_set()
+         
+         base64_encode($str);
+         base64_decode($str);
+         
+         ecshop 是怎样判断登陆的
+         cookie 是在哪边被更改的
+         
+         http://c.jinhusns.com/cms/c-850
+         响应式WEB设计的9项基本原则
+         
+         http://www.mahaixiang.cn/wzsj/278.html
+         响应式网页布局的实现方法原理
+         
+         有一张表X，X表中只有一个字段A，且A上设了主键，
+         insert into X select @A where  not exists (select 1 from X where A=@A)
+         
+         
+         //原设置备份
+         <VirtualHost _default_:80>
+         DocumentRoot "E:\phpStudy\WWW"
+         </VirtualHost>
+         <Directory "E:\phpStudy\WWW">
+            Options -Indexes +FollowSymLinks +ExecCGI
+            AllowOverride All
+            Order allow,deny
+            Allow from all
+         </Directory>
+         
+         ml3
+
+         site: www.wooyun.org ecshop
+
+         site:bbs.ecshop.com 评价                  jq.com
+         site:plugins.jquery.com 404                 jq.com
+         site:doc.thinkphp.cn 微信 卡券              thinkphp
+         site:wk.yl1001.com  44                      一览文库
+         site:php.net    5.3                         php官网
+         site:www.jq22.com  表情                    JQ插件库
+         site:www.appinn.com Modernizr               小众软件
+         site:www.skycn.com 数组 查找                天空软件下载
+         site:www.open-open.com jq 队列                open-open
+         
+         E:\localhost\www\search\ecshop
+         E:\localhost\www\search\tp
+         
+         site:pan.baidu.com/+空格+要搜索的内容
+         u：yahoo.com
+         t: yahoo.com
+         intitle:和后面的关键词之间，不要有空格
+         ""
+         + -
+         苹果丨水果
+         ww.qqyy.com inurl:wangluoyingxiao
+         site:www.qqyy.com inurl:zhiliao -inurl:jibing
+         天意 inurl:mp3
+         返回 filetype:psd
+         intitle:社区
+         
+         
+         
+         
+         
+         ml4
+         if(!headers_sent())@header('testContent:'.json_encode(var_export($_SESSION,true)));
+         
+         
+         $tem_arr_uu = $maxFileAge;
+         file_put_contents('11111.txt', "\r\n\r\n\r\n\r\n\r\n".date('Y-m-d H:i:s',gmtime() + 3600*8)."\r\n".var_export( $tem_arr_uu, true ) ,FILE_APPEND);
+         
+         file_put_contents(ROOT_PATH.'/esapi/11111.txt', "\r\n\r\n\r\n\r\n\r\n".date('Y-m-d H:i:s',gmtime() + 3600*8)."\r\n".var_export( $_REQUEST, true ) ,FILE_APPEND);
+         
+         压力测试 
+            E:\phpStudy\Apache\bin\ab.exe  -n  50  -c  10  http://www.liudao.com/article.php?id=304
+            E:\phpStudy\Apache\bin\ab.exe  -n  50  -c  10  http://www.liudao.com/
+
+            E:\phpStudy\Apache\bin\ab.exe  -n  50  -c  10  http://www.jiashi.com/
+            E:\phpStudy\Apache\bin\ab.exe  -n  50  -c  10  http://liudao.gz10.hunuo.net/
+            E:\phpStudy\Apache\bin\ab.exe  -n  50  -c  10  http://120.27.28.7/index.php/Public/index/
+
+         
+         var_dump(get_class($user));
+         var_dump(get_class_methods('ecshop'));
+         var_dump(class_parents('ecshop'));
+         var_dump(spl_classes());
+        // 反射API 查看类的详细信息
+        Reflection::export( new ReflectionClass( $GLOBALS['user'] ) );
+        Reflection::export( new ReflectionFunction($funcName) );
+    
+        \Reflection::export( new \ReflectionFunction( 'D' ) ) ;
+
+
+            header('Content-Type:text/html;charset=utf-8');
+            \Reflection::export( new \ReflectionFunction( 'D' ) ) ;
+             die();
+
+         
+   
+             
+            
+                
+                        
+         
+         
+         
+*/
+?>
+
+

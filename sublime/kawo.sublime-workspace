@@ -1,0 +1,2870 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"jon",
+				"json_encode"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"_",
+				"_REQUEST"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"replace",
+				"str_replace"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"v",
+				"var_export"
+			],
+			[
+				"s",
+				"switch	switch …"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"sat",
+				"status"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"In",
+				"INSERT"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"ke",
+				"keyword"
+			],
+			[
+				"goods",
+				"goods_id"
+			],
+			[
+				"sort",
+				"sort_order"
+			],
+			[
+				"isn",
+				"is_numeric"
+			],
+			[
+				"mob",
+				"mobile_phone"
+			],
+			[
+				"josn",
+				"json_decode"
+			],
+			[
+				"goods_um",
+				"goods_number"
+			],
+			[
+				"ton",
+				"token"
+			],
+			[
+				"o",
+				"onclick	Attr"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"fro",
+				"form	Tag"
+			],
+			[
+				"order",
+				"order_id"
+			],
+			[
+				"is",
+				"is_ajax"
+			],
+			[
+				"out",
+				"output_data"
+			],
+			[
+				"up",
+				"upload"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"br",
+				"br"
+			],
+			[
+				"_se",
+				"_SESSION"
+			],
+			[
+				"goods_n",
+				"goods_number"
+			],
+			[
+				"没有",
+				"没有该订单"
+			],
+			[
+				"var_",
+				"var_export"
+			],
+			[
+				"parent",
+				"parent_id"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"or",
+				"order_id"
+			],
+			[
+				"order_s",
+				"order_status"
+			],
+			[
+				"jos",
+				"json_encode"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"cl",
+				"colspan	Attr"
+			],
+			[
+				"pr",
+				"printf"
+			],
+			[
+				"outp",
+				"output_error"
+			],
+			[
+				"ou",
+				"output_error"
+			],
+			[
+				"ji",
+				"join"
+			],
+			[
+				"ads",
+				"ads_id"
+			],
+			[
+				"_p",
+				"_POST"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"post",
+				"_POST"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"liudao",
+				"liudao:box	php_5"
+			],
+			[
+				"S_",
+				"svn_blame"
+			],
+			[
+				"daos",
+				"daoshi_z"
+			],
+			[
+				"class_time",
+				"class_time_list"
+			],
+			[
+				"ip_m",
+				"ip_mess"
+			],
+			[
+				"use_end",
+				"use_end_date"
+			],
+			[
+				"clas",
+				"class_exists"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"vote_list",
+				"vote_list_str"
+			],
+			[
+				"date_m",
+				"date_m_start"
+			],
+			[
+				"par",
+				"parent_name"
+			],
+			[
+				"tutor",
+				"tutor_info"
+			],
+			[
+				"keyw",
+				"keywords"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"del_",
+				"del_old_file"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"free",
+				"free_type"
+			],
+			[
+				"area_code",
+				"area_code_list"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"hear",
+				"ecs_header"
+			],
+			[
+				"apply",
+				"applyinfo"
+			],
+			[
+				"account",
+				"account_log"
+			],
+			[
+				"fetch",
+				"fetchRow"
+			],
+			[
+				"field",
+				"field_list"
+			],
+			[
+				"请先",
+				"请先登陆！"
+			],
+			[
+				"artic",
+				"article1"
+			],
+			[
+				"qu",
+				"questions"
+			],
+			[
+				"ftrow",
+				"fbsql_fetch_row"
+			],
+			[
+				"type",
+				"comment_type"
+			],
+			[
+				"article",
+				"article_list"
+			],
+			[
+				"local",
+				"local_date"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"car",
+				"cart_goods"
+			],
+			[
+				"comment",
+				"comment_size"
+			],
+			[
+				"check",
+				"check_apple"
+			],
+			[
+				"title",
+				"title_leng"
+			],
+			[
+				"searc",
+				"seach_user_id"
+			],
+			[
+				"varp",
+				"var_export"
+			],
+			[
+				"class",
+				"class_time_list"
+			],
+			[
+				"loca",
+				"localtime"
+			],
+			[
+				"fetc",
+				"fetchRow"
+			],
+			[
+				"new",
+				"newname"
+			],
+			[
+				"fec",
+				"fetchRow"
+			],
+			[
+				"confi",
+				"confirm_type"
+			],
+			[
+				"pra",
+				"private_key_path"
+			],
+			[
+				"sign",
+				"sign_old"
+			],
+			[
+				"fe",
+				"fetchRow"
+			],
+			[
+				"time_ar",
+				"time_arr_h"
+			],
+			[
+				"price",
+				"price_max"
+			],
+			[
+				"submit",
+				"submit_price"
+			],
+			[
+				"categ",
+				"category_list"
+			],
+			[
+				"show",
+				"show_message"
+			],
+			[
+				"url_ma",
+				"url_map_html"
+			],
+			[
+				"tmp_",
+				"tmp_dir_list"
+			],
+			[
+				"file",
+				"file_path"
+			],
+			[
+				"user_rank",
+				"user_rank_all"
+			],
+			[
+				"user_r",
+				"user_rank_all"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/E/www/test/case/999999971_kawo/Ckawo.txt",
+			"settings":
+			{
+				"buffer_size": 1020,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "1. \n登录： Sign in\n注册： Join\n我的订单：My Order\n购物车： Cart\n经销商入口：Dealer Entrance\n小沃客户端：ShowVo APP\n输入搜索关键词：I am shopping for.../what are you looking for...\n监视器： Monitor\n监控摄像机：CCTV Camera\n监控主机：DVR\n全部商品：Product Categories\nDIY摄像头：DIY Cameras\nDIY配套：DIY Kits (Top Selling)\n团购：Group Buying\n积分兑换：Redeem Points\n促销活动：Promotion\n\n2.\n购物车：My Cart\n优惠券：Discount Coupon\n钱包：Wallet\n足迹：Browsing History\n反馈：Contact Supplier\n\n3. \na. \n使用帮助：Help\n新手指南：New User Guide\n红包使用：Use Red Packet\n用户协议：Terms of Use\nb.\n支付方式：Payment Terms\n银联：UnionPay\nc.\n配送方式：Shipping Method\n配送说明：About Shipping\n运费说明：Freight Note\nd.\n售后服务：After-Sales Service\n正品承诺：Quality Guarantee\n退货办理：How to Return\ne.\n会员中心：Member Center\n最新采购：New Arrivals\n最新公告：Press Releases\n网络动态：Events\nf.\n客服中心热线： Hotline\n工作时间： Working Hours\ng.\n联系我们：Contact Us\n会员办理：Become a Member\n反馈建议：Feedback & Suggest\n广告服务：Advertising Service\n法律声明：Terms\n关于我们：About Us\n新手指南：New User Guide\n\n\nGuangzhou Camwon Electronics Limited. All rights reserved.\n\nAdd: No.728, Kaichuang Avenue, Eastern Street, Luogang District, Guangzhou City, Guangdong Province.\n\n邮编: Zip Code",
+			"file": "/C/Users/chengming/Desktop/翻译.txt",
+			"file_size": 1340,
+			"file_write_time": 131323736674002791,
+			"settings":
+			{
+				"buffer_size": 1057,
+				"line_ending": "Windows",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/feedbook.dwt",
+			"settings":
+			{
+				"buffer_size": 14176,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/user_clips.dwt",
+			"settings":
+			{
+				"buffer_size": 10211,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/goods.dwt",
+			"settings":
+			{
+				"buffer_size": 15374,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/secs_buy.php",
+			"settings":
+			{
+				"buffer_size": 52090,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/secs_buy_goods.dwt",
+			"settings":
+			{
+				"buffer_size": 13279,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/themes/default/secs_buy_list.dwt",
+			"settings":
+			{
+				"buffer_size": 6331,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/index.php",
+			"settings":
+			{
+				"buffer_size": 15742,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/flow.dwt",
+			"settings":
+			{
+				"buffer_size": 45787,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/category.dwt",
+			"settings":
+			{
+				"buffer_size": 7805,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/www/kawo/en/themes/default/library/pages.lbi",
+			"settings":
+			{
+				"buffer_size": 1243,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: php_5"
+			],
+			[
+				"Snippet: jj",
+				"Snippet: jj"
+			],
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: php",
+				"Snippet: php_fcp"
+			],
+			[
+				"Snippet: php_r",
+				"Snippet: php_refle"
+			],
+			[
+				"Snippet:liud",
+				"Snippet: include_once …"
+			],
+			[
+				"Snippet:j",
+				"Snippet: jj"
+			],
+			[
+				"Snippet: j",
+				"Snippet: jj"
+			]
+		],
+		"width": 498.0
+	},
+	"console":
+	{
+		"height": 572.0,
+		"history":
+		[
+			"self.view.run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test_cron' )",
+			"sublime.active_window().run_command( 'test' )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":''} )",
+			"sublime.active_window().run_command( 'openopen',{\"func\":str_arr[index]} )",
+			"print(4355454)",
+			"fdsfds"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/www/kawo",
+		"/E/www/kawo/en",
+		"/E/www/kawo/en/data",
+		"/E/www/kawo/en/languages",
+		"/E/www/kawo/en/languages/en_us",
+		"/E/www/kawo/en/themes",
+		"/E/www/kawo/en/themes/default"
+	],
+	"file_history":
+	[
+		"/C/Users/chengming/Desktop/user.php",
+		"/E/www/kawo/en/secs_buy.php",
+		"/E/www/kawo/en/themes/default/css/style.css",
+		"/E/www/kawo/en/themes/default/user_transaction.dwt",
+		"/E/www/kawo/themes/default/library/user_menu.lbi",
+		"/E/www/kawo/en/themes/default/library/user_menu.lbi",
+		"/E/www/kawo/en/themes/default/library/user_top.lbi",
+		"/E/www/kawo/en/themes/default/user_passport.dwt",
+		"/E/www/kawo/en/themes/default/library/page_footer.lbi",
+		"/E/www/kawo/en/languages/zh_cn/common.php",
+		"/E/www/kawo/en/themes/default/diy.dwt",
+		"/E/www/kawo/en/themes/default/group_buy_list.dwt",
+		"/E/www/kawo/en/themes/default/exchange_goods.dwt",
+		"/E/www/kawo/en/themes/default/secs_buy_goods.dwt",
+		"/E/www/kawo/en/themes/default/secs_buy_list.dwt",
+		"/E/www/kawo/en/themes/default/library/member_info.lbi",
+		"/E/www/kawo/en/themes/default/exchange_list.dwt",
+		"/E/www/kawo/en/themes/default/group_buy_goods.dwt",
+		"/G/吕成铭/互诺.txt",
+		"/E/www/kawo/en/themes/default/diytc.dwt",
+		"/E/www/kawo/en/themes/default/library/member_info2.lbi",
+		"/E/www/kawo/themes/default/library/member_info2.lbi",
+		"/E/www/kawo/en/data/config.php",
+		"/E/www/kawo/en/themes/default/library/page_header.lbi",
+		"/E/www/kawo/en/includes/lib_insert.php",
+		"/E/www/kawo/en/themes/default/index.dwt",
+		"/E/www/kawo/en/themes/default/style.css",
+		"/E/www/kawo/mobile/themes/default/index.dwt",
+		"/E/www/kawo/mobile/themes/default/user_passport.dwt",
+		"/E/www/kawo/mobile/themes/default/library/page_top.lbi",
+		"/E/www/kawo/mobile/themes/default/diy.dwt",
+		"/E/www/kawo/admin/templates/user_info.htm",
+		"/E/www/kawo/themes/default/css/style.css",
+		"/E/www/kawo/admin/templates/goods_info.htm",
+		"/E/www/kawo/themes/default/index.dwt",
+		"/E/www/kawo/index.php",
+		"/E/www/kawo/mobile/themes/default/diytc.dwt",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/0105广州市卡沃电子科技有限公手机版(1)/js/js.js",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/0105广州市卡沃电子科技有限公手机版(1)/index.html",
+		"/E/www/kawo/mobile/themes/default/js/js.js",
+		"/E/www/kawo/mobile/themes/default/css/style.css",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/0105广州市卡沃电子科技有限公手机版(1)/css/style.css",
+		"/E/www/kawo/includes/lib_main.php",
+		"/E/Program Files/Sublime Text 3/Data/Packages/User/snippet/php/ecshop/ecshop_smarty.sublime-snippet",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/0112广州市卡沃电子科技有限公司--pc+手机版-捷/css/style.css",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/0112广州市卡沃电子科技有限公司--pc+手机版-捷/index.html",
+		"/E/www/test/资料.txt",
+		"/E/www/kawo/mobile/index.php",
+		"/E/www/kawo/mobile/themes/default/library/page_header.lbi",
+		"/E/www/kawo/admin/goods.php",
+		"/E/www/kawo/admin/includes/lib_goods.php",
+		"/E/www/kawo/data/config.php",
+		"/E/www/kawo/includes/lib_goods.php",
+		"/E/www/kawo/diy.php",
+		"/E/www/kawo/mobile/diy.php",
+		"/E/www/kawo/mobile/diytc.php",
+		"/E/www/kawo/mobile/WxPayPubHelper/WxPay.pub.config.php",
+		"/E/www/kawo/mobile/wapapli/alipay.config.php",
+		"/E/www/kawo/mobile/wapapli/alipayapi.php",
+		"/E/www/kawo/mobile/wapapli/lib/alipay_submit.class.php",
+		"/E/www/kawo/mobile/flow.php",
+		"/E/www/kawo/flow.php",
+		"/E/www/kawo/diytc.php",
+		"/E/www/kawo/themes/default/diytc.dwt",
+		"/E/www/kawo/mobile/secs_buy.php",
+		"/E/www/kawo/mobile/themes/default/secs_buy_list.dwt",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/DIY-摄像头.html",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/DIY-套件.html",
+		"/E/www/test/case/999999971_shanzun/Cshanzun.txt",
+		"/E/www/kawo/category.php",
+		"/E/www/kawo/includes/lib_common.php",
+		"/E/www/kawo/languages/zh_cn/shopping_flow.php",
+		"/E/www/kawo/includes/lib_insert.php",
+		"/E/www/kawo/themes/default/style.css",
+		"/E/www/kawo/admin/Classes/PHPExcel/Style.php",
+		"/E/www/test/ecshop数据库结构.php",
+		"/E/www/kawo/mobile/goods.php",
+		"/E/www/kawo/goods.php",
+		"/E/www/kawo/themes/default/diy.dwt",
+		"/E/www/kawo/mobile/themes/default/user_transaction.dwt",
+		"/E/www/test/case/999999971_hehe/Chehe.txt",
+		"/E/www/test/case/999999971_qiaorui/Cqiaorui.txt",
+		"/E/www/test/case/999999971_lingfen/Clingfen.txt",
+		"/E/www/test/case/999999971_sanfang/Csanfang.txt",
+		"/E/www/kawo/secs_buy.php",
+		"/E/www/kawo/mobile/themes/default/secs_buy_goods.dwt",
+		"/E/www/kawo/admin/templates/exchange_goods_info.htm",
+		"/E/www/kawo/admin/exchange_goods.php",
+		"/E/www/kawo/mobile/themes/default/flow.dwt",
+		"/E/www/kawo/includes/lib_order.php",
+		"/E/www/kawo/mobile/themes/default/library/page_footer.lbi",
+		"/E/www/kawo/mobile/exchange.php",
+		"/E/www/kawo/mobile/themes/default/exchange_list.dwt",
+		"/E/www/kawo/mobile/themes/default/exchange_goods.dwt",
+		"/E/www/kawo/includes/lib_clips.php",
+		"/E/www/kawo/mobile/user.php",
+		"/E/www/kawo/mobile/themes/default/goods.dwt",
+		"/E/www/kawo/mobile/group_buy.php",
+		"/E/www/kawo/mobile/themes/default/group_buy_list.dwt",
+		"/E/www/kawo/mobile/themes/default/group_buy_goods.dwt",
+		"/E/www/kawo/mobile/themes/default/user_clips.dwt",
+		"/E/Program Files/Sublime Text 3/Data/Packages/User/snippet/php/ecshop/ecshop_sql.sublime-snippet",
+		"/E/www/kawo/admin/templates/secs_buy_info.htm",
+		"/E/www/kawo/admin/templates/secs_buy_list.htm",
+		"/E/www/kawo/admin/secs_buy.php",
+		"/E/www/kawo/admin/group_buy.php",
+		"/E/www/kawo/admin/includes/lib_main.php",
+		"/E/www/kawo/includes/modules/Vendor/lib/WxPay.Config.php",
+		"/E/www/kawo/mobile/themes/default/category.dwt",
+		"/E/www/kawo/mobile/themes/default/message.dwt",
+		"/E/www/kawo/themes/default/flow.dwt",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/个人中心-管理收货地址.html",
+		"/C/Users/chengming/Desktop/test.php",
+		"/E/www/test/case/999999970_zhida/Czhida.txt",
+		"/E/www/kawo/themes/default/library/page_footer.lbi",
+		"/E/www/kawo/mobile/includes/modules/payment/alipay.php",
+		"/E/www/test/test2/zhuaqu1.php",
+		"/E/www/test/test2/test.php",
+		"/E/www/test/test2/zhuaqu.php",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/个人中心-我的积分.html",
+		"/E/www/test/case/999999971_kawo/Ckawo.txt",
+		"/E/www/test/case/999999971_kawo/my_case_kawo.php",
+		"/E/www/test/test2.php",
+		"/E/www/test/test.php",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/个人中心-我的订单.html",
+		"/E/www/kawo/user.php",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/个人中心.html",
+		"/G/吕成铭/项目/k广州市卡沃电子科技有限公司/1219广州市卡沃电子科技有限公手机版/登录.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"E:\\www\\kawo\\languages",
+			"E:\\www\\kawo\\languages\\zh_cn\\admin",
+			"E:\\www\\kawo",
+			"E:\\www\\yitaixiang\\Ajdinoum",
+			"D:\\WWW\\lingfen\\mobile",
+			"D:\\WWW\\lingfen",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\zhida\\admin\\templates",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\kawo\\languages\\zh_cn\\admin",
+			"D:\\wamp\\www\\kawo",
+			"D:\\wamp\\www\\zhida",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\junlang\\Admin",
+			"D:\\wamp\\www\\maizi\\Chengming\\Tpl\\Home",
+			"D:\\wamp\\www\\junlang",
+			"D:\\wamp\\www\\xinghui",
+			"D:\\wamp\\www\\zhida",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\zhourou,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\www\\liudao\\languages,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"E:\\www\\liudao,-*.jpg,-*.png,-*.jpg,-*.gif",
+			"D:\\Program Files\\Sublime Text 3\\Data\\Packages",
+			"E:\\1_commonly_used\\我做的更改\\项_9945_禧袍\\pc\\Nhvendor",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web",
+			"E:\\1_commonly_used\\我做的更改\\项_9943_六道\\pc\\web\\languages",
+			"E:\\www\\test2\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\ecshop",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test3\\",
+			"E:\\www\\test3\\Uploads",
+			"E:\\www\\test2\\languages",
+			"E:\\1_commonly_used\\我做的更改\\项_9946_李聪\\app接口\\hnshop(1)\\includes",
+			"D:\\Program Files\\Sublime Text 3\\",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test2\\includes",
+			"E:\\www\\test2\\languages",
+			"E:\\www\\test1\\mp3play",
+			"E:\\www\\new_ecshop\\languages",
+			"",
+			"E:\\www\\ecshop\\languages"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"q_time",
+			"promo_time_",
+			"请关键字搜索",
+			"元",
+			"请输入数字",
+			"提示",
+			"删除",
+			"移入收藏夹",
+			"温馨",
+			"提示",
+			"配送：",
+			"提示",
+			"请输入数字",
+			"配送：",
+			"order_list",
+			"全部订单",
+			"company",
+			"经销商合作",
+			"删除成功",
+			"提示",
+			"我的订单",
+			"个人中心",
+			"已结束",
+			"秒",
+			"分",
+			"时",
+			"天",
+			"运费：",
+			"配送：",
+			"提示",
+			"秒",
+			"分",
+			"时",
+			"天",
+			"请关键字搜索",
+			"brand",
+			"全部",
+			"温馨提示",
+			"暂无清单",
+			"请输入正确的格式",
+			"电脑晒图",
+			"请您输入",
+			"手机注册",
+			"用户注册",
+			"手机号",
+			"邮箱",
+			"广州市卡沃电子科技有限公司",
+			"重置",
+			"密码",
+			"验证码",
+			"留言内容",
+			"电子邮件",
+			"在线留言",
+			"用户名",
+			"用户登录",
+			"登录",
+			"工作时间",
+			"客服中心热线",
+			"会员中心",
+			".header .green .part2 ul li a",
+			".header",
+			".header .green .part2 ",
+			".header .green .part2 ul li a",
+			"输入搜索关键字",
+			"搜商品",
+			"parseint_integral()",
+			".header .m_but",
+			"menu",
+			"menu-but",
+			".index .nav li span",
+			"subm",
+			"category_list",
+			"children",
+			" goods_list(",
+			"goods_list",
+			"query",
+			"is_ajax",
+			"res_data",
+			"irst-child",
+			".right ",
+			"taozhuang",
+			".taozhuang .tit3 .s2",
+			"addto_cart_success_2",
+			"addto_cart_success_1",
+			"add_to_cart",
+			"ECS_FORMBUY",
+			"addToCart2",
+			".taozhuang .pink",
+			"get_goods_properties",
+			"category_get_goods",
+			"ext",
+			"get_cagtegory_goods_count",
+			"xuan",
+			"54",
+			"'exchange_goods'",
+			"exchange_goods",
+			"get_exchange_goods_info",
+			"'goods_activity'",
+			"goods_activity",
+			"group_buy.php",
+			"group_buy",
+			"$exc",
+			"get_secs_goods_info",
+			".footer .con li:nth-child(1) .input",
+			".footer .con li:nth-child(1) a",
+			"act_info",
+			"row",
+			"获得商品列表",
+			"get_exchange_goods_info",
+			".del_box1 .p4",
+			"_name'],'value'=>$properties['pro']['商品属性'][$v['attr_id']]['v",
+			".footer .con li:nth-child(1) input",
+			"properties",
+			"comment_list",
+			".cnav a:hover",
+			".cnav a:hover, .cnav a.on",
+			"goods_car_num",
+			".focus",
+			"focus",
+			".shopping_cart li .del",
+			".shopping_cart",
+			"footer",
+			"add_address",
+			"edit_address",
+			"寰蒋闆呴粦",
+			"collection_list",
+			"寰蒋闆呴粦",
+			"order_list"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"uuy",
+			"D:\\www\\mall\\",
+			"",
+			",",
+			"",
+			"6q币",
+			"",
+			"applys.php",
+			"",
+			"shop_shop_config",
+			"6Q币",
+			"",
+			"课程价格",
+			"dwa",
+			"",
+			"<a href=\"category.php?act=course\">课程安排</a>",
+			"$1",
+			"",
+			"$1",
+			"http://www.99jlw.com/",
+			"forms.$1",
+			"elements.$1",
+			"",
+			"original_img",
+			",",
+			"",
+			",",
+			"",
+			",",
+			"",
+			"t",
+			"ttt",
+			"44",
+			"",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/E/www/test/case/999999971_kawo/Ckawo.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/chengming/Desktop/翻译.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								342,
+								342
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"in_converting": true,
+							"origin_encoding": "GB2312",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/www/kawo/en/themes/default/feedbook.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12959,
+								12959
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3202.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/www/kawo/en/themes/default/user_clips.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1079,
+								1079
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/www/kawo/en/themes/default/goods.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2653,
+								2653
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 846.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/www/kawo/secs_buy.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52090,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27628,
+								27628
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13310.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/E/www/kawo/en/themes/default/secs_buy_goods.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								460,
+								460
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/E/www/kawo/themes/default/secs_buy_list.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2348,
+								2348
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/E/www/kawo/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/E/www/kawo/en/themes/default/flow.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/E/www/kawo/en/themes/default/category.dwt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7621,
+								7630
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2337.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/E/www/kawo/en/themes/default/library/pages.lbi",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.expec":
+	{
+		"height": 422.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 575.0
+	},
+	"pinned_build_system": "",
+	"project": "kawo.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"secs_buy_list",
+				"themes\\default\\secs_buy_list.dwt"
+			],
+			[
+				"pages.lbi",
+				"en\\themes\\default\\library\\pages.lbi"
+			],
+			[
+				"category.dwt",
+				"en\\themes\\default\\category.dwt"
+			],
+			[
+				"flow.dwt",
+				"en\\themes\\default\\flow.dwt"
+			],
+			[
+				"secs_buy_goods.dwt",
+				"en\\themes\\default\\secs_buy_goods.dwt"
+			],
+			[
+				"secs_buy.php",
+				"secs_buy.php"
+			],
+			[
+				"goods.dwt",
+				"en\\themes\\default\\goods.dwt"
+			],
+			[
+				"style.css",
+				"en\\themes\\default\\css\\style.css"
+			],
+			[
+				"user_menu.lbi",
+				"themes\\default\\library\\user_menu.lbi"
+			],
+			[
+				"user_top.lbi",
+				"en\\themes\\default\\library\\user_top.lbi"
+			],
+			[
+				"feedbook.dwt",
+				"en\\themes\\default\\feedbook.dwt"
+			],
+			[
+				"member_inf",
+				"en\\themes\\default\\library\\member_info.lbi"
+			],
+			[
+				"secs_buy.dwt",
+				"en\\themes\\default\\secs_buy_list.dwt"
+			],
+			[
+				"exchange.dwt",
+				"en\\themes\\default\\exchange_list.dwt"
+			],
+			[
+				"group_buy.dwt",
+				"en\\themes\\default\\group_buy_goods.dwt"
+			],
+			[
+				"member_info2",
+				"en\\themes\\default\\library\\member_info2.lbi"
+			],
+			[
+				"diytc.dwt",
+				"en\\themes\\default\\diytc.dwt"
+			],
+			[
+				"diy.dwt",
+				"en\\themes\\default\\diy.dwt"
+			],
+			[
+				"member_info.lbi",
+				"en\\themes\\default\\library\\member_info.lbi"
+			],
+			[
+				"lib_sert",
+				"en\\includes\\lib_insert.php"
+			],
+			[
+				"index.dwt",
+				"en\\themes\\default\\index.dwt"
+			],
+			[
+				"css/style.css",
+				"en\\themes\\default\\css\\style.css"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"goods_in",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"user_info.htm",
+				"admin\\templates\\user_info.htm"
+			],
+			[
+				"default/js/js.js",
+				"mobile\\themes\\default\\js\\js.js"
+			],
+			[
+				"index.",
+				"themes\\default\\index.dwt"
+			],
+			[
+				"diy",
+				"diy.php"
+			],
+			[
+				"category.php",
+				"category.php"
+			],
+			[
+				"goods.php",
+				"admin\\goods.php"
+			],
+			[
+				"shopping_flow.php",
+				"languages\\zh_cn\\shopping_flow.php"
+			],
+			[
+				"flow.php",
+				"flow.php"
+			],
+			[
+				"sty",
+				"themes\\default\\style.css"
+			],
+			[
+				"style.",
+				"admin\\Classes\\PHPExcel\\Style.php"
+			],
+			[
+				"member_info2.lbi",
+				"themes\\default\\library\\member_info2.lbi"
+			],
+			[
+				"insert",
+				"includes\\lib_insert.php"
+			],
+			[
+				"goods.",
+				"mobile\\goods.php"
+			],
+			[
+				"default/diytc.dwt",
+				"themes\\default\\diytc.dwt"
+			],
+			[
+				"fault/diy.dwt",
+				"themes\\default\\diy.dwt"
+			],
+			[
+				"library/page_header.lb",
+				"mobile\\themes\\default\\library\\page_header.lbi"
+			],
+			[
+				"diy.php",
+				"diy.php"
+			],
+			[
+				"secs_buy_list.dwt",
+				"mobile\\themes\\default\\secs_buy_list.dwt"
+			],
+			[
+				"templates/secs_buy_",
+				"admin\\templates\\secs_buy_list.htm"
+			],
+			[
+				"exchange_goods.php",
+				"admin\\exchange_goods.php"
+			],
+			[
+				"exchange_goods_",
+				"admin\\templates\\exchange_goods_info.htm"
+			],
+			[
+				"secs_buy_info.htm",
+				"admin\\templates\\secs_buy_info.htm"
+			],
+			[
+				"group_buy.php",
+				"admin\\group_buy.php"
+			],
+			[
+				"secs_buy.dw",
+				"mobile\\themes\\default\\secs_buy_list.dwt"
+			],
+			[
+				"group_buy_list.dwt",
+				"mobile\\themes\\default\\group_buy_list.dwt"
+			],
+			[
+				"group_buy_goods.dwt",
+				"mobile\\themes\\default\\group_buy_goods.dwt"
+			],
+			[
+				"exchange.php",
+				"mobile\\exchange.php"
+			],
+			[
+				"exchange_list.dwt",
+				"mobile\\themes\\default\\exchange_list.dwt"
+			],
+			[
+				"/lib_clips.php",
+				"includes\\lib_clips.php"
+			],
+			[
+				"goods.d",
+				"mobile\\themes\\default\\goods.dwt"
+			],
+			[
+				"flow.d",
+				"mobile\\themes\\default\\flow.dwt"
+			],
+			[
+				"massage",
+				"mobile\\themes\\default\\message.dwt"
+			],
+			[
+				"page_f",
+				"themes\\default\\library\\page_footer.lbi"
+			],
+			[
+				"mobile/includes/modules/payment/alipay.php",
+				"mobile\\includes\\modules\\payment\\alipay.php"
+			],
+			[
+				"user_transaction.dwt",
+				"mobile\\themes\\default\\user_transaction.dwt"
+			],
+			[
+				"languages/zh_cn/user.php",
+				"languages\\zh_cn\\user.php"
+			],
+			[
+				"user.php",
+				"user.php"
+			],
+			[
+				"user.ph",
+				"user.php"
+			],
+			[
+				"themes/default/css/style.css",
+				"mobile\\themes\\default\\css\\style.css"
+			],
+			[
+				"message.d",
+				"mobile\\themes\\default\\message.dwt"
+			],
+			[
+				"library/page_footer.lbi",
+				"mobile\\themes\\default\\library\\page_footer.lbi"
+			],
+			[
+				"page_header.lbi",
+				"mobile\\themes\\default\\library\\page_header.lbi"
+			],
+			[
+				"goods.p",
+				"admin\\goods.php"
+			],
+			[
+				"goods_ifn",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"pageimg.php",
+				"admin\\pageimg.php"
+			],
+			[
+				"payment/alipay.php",
+				"includes\\modules\\payment\\alipay.php"
+			],
+			[
+				"page_header.lb",
+				"themes\\default\\library\\page_header.lbi"
+			],
+			[
+				"index.d",
+				"themes\\default\\index.dwt"
+			],
+			[
+				"respond.dwt",
+				"themes\\default\\respond.dwt"
+			],
+			[
+				"respond.php",
+				"respond.php"
+			],
+			[
+				"wxpay.class.php",
+				"includes\\modules\\Vendor\\lib\\Wxpay.class.php"
+			],
+			[
+				"ecsapi/region.php",
+				"ecsapi\\region.php"
+			],
+			[
+				"includes/init.php",
+				"ecsapi\\includes\\init.php"
+			],
+			[
+				"init.php",
+				"includes\\init.php"
+			],
+			[
+				"ecsapi/user.php",
+				"ecsapi\\user.php"
+			],
+			[
+				"ecsapi/goods.php",
+				"ecsapi\\goods.php"
+			],
+			[
+				"ecsapi/category.php",
+				"ecsapi\\category.php"
+			],
+			[
+				"mobile/admin/index.php",
+				"mobile\\admin\\index.php"
+			],
+			[
+				"mobile/index.php",
+				"mobile\\index.php"
+			],
+			[
+				"auto_do.php",
+				"mobile\\weixin\\auto_do.php"
+			],
+			[
+				"v_user_tixian.dwt",
+				"mobile\\themesmobile\\default\\v_user_tixian.dwt"
+			],
+			[
+				"goods_search.htm",
+				"admin\\templates\\goods_search.htm"
+			],
+			[
+				"goods_list.htm",
+				"admin\\templates\\goods_list.htm"
+			],
+			[
+				"third_customer_info.htm",
+				"admin\\templates\\third_customer_info.htm"
+			],
+			[
+				"third_customer_list.htm",
+				"admin\\templates\\third_customer_list.htm"
+			],
+			[
+				"third_customer.php",
+				"admin\\third_customer.php"
+			],
+			[
+				"v_user_tixian.php",
+				"mobile\\v_user_tixian.php"
+			],
+			[
+				"weixinpay.php",
+				"mobile\\weixinpay.php"
+			],
+			[
+				"up_m",
+				"mobile\\themesmobile\\default_hx\\library\\up_menu.lbi"
+			],
+			[
+				"top",
+				"admin\\templates\\top.htm"
+			],
+			[
+				"mobile/user.php",
+				"mobile\\user.php"
+			],
+			[
+				"user_list",
+				"admin\\templates\\users_list.htm"
+			],
+			[
+				"user_nav",
+				"mobile\\themesmobile\\default\\library\\user_nav.lbi"
+			],
+			[
+				"library/user_affiliate.lbi",
+				"mobile\\themesmobile\\default_hx\\library\\user_affiliate.lbi"
+			],
+			[
+				"v_user_shouyi.dwt",
+				"mobile\\themesmobile\\default\\v_user_shouyi.dwt"
+			],
+			[
+				"v_user_shouyi.php",
+				"mobile\\v_user_shouyi.php"
+			],
+			[
+				"v_user_erweima.php",
+				"mobile\\v_user_erweima.php"
+			],
+			[
+				"user_clips.dwt",
+				"mobile\\themesmobile\\default\\user_clips.dwt"
+			],
+			[
+				"user_bang.dwt",
+				"mobile\\themesmobile\\default\\user_bang.dwt"
+			],
+			[
+				"shouyi",
+				"mobile\\v_user_shouyi.php"
+			],
+			[
+				"goods_info.htm",
+				"admin\\templates\\goods_info.htm"
+			],
+			[
+				"user_register.dwt",
+				"mobile\\themesmobile\\default\\user_register.dwt"
+			],
+			[
+				"register.php",
+				"mobile\\register.php"
+			],
+			[
+				"user_order_de",
+				"mobile\\themesmobile\\default\\library\\user_order_detail.lbi"
+			],
+			[
+				"user_address_list.lbi",
+				"mobile\\themesmobile\\default\\library\\user_address_list.lbi"
+			],
+			[
+				"weixin.php",
+				"mobile\\includes\\modules\\payment\\weixin.php"
+			],
+			[
+				"library/user_order_detail.lbi",
+				"mobile\\themesmobile\\default_hx\\library\\user_order_detail.lbi"
+			],
+			[
+				"mobileuser.php",
+				"mobile\\user.php"
+			],
+			[
+				"cls_template.php",
+				"includes\\cls_template.php"
+			],
+			[
+				"user_c",
+				"mobile\\themesmobile\\default\\user_clips.dwt"
+			],
+			[
+				"affiliate",
+				"mobile\\affiliate.php"
+			],
+			[
+				"lib_comment.php",
+				"mobile\\includes\\lib_comment.php"
+			],
+			[
+				"cls_image",
+				"mobile\\includes\\cls_image.php"
+			],
+			[
+				"sms_url.php",
+				"mobile\\admin\\sms_url.php"
+			],
+			[
+				"shop_config.php",
+				"mobile\\admin\\shop_config.php"
+			],
+			[
+				"affiliate_ck.php",
+				"admin\\affiliate_ck.php"
+			],
+			[
+				"page_footer.lbi",
+				"themes\\default\\library\\page_footer.lbi"
+			],
+			[
+				"v_user_tixianmore.dwt",
+				"mobile\\themesmobile\\default_hx\\v_user_tixianmore.dwt"
+			],
+			[
+				"v_user_tixianmore.php",
+				"mobile\\v_user_tixian_more.php"
+			],
+			[
+				"cls_t",
+				"mobile\\includes\\cls_template.php"
+			],
+			[
+				"v_user_huiyuan.dwt",
+				"mobile\\themesmobile\\default_hx\\v_user_huiyuan.dwt"
+			],
+			[
+				"v_user_huiyuan.php",
+				"mobile\\v_user_huiyuan_list.php"
+			],
+			[
+				"library/user_nav.lbi",
+				"mobile\\themesmobile\\default\\library\\user_nav.lbi"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "js",
+		"selected_items":
+		[
+			[
+				"js",
+				"D:\\wamp\\www\\test\\js.sublime-workspace"
+			],
+			[
+				"sub",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"",
+				"D:\\wamp\\www\\test\\sublime\\sublime.sublime-project"
+			],
+			[
+				"mynotes",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"my",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynot",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"mynote",
+				"E:\\www\\mynotes\\test\\sublime\\mynotes.sublime-project"
+			],
+			[
+				"ecs",
+				"E:\\1_commonly_used\\sublime\\软件设置\\ecshop.sublime-project"
+			],
+			[
+				"web",
+				"E:\\1_commonly_used\\sublime\\软件设置\\web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "changeIntegral",
+		"selected_items":
+		[
+			[
+				"changeIntegral",
+				"changeIntegral"
+			],
+			[
+				"crea in",
+				"db_create_in"
+			],
+			[
+				"alert",
+				"jAlert"
+			],
+			[
+				"strtotime",
+				"local_strtotime"
+			],
+			[
+				"update_use",
+				"update_user_info"
+			],
+			[
+				"member_info",
+				"insert_member_info"
+			],
+			[
+				"updateuser_info",
+				"update_user_info"
+			],
+			[
+				"updateinf",
+				"_updateInfo"
+			],
+			[
+				"update",
+				"update_session"
+			],
+			[
+				"empty",
+				"isEmpty"
+			],
+			[
+				"creat_i",
+				"db_create_in"
+			],
+			[
+				"serialize",
+				"_unserialize"
+			],
+			[
+				"html_s",
+				"htmlspecialchars_deep"
+			],
+			[
+				"htmlspecial",
+				"htmlspecialchars_decode"
+			],
+			[
+				"htmlspecialchars",
+				"htmlspecialchars_decode"
+			],
+			[
+				"str_len",
+				"str_len"
+			],
+			[
+				"creat_in",
+				"db_create_in"
+			],
+			[
+				"strlen",
+				"str_len"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

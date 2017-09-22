@@ -1,0 +1,199 @@
+console.log(curRq);
+
+$(function() {
+window.__Object_toJSONString = Object.prototype.toJSONString;
+delete Object.prototype.toJSONString;
+});
+
+
+1、window.location.href(设置或获取整个 URL 为字符串)
+
+var test = window.location.href;
+alert(test);
+返回：http://i.cnblogs.com/EditPosts.aspx?opt=1
+
+2、window.location.protocol(设置或获取 URL 的协议部分)
+
+var test = window.location.protocol;
+alert(test);
+返回：http:
+
+3、window.location.host(设置或获取 URL 的主机部分)
+
+var test = window.location.host;
+alert(test);
+返回：i.cnblogs.com
+
+4、window.location.port(设置或获取与 URL 关联的端口号码)
+
+var test = window.location.port;
+alert(test);
+返回：空字符(如果采用默认的80端口(update:即使添加了:80)，那么返回值并不是默认的80而是空字符)
+
+5、window.location.pathname(设置或获取与 URL 的路径部分（就是文件地址）)
+var test = window.location.pathname;
+alert(test);
+返回：/EditPosts.aspx
+
+6、window.location.search(设置或获取 href 属性中跟在问号后面的部分)
+
+var test = window.location.search;
+alert(test);
+返回：?opt=1
+
+PS：获得查询（参数）部分，除了给动态语言赋值以外，我们同样可以给静态页面，并使用javascript来获得相信应的参数值。
+
+7、window.location.hash(设置或获取 href 属性中在井号“#”后面的分段)
+
+var test = window.location.hash;
+alert(test);
+返回：空字符(因为url中没有)
+
+8、js获取url中的参数值
+
+
+
+JSON.parse(res.data.trim())
+
+
+
+http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
+https://es6.ruanyifeng.com/#docs/intro
+
+//tab 切换
+$(".tab span").click(function(){
+    $(this).addClass("on").siblings().removeClass("on");
+    $(".info form").eq($(this).index()).show().siblings().hide();
+})
+
+//跳转
+window.location.href="jb51.jsp?backurl="+window.location.href; 
+
+<a href="javascript:;" onclick="if(confirm('您确认要选择此服务商来接受任务需求?')) xuanding({$dan.jie_id});">
+
+$.ajax({
+    type: "POST",
+    dataType: "json",
+    url: 'zhongbao.php?act=xuanding',
+    data: {'jie_id':jie_id,'zb_id':zb_id},
+    success: function (data) {
+        alert(data.message);
+        if(data.status==200){
+            window.location.href="jb51.jsp?backurl="+window.location.href; 
+        }
+    },
+    error: function(data) {
+        alert("error:"+data.responseText);
+    }
+});
+
+
+//获取url参数
+function GetRequest() {
+    var url = location.search; //获取url中"?"符后的字串
+    var theRequest = new Object();
+    if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for(var i = 0; i < strs.length; i ++) {
+            theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+        }
+    }
+    return theRequest;
+}
+
+
+function setQueStr(url, ref, value) //设置参数值
+{
+    var str = "";
+    if (url.indexOf('?') != -1)
+        str = url.substr(url.indexOf('?') + 1);
+    else
+        return url + "?" + ref + "=" + value;
+    var returnurl = "";
+    var setparam = "";
+    var arr;
+    var modify = "0";
+
+    if (str.indexOf('&') != -1) {
+        arr = str.split('&');
+
+        for (i in arr) {
+            if (arr[i].split('=')[0] == ref) {
+                setparam = value;
+                modify = "1";
+            }
+            else {
+                setparam = arr[i].split('=')[1];
+            }
+            returnurl = returnurl + arr[i].split('=')[0] + "=" + setparam + "&";
+        }
+
+        returnurl = returnurl.substr(0, returnurl.length - 1);
+
+        if (modify == "0")
+            if (returnurl == str)
+                returnurl = returnurl + "&" + ref + "=" + value;
+    }
+    else {
+        if (str.indexOf('=') != -1) {
+            arr = str.split('=');
+
+            if (arr[0] == ref) {
+                setparam = value;
+                modify = "1";
+            }
+            else {
+                setparam = arr[1];
+            }
+            returnurl = arr[0] + "=" + setparam;
+            if (modify == "0")
+                if (returnurl == str)
+                    returnurl = returnurl + "&" + ref + "=" + value;
+        }
+        else
+            returnurl = ref + "=" + value;
+    }
+    return url.substr(0, url.indexOf('?')) + "?" + returnurl;
+}
+
+function delQueStr(url, ref) //删除参数值
+{
+    var str = "";
+
+    if (url.indexOf('?') != -1)
+        str = url.substr(url.indexOf('?') + 1);
+    else
+        return url;
+    var arr = "";
+    var returnurl = "";
+    var setparam = "";
+    if (str.indexOf('&') != -1) {
+        arr = str.split('&');
+        for (i in arr) {
+            if (arr[i].split('=')[0] != ref) {
+                returnurl = returnurl + arr[i].split('=')[0] + "=" + arr[i].split('=')[1] + "&";
+            }
+        }
+        return url.substr(0, url.indexOf('?')) + "?" + returnurl.substr(0, returnurl.length - 1);
+    }
+    else {
+        arr = str.split('=');
+        if (arr[0] == ref)
+            return url.substr(0, url.indexOf('?'));
+        else
+            return url;
+    }
+}
+
+switch(n)
+{
+    case 1:
+      执行代码块 1
+      break;
+    case 2:
+      执行代码块 2
+      break;
+    default:
+    n 与 case 1 和 case 2 不同时执行的代码
+}

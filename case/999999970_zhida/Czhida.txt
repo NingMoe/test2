@@ -1,0 +1,1627 @@
+更新时需要注意：
+erp获取地址变更
+
+
+
+
+
+新功能
+选型图
+http://show.hunuo.com/edon/zd2/
+
+http://show.hunuo.com/edon/zd/
+原型
+http://show.hunuo.com/edon/zd/system
+后台
+http://show.hunuo.com/edon/zd/web
+高保真
+http://show.hunuo.com/edon/zd/instructions
+功能说明
+http://show.hunuo.com/edon/zdbug/0707
+0707反馈需求
+
+18814144110
+asdfgh
+
+13828475829 密码123456
+
+布仓正式后台 http://www.zhida.cc/admin/
+admin
+zdZD888
+
+sqlserver
+sa
+Zhidasql1234
+
+https://www.pgyer.com/ 
+felix0999@qq.com
+zhida888
+
+
+正式后台账号密码
+admin
+zdZD888
+
+腾讯开放平台的账号
+229507104
+energy36236680
+
+待审核     0                  待付款      取消订单
+待付款     1                  待付款      付款
+待ERP下单(已支付)   2         待发货
+待发货(ERP下单)     3         待发货
+已出库     4                  待收货      确认收货
+已发货     5                  待收货      确认收货
+交易完成(确认收货)   6        交易完成    申请售后、删除订单
+已取消     7                  已取消
+售后待反馈 8                  交易完成    申请（查看）售后
+售后已反馈 9                  交易完成    申请（查看）售后
+
+待审核 > 待ERP下单 > 待付款 > 售后待反馈 > 待发货 > 已出库 > 已发货 > 交易完成 > 售后已反馈 >已取消
+0 2 1 8 3 4 5 6 9 7
+
+
+new_status值      前台状态       操作
+      0            待付款      取消订单
+      1            待付款      付款
+      2            待发货
+      3            待发货
+      4            待收货      确认收货
+      5            待收货      确认收货
+      6            交易完成    申请售后、删除订单
+      7            已取消
+      8            交易完成    申请（查看）售后
+      9            交易完成    申请（查看）售后
+
+
+
+
+定时访问http://zhida.cc/api/erp_search.php这个网址
+
+接口测试地址 http://zhida.gz11.hostadm.net/
+
+公众号
+ZHIDA-1990   zdfz201688
+
+zhida
+E11D2A78960a48
+http://zhida.gz11.hostadm.net
+183.61.109.99
+
+zhidavbhu
+zhida
+183.61.109.99
+
+
+$secret='3e64e66634fe128b7d28c6a1a84bd853';
+api_key='5d62bdb2d75e45ca252db7f80f483d7d';
+
+
+http://show.hunuo.com/edon/zd/
+原型
+http://show.hunuo.com/edon/zd/system
+后台
+http://show.hunuo.com/edon/zd/web
+高保真
+
+
+http://show.hunuo.com/edon/zd/system/
+
+
+http://show.hunuo.com/edon/zd/instructions
+http://show.hunuo.com/edon/zdbug/0707/
+
+
+
+阿里大鱼 http://www.alidayu.com/center/user/account?spm=a3142.7791109.1999204004.1.WRi2vi
+用户名： chenshizhongren2007
+密码： dxfDXF1985618
+
+
+环信即时通讯： felix0999     zdZD888
+环信移动客服： felix0999@qq.com   zdZD888
+环信移动客服： kefu02@zhida.com  123456
+
+http://kefu.easemob.com/webim/im.html?tenantId=25838
+
+
+极光推送账号、密码：
+felix0999
+zhida888
+
+
+
+一.微信支付商户平台登陆的链接：https://pay.weixin.qq.com/index.php/core/home/login?return_url=%2Findex.php%2Fcore%2Fapply_progress
+商户平台登录帐号
+1459721302@1459721302
+商户平台登录密码
+006670
+
+二.支付宝登录的链接：https://www.alipay.com/
+认证主帐号：export12@zhida.com
+初始登陆密码：zhida888888
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wx316b5e0498667437
+450ff5db783aa23c44d327e4c65686ac
+qiygKIaL8IAYw33K1R2vHt2B0E591u0sGmHrIjdC2UkE8lm7cpZ6uLcZUz4IXMTrO8kg-c-KkY6YCmhexk5xuWG4UgynWzfg0IwFU3Fi0YPe4id4nCUY-mubotfKT8eABPAbAJAFTE
+
+{
+     "button":[
+     {  
+          "type":"view",
+          "name":"逛一逛",
+          "url":"http://zhida.gz11.hostadm.net/catalog.php"
+      },
+     {  
+          "type":"view",
+          "name":"我要找布",
+          "url":"http://zhida.gz11.hostadm.net/fabu.php"
+      },
+      {
+           "name":"客户服务",
+           "sub_button":[
+           {  
+               "type":"view",
+               "name":"呼叫客服",
+               "url":"http://kefu.easemob.com/webim/im.html?tenantId=25838"
+            },
+           {  
+               "type":"view",
+               "name":"下载APP",
+               "url":"http://zhida.gz11.hostadm.net/share.php"
+            }]
+       }]
+ }
+{
+     "button":[
+     {  
+          "type":"view",
+          "name":"逛一逛",
+          "url":"http://www.zhida.cc/catalog.php"
+      },
+     {  
+          "type":"view",
+          "name":"我要找布",
+          "url":"http://www.zhida.cc/fabu.php"
+      },
+      {
+           "name":"客户服务",
+           "sub_button":[
+           {  
+               "type":"view",
+               "name":"呼叫客服",
+               "url":"http://kefu.easemob.com/webim/im.html?tenantId=25838"
+            },
+           {  
+               "type":"view",
+               "name":"下载APP",
+               "url":"http://www.zhida.cc/share.php"
+            }]
+       }]
+ }
+
+
+灵感页
+http://zhida.gz11.hostadm.net/linggan.php?api_key=5d62bdb2d75e45ca252db7f80f483d7d&token=1e254968b3f678d572de2bed1aff0396&api_sign=1B43FC974FE7A43D852FCB927F3A289A
+收藏灵感页
+http://zhida.gz11.hostadm.net/linggan.php?act=linggan_list&api_key=5d62bdb2d75e45ca252db7f80f483d7d&token=6314e66bccc548465f1ede722eb70bd2&api_sign=AA8B93BEFA3FA8A1C1E6B9476CB830D4
+
+
+新加功能
+http://show.hunuo.com/edon/zd/new/
+
+
+
+https://121.9.242.84:4433   SSLVPN 账户： hunuo 密码： Hunuo2016*
+连接入VPN后远程服务器： 192.168.100.200 账户： hunuo 密码： Hunuo2016*
+
+
+服务器
+IP: 120.24.249.122
+账户： hunuo
+密码： Abc2016*
+IP:120.24.249.122   账户：hunuo  密码：Abc2016*
+administrator    Zhidaadmin3336###^
+
+sqlserver
+sa
+Zhidasql1234
+
+
+
+http://test.zhida.cc:3300/
+远程地扯 183.238.196.216:3330
+用户：hunuo 密码：hunuo2016
+
+清理数据库 Truncate Table 
+hunuo_nayang
+hunuo_fabu
+hunuo_order_info
+hunuo_order_goods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://localhost/zhida/admin/goods_batch.php?act=add
+http://www.zhida.cc/admin/goods.php?act=erp2
+
+                  
+**********************************************************************************************
+接口说明：会员注册
+接口地址：user.php
+请求方式：post
+请求参数：
+          'act'=>'act_register', //注册
+          'agreement'=>1,         //是否同意条款  
+          'username'=>'test100',  //用户名
+          'password'=>'123456',   //密码
+          'confirmpassword'=>'123456', //确认密码
+          'email'=>'S@qq.com',    //邮箱
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : token //token
+
+
+**********************************************************************************************
+接口说明：会员登录
+接口地址：user.php
+请求方式：post
+请求参数：
+          'act'=>'act_login', //登录
+          'username'=>'test100',  //用户名
+          'password'=>'123456',   //密码
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : token   //token
+
+
+**********************************************************************************************
+http://localhost/zhida/index.php
+接口说明： 首页
+接口地址： index.php
+请求方式： get
+请求参数：
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+          banner   
+                pageimg     //图片 data/pageimg/{$pageimg}
+                link        //链接地址
+                desc        //标题
+                descs       //描述
+          jingpin            
+                goods_id    //产品id
+                name        //产品名称
+                thumb       //产品图片
+                url         //产品url
+          xilei   
+                cat_id      //系列id
+                cat_name    //系列名称
+                catico      //系列图片
+
+**********************************************************************************************
+接口说明： 收藏商品
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'collect', 
+          'token'=>'',  //token
+          'goods_id'=>'19',   //商品id
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+
+**********************************************************************************************
+接口说明： 取消收藏商品
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'delete_collection', 
+          'token'=>'',  //token
+          'goods_id'=>'19',   //商品id
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+
+**********************************************************************************************
+接口说明： 收藏列表
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'collection_list', 
+          'token'=>'',  //token
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+                rec_id          //收藏ID
+                goods_id        //商品ID
+                goods_name      //商品名称
+                goods_thumb     //商品图片
+                shop_price      //商品价格
+                url             //商品链接地址
+
+**********************************************************************************************
+接口说明： 我的订单
+接口地址： user.php
+请求方式： get
+请求参数：
+          'act'=>'order_list', 
+          'token'=>'',  //token
+          'status'=>'', //全部 空| 待付款 1|待确认收货 2|已收货 3|待评价 4|已取消 5
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+          orders   
+                order_id            //订单ID
+                order_sn            //订单号
+                order_time          //下单时间
+                order_status        //订单状态
+                shipping_status     //支付状态
+
+                goods_id        //商品ID
+                goods_name      //商品名称
+                goods_thumb     //商品缩略图
+                goods_number    //商品数量
+                
+                total_fee           //总价
+                handler             //操作
+          pager            
+                page                //当前页数
+                size                //显示个数
+                record_count        //总个数
+                page_count          //总页数
+
+**********************************************************************************************
+接口说明： 订单详情
+接口地址： user.php
+请求方式： get
+请求参数：
+          'act'=>'order_detail', 
+          'token'=>'',      //token
+          'order_id'=>6,    //订单ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+            orders   
+                order_id            //订单ID
+                order_sn            //订单号
+                order_time          //下单时间
+                order_status        //订单状态
+                shipping_status     //支付状态
+
+                consignee       //收件人
+                mobile          //收件人手机号
+                address         //收件人地址
+
+                goods_id        //商品ID
+                goods_name      //商品名称
+                goods_thumb     //商品缩略图
+                goods_number    //商品数量
+                total_fee       //总价
+                handler         //操作
+
+**********************************************************************************************
+接口说明： 取消订单
+接口地址： user.php
+请求方式： get
+请求参数：
+          'act'=>'cancel_order', 
+          'token'=>'',      //token
+          'order_id'=>6,    //订单ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+
+**********************************************************************************************
+接口说明： 修改密码
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'my_edit_password', 
+          'token'=>'',              //token
+          'newpassword'=>'',        //密码
+          'confirmpassword'=>'',    //确认密码
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 发送短信验证码
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'send_msg', 
+          'phone'=>'',        //手机号
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+            captchaword     //验证码
+            status          //短信发送是否成功
+**********************************************************************************************
+接口说明： 退出登录
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'logout', 
+          'token'=>'',     //token
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 忘记密码
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'act_edit_password', 
+          'phone'=>'',              //手机号
+          'newpassword'=>'',        //密码
+          'confirmpassword'=>'',    //确认密码
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 热门搜索
+接口地址： index.php
+请求方式： post
+请求参数：
+          'act'=>'hotsearch', 
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+
+**********************************************************************************************
+接口说明： 搜索结果
+接口地址： search.php
+请求方式： post
+请求参数：
+          'keywords'=>'墙砖', 
+          'category'=>'0', 
+          'brand'=>'0', 
+          'sort' => 'goods_id',
+          'order' => 'DESC',
+          'min_price'=>'0', 
+          'max_price'=>'0', 
+          'goods_type'=>'0', 
+          'attr'=>'0',
+
+        'sort'=>'', //order_count/销量 last_update/综合 shop_price/价格
+        'order'=>'0', //DESC/降序 ASC/升序
+        'page'=>'', //页数
+        
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+            goods
+                goods_id        商品id
+                goods_sn        商品货号
+                goods_name      商品名称
+                shop_price      商品价格
+                goods_img       商品图片
+                url             商品链接地址
+            pager            
+                page                //当前页数
+                size                //显示个数
+                record_count        //总个数
+                page_count          //总页数
+
+**********************************************************************************************
+接口说明： 地址
+接口地址： region.php
+请求方式： post
+请求参数：
+          'type'=>'0',        //0国家  1 省  2 市 3区
+          'parent'=>'0',      //0默认中国
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+            region_id       地区id
+            region_name     地区名称
+
+**********************************************************************************************
+接口说明： 下单
+接口地址： flow.php
+请求方式： post
+请求参数：
+        'step'=>'mydone',
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'goodsId'=>19,      //商品id
+        'numbers'=>1,      //采购数量
+        'danwei'=>千米,      //单位
+        'addressName'=>'小红',  //收货人
+        'mobile'=>'13420246245',       //联系电话
+        'province'=>6,     //省
+        'city'=>76,         //市
+        'district'=>698,     //区
+        'address'=>'龙江镇325国道199号志达大厦',  //详细地址
+
+        'froms'=>'找布',     //来源 默认空为产品/ 找布
+        'fb_id'=>'1',     //找布ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 发布
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'add',
+        'images'=>'ss.jpg|ss.jpg',  //图片
+        'description'=>'材质棉料，花型布，家具用途，急需请尽快。',     //需求
+        'goodsNumber'=>100,     //数量
+        'danwei'=>'米',     //单位
+        'consignee'=>'小明',     //联系人
+        'mobile'=>"13420246245",     //电话
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 我的发布
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'list',
+        'status'=>'1',  //不传显示全部 0 寻找中|1 已反馈|2 已申请|3 已下单|4 已取消
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+            fb_sn           需求号
+            status          空 寻找中|1 已反馈|2 已申请|3 已下单|4 已取消
+            images
+            description     描述
+            goods_number    数量
+            danwei          单位
+            add_time        添加时间
+
+**********************************************************************************************
+接口说明： 我的发布 取消
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'cancel',
+        'fbid'=>46,     //发布id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+**********************************************************************************************
+接口说明： 我的发布 修改
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'edit',
+        'fbid'=>46,     //发布id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        'fb_id'=>46,     //发布id
+        'images'=>'ss.jpg|ssd.jpg',  //图片
+        'description'=>'222材质棉料，花型布，家具用途，急需请尽快。',     //需求
+        'goodsNumber'=>200,            //数量
+        'danwei'=>'米',                //单位
+        'consignee'=>'小明2',           //联系人
+        'mobile'=>"13420246245",       //电话
+
+**********************************************************************************************
+接口说明： 我的发布 更新修改
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'doedit',
+        'fbid'=>46,     //发布id
+        'images'=>'ss.jpg|ssd.jpg',  //图片
+        'description'=>'222材质棉料，花型布，家具用途，急需请尽快。',     //需求
+        'goodsNumber'=>200,            //数量
+        'danwei'=>'米',                //单位
+        'consignee'=>'小明2',           //联系人
+        'mobile'=>"13420246245",       //电话
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 我的发布 详情页
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'detal',
+        'fbid'=>46,     //发布id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        'fb_id'=>46,     //发布id
+        'images'=>'ss.jpg|ssd.jpg',  //图片
+        'description'=>'222材质棉料，花型布，家具用途，急需请尽快。',     //需求
+        'goodsNumber'=>200,           //数量
+        'danwei'=>'米',               //单位
+        'consignee'=>'小明2',         //联系人
+        'mobile'=>"13420246245",      //电话
+        'chuli'=>"替换",              //处理方式
+        'goods_id'=>"",              //商品id
+        'goods_sn'=>"",              //商品货号
+        'goods_name'=>"",              //商品名称
+        'shop_price'=>"",              //商品价格
+        'goods_img'=>"",              //商品图片
+        'goods_number'=>"",              //商品库存
+        'url'=>"",              //商品链接地址
+        'pro'=>"",              //商品属性
+        'spe'=>"",              //商品规格
+        
+
+**********************************************************************************************
+接口说明： 申请拿样
+接口地址： nayang.php
+请求方式： post
+请求参数：
+        'act'=>'add',
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'goodsId'=>19,      //商品id
+        'numbers'=>1,      //采购数量
+        'addressName'=>'小红',  //收货人
+        'mobile'=>'13420246245',       //联系电话
+        'province'=>6,     //省
+        'city'=>76,         //市
+        'district'=>698,     //区
+        'address'=>'龙江镇325国道199号志达大厦',  //详细地址
+        'froms'=>'找布',     //来源 默认空为产品/ 找布
+        'fb_id'=>'1',     //找布
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        ny_id       // 拿样id
+
+**********************************************************************************************
+接口说明： 拿样列表
+接口地址： nayang.php
+请求方式： get
+请求参数：
+          'act'=>'list', 
+          'token'=>'',  //token
+          'status'=>'', //全部 空| 已寄样 1|已转订单 2|已取消 3
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+          orders   
+                order_id            //拿样ID
+                order_sn            //拿样号
+                add_time            //申请时间
+                order_status        //拿样状态
+                numbers             //数量
+                goods               //商品列表
+                    goods_id        //商品ID
+                    goods_name      //商品名称
+                    goods_thumb     //商品缩略图
+
+**********************************************************************************************
+接口说明： 拿样详情
+接口地址： nayang.php
+请求方式： get
+请求参数：
+          'act'=>'detal', 
+          'token'=>'',      //token
+          'nyid'=>12,    //拿样ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+
+                consignee       //收件人
+                mobile          //收件人手机号
+                province         //省
+                city             //市
+                district         //区
+                address         //详细地址
+
+                order_id            //拿样ID
+                order_sn            //拿样号
+                add_time            //申请时间
+                order_status        //拿样状态
+                numbers    //采购数量
+
+            goods
+                goods_id        //商品ID
+                goods_name      //商品名称
+                goods_thumb     //商品缩略图
+                shop_price      //商品价格 shop_price 元/米
+
+            fabu
+                fb_id       //发布ID
+                fb_sn       //发布号
+
+**********************************************************************************************
+接口说明： 拿样 取消
+接口地址： nayang.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'cancel',
+        'nyid'=>12,     //拿样id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 拿样 下单
+接口地址： nayang.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'done',
+        'nyid'=>12,     //拿样id
+        'numbers'=>100,     //数量
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 删除订单
+接口地址： user.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'delete',
+        'orderid'=>12,     //订单id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 删除发布
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'delete',
+        'fbid'=>12,     //发布id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 删除拿样
+接口地址： nayang.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'delete',
+        'nyid'=>12,     //拿样id
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 筛选
+接口地址： category.php
+请求方式： post
+请求参数：
+        'act'=>'shaixuan',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        shuxing
+            cat_id      属性ID
+            cat_name    属性名称
+            childs      子属性
+
+        shuxing2
+            cat_name    属性名称
+            childs      子属性
+                value  名称
+                key    值
+
+
+
+**********************************************************************************************
+替换之前的接口
+**********************************************************************************************
+http://localhost/zhida/category.php?
+接口说明： 栏目列表
+接口地址： category.php
+请求方式： post
+请求参数：
+        'shuxing'=>'0', //属性
+        'leixing'=>'0', //推荐类型 0全部 1精品 2新品
+        'jiage'=>'0',   //价格 0全部 1 1~49元 2 50~99元 3 100~199元 4 大于200元
+        'kucun'=>'0',    //库存 0全部 1 1~99米 2 100~199米 3 大于200米
+        'zhuangtai'=>'0', //状态 0全部 1在售 2限量 3停产 
+        'keyword'=>'hedy', //关键字搜索
+
+        'sort'=>'shop_price', //order_count/销量 last_update/综合 shop_price/价格
+        'order'=>'ASC', //DESC/降序 ASC/升序
+        'page'=>'1', //分页
+
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : goods_id        产品id
+                  name            产品名称
+                  shop_price      产品价格
+                  goods_thumb     产品缩略图
+                  url             产品链接地址
+**********************************************************************************************
+替换之前的接口
+**********************************************************************************************
+接口说明： 分类查找
+接口地址： catalog.php
+请求方式： post
+请求参数：
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : cat_id        栏目id
+                  name      栏目名称
+                  catico    栏目图片
+                  childs    子类
+(修改了url，url改成category.php?shuxing=栏目id)
+
+
+**********************************************************************************************
+替换之前的接口
+**********************************************************************************************
+接口说明： 我的订单
+接口地址： user.php
+请求方式： get
+请求参数：
+          'act'=>'order_list', 
+          'token'=>'',
+          'page'=>'',
+          'status'=>'',   //全部就不要传这个参数 0待报价、1待确认、2待发货、3待收货、4待结算、5交易成功、6交易取消
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+          orders   
+                order_id        //订单ID
+                order_sn        //订单号
+                add_time        //下单时间
+                status          //订单状态 0待报价、1待确认、2待发货、3待收货、4待结算、5交易成功、6交易取消
+                order_amount           //总价
+
+                goods_id        //商品ID
+                goods_name      //商品名称
+                goods_thumb     //商品缩略图
+                goods_number    //商品数量
+                shop_price      //商品价格
+                market_price    //市场价格
+                
+          pager            
+                page                //当前页数
+                size                //显示个数
+                record_count        //总个数
+                page_count          //总页数
+
+**********************************************************************************************
+替换之前的接口
+**********************************************************************************************
+接口说明： 订单详情
+接口地址： user.php
+请求方式： get
+请求参数：
+          'act'=>'order_detail', 
+          'token'=>'',      //token
+          'order_id'=>6,    //订单ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        : 
+            'order_id' => '6',          //订单ID
+            'order_sn' => '2016050258785',//订单号
+            'consignee' => '阿铭',      //收件人
+            'mobile' => '13420246245',      //收件人手机号
+            'country' => '1',             //地址国家
+            'province' => '6',            //地址 省
+            'city' => '76',               //地址 市
+            'district' => '692',          //地址 区
+            'address' => 'sdfasdfasdf',   //地址详细
+            'add_time' => '1462122132',   //下单时间
+            'order_amount' => '1615.00',  //总价格
+            'shipping_name' => '顺丰速运',//物流公司
+            'invoice_no' => '',           //快递单号
+            'fbid' => '',                //关联需求ID
+            'fb_sn' => '',                //关联需求号
+            'goods_id' => '12',          //商品id
+            'goods_number' => '2',       //采购数量
+            'goods_name' => '[彼岸阳光] 地中海风格1.5床', //商品名称
+            'goods_thumb' => 'images/201506/thumb_img/12_thumb_G_1433295002320.jpg', //商品图片
+            'shop_price' => '800.00',           //商品单价
+            'market_price' => '960.00',         //市场价
+
+**********************************************************************************************
+之前的接口加了字段
+**********************************************************************************************
+http://localhost/zhida/goods.php?id=19
+接口说明：商品详情
+接口地址：goods.php
+请求方式：get
+请求参数：id:商品id;
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :
+                  goods_id        商品id
+                  goods_sn        商品货号
+                  goods_name      商品名称
+                  shop_price      商品价格
+                  goods_img       商品图片
+                  goods_number    商品库存
+                  chengfen        成分
+                  kezhong         克重
+                  guige           规格
+                  huaju           花距
+                  gongyi          工艺
+                  menfu           门幅
+                  zhuangtai       销售状态 1在售   2限量   3停产
+                  shuxing         属性
+**********************************************************************************************
+替换之前的接口
+**********************************************************************************************
+接口说明： 会员个人信息
+接口地址： user.php
+请求方式： get
+请求参数：
+          'act'=>'main', 
+          'token'=>'',      //token
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+              'user_id' => '13',      //
+              'user_name' => '12346',      //登录名
+              'true_name' => '12346',      //姓名
+              'mobile_phone' => '13420246246',      //手机号
+              'zhiwei' => 'zhiwei',      //职位
+              'gongsi' => 'gongsi',      //公司
+              'province'=>6,              //省
+              'city'=>76,                 //市
+              'district'=>698,            //区
+              'address'=>'',              //详细地址
+              'nick_img'=>'',              //头像
+**********************************************************************************************
+接口说明： 会员头像上传
+接口地址： user.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'updateimg',
+
+        'nickimg' 图片字段名
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 会员信息修改
+接口地址： user.php
+请求方式： post
+请求参数：
+        'token'=>'8c0990b6949343f15cc388ec8c8cb0c5',
+        'act'=>'do_edit',
+
+        'username'=>'test',     //登录名
+        'truename'=>'aa',       //姓名
+        'mobilephone'=>'13420246245',//手机号
+        'zhiwei'=>'zhiwei',         //职位
+        'gongsi'=>'gongsi',         //公司
+        'province'=>6,              //省
+        'city'=>76,                 //市
+        'district'=>698,            //区
+        'address'=>'',              //详细地址
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+备注：修改哪个就传对应的参数，除了（省市区）要一起传
+
+                  
+**********************************************************************************************
+接口说明： 订单 确认下单
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'do_order', 
+          'token'=>'',      //token
+          'order_id'=>6,    //订单ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 订单 确认收货
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'cfm_order', 
+          'token'=>'',      //token
+          'order_id'=>6,    //订单ID
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 订单 再次下单
+接口地址： user.php
+请求方式： post
+请求参数：
+          'act'=>'buy_again', 
+          'token'=>'',      //token
+          'order_id'=>6,    //订单ID
+          'number'=>100,    //采购数
+
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 系列 回顾
+接口地址： xilie.php
+请求方式： post
+请求参数：
+        'act'=>'index',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        'cat_id' => '32',       //系列id
+        'cat_name' => '迷幻花色',  //系列名称
+        's_name' => '特色花色深度推荐',           //系列小标题
+        'catico' => 'data/catico/u186.png',//系列图片
+        'cfm_time' => '0',        //系列时间
+
+**********************************************************************************************
+接口说明： 系列 列表
+接口地址： xilie.php
+请求方式： post
+请求参数：
+        'act'=>'list',
+        'xlid'=>'1',
+        'page'=>'1',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        'cat_id' => '32',       //系列id
+        'cat_name' => '地中海',  //系列名称
+        's_name' => '',           //系列小标题
+        'catico' => 'data/catico/u186.png',//系列图片
+        'cfm_time' => '0',        //系列时间
+
+        goods
+          goods_id        //商品ID
+          goods_name      //商品名称
+          goods_thumb     //商品缩略图
+          shop_price      //商品价格
+
+
+
+
+
+
+
+注册加了个手机号
+我的发布 状态
+发布 返回发布id
+商品详情
+    shuxing         属性
+        cat_id
+        cat_name
+        catico
+
+
+**********************************************************************************************
+接口说明： erp更新数据调用app接口
+接口地址： http://zhida.gz11.hostadm.net/api/update.php
+请求方式： post
+请求参数：
+        'token'='e76824d9e17d3162ff915837466e488d'  //token 固定，不匹配将被拒绝
+        'goodsId'='1'                               //产品唯一ID值
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+
+**********************************************************************************************
+接口说明： erp更新数据调用app接口
+接口地址： http://zhida.gz11.hostadm.net/api/update.php
+请求方式： post
+请求参数：
+        'token'='e76824d9e17d3162ff915837466e488d'  //token 固定，不匹配将被拒绝
+        'goodsId'='1'                               //产品编码唯一值
+        'type'='1'                               //固定值 1 代表更新图片
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+
+**********************************************************************************************
+接口说明： erp更新分类属性app接口
+接口地址： http://zhida.gz11.hostadm.net/api/update.php
+请求方式： post
+请求参数：
+        'token'='e76824d9e17d3162ff915837466e488d'  //token 固定，不匹配将被拒绝
+        'type'='2'               //固定值 2 代表分类属性
+        'categorys'='ColorName'  //分类属性唯一值 颜色=ColorName 材质=sMaterialQuality 风格=sStyle  适用范围=sApplicationScope 花型=MatternPattern
+        'todo'='update'          //更新 update | 新增 insert
+        'oldChildName'='紫色'    //旧分类名称 (新增insert时不用传)
+        'newChildName'='新颜色'  //新分类名称
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+
+
+
+
+
+
+
+
+**********************************************************************************************
+接口说明： 意见反馈接
+接口地址： user.php
+请求方式： post
+请求参数：
+        'token'='e76824d9e17d3162ff915837466e488d'  
+        'act'='feedback'                            
+        'content'='我的留言'                        
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+
+**********************************************************************************************
+接口说明： 手机号是否注册过
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'act'='checkphone'                            
+        'mobile'='13420246245'                        
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        yes   //注册过
+        no    //未注册过
+
+**********************************************************************************************
+接口说明： 根据手机号返回token
+接口地址： fabu.php
+请求方式： post
+请求参数：
+        'act'='backtoken'
+        'mobile'='13420246245'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        token   //token
+
+**********************************************************************************************
+接口说明： 灵感
+接口地址： linggan.php
+请求方式： post
+请求参数：
+        'token'=''
+        'type'='0'    0 精选| 1 人气
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        token   //token
+
+**********************************************************************************************
+接口说明： 收藏夹---灵感
+接口地址： linggan.php
+请求方式： post
+请求参数：
+        'token'=''
+        'act'='linggan_list'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        token   //token
+**********************************************************************************************
+接口说明： 灵感--取消
+接口地址： linggan.php
+请求方式： post
+请求参数：
+        'token'=''
+        'act'='quxiao'
+        'cat_id'='1'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        token   //token
+**********************************************************************************************
+接口说明： 灵感--收藏
+接口地址： linggan.php
+请求方式： post
+请求参数：
+        'token'=''
+        'act'='collect'
+        'cat_id'='1'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        token   //token
+
+**********************************************************************************************
+接口说明： 灵感--收藏总数
+接口地址： linggan.php
+请求方式： post
+请求参数：
+        'token'=''
+        'act'='counts_linggan'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        count   //个数
+**********************************************************************************************
+接口说明： 商品--收藏总数
+接口地址： linggan.php
+请求方式： post
+请求参数：
+        'token'=''
+        'act'='counts_goods'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+        count   //个数
+
+**********************************************************************************************
+接口说明： 商品--获取库存
+接口地址： goods.php
+请求方式： post
+请求参数：
+        'act'='getnumber'
+        'goods_id'='80'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+
+
+**********************************************************************************************
+接口说明： test
+接口地址： test.php
+请求方式： post
+请求参数：
+        'act'='list'
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 环信发送消息后保存到服务器接口
+接口地址： user.php
+请求方式： post
+请求参数：
+        'token'=>'',  //token
+        'act'=>'savehuanxin',  
+        'to'=>'test2',  //发送给谁
+        'msgtext'=>'我的内容2',  //内容
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 注册环信账号通知后台接口
+接口地址： user.php
+请求方式： post
+请求参数：
+        'token'=>'',  //token
+        'act'=>'updatehx',  
+        'password'=>'123456',  //密码
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        
+**********************************************************************************************
+接口说明： 环信客服列表
+接口地址： index.php
+请求方式： post
+请求参数：
+        'act'=>'kefu',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 联系我们地址
+接口地址： index.php
+请求方式： post
+请求参数：
+        'act'=>'contact',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+
+**********************************************************************************************
+接口说明： 查找库存
+接口地址： goods.php
+请求方式： post
+请求参数：
+        'act'=>'get_erp_number',
+        'token'=>'',  //token
+        'erp_sn'=>'D-A-34',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  
+
+**********************************************************************************************
+接口说明： 检索
+接口地址： goods.php
+请求方式： post
+请求参数：
+        'act'=>'search_erp_sn',
+        'token'=>'',  
+        'erp_sn'=>'1',
+返回类型: json
+    
+返回内容: 
+    status      : 执行状态，200表示成功
+    message     : 提示信息
+    data        :  

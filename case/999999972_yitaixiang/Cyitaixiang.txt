@@ -1,0 +1,1056 @@
+原型图： http://show.hunuo.com/qing/ytxapp/#g=1&p=首页
+设计稿： http://design.hunuo.com/Iatest/yitai_1cae2.html
+
+
+昆明怡泰祥珠宝
+域名
+eastshow.cn
+
+数据库
+http://183.60.177.222/phpMyAdmin/
+kmyitaixiang
+ky1x0TNBRs2MzpA3
+
+FTP
+183.60.177.222端口21
+ytxzb
+kmyitaixiang#888
+
+
+
+客户提供的测试账户：用户名：15087133338，密码也是一样  登陆APP的账户
+
+默认0为pc会员，1为普通会员，2为代理商，3为公司代理，4为供货商，5为拍照员
+
+怡泰祥珠宝
+yitaixiang.gz7.hostadm.net
+yitaixiang
+C3E41D61D41e4a
+连接FTP
+219.136.248.77
+
+http://219.136.248.77/phpMyAdmin/
+数据库
+yitaixiang_zb
+yitaixiang_zb
+yitaixiang@2016#
+
+短信
+广州首易服务器地址：sms3.mobset.com,  企业ID： 302981 密码： Cr137232  用户名：Admin
+
+后台帐号
+    url: http://yitaixiang.gz7.hostadm.net/Ajdinoum/index.php
+    账号： hunuokeji 
+    密码： hunuo.com
+
+https://192.168.0.8/svn/yitaixiang/
+
+http://www.0daiyu.cn/
+
+
+信息
+    接口参数
+        $secret='db4e2e01549ebef835a9f1b89b5b11cf';
+        $api_key='600300253268ea8b8d687fe1a79a2603';
+    后台帐号
+        url: http://yitaixiang.gz7.hostadm.net/Ajdinoum/index.php
+        账号： hunuokeji 
+        密码： hunuo.com
+
+接口测试地址 http://yitaixiang.gz7.hostadm.net/
+
+********************************************************************************************
+接口说明：获取验证码
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：send_message
+          phone         ：手机号码
+          send_type     ：发送类型（1：注册验证码，2忘记密码验证码）
+
+返回类型: json
+
+返回内容: 
+    
+     成功
+    {
+        "code": 200,
+        "msg": "XXXXX",
+        "data": {
+
+        }
+    }
+    失败
+    成功
+    {
+        "code": 500,
+        "msg": "XXXXXX",
+        "data": {
+        }
+
+********************************************************************************************
+
+接口说明：会员注册
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key   ：秘钥
+          api_sign  ：验签
+          act       ：register
+          mobile_phone ：手机号码
+          mobile_code  ：验证码（暂时可不填）
+          password  ：密码
+          confirm_password：确认密码
+          agreement ：服务协议（1）
+返回类型: html
+
+返回内容: 
+    {
+        "code": 200,
+        "msg": "注册成功！",
+        "data": {
+              "user_id":'1';   （保存起来）
+            }
+    }
+
+********************************************************************************************
+
+接口说明：会员登录
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key   ：秘钥
+          api_sign  ：验签
+          act       ： act_login
+          user_name ：用户名（用户名/手机/邮箱）
+          password  ：密码
+
+返回类型: html
+
+返回内容: 
+    {
+        "code": 200,
+        "msg": "登录成功",
+        "data": {
+              "user_id":'1';（保存起来）
+              "user_type":'1'; 用户类型：1为普通会员，2为代理商，3为公司代理，4为供货商，5为拍照员，默认0为pc会员
+              "user_rank":'1'; 用户类型：1为普通成员，2二级会员，3一级会员，4总代理
+              "user_rank_name":'1'; 用户等级名称
+            }
+    }
+
+********************************************************************************************
+
+接口说明：获取会员信息
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：get_user_info
+          user_id       ：会员id
+返回类型: json
+
+返回内容: 
+    
+    {
+      "code": "200",
+      "msg": "",
+      "data": {
+          "user_id": "5",
+          "user_name": "hunuo2",
+          "headimg": "",
+          "mobile_phone": "15018412943",
+          "real_name": "xxxx",
+      }
+  }
+
+********************************************************************************************
+
+接口说明：修改会员信息
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ： act_edit_profile
+          user_id       ：会员id
+          username      ：用户名
+          mobile_phone           ：手机号码
+          real_name     ：真实姓名
+          province     ： 省id
+          city     ： 市id
+          district     ： 区id
+          address     ： 详细地址
+          card     ： 身份证
+          face_card     ： 身份证正面
+          back_card     ： 身份证反面
+          
+返回类型: json
+
+返回内容: 
+    
+     成功
+    {
+        "code": 200,
+        "msg": "XXXXX",
+        "data": {
+
+        }
+    }
+    失败
+    成功
+    {
+        "code": 500,
+        "msg": "XXXXXX",
+        "data": {
+
+        }
+
+********************************************************************************************
+
+接口说明：修改密码
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key           ：秘钥
+          api_sign          ：验签
+          act               ：act_edit_password
+          old_password      ：原密码
+          new_password      ：新密码
+          confirm_password  ：确认密码
+          user_id           ：会员id 
+返回类型: json
+
+返回内容: 
+    成功
+    {
+    "code": '200'                        //200,状态
+    "msg": "XXXXXXXX",        //提示消息
+    "data": {}
+    }
+
+    失败
+    {
+    "code": '500'             //200,状态
+    "msg": "XXXXXXXX",        //提示消息
+    "data": {}
+    }
+
+********************************************************************************************
+
+接口说明：忘记密码
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key           ：秘钥
+          api_sign          ：验签
+          act               ：reset_passwd
+          mobile_phone      ：手机号码
+          mobile_code       ：验证码
+          new_password      ：新密码
+          confirm_password  ：确认密码
+返回类型: json
+
+返回内容: 
+    成功
+    {
+    "code": '200'                        //200,状态
+    "msg": "XXXXXXXX",        //提示消息
+    "data": {}
+    }
+
+    失败
+    {
+    "code": '500'             //200,状态
+    "msg": "XXXXXXXX",        //提示消息
+    "data": {}
+    }
+
+********************************************************************************************
+
+接口说明：获取商品分类
+接口地址：ecsapi/category.php?
+请求方式：get
+请求参数：api_key   ：秘钥
+          api_sign  ：验签
+          act               ：getcat
+
+返回类型: json
+
+返回内容: 
+    
+    多维数组
+
+********************************************************************************************
+
+接口说明：获取商品列表
+接口地址：ecsapi/category.php?
+请求方式：get
+请求参数：api_key   ：秘钥
+          api_sign  ：验签
+          act               ： get_goods
+          user_id   ： 会员id（有就传）
+          cat_id    ： 商品分类
+          sort      ： shop_price（价格），click_count（人气），last_update（更新）
+          order     ： ACS（顺序排列），DESC（倒叙排列）
+          keywords  ： 搜索是传的值
+          page  ： 分页
+          is_show_nav  ： 是否显示头部两个分类
+返回类型: json
+
+返回内容: 
+    
+    {
+        {
+            "goods_id": "1",                //商品id
+            "goods_name": "藿香正气水",      //商品名称
+            "goods_number": "100",          //商品库存
+            "market_price": "¥24.00",       //市场价
+            "shop_price": "¥20.00",         //本店售价
+            "promote_price": "",            //促销价
+            "goods_thumb": "images/201606/thumb_img/1_thumb_G_1465212771676.jpg", //产品缩略图
+            "goods_img": "images/201606/goods_img/1_G_1465212771441.jpg",          //产品原图
+            "url": "http://jindouyun.gz11.hostadm.net/ecsapi/goods.php?id=1",       //商品链接
+            "is_collet": 0                                                          //当前会员是否已关注 1：关注 0：未关注
+        }
+    }
+
+********************************************************************************************
+
+接口说明：获取商品详情
+接口地址：ecsapi/goods.php?
+请求方式：get
+请求参数：api_key   ：秘钥
+          api_sign  ：验签
+          act       ：goodsedit
+          goods_id  ：商品id
+
+返回类型: json
+
+返回内容: 
+    
+    {
+        "goods_id": "371",  //商品id
+        "cat_id": "424",    //分类id
+        "goods_sn": "HUNUO000371", //商品货号
+        "goods_name": "倩碧水磁场深层水嫩保湿润肤霜",         //商品名称
+        "goods_name": "倩碧水磁场深层水嫩保湿润肤霜",         //商品简介
+        "goods_name": "倩碧水磁场深层水嫩保湿润肤霜",         //商品详细
+        "goods_number": "100",                                  //商品库存（做加减的时候要根据库存来）
+        "goods_weight": "15克",                                 //商品重量
+        "market_price": "¥154.7",                               //市场价
+        "shop_price": "¥129.0",                                 //本店售价
+        "specification":[
+            
+            {
+                "attr_id":"43",
+                "attr_type":"1",
+                "name":"测试",
+                "values":[
+                    {
+                        "label":"呵呵",
+                        "price":"",
+                        "goods_attr_thumb":"",
+                        "format_price":"¥0.00",       //此价格需加上商品价格才是该属性商品的价格
+                        "product_number":"100",       //库存
+                        "id":"922"
+                    },
+                ]
+            }
+        ]
+    }
+
+
+********************************************************************************************
+
+接口说明：收藏商品列表
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：collection_list
+          user_id       ：会员id
+返回类型: json
+
+返回内容: 
+    
+    goods_list：商品列表
+    pager：分页
+
+
+********************************************************************************************
+
+接口说明： 我的订单
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ： order_list
+          user_id       ： 会员id
+          composite_status ： 订单状态 101：待发货；105：已发货；102：已完成
+返回类型: json
+
+返回内容: 
+    
+    订单列表
+
+    order_status==0 (取消订单)
+    order_status==5 && shipping_status==1（确认收货）
+    order_status==5 && shipping_status==2（已完成）
+    order_status==5 && pay_status==0（付款）
+    order_status==5 && (pay_status!=0 || shipping_status!=1 || shipping_status!=2)（查看订单）
+    其他的是什么就是什么
+
+********************************************************************************************
+
+接口说明：修改会员头像
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：act_edit_img
+          user_id       ：会员id
+          headimg       ：会员头像图片
+          
+
+返回类型: json
+
+返回内容: 
+    
+     成功
+    {
+        "code": 200,
+        "msg": "XXXXX",
+        "data": {
+
+        }
+    }
+    失败
+    {
+        "code": 500,
+        "msg": "XXXXXX",
+        "data": {
+
+        }
+    }
+
+********************************************************************************************
+
+接口说明：地区列表
+接口地址：ecsapi/region.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          type          ：类型 0：国家（查省）1：省（查市）2市（查区）
+          parent        ：地区id 国家只要中国，id为1，获取省就用type=1&parent=1
+返回类型: json
+
+返回内容: 
+    
+    地区信息
+
+********************************************************************************************
+
+接口说明：添加或编辑收货地址
+接口地址：ecsapi/user.php?
+请求方式：post
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：act_edit_address
+          user_id       ：会员id
+          address_id    ：收货地址id（修改的时候传）
+          country       ：国家id
+          province      ：省id
+          city          ：市id
+          district      ：地区id
+          address       ：详细地址
+          consignee     ：收货人
+          mobile        ：手机号码
+          
+返回类型: json
+
+返回内容: 
+    
+    成功
+    {
+        "code": 200,
+        "msg": "",
+        "data": {
+
+        }
+    }
+    失败
+    成功
+    {
+        "code": 500,
+        "msg": "",
+        "data": {
+
+        }
+    }
+
+********************************************************************************************
+
+接口说明：我的收货地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：address_list
+          user_id       ：会员id
+返回类型: json
+
+返回内容: 
+    
+    收货地址列表，默认收货地址的id；
+
+********************************************************************************************
+
+接口说明：设置默认收货地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：act_address_default
+          user_id       ：会员id
+          id            ：收货地址id
+返回类型: json
+
+返回内容: 
+    
+    成功
+    {
+        "code": 200,
+        "msg": "",
+        "data": {
+
+        }
+    }
+    失败
+    成功
+    {
+        "code": 500,
+        "msg": "",
+        "data": {
+
+        }
+    }
+
+********************************************************************************************
+
+接口说明：删除收货地址
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：drop_consignee
+          user_id       ：会员id
+          id            ：收货地址id
+返回类型: json
+
+返回内容: 
+    
+    成功
+    {
+        "code": 200,
+        "msg": "",
+        "data": {
+
+        }
+    }
+    失败
+    成功
+    {
+        "code": 500,
+        "msg": "",
+        "data": {
+
+        }
+    }
+
+********************************************************************************************
+
+接口说明：我的消息
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：my_message
+          user_id       ：会员id
+          page      ：分页页码
+          
+返回类型: json
+
+返回内容: 
+    
+    {
+      "code": 200,
+      "msg": "",
+      "data": {
+          "msg_list": [
+              {
+                  "msg_id": "2",
+                  "add_time": "2016-07-15 09:41:03",
+                  "title": "范德萨发斯蒂芬",
+                  "short": "规范化就很干净或空间和空间和"
+              },
+              {
+                  "msg_id": "1",
+                  "add_time": "2016-07-15 09:18:55",
+                  "title": "312312",
+                  "short": "打算打算范德萨发的所发生的范德萨范德萨"
+              }
+          ],
+          "pager": {
+              "styleid": 1,
+              "url": "user.php",
+              "start": 0,
+              "page": 1,
+              "size": 20,
+              "record_count": 2,
+              "page_count": 1,
+              "page_first": "",
+              "page_prev": "",
+              "page_next": "",
+              "page_last": "",
+              "page_kbd": false,
+              "page_number": {
+                  "1": "user.php?act=my_message&page=1"
+              },
+              "search": {
+                  "act": "my_message"
+              }
+          }
+      }
+  }
+
+************************************************************************************************
+
+接口说明：我的消息详情
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ：my_message_details
+          user_id       ：会员id
+          msg_id        ：消息id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明：删除我的消息
+接口地址：ecsapi/user.php?
+请求方式：get
+请求参数：api_key       ：秘钥
+          api_sign      ：验签
+          act           ： my_message_del
+          user_id       ：会员id
+          msg_id        ：消息id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 银行卡列表
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： card_list
+          user_id       ： 会员id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 银行卡详情
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： card_detail
+          user_id       ：会员id
+          bankcard_id    ： 银行卡id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 绑定银行卡
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： bind_bank_card
+          user_id       ：会员id
+          real_name    ： 姓名
+          card_no    ： 银行卡号
+          bank_type    ： 银行卡类型
+          status    ： 是否默认
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 编辑银行卡
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： edit_bank_card
+          user_id       ： 会员id
+          bankcard_id    ： 银行卡id
+          real_name    ： 姓名
+          card_no    ： 银行卡号
+          bank_type    ： 银行卡类型
+          status    ： 是否默认
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 删除银行卡
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： del_bank_card
+          user_id       ：会员id
+          bankcard_id    ： 银行卡id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 下订单
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： done
+          user_id       ： 会员id
+          goods_sn       ： 商品编码货号
+          numbers       ： 数量
+          addressName       ： 收货人
+          mobile       ： 联系电话
+          province       ： 省
+          city       ： 市
+          district       ： 区
+          address       ： 详细地址
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 订单详情
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： order_detail
+          user_id       ： 会员id
+          order_id      ： 订单id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 确认收货订单
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： affirm_received
+          user_id       ： 会员id
+          order_id      ： 订单id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 取消订单
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： cancel_order
+          user_id       ： 会员id
+          order_id      ： 订单id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 添加收藏商品
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： collection
+          user_id       ： 会员id
+          goods_id      ： 商品id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 删除收藏商品
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： collection_del
+          user_id       ： 会员id
+          goods_id      ： 商品id
+          
+返回类型: json
+  
+返回内容: 
+    消息详
+
+************************************************************************************************
+
+接口说明： 代理商认证查询
+接口地址： ecsapi/index.php?
+请求方式： get
+请求参数： 
+          act           ： checkdaili
+          user_name       ： 代理商名称
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 申请代理
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： apply_agent
+          user_id       ： 会员id
+          username       ： 用户名
+          mobile_phone       ： 手机号码
+          real_name       ： 姓名
+          card       ： 身份证
+          face_card       ： 身份证正面
+          back_card       ： 身份证反面
+          code       ： 邀请码
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 发布/编辑 商品
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： add_goods
+          user_id       ： 会员id
+          goods_id       ： 商品id 编辑产品时候传，添加产品时候不用传该参数
+          goods_name       ： 商品名称
+          goods_brief       ： 商品简介
+          shop_price       ： 供货价
+          goods_desc       ： 图文详情
+          color       ： 颜色
+          zhongshui       ： 种水
+          kuanshi       ： 款式
+          ticai       ： 题材
+          video       ： 视频
+          images       ： 图片
+
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 商品管理列表
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： goods_list
+          user_id       ： 会员id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 商品设置价格
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： change_price
+          user_id       ： 会员id
+          goods_id       ： 商品id
+          shop_price       ： 供货价
+
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 首页
+接口地址： ecsapi/index.php?
+请求方式： get
+请求参数： 
+          act           ： index
+          user_id       ： 会员id
+
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 新增/编辑 拍摄商品
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： add_pai
+          user_id       ： 会员id
+          user_sn       ： 对应供货商编号 编辑时不用传
+          goods_name       ： 商品名称 编辑时不用传
+          goods_id       ： 商品id 编辑时传该参数
+          video       ： 视频
+          images       ： 图片
+
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 拍摄管理列表
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： pai_list
+          user_id       ： 会员id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 商品管理信息
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： goods_info
+          user_id       ： 会员id
+          goods_id       ： 商品id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 删除商品图片
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： del_goods_img
+          user_id       ： 会员id
+          img_id       ： 图片id
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 新闻中心列表
+接口地址： ecsapi/article.php?
+请求方式： get
+请求参数： 
+          act           ： get_article_list
+          page       ： 页数
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 文章详情页
+接口地址： ecsapi/article.php?
+请求方式： get
+请求参数： 
+          act           ： get_article
+          article_id       ： 文章id  帮助中心id:3  客服中心id:4  关于我们id:5  协议id:6  售后服务id:22
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 分享列表
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： share_list
+          user_id           ： 会员id
+          page       ： 页数
+          
+返回类型: json
+  
+返回内容: 
+    消息详情
+
+************************************************************************************************
+
+接口说明： 分享
+接口地址： ecsapi/user.php?
+请求方式： get
+请求参数： 
+          act           ： share
+          user_id           ： 会员id
+          content       ： 内容备注
+          
+返回类型: json
+  
+返回内容: 
+    消息详情

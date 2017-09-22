@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>sss</title>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+<input type="button" class="sendsms" value="发送">
+    </body>
+<script>
+
+    var t = 1, n = 0;
+    $('.sendsms').click(function(){
+        var mobile=$(this).attr('rel');
+        $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    url: 'user.php?act=sendsms',
+                    data: {'mobile':mobile},
+                    success: function (data) {
+                        if(data.status!=200){
+                            alert(data.message);
+                        }
+                    },
+                    error: function(data) {
+                        alert("error:"+data.responseText);
+                    }
+                });
+
+                        $('.sendsms').attr('disabled', 'disbaled');
+                        $('.sendsms').val('60秒后重发');
+                        var T = setInterval(function(){
+                if(t == 1){
+                    if(n == 1){
+                        // 终止循环
+                        $('.sendsms').removeAttr('disabled');
+                        $('.sendsms').val('重新发送');
+                        n = 0;
+                        clearInterval(T);
+                    }else{
+                        t = 60;
+                        // 这个N是循环开关
+                        n = 1;
+                        $('.sendsms').attr('disabled', 'disbaled');
+                        $('.sendsms').val('60秒后重发');
+                    }
+                }else{
+                    t--;
+                    $('.sendsms').attr('disabled', 'disbaled');
+                    $('.sendsms').val(t+'秒后重发');
+                }
+        }, 1000);
+    });
+</script>
+</html>

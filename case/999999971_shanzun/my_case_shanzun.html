@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>pc/ss</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+        <meta content="yes" name="apple-mobile-web-app-capable" /> 
+        <meta name="keywords" content="">
+        <meta name="description" content="...">
+        <meta http-equiv="Pragma" content="no-cache"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=8">
+        <meta http-equiv="Cache-Control" content="no-cache"> 
+        <meta http-equiv="Expires" content="0"> 
+        <script src="ckplayer/ckplayer.js" charset="utf-8"></script>
+    <script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body id="body">
+<input type="text" id="ss">
+    </body>
+<script>
+
+$('#ss').blur(function(){
+  if($(this).val()=='a'){
+    alert('a');
+    $(this).val('');
+    $('#ss').focus();
+  }
+});
+
+function isCardNo(card)
+{
+    // 身份证号码为15位或者18位，15位时全为数字，18位前17位为数字，最后一位是校验位，可能为数字或字符X
+    var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+    if(reg.test(card) === false)
+    {
+        alert("身份证输入不合法");
+        return false;
+    }
+}
+
+$('#id_card').blur(function(){
+    var ab = this.value;
+    isCardNo(ab);
+    window.setTimeout (function(){ document.getElementById('id_card').select();},1 );
+});
+</script>
+</html>

@@ -1,0 +1,445 @@
+东方禧炮
+    E:\www\xipao
+    E:\1_commonly_used\我做的更改\项_9945_东方喜炮禧袍
+
+2016052759141
+2016052792510
+
+公司
+	FTP
+		登陆用户名是： 	dongfangxp 
+		FTP密码是： 	0D50D56F6E4a65 
+		您的网址为： 	http://dongfangxp.gz6.hostadm.net  
+		用户的FTP地址是：	219.136.248.88    
+	数据库
+		用户名： 　	dongfangxp
+		密码： 　	dongfangxprt4
+		名称： 　	dongfangxp
+		所在IP： 　	219.136.248.88
+					http://phpmyadmin.gz6.hostadm.net/index.php
+    域名
+    	http://dongfangxp.gz6.hostadm.net
+    	http://dongfangxp.gz6.hostadm.net/admin/
+
+客户
+    http://mall.dfxpjy.com
+	http://mall.dfxpjy.com/admin
+	东方喜炮  ftp
+	ftp 
+        ftp_1
+    		122.226.44.15:21
+    		mall 
+    		Pm$1a45
+        ftp_2
+            122.226.44.15:21
+            hunuo
+            dfxp2016
+
+
+    远程
+        122.226.44.15
+        administartor
+        dfxpzhengcb741207
+
+
+
+
+
+用户名： hunuo
+密码： dfxp2016
+
+
+	数据库
+		mall
+		96UvZMBpFW6VW4dG
+    数据库
+    	http://mall.dfxpjy.com/admin/sql.php?act=main
+    农行
+    	这个是农行的数据包和证 书，证书的安装密码是 dong1991
+    后台
+    	admin
+    	liudong258123
+
+    支付宝
+        现在的账号是 13710588648
+        密码是 zhengchubo123456
+
+        支付宝的pid： 2088912295882602
+
+        
+        支付宝账户： 15999937800
+        支付宝的pid： 2088912295882602
+        支付宝密钥key： fyv98t95a9l3v30dvdsfdaiuzxszxg3e
+    微信
+        微信支付：
+            公众号账号
+                dfxpjy@126.com
+            密码 
+                zcb654321 (新) 
+                zhengchubo123456 (原)
+        微信商户
+            账号： 1242568702
+            密码：bo741207
+        开发者ID
+            AppID(应用ID)wxcf887305b96caa10
+            AppSecret(应用密钥)92af1ecdf0b2ed8b984dee608de4ba38
+            API密钥： zhengchubo741207zhengchubo741207  
+    短信：
+        zhangyong(张泳) 17:33:23
+        服务器地址:sms3.mobset.com
+        企业ID:302210
+        登录用户:zhangyong
+        密码:226261
+        
+        
+支付检查
+    农业银行没有判断返回的金额
+
+
+
+
+    手机版没有农业银行的
+
+
+
+
+ecshop 在高并发下产生的,多次取消漏洞
+    查询增加余额的最新记录
+        select * from shop_account_log where user_money>0 order by log_id desc limit 0,80    
+    最新的一条记录
+        30426
+
+修改线下兑换券日期
+    UPDATE `shop_user_bonus_beline` SET `use_end_date`='1468944000' WHERE (`status_use`='0' and bonus_type_id=34)   
+
+
+
+权限修改
+    账号 test abc123  他给客户新建了这个账号 
+    我现在想添加一个角色，除了权限管理和那个兑换券的权限不给他，其他都给他
+
+
+
+
+我的会员账号是 13434139094  123456    
+    
+
+
+    
+修改
+    可用的兑换券
+        30347Hut        好运来VIP兑换卡_H 
+        17086epo
+        51722eaa
+        39945Ccr
+        
+        61420AEk
+
+
+
+
+    把兑换券设置成未使用    
+        update shop_user_bonus_beline set status_use=0,order_id=0,used_time=0,user_id=0 where bonus_sn='30347Hut' limit 1
+
+
+                                         
+
+
+加银联
+    银联信息
+        https://open.unionpay.com/ajweb/index
+        东方喜炮的银联说申请下来了，麻烦找个时候帮客户做上去的
+ 
+        账号： dfxpjy
+        密码： zhengchubo123456
+        签名证书密码: 741207   
+        商户号为  802440048991122
+
+        上线的商户
+            商户号： 802440048991122
+            ywat2552
+            密码： liudong741207
+
+
+    本地
+        http://www.xipao.com
+
+        E:\www\xipao\mobile\includes\modules\openUnionpay\demo\Form_6_2_FrontConsume.php
+
+        http://120.27.28.7/opne_api/FrontReceive.php
+        http://120.27.28.7/opne_api/BackReceive.php
+        http://120.27.28.7/oppend_un/openUnionpay/demo/Form_6_2_FrontConsume.php
+
+问题订单
+    2016020243881
+
+
+
+支付宝支付问题
+    ./wapapli/alipayapi.php?WIDseller_email=15999937800&WIDout_trade_no=20160219325836440&WIDsubject=2016021932583&WIDtotal_fee=52.40
+
+    交易订单处理失败,请稍后再试.(ALI14)
+
+
+
+加优惠卷
+    线下兑换卷
+        CREATE TABLE `shop_user_bonus_beline` (
+          `bonus_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
+          `bonus_type_id` tinyint(3) unsigned NOT NULL DEFAULT '0',
+          `bonus_sn` varchar(10) NOT NULL DEFAULT '0',
+          `user_id` mediumint(8) unsigned NOT NULL DEFAULT '0',
+          `used_time` int(10) unsigned NOT NULL DEFAULT '0',
+          `order_id` mediumint(8) unsigned NOT NULL DEFAULT '0',
+          `emailed` tinyint(3) unsigned NOT NULL DEFAULT '0',
+          `goods_name` varchar(50) NOT NULL DEFAULT '',
+          `use_start_date` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '以使用的开始时间',
+          `use_end_date` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '以使用的结束时间',
+          `status_use` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '0未使用1已使用',
+          PRIMARY KEY (`bonus_id`),
+          UNIQUE KEY `bonus_sn` (`bonus_sn`),
+          KEY `user_id` (`user_id`)
+        ) ENGINE=MyISAM AUTO_INCREMENT=313 DEFAULT CHARSET=utf8 COMMENT='线下兑换卷';
+    bonus_type 
+        新增字段    `limit_use_number` tinyint(3) unsigned NOT NULL DEFAULT '0' COMMENT '同一会员的使用次数',
+        新增字段    `goods_id` mediumint(8) NOT NULL DEFAULT '0' COMMENT '现金卷绑定的产品id',
+        新增字段    `type_string` varchar(5) NOT NULL COMMENT '对应编号',
+
+
+
+
+
+cart   extension_code 字段
+	团购(CART_GROUP_BUY_GOODS)(group_buy)
+	秒杀(CART_SECS_BUY_GOODS)(secs_buy_goods)
+	积分(CART_EXCHANGE_GOODS)(exchange_goods)
+
+	折扣 微信 红包 
+
+
+表 
+	shop_shop_config
+		新增数据 	 code=limit_discount 卡券,现金券限制: ）
+	shop_bonus_type
+		新增字段	 limit_dat （注册现金券的有效使用天数）
+        新增字段     integral  (积分)
+	shop_user_bonus
+		新增字段	limit_dat	（注册现金券的有效使用天数）
+		新增字段	limit_time  截止日期
+    shop_goods
+        新增字段    salesnum  月销量
+        
+
+ 	
+
+'1'=>' AND order_status '.db_create_in(array(OS_UNCONFIRMED,OS_CONFIRMED,OS_SPLITED,OS_SPLITING_PART)).' AND shipping_status !='.SS_RECEIVED,
+'2'=>' AND order_status '.db_create_in(array(OS_CANCELED,OS_INVALID,OS_RETURNED)),
+'3'=>' AND order_status '.db_create_in(array(OS_SPLITED,OS_SPLITING_PART)).' AND shipping_status ='.SS_RECEIVED.' AND pay_status ='.PS_PAYED
+
+卡券
+	表 order_info 加 wechat_car wechat_car_id
+
+	设置 show_wechat
+	表
+	CREATE TABLE `shop_wechat_car` (
+		 `id` smallint(5) NOT NULL auto_increment,
+		 `car_id` varchar(255) NOT NULL default '',
+ 		 `code` varchar(20) NOT NULL default '',
+ 		 `card_type` varchar(20) NOT NULL default '',
+		 `least_cost` int(11) unsigned NOT NULL default '0',
+		 `reduce_cost` int(11) unsigned NOT NULL default '0',
+		 `discount` tinyint(3) unsigned NOT NULL default '0',
+		 PRIMARY KEY  (`id`),
+		 KEY `code` (`code`),
+		 KEY `car_id` (`car_id`)
+	) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
+
+
+	code 详情  卡券ID pkrlEuIj0q_vDhYWi3_wp9HqW7fw
+ 			{
+			"errcode":0,
+			"errmsg":"ok",
+			"card":{"card_id":"pkrlEuIj0q_vDhYWi3_wp9HqW7fw",
+					"begin_time":1440000000,
+					"end_time":1442591999
+					},
+			"openid":"okrlEuJqlC5aO8uYqQjkQ6mEz-Yw"
+			}
+
+	卡详情
+	
+
+
+共用相册文章：
+	if( count(explode(',',$goods['share']))>1 ){
+
+        $min_goods_id = $share['0'];
+        $str = '';
+        foreach($share as $v){
+            $min_goods_id = $min_goods_id-$v >= 0 ? $v : $min_goods_id;
+            $str .= '<a href="/admin/goods.php?act=edit&goods_id='.$v.'&extension_code=">'.$v.'</a>&nbsp;&nbsp;&nbsp;';
+        }
+
+        /* 图片列表 */
+        $sql = "SELECT * FROM " . $ecs->table('goods_gallery') . " WHERE goods_id = '$min_goods_id'";
+        $img_list = $db->getAll($sql);
+        if($goods['goods_id'] != $min_goods_id){
+            $goods['goods_desc'] = $db->getOne('SELECT goods_desc FROM '.$ecs->table('goods').' WHERE goods_id='.$min_goods_id);
+        }
+        $smarty->assign('share_info', '共用相册文章：'.$str);
+
+    }
+
+ 	$sql = 'UPDATE '.$ecs->table('goods')." SET goods_desc='',share='".$_POST['is_old_goods_id'].",".$goods_id.
+    		"' WHERE goods_id=".$goods_id;
+    $GLOBALS['db']->query($sql);
+
+
+
+
+        $share = $db->getOne('SELECT share FROM '.$ecs->table('goods').' WHERE goods_id='.$_REQUEST['goods_id']);
+        $share = explode(',',$share);
+        if( count( $share )>1 ){
+
+            $min_goods_id = $share['0'];
+            foreach($share as $v){
+                $min_goods_id = $min_goods_id-$v >= 0 ? $v : $min_goods_id;
+            }
+
+            if($_REQUEST['goods_id'] != $min_goods_id){
+               
+
+                $sql = 'UPDATE '.$ecs->table('goods')." SET goods_desc='". $_POST['goods_desc']."' WHERE goods_id=".$min_goods_id;
+                $GLOBALS['db']->query($sql);
+
+                $_POST['goods_desc'] = '';
+            }
+        }
+
+        $share = $db->getOne('SELECT share FROM '.$ecs->table('goods').' WHERE goods_id='.$_REQUEST['goods_id']);
+        $share = explode(',',$share);
+        if( count( $share )>1 ){
+
+            $min_goods_id = $share['0'];
+            foreach($share as $v){
+                $min_goods_id = $min_goods_id-$v >= 0 ? $v : $min_goods_id;
+            }
+
+            if($_REQUEST['goods_id'] != $min_goods_id){
+               
+
+                $img_list = $db->getCol('SELECT img_id FROM '.$ecs->table('goods_gallery').' WHERE goods_id='.$goods_id);
+                if(!empty($img_list)){
+
+                    $sql = 'UPDATE '.$ecs->table('goods_gallery').' SET goods_id='.$min_goods_id.
+                            ' WHERE '.db_create_in(array_unique($img_list), 'img_id');
+                    $GLOBALS['db']->query($sql);
+                }
+
+
+                $sql = 'UPDATE '.$ecs->table('goods')." SET goods_desc='' WHERE goods_id=".$goods_id;
+                $GLOBALS['db']->query($sql);
+
+                $sql = 'UPDATE '.$ecs->table('goods')." SET goods_desc='". $_POST['goods_desc']."' WHERE goods_id=".$min_goods_id;
+                $GLOBALS['db']->query($sql);
+
+            }
+        }
+
+
+    
+        $share = explode(',',$goods['share']);
+        if( count( $share )>1 ){
+
+            $min_goods_id = $share['0'];
+            foreach($share as $v){
+                $min_goods_id = $min_goods_id-$v >= 0 ? $v : $min_goods_id;
+            }
+
+            $goods['goods_desc'] = $db->getOne('SELECT goods_desc FROM '.$ecs->table('goods').' WHERE goods_id='.$min_goods_id);
+            $smarty->assign('pictures',          get_goods_gallery($min_goods_id));                                     // 商品相册
+        
+        }else{
+
+            $smarty->assign('pictures',          get_goods_gallery($goods_id));  
+        }
+
+
+
+
+
+红包：
+	表 shop_bonus_type 新增字段 : integral  (积分)
+	1 特定商品现金卷(SEND_BY_GOODS)     	 3 一般商品现金卷(SEND_BY_PRINT)
+
+秒杀活动:
+	新增表：activitysp
+			ID
+			开始时间
+			结束时间
+			act_desc
+			goods_id	
+			
+			限定数量
+			限定每人购买数量
+			成交数量
+			
+			秒杀价格
+			原价
+			original_img
+			扩展字段
+
+			CREATE TABLE IF NOT EXISTS `shop_goods_activitysp` (
+			act_id 			 mediumint(8) unsigned NOT NULL auto_increment,
+			start_time 		int(10) 		UNSIGNED 		NOT NULL,
+			end_time 		int(10) 		UNSIGNED 		NOT NULL,
+			act_desc 		text 			NOT NULL,
+			goods_id 		mediumint(8) 	UNSIGNED 		NOT NULL,
+			
+			order_number    smallint(5) 	UNSIGNED 	    NOT NULL default '0',
+			user_number     smallint(5) 	UNSIGNED 	    NOT NULL default '0',
+			goods_number    smallint(5) 	UNSIGNED 	    NOT NULL default '0',
+			
+			act_price   	decimal(10,2) 	UNSIGNED 	    NOT NULL default '0.00',
+			old_price   	decimal(10,2) 	UNSIGNED 	    NOT NULL default '0.00',
+			original_img 	varchar(255) 	NOT NULL,
+			ext_info 		text 		  	NOT NULL,
+			PRIMARY KEY  (`act_id`)
+			) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+	secs_buy.php
+	
+	常量：
+		GAT_SECS_BUY  10
+
+
+
+//红酒列表
+        <ul class="hongjiu">
+			{foreach from=$goods_list item=goods_each}
+				<li><a href="{$goods_each.url}"><img alt="{$goods_each.goods_name}" src="{$goods_each.original_img}" /></a></li>
+			{/foreach}
+        </ul>
+
+
+
+本地
+	数据库
+	http://192.168.0.46/phpmyadmin/
+	root
+	123456
+	
+	网站
+	http://192.168.0.46/xipao/
+	
+	
+	资源管理器
+	\\192.168.0.46\www\xipao
+	
+	http://design.hunuo.com/Design/dfxp_d2e1e.html
+
+
+http://dongfangxp.gz6.hostadm.net/mobile/themes/default/images/
+	
+
+
+    

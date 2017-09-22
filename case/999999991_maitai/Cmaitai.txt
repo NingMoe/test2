@@ -1,0 +1,116 @@
+base
+        广州市迈泰贸易有限公司--响应式
+        http://design.hunuo.com/Iatest/maitai_0ca53.html
+本地项目
+        要打开的
+            http://maitai.com
+            http://maitai.com/system.php
+            http://maitai.wx.hostadm.net
+            http://maitai.wx.hostadm.net/system.php
+
+            E:\www\maitai
+            E:\1_commonly_used\我做的更改\项_9941_迈泰
+
+
+公司的服务器
+        FTP
+            FTP登陆用户名是： maitai
+            FTP密码是： 458427170Bd9d8
+            您的网址为： http://maitai.wx.hostadm.net
+            您的网址为： http://maitai.wx.hostadm.net/system.php
+            用户的FTP地址是： 222.191.251.103
+        数据
+            数据库用户名： maitai
+            数据库密码：  maitaivbhr
+            数据库名称：  maitai
+            数据库所在IP：  222.191.251.103
+            数据库: http://phpmyadmin.wx.hostadm.net/
+
+        svn
+                https://192.168.0.8/svn/maitai
+
+        http://maitai.wx.hostadm.net/
+        http://maitai.wx.hostadm.net/system.php
+        用户名: hunuokeji
+        密码: hunuo.com
+
+        增长统计
+            链接: http://new.cnzz.com/v1/login.php?siteid=1259305777
+            密码: mai_12356_huBtabi
+
+
+
+要做的 
+        网站地图
+        站长统计
+        视频后台上传
+
+
+http://mynotes.com/test/test.html
+
+http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D%E6%A2%85%E5%B7%9E%E5%B8%82%E4%BA%94%E5%8D%8E%E5%8E%BF%E9%95%BF%E5%B8%83%E9%95%87%E5%A4%A7%E5%BE%84%E6%9D%91%E5%91%A8%E5%9D%91%28%E4%B8%83%E7%9B%AE%E5%B6%82%E5%B1%B1%E9%BA%93%E8%BE%BE%E6%B5%8E%E7%94%9F%E6%80%81%E5%9B%AD%29
+
+
+
+http://mynotes.com/test/o/index.html
+http://maitai.com/
+
+
+http://flyskycode.com
+
+
+E:\www\maitai\Admin\Tpl\Index\leftMenu.html
+E:\www\maitai\Admin\Tpl\Webinfo\index.html
+
+
+
+首页
+
+土鸡定制套餐     Custom/index
+        卡券套餐
+*    生鲜鸡(定为单篇)
+*    土鸡蛋(定为单篇)
+        卡券提货
+
+土鸡农场   Farm/index
+        农场介绍
+        品牌故事
+
+达济动态   Trends/index
+        达济新闻
+        行业动态
+        鸡的生长动态
+
+食疗食谱 (达济动态)   Recipes/index
+
+关于达济   About/index
+        达济介绍
+        人力招聘
+        合作伙伴
+        联系我们
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

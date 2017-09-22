@@ -1,0 +1,216 @@
+深圳市粮食集团有限公司 项目名
+
+
+要打开的文件
+	E:\www\liangshi
+	E:\1_commonly_used\我做的更改\项_9944_深圳市粮食
+
+参考的pdf
+	http://www.gdhdc.cn/About.aspx?code=010606
+
+
+
+
+http://liangshi.gz10.hunuo.net/system.php
+ftp:
+	jingtong(张静彤) 15:35:07
+	　　 FTP登陆用户名是： liangshi 
+	　　　 FTP密码是： 93AED79D4170fd 
+	　　　 您的网址为： http://liangshi.gz10.hunuo.net  
+	　　　 用户的FTP地址是：14.18.203.172 
+	jingtong(张静彤) 15:37:02
+	　 数据库用户名： 　　　  liangshi 
+	　　　 数据库密码： 　　　 liangshirt78 
+	　　　 数据库名称： 　　　liangshi 
+	　　　 数据库所在IP： 	14.18.203.172 
+		   http://phpmyadmin.gz10.hunuo.net/index.php
+
+
+客户
+	远程登录地址：
+		183.62.210.164
+		183.62.210.173
+	用户名
+		administrator
+	密码
+		szlsjt_0.123
+	
+	http://www.szlsjt.com.cn/
+
+
+shengzh
+	link
+	    首页		Index/index
+	    关于深粮	About/index
+	    新闻中心	News/index
+	    产品与服务	Goods/index
+	    连线深粮	Contact/index
+	    社会责任	Duty/index
+	    联系我们	Connectus/index
+	    
+
+	表
+		article
+			获奖时间	AWARD_TIME award_time
+		articlecat 
+			新闻轮播    auto_order
+
+
+
+
+550 x 280
+788 * 576
+640 * 468
+
+
+
+
+1	程序总览	3
+1.1	开发平台	3
+1.2	项目总览	3
+2	Web目录	4
+3	Hunuo.BLL 类库	4
+4	Hunuo.Common 类库	5
+5	Hunuo.DAL类库	5
+6	Hunuo.DBUtility类库	6
+7	Hunuo.Model类库	6
+8	Hunuo.Web.UI系统UI类库	6
+
+
+
+
+
+
+
+1	程序总览	3
+1.1	开发平台	3
+1.2	项目总览	4
+2	Web目录	5
+3	BaseAction.class.php	   类文件	6
+4	CommonAction.class.php	   类文件	6
+5	SearchAction.class.php	   类文件	6
+6	IndexAction.class.php	   类文件	7
+7	AboutAction.class.php	   类文件	7
+8	ContactAction.class.php	   类文件	7
+9	NewsAction.class.php	   类文件	8
+10	InfoAction.class.php	   类文件	8
+11	GoodsAction.class.php	   类文件	8 
+12	ConnectusAction.class.php  类文件	8 
+13	DutyAction.class.php	   类文件	9
+
+
+
+
+
+
+
+sql转入
+	id 2623
+
+	// 把sqlserver的 CAST(0x00009E5D0121D1A3 AS DateTime) 转成时间截
+	function convert_sqlserver_datetime($str){
+
+	    $seconds= floor(hexdec(substr($str,10,8))*3.33333/1000);
+	    $day=hexdec(substr($str,2,8))*3600*24;
+	    $datetime= new DateTime('1900-01-01 00:00:00', new DateTimeZone('PRC'));
+	    $old_time=$datetime->format('U');
+	         
+	    return $old_time+$day+$seconds;
+	}
+
+
+	原来的       现在的
+	11 集团动态 -> 集团新闻	1 
+	12 行业要闻 -> 行业要闻 2
+	13 业务公告 -> 热门活动 3
+
+	http://www.szlsjt.com.cn/
+
+	本地测试域名
+		http://www.shenliang.com
+
+			web\Public\Admin\kindeditor\attached\image
+
+	替换
+
+		, N'  -> , '
+
+
+		[null '0]{1,4}, CAST\(([\w\d]*) AS DateTime\)  ->  '$1'
+
+
+		INSERT [dbo].[News] ([ID], [TypeId], [Title], [ETitle], [Source], [Author], [Content], [EContent], [CreatedTime], [ParentId], [ClickCount], [Abstract], [attach], [display], [istop])     ->      INSERT INTO `shenliang`.`hunuo_article` (`article_id`, `cat_id`, `title`, `content`, `keywords`, `article_type`, `is_open`, `add_time`, `file_url`, `open_type`, `link`, `description`, `sort_order`, `short`, `original_img`, `thumb_img`, `humen`, `limittime`, `tenology`, `education`, `click`, `award_time`, `en_title`, `en_original_img`, `en_short`, `en_content`, `en_keywords`, `en_description`, `h5_original_img`, `h5_content`, `h5en_original_img`, `h5en_content`, `add_time_str`, `source`, `author`) 
+
+
+		NULL,    ->     '',
+
+
+		VALUES (\d*   ->   VALUES (null, '', '2', '1439954177', '', '0', '', '', '50', '', NULL, NULL, NULL, NULL, NULL, NULL, '1441682245', '', '', '', '', '', '', '', '', ''
+
+
+		\d*, (\d*), [null '0]{1,4}, ?[null '0]{1,4}, ?('\d*'), [null '0]{1,4}      ->      $1,$2
+
+
+		\)[^)]*GO[^p]*print 'Processed \d* total records';  ->  );
+
+
+		http://demo.chinasky.net:8099 -> ''
+
+		http://www.szlsjt.com.cn -> ''
+
+
+		/admin/ewebeditor/UploadFile/  ->   /Public/Admin/kindeditor/attached/image/ewebeditor/
+
+		/file/Documents/   ->   /Public/Admin/kindeditor/attached/image/Documents/
+	    
+    
+     
+
+
+
+.woff
+application/x-font-woff
+
+
+
+图片
+	产品与服务
+		876*616
+		200*120		
+
+
+
+	社会保障
+		1005px × 588px
+		302px × 176px
+
+
+
+
+http://design.hunuo.com/Design27077/liangshi.html  关于深粮―深粮概况
+http://design.hunuo.com/Design27078/liangshi.html  关于深粮―董事长致辞
+http://design.hunuo.com/Design27090/liangshi.html  关于深粮―深粮历史
+http://design.hunuo.com/Design27079/liangshi.html  关于深粮―荣誉墙
+http://design.hunuo.com/Design27116/liangshi.html  关于深粮―下属企业
+
+深粮党建 ―新闻列表
+
+http://design.hunuo.com/Design27084/liangshi.html  新闻中心―列表
+http://design.hunuo.com/Design27085/liangshi.html  新闻中心―详细页
+
+http://design.hunuo.com/Design27076/liangshi.html  产品与服务
+
+http://design.hunuo.com/Design27081/liangshi.html  连线深粮
+
+http://design.hunuo.com/Design27083/liangshi.html  社会责任―保障粮食安全
+
+
+社会责任―都用新闻列表
+
+关爱员工成长―详细用画册
+
+再做下属企业
+http://design.hunuo.com/Design27117/liangshi.html  社会责任―关爱员工 列表
+http://design.hunuo.com/Design27118/liangshi.html  社会责任―关爱员工 详细页
+
+http://design.hunuo.com/Design26971/xinguannian.html  首页
